@@ -1,0 +1,888 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Waarskynlikheid: deel 1</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39759</md:content-id>
+  <md:title>Waarskynlikheid: deel 1</md:title>
+  <md:abstract/>
+  <md:uuid>51603f29-2037-444a-b2f9-d07f2d040988</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Inleiding</title>
+      <para id="id109596">Ons kan wiskunde in suiwer- en toegepastewiskunde opdeel. Suiwer-wiskunde is die teorie van wiskunde en dit is baie abstrak. Die werk wat jy tot dusver in algebra gedoen het is meestal suiwerwiskunde. Toegepastewiskunde neem die teorie (of suiwerwiskunde) en pas dit op die regte wêreld toe. Om toegepastewiskunde te kan doen, moet jy eers die suiwerwiskunde bemeester.</para>
+      <para id="eip-870">Wat het dít nou te doen met waarskynlikheid? Wel, net soos wiskunde in suiwer- en toegepastewiskunde verdeel kan word, só kan statistiek ook in waarskynlikheidsteorie en toegepaste-statistiek opgedeel word. Waar jy nie toegepastewiskunde sonder teorie kan doen nie, só kan jy ook nie statistiek baasraak sonder om eers met ’n bietjie waarskynlikheidsteorie te begin nie. Voorts, soos dit nie moontlik is om te beskryf wat rekenkunde is sonder die beskryf van wiskunde as ’n geheel nie, is dit nie moontlik om te beskryf wat waarskynlikheidsteorie is sonder ’n basiese begrip van wat statistiek as ’n geheel is nie. Statistiek, in sy breedste sin, gaan oor 'prosesse'.</para><note id="eip-758"><title>Interessante feit</title>Galileo het ’n paar idees oor dobbelsteenspeletjies in die sewentiende eeu neergeskryf. Sedertdien is daar al baie besprekings gevoer en artikels geskryf oor die waarskynlikheidsteorie, maar dit bly steeds 'n deel van Wiskunde wat nie goed verstaan word nie.</note><para id="eip-461">’n Proses is hoe ’n voorwerp verander oor tyd. Byvoorbeeld, kom ons beskou ’n muntstuk: die muntstuk opsigself is nie ’n proses nie; dit is slegs ’n voorwerp. Wanneer ek die muntstuk sou opskiet (dit deur ’n proses sit), na ’n sekere hoeveelheid tyd (hoe lank dit sal neem om te land), sal dit ’n finale toestand bereik. Ons verwys gewoonlik na hierdie finale toestand as ‘kop’ of ‘stert’, na gelang van watter kant van die muntstuk die gesig geland het. Dit is hierdie kop of stert waarin die statistikus (persoon wat statistiek bestudeer) belangstel. Sonder die proses is daar niks om te bestudeer nie. Wanneer die muntstuk bloot stil lê, is dit natuurlik óók ’n proses. Omdat ons alreeds weet dat die finale toestand identies aan die oorspronklike toestand is, is dit nie juis ’n besondere interessante proses nie. Indien daar van ’n proses gepraat word, bedoel ons een waar die uitslag nog nie bekend is nie, anders is daar geen werklike punt in die analise nie. Met bogenoemde begrip is dit baie maklik om te verstaan presies wat waarskynlikheidsleer is.</para><para id="id109602">Wanneer ons praat van waarskynlikheidsteorie as ’n geheel, bedoel ons die manier waarop ons die hoeveelheid moontlike uitkomstes van prosesse bepaal. Net soos toegepastewiskunde die metodes van suiwerwiskunde neem en toepas op werklike situasies, neem toegepastestatistiek die middele en metodes van waarskynlikheidsteorie (dws die middele en metodes wat gebruik word om moontlike uitkomste van gebeure te bepaal) en pas dit op werklike gebeure toe in een of ander manier. Byvoorbeeld, ons kan waarskynlikheidsteorie gebruik en die moontlike uitkoms van bogenoemde munt-opskiet op 50% kop, 50% stert vaspen. Statistiek kan dan gebruik word om dit toe te pas op ’n werklike situasie deur te sê dat indien daar ses munte op die tafel lê, die mees waarskynlike uitkoms is dat drie munte kop en drie munte stert sal land. Natuurlik kan die uitkoms verskil, maar indien ons op slegs EEN uitkoms kon wed, sal ons vermoedelik dáárop wed omdat dit die mees waarskynlike is. Ons gaan alreeds hier te vêr vooruit, so kom ons neem 'n stap terug.</para>
+      <para id="id109608">Om die resultate te bepaal, kan ons ’n verskeidenheid van metodes, name en notasies gebruik. ’n Paar algemenes is:</para>
+      
+      <list id="id110006" display="block" list-type="bulleted"><item id="uid1">’n persentasie (byvoorbeeld: 50%)
+</item>
+        <item id="uid2">’n verhouding van die totale hoeveelheid uitkomste (byvoorbeeld: ‘vyf uit tien’)
+</item>
+        <item id="uid3">’n breukdeel van een (byvoorbeeld, ½)
+</item></list>
+      <para id="id110044">Jy sal opmerk dat al drie van die bogenoemde voorbeelde dieselfde waarskynlikheid verteenwoordig. In werklikheid is ENIGE metode van waarskynlikheid gegrond op die volgende proses:</para><list id="eip-959" list-type="enumerated" number-style="arabic"><item> Omskryf 'n proses. </item>
+
+<item> Omskryf die totale maatreël vir alle uitkomste van die proses. </item>
+
+<item> Beskryf die waarskynlikheid van elke moontlike uitkoms van die proses met
+betrekking tot die totale maatstaf. </item></list><para id="eip-611">Die term “maatstaf” kan verwarrend wees, maar mens kan daaraan dink as ’n liniaal. Wanneer ons ’n liniaal neem wat 1 meter lank is, dan is die helfte van die liniaal 50 sentimeter, ’n kwart van die liniaal is 25 sentimeter, ens. Dit is belangrik om te onhou dat sonder die liniaal maak dit geen sin om te praat van die liniaal afmetinge nie! Trouens, die drie voorbeelde hierbo (50%, ‘vyf uit tien’ en ½) verteenwoordig dieselfde waarskynlikheid, die enigste verskil is hoe die totale maatstaf (liniaal) gedefinieer was. As ons terug gaan en nadink in terme van ’n liniaal beteken 50%, 50 uit 100, of dat ons 50 dele van die oorspronklike 100 dele (sentimeter) gebruik om die uitslag se hoeveelheid te bepaal. Vyf uit tien beteken vyf dele uit die oorspronklike 10 dele (tien sentimeter deeltjies) bepaal die uitslag. In die laaste voorbeeld beteken ½ dat ons die liniaal in twee dele verdeel en sê dat een van daardie twee dele die uitslag bepaal. Onthou net dat hierdie notasies bloot verskillende maniere is om na dieselfde 50 eenhede van die 100 sentimeter liniaal te verwys! In terme van kansrekening stel ons slegs in die <emphasis effect="italics">verhouding tot die geheel</emphasis> belang.</para><para id="eip-613">Alhoewel daar baie maniere bestaan om ’n  maatstaf te definieer, is die mees algemeen en maklikste een om ‘1’ as die totale maatstaf te gebruik. Wanneer ons dan ’n munt-opskiet beskou, sal ons sê dat die kans vir kop ½ is (dws helfte van een) en die kans vir stert ook ½. Aan die ander kant, wanneer ons die geval beskou waar die munt nie opgeskiet word nie en tans kop-boontoe lê is die waarskynlikheid van kop nou 1 terwyl die kans vir stert 0 is. Ons kon net sowel 14 as die oorspronklike maatstaf gebruik het. In daardie geval sou die waarskynlikheid vir kop of stert met die opskiet beide 7 uit 14 gewees het, terwyl die waarskynlikheid 14 uit 14 sou wees vir kop as die munt nie opgeskiet is nie en 0 uit 14 vir stert. Soortgelyk, wanneer ons die gooi van ’n dobbelsteen ondersoek, sal dit makliker wees om die maatstaf as 6 te kies en te sê dat die waarskynlikheid dat ’n 4 gegooi word ‘1 uit die 6’ is, gewoonlik sal ons sommer sê dat dit 1/6 is.</para>
+    </section>
+ <section id="uid4">
+        <title>Definisie</title>
+        
+        <para id="eip-499">Daar is drie belangrike konsepte verbonde aan ’n lukrake eksperiment: ‘uitkoms,’ ‘steekproefgrootte’ en ‘gebeurtenis.’ Twee voorbeelde van eksperimente sal gebruik word om jou met hierdie terme vertroud te maak:</para><list id="id110091" display="block" list-type="bulleted"><item id="uid5">In Eksperiment 1 word ’n enkele dobbelsteen gerol en die waarde van die boonste vlak nadat dit tot rus gekom het word neergeskryf.</item>
+           <item id="uid6">In Eksperiment 2 word twee dobbelstene gerol op dieselfde tyd en die som van die waardes van elke boonste vlak na stilstand word aangeteken.</item></list>
+        <section id="id110119">
+          <title>Uitkomste</title>
+          <para id="id110125">Die uitkoms van ’n eksperiment is ’n enkele resultaat van daardie eksperiment.</para><list id="eip-733"><item>’n Moontlike uitkoms van Eksperiment 1: die waarde van die boonste vlak is ‘3’</item>
+<item>’n Moontlike uitkoms van Eksperiment 2: die totale waarde van die boonste vlakke is ‘9’</item>
+</list>
+        </section>
+        <section id="id110131">
+          <title>Steekproefruimte</title>
+          <para id="id110137">Die steekproefruimte van ’n eksperiment is die volledige stel moontlike uitkomste van die eksperiment.</para>
+          <list id="id110141" display="block" list-type="bulleted"><item id="uid7">Eksperiment 1: die steekproefruimte is 1,2,3,4,5,6</item>
+            <item id="uid8">Eksperiment 2: die steekproefruimte is 2,3,4,5,6,7,8,9,10,11,12</item>
+          
+</list><note id="eip-494"><title>Interessante feit</title>Wanneer jy twee dobbelstene werp en die resultate sommeer, is die mees algemene uitkoms sewe. Om dit te verstaan, onthou dat daar net een manier bestaan waarop twee as ’n resultaat verkry kan word (beide stene land op een) en daar is slegs een manier om 12 as ’n resultaat te kry (beide stene land op ses). Die teenoorgestelde kante van ’n ses-kantige dobbelsteen sommeer na sewe. Van hierdie inligting moet jy kan uitredeneer dat daar 12 maniere bestaan waarop sewe verkry kan word.</note>
+        </section>
+        <section id="uid9">
+          <title>Gebeurtenisse</title>
+          
+          
+          <para id="eip-898">’n Gebeurtenis is enige stel uitkomste van ’n eksperiment</para><list id="eip-608"><item>’n Moontlike gebeurtenis van Eksperiment 1: ’n ewe-nommer op die boonste vlak van die dobbelsteen</item>
+<item>’n Moontlike gebeurtenis van Eksperiment 2: die getalle op die boonste vlakke is gelyk</item></list>
+</section>
+</section>
+   
+    <section id="cid3">
+      <title>Ewekansige Eksperimente</title>
+      <para id="id110059">Die begrip <emphasis effect="italics">ewekansige eksperiment</emphasis> of <emphasis effect="italics">statistiese eksperiment</emphasis> word gebruik om enige herhaalbare proses te beskryf waarvan die resultate op een of ander manier ontleed is. Byvoorbeeld, die opskiet van ’n muntstuk en aantekening van die resultaat is ’n ewekansige eksperiment, want die proses is herhaalbaar. Aan die ander kant, jou lees van hierdie sin vir die eerste keer en aantekening van of jy dit verstaan of nie is nie ’n ewekansige eksperiment nie, omdat dit nie herhaalbaar is nie (indien jy wel ’n reeks verskeie mense vra om dit te lees en ’n aantekening te maak oor of hulle dit verstaan, al dan nie, sal dit ’n ewekansige eksperiment word).</para>
+      
+     
+<section id="id7342"><title>Venn diagramme</title><para id="id110213">’n Venn-diagram kan gebruik word om die verhouding tussen die moontlike uitkomste van ’n ewekansige eksperiment en die steekproefruimte te toon. Die Venn-diagram op <link target-id="uid12"/> toon die verskil tussen die universele stel, ’n voorbeeldruimte en gebeure en hul uitkomste as deelversamelings van die steekproefruimte.</para>
+          <figure id="uid12"><media id="uid12_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C17_001.png" id="uid12_onlineimage" width="331"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C17_001.eps" id="uid12_printimage"/>
+            </media>
+            
+          <caption>Diagram om die verskil tussen die universele stel en voorbeeldruimte uit te beeld. Die voorbeeldruimte bestaan uit alle moontlike uitkomste van ’n statistiese eksperiment en ’n gebeurtenis is 'n deelruimte van die voorbeeld ruimte.</caption></figure>
+          <para id="eip-451">Ons kan Venn-diagramme teken vir eksperimente met twee en drie gebeurtenisse. Hulle word gewys in <link target-id="uid1211"/> en <link target-id="uid1222"/>. Venn-diagramme vir eksperimente met meer as drie gebeurtenisse is meer kompleks en word nie op hierdie vlak behandel nie.</para>
+<figure id="uid1211"><media id="uid1211_media" alt="">
+              <image mime-type="image/png" src="../../media/venn1.png" id="uid1211_onlineimage" width="331"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/venn1.eps" id="uid1211_printimage"/>
+            </media>
+            
+          <caption>Venn-diagram vir ’n eksperiment met twee gebeurtenisse.</caption></figure>
+<figure id="uid1222"><media id="uid1222_media" alt="">
+              <image mime-type="image/png" src="../../media/venn2.png" id="uid1222_onlineimage" width="331"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/venn2.eps" id="uid1222_printimage"/>
+            </media>
+            
+          <caption>Venn-diagram vir ’n eksperiment met drie gebeurtenisse.</caption></figure>
+          <note id="eip-568"><title>Interessante feit</title>Die Grieks-, Russiese- en Latynse-alfabet kan geïllustreer word deur middel van Venn-diagramme. Al drie hierdie alfabette het sommige gemene letters. Die Venn-diagram word hier onder gegee:
+<figure id="id7888"><media id="id7888_media" alt="">
+            <image mime-type="image/png" src="../../media/venn_ifact.png" id="id7888_onlineimage" width="200"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/venn_ifact.eps" id="id7888_printimage"/>
+            </media>
+            </figure></note><para id="eip-256">Die <emphasis effect="italics">vereniging</emphasis> van <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is die stel van alle elemente in <m:math overflow="scroll"><m:mi>A</m:mi></m:math> of in <m:math overflow="scroll"><m:mi>B</m:mi></m:math> (of in beide). <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mspace width="4pt"/><m:mi mathvariant="bold">of</m:mi><m:mspace width="4pt"/><m:mi>B</m:mi></m:mrow></m:math> word ook geskryf as<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi></m:mrow></m:math>. Die <emphasis effect="italics">snypunt</emphasis> van <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is die stel van alle elemente in beide <m:math overflow="scroll"><m:mi>A</m:mi></m:math> én <m:math overflow="scroll"><m:mi>B</m:mi></m:math>. <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mspace width="4pt"/><m:mi mathvariant="bold">en</m:mi><m:mspace width="4pt"/><m:mi>B</m:mi></m:mrow></m:math> word ook geskryf as <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:mrow></m:math>.</para><para id="eip-429">Venn-diagramme kan ook gebruik word om die vereniging en snypunte tussen gebeure in 'n monsterruimte aan te dui (<link target-id="uid13"/> en <link target-id="uid1381"/>).</para>
+<figure id="uid13"><media id="uid13_media" alt="">
+              <image mime-type="image/png" src="../../media/union.png" id="uid13_onlineimage" width="180"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 680. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/union.eps" id="uid13_printimage"/>
+            </media>
+
+            
+          <caption>Venn-diagram om die vereniging (samesmelting) van twee gebeurtenisse, <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, te wys in die steekproefruimte <m:math overflow="scroll"><m:mi>S</m:mi></m:math>.</caption></figure>
+<figure id="uid1381"><media id="uid1381_media" alt="">
+              <image mime-type="image/png" src="../../media/intersect.png" id="uid1381_onlineimage" width="180"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 680. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/intersect.eps" id="uid1381_printimage"/>
+            </media>
+<caption>Venn-diagram om die kruising van die twee gebeurtenisse, <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, te wys in die steekproefruimte <m:math overflow="scroll"><m:mi>S</m:mi></m:math>. Die swart gedeelte dui op die kruispunt.</caption></figure>
+
+<para id="eip-805">Ons gebruik <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math> om na die hoeveelheid elemente in ’n stel, <m:math overflow="scroll"><m:mi>S</m:mi></m:math>, te verwys. Ook <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>)</m:mo></m:mrow></m:math> vir die hoeveelheid elemente in <m:math overflow="scroll"><m:mi>X</m:mi></m:math>, ens.</para><exercise id="secfhsst_id141"><title>Ewekansige Eksperimente</title><problem id="probfhsst_id142">
+          <para id="id110320">Gestel jy het ’n boks met stukkies papier daarin waarop die getalle van een tot nege geskryf is. Jy trek nou ’n papiertjie en kyk na die nommer daarop. Laat <m:math overflow="scroll"><m:mi>S</m:mi></m:math> die steekproefruimte voorstel, <m:math overflow="scroll"><m:mi>P</m:mi></m:math> dui op die ‘trek van ’n priemgetal’ en <m:math overflow="scroll"><m:mi>E</m:mi></m:math> wys op die ‘trek van ’n ewegetal.’ Deur van die gepaste notasie gebruik te maak, op hoeveel maniere is dit moontlik om die volgende te trek: i) enige getal? ii) ’n priemgetal? iii) ’n ewegetal? iv) ’n getal wat óf priem óf ewe is? v) ’n getal wat beide priem én ewe is?</para>
+          
+          </problem>
+          <solution id="solfhsst_id147"> <list id="listfhsst_id147" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Beskou die gebeure: </label>
+          <list id="id110396" display="block" list-type="bulleted"><item id="uid14">Trek ’n priemgetal: <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>7</m:mn><m:mo>}</m:mo></m:mrow></m:math></item>
+            <item id="uid15">Trek ’n ewegetal: <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>;</m:mo><m:mn>8
+</m:mn><m:mo>}</m:mo></m:mrow></m:math></item>
+          </list>
+          </item> <item> <label> Teken ’n diagram </label>
+          <para id="id110666">
+            <figure id="id110668">
+              <media id="id110668_media" alt="">
+                <image mime-type="image/png" src="../../media/MG10C17_003.png" id="id110668_onlineimage" width="524"><!-- NOTE: attribute width changes image
+size online (pixels). original width is 524. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG10C17_003.eps" id="id110668_printimage"/>
+              </media>
+            </figure>
+          </para>
+          </item> <item> <label> Bepaal die vereniging </label>
+          <para id="id110678">Die <emphasis effect="italics">vereniging</emphasis> van <m:math overflow="scroll"><m:mi>P</m:mi></m:math> en <m:math overflow="scroll"><m:mi>E</m:mi></m:math> is die stel van alle elemente in <m:math overflow="scroll"><m:mi>P</m:mi></m:math> of <m:math overflow="scroll"><m:mi>E</m:mi></m:math> (of in albei). <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>∪</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn></m:mrow>
+</m:mrow></m:math>. </para>
+          </item> <item> <label> Bepaal die kruispunt </label>
+          <para id="id110808">Die <emphasis effect="italics">kruispunt</emphasis> van <m:math overflow="scroll"><m:mi>P</m:mi></m:math> en <m:math overflow="scroll"><m:mi>E</m:mi></m:math> is die stel van alle elemente in beide <m:math overflow="scroll"><m:mi>P</m:mi></m:math> en <m:math overflow="scroll"><m:mi>E</m:mi></m:math>. <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>∩</m:mo><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.
+</para>
+          </item> <item> <label> Bepaal die getal in elke stel </label>
+          
+          <equation id="id110962">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>∴</m:mo>
+                      <m:mspace width="0.166667em"/>
+                      <m:mspace width="0.166667em"/>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>S</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>9</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>4</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>4</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:mo>∪</m:mo>
+                      <m:mi>E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>7</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:mo>∩</m:mo>
+                      <m:mi>E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>2</m:mn>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          
+          </item> </list> </solution></exercise><exercise id="eip-756"><problem id="eip-431">
+  <para id="eip-524">In 'n opname is 100 mense gevra watter kitskosrestaurant hulle verkies (Nando’s, Debonairs of Steers). Die volgende resultate is aangeteken:
+<list id="id7536">
+<item>50 het Nando’s verkies </item>
+<item>66 het Debonairs verkies </item>
+<item>40 het Steers verkies </item>
+<item>27 het Nando’s en Debonairs verkies, maar nie Steers nie </item>
+<item>13 het Debonairs en Steers verkies, maar nie Nando’s nie</item>
+<item>4 het van al drie gehou</item>
+<item>94 het van ten minste een gehou</item></list>
+<list id="id76932" list-type="enumerated" number-style="lower-alpha">
+<item>Hoeveel mense het nie van een van die restaurante gehou nie?</item>
+<item>Hoeveel mense het van Nando’s en Steers gehou maar nie van Debonairs nie?</item>
+</list>
+  </para>
+</problem>
+
+<solution id="eip-363">
+<list id="id7234" list-type="enumerated" number-style="arabic" class="stepwise"><item><label> Teken ’n Venn-diagram</label>
+Die hoeveelheid mense wat van Nando’s en Debonairs gehou het is 27, dus is dít die kruising van hierdie twee gebeure. Die aantal mense wat Debonairs en Steers verkies het is 13, dus is die kruising van dié twee gebeure 13. Ons word ook vertel dat daar vier mense is wat van al drie opsies hou, dus beteken dit dat daar vier mense in die kruising van al drie opsies is. Só kan ons bepaal dat die getal mense wat net van Debonairs hou <m:math><m:mn>66</m:mn><m:mo>–</m:mo><m:mn>4</m:mn><m:mo>–</m:mo><m:mn>27</m:mn><m:mo>-</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>22</m:mn></m:math> is. (Dit is bloot die totale getal mense wat van Debonairs hou minus die hoeveelheid mense wat Debonairs en Steers verkies, of Debonairs en Nando’s of al drie).
+Ons teken die volgende diagram om die data voor te stel:
+<figure id="id1368">
+              <media id="id1368_media" alt="">
+                <image mime-type="image/png" src="../../media/Vennwex1.png" id="id1368_onlineimage" width="324"><!-- NOTE: attribute width changes image
+size online (pixels). original width is 524. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/Vennwex1.eps" id="id1368_printimage"/>
+              </media>
+            </figure>
+</item>
+<item><label> Werk uit hoeveel mense geeneen verkies nie.</label>
+Ons word vertel dat daar 100 mense is en dat 94 van tenminste een hou. Dus is die aantal mense wat nie van een hou nie: <m:math><m:mn>100</m:mn><m:mo>–</m:mo><m:mn>94</m:mn><m:mo>=</m:mo><m:mn>6</m:mn></m:math>. Hierdie is die antwoord van a).
+</item>
+<item>
+<label>Bepaal hoeveel van Nandos en Steers hou, maar nie Debonairs nie</label>
+Ons kan die deel van die Venn-diagram oorteken wat hier van belang is:
+ <figure id="id533">
+              <media id="id533_media" alt="">
+                <image mime-type="image/png" src="../../media/Vennwex2.png" id="id533_onlineimage" width="324"><!-- NOTE: attribute width changes image
+size online (pixels). original width is 524. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/Vennwex2.eps" id="id533_printimage"/>
+              </media>
+            </figure>
+Totale aantal mense wat van Nando’s hou: 50<newline/>
+Van hierdie hou 27 van beide Nando’s en Debonairs en vier van al drie opsies. Die totale aantal mense wat slegs van Nando’s hou is dus: <m:math><m:mn>50</m:mn><m:mo>–</m:mo><m:mn>27</m:mn><m:mo>–</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>19</m:mn></m:math><newline/>
+Totale aantal mense wat van Steers hou: 40<newline/>
+Van hierdie hou 13 van beide Steers en Debonairs en vier hou van al drie opsies. Ons kan dus vasstel dat die totale aantal mense wat slegs van Steers hou: <m:math><m:mn>40</m:mn><m:mo>–</m:mo><m:mn>13</m:mn><m:mo>–</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>23</m:mn></m:math> is.<newline/>
+Gebruik nou die identiteit <m:math><m:mi>n(Nando’s of Steers)</m:mi><m:mo>=</m:mo><m:mi>n(Nando’s)</m:mi><m:mo>+</m:mo><m:mi>n(Steers)</m:mi><m:mo>–</m:mo><m:mi>n(Nando’s en Steers)</m:mi></m:math> om die getal mense te bepaal wat van Nando’s en Steers hou, maar nie van Debonairs nie.
+<equation id="id734"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>n(Nando’s of Steers)</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mi>n(Nando’s)</m:mi><m:mo>+</m:mo><m:mi>n(Steers)</m:mi><m:mo>–</m:mo><m:mi>n(Nando’s en Steers)</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mn>28</m:mn></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>23</m:mn><m:mo>+</m:mo><m:mn>19</m:mn><m:mo>–</m:mo><m:mi>n(Nando’s en Steers)</m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mi>n(Nando’s en Steers)</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>14</m:mn></m:mtd></m:mtr>
+</m:mtable></m:math></equation>
+Die Venn-diagram wat al hierdie informasie voorstel is:
+<figure id="id1106">
+              <media id="id1106_media" alt="">
+                <image mime-type="image/png" src="../../media/Vennwex3.png" id="id1106_onlineimage" width="324"><!-- NOTE: attribute width changes image
+size online (pixels). original width is 524. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/Vennwex3.eps" id="id1106_printimage"/>
+              </media>
+            </figure>
+</item>
+</list>
+</solution></exercise></section>
+<section id="eip-796"><title>Aktiwiteit: Venn-diagramme</title><para id="eip-65">Van watter selfoonnetwerk maak jy tans gebruik (VodaCom, MTN of Cell C) Vorder hierdie inligting van jou klasmaats in en gebruik dit om vas te stel hoeveel van jou klas gebruik slegs een netwerk en hoeveel gebruik al drie.</para></section><section id="secfhsst_id3294"><title>Ter afronding</title><para id="eip-442">'n Laaste begrip wat belangrik is om te verstaan, is dié van <emphasis effect="italics">komplementêre gebeurtenis</emphasis>.
+In meetkunde, as ons twee hoeke het wat komplementêr genoem word, beteken dit dat die som van hierdie twee hoeke 90 grade is (hierdie twee hoeke 'komplementeer' mekaar om 'n regte hoek te vorm). Net so is die komplement van 'n stel uitkomstes <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> al die uitkomstes in die steekproefruimte en nie binne <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi></m:msup></m:mrow></m:math> nie. Dit word gewoonlik aangedui as <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mi>'</m:mi></m:msup></m:mrow></m:math> of soms <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mi>c</m:mi></m:msup></m:mrow></m:math> en word genoem die 'komplement van <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi></m:msup></m:mrow></m:math>' of net '<m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi></m:msup></m:mrow></m:math>-komplement'. Dus, as <m:math overflow="scroll"><m:mrow><m:msup><m:mi>S</m:mi></m:msup></m:mrow></m:math> die totale steekproefruimte van alle uitkomstes voorstel, en <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi></m:msup></m:mrow></m:math> is 'n deelruimte van enige uitkomstes waarin ons belangstel (dws enige <emphasis effect="italics">gebeurtenis</emphasis>), dan is die stelling <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∪</m:mo><m:msup><m:mi>A</m:mi><m:mi>'</m:mi></m:msup> <m:mo>=</m:mo> <m:mi>S</m:mi></m:mrow></m:math> altyd waar, (dws <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mi>'</m:mi></m:msup></m:mrow></m:math> <emphasis effect="italics">komplementeer</emphasis> <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi></m:msup></m:mrow></m:math> om die totale steekproefruimte te vorm).
+
+Dus, in bogenoemde oefening, <m:math overflow="scroll"><m:mrow><m:msup><m:mi>P</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>}</m:mo></m:math>,
+while <m:math overflow="scroll"><m:mrow><m:msup><m:mi>E</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>}</m:mo></m:math>. So <m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:msup><m:mi>P</m:mi><m:mi>'</m:mi></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:msup><m:mi>E</m:mi><m:mi>'</m:mi></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn></m:math>.</para><para id="eip-276">Die waarskynlikheid van 'n komplementêre gebeurtenis verwys na die waarskynlikheid wat ons verbind met die komplement van 'n gebeurtenis. Dws. die waarskynlikheid dat iets anders eerder as die gebeurtenis waarna verwys word, sal gebeur. Byvoorbeeld, as <m:math><m:msup><m:mi>P</m:mi></m:msup><m:mo>(</m:mo><m:msup><m:mi>A</m:mi></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0,25</m:mn></m:math>, dan is die waarskynlikheid dat <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi></m:msup></m:mrow></m:math> nie sal gebeur nie, die waarskynlikheid dat alle ander gebeurtenisse in <m:math overflow="scroll"><m:mrow><m:msup><m:mi>S</m:mi></m:msup></m:mrow></m:math> wel sal plaasvind, minus die gebeurtenis van <m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi></m:msup></m:mrow></m:math>. </para><para id="eip-788">In teorie is dit baie maklik om 'n komplement te bereken, aangesien die aantal elemente in die komplement van' n stel net die totale aantal uitkomste in die steekproefruimte is minus die uitkomste wat in daardie stel is. (In die voorbeeld hierbo, was daar 9 moontlike uitkomste in die steekproefruimte, en 4 moontlike uitkomste in elk van die stelle wat ons in belangstel. Dus bevat beide komplemente 9-4 = 5 elemente). Net so, is dit maklik om waarskynlikheid van 'n komplementere gebeurtenis te bepaal, want dit is eenvoudig die totale waarskynlikheid (bv. 1, indien ons totale maatreël 1 is) minus die waarskynlikheid van die gebeurtenis waarin ons belangstel.Daarom,</para><para id="eip-575"><m:math><m:msup><m:mi>P</m:mi></m:msup><m:mo>(</m:mo><m:msup><m:mi>A</m:mi></m:msup><m:mi>'</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:msup><m:mi> </m:mi><m:mi>-</m:mi><m:mi> </m:mi></m:msup><m:msup><m:mi>P</m:mi></m:msup><m:mo>(</m:mo><m:msup><m:mi>A</m:mi></m:msup><m:mo>)</m:mo></m:math></para><para id="eip-23">Dit is soms makliker om die waarskynlikheid van 'n gebeurtenis te bereken deur eerder eers die waarskynlikheid dat die komplementêre gebeurtenis NIE sal plaasvind nie, te bereken. Byvoorbeeld, kom ons neem aan dat die proses waarin ons belangstel is om drie dobbelstene te werp, en die gebeurtenis waarin ons belangstel is dat ten minste een van die dobbelstene se vlakke 'n een toon. Dit is beslis makliker om eers te bereken wat die waarskynlikheid is dat 'n een NIE sal plaasvind nie, as om al die moontlike kombinasies te bereken van die drie dobbelstene waar 'n een wel sal plaasvind!</para><exercise id="eip-351"><problem id="eip-956">
+  <para id="eip-748">
+    Indien jy twee dobbelstene werp, een rooi en een blou, wat is die waarskynlikheid dat ten minste een van hierdie twee 'n ses sal toon?
+
+  </para>
+</problem>
+
+<solution id="eip-57"> <list id="eip-415" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">Bereken die waarskynlikheid van gebeurtenis 1:</emphasis>
+<newline/>Om hierdie tipe vraag op te los, bereken die waarskynlikheid dat daar geen ses sal wees nie.</item>
+<item><emphasis effect="bold">Bereken die waarskynlikheid van gebeurtenis 2:</emphasis>
+<newline/>Die waarskynlikheid dat die rooi dobbelsteen nie 'n ses sal wees nie is 5 uit 6, en die waarskynlikheid dat die blou dobbelsteen nie 'n ses sal wees nie is ook 5 uit 6. </item>
+<item><emphasis effect="bold">Die waarskynlikheid dat nie een van hierdie 'n ses sal wees nie:</emphasis> <newline/>
+Dit kan bereken word soos volg: 5/6×5/6=25/36.
+</item><item><emphasis effect="bold">Die waarskynlikheid van een: </emphasis> <newline/> 
+Die waarskynlikheid dat slegs een 'n ses sal wees kan bereken word soos volg: 1−25/36=11/36</item></list>
+    
+
+</solution>
+</exercise><exercise id="eip-7"><problem id="eip-9356">
+  <para id="eip-7448">'n Sak bevat drie rooi balle, vyf wit balle, twee groen balle en vier blou balle: <newline/><newline/>
+
+1. Bereken die waarskynlikheid dat 'n rooi bal uit die sak gehaal sal word. <newline/>
+
+2. Bereken die waarskynlikheid dat 'n bal wat NIE rooi is nie, uit die sak gehaal sal word.</para>
+</problem>
+
+<solution id="eip-537"> <list id="eip-4115" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">Vind gebeurtenis 1:</emphasis>
+<newline/> <newline/>Gestel R is die gebeurtenis waar 'n rooi bal uit die sak gehaal word.<newline/>
+• P(R)-n(R)/n(S)=3/14 <newline/>
+• R en R' is komplementêre gebeurtenisse <newline/></item>
+<item><emphasis effect="bold">Bereken die waarskynlikhede:</emphasis>
+<newline/><newline/>∴ P(R') = 1 - P(R) = 1 -3/14 = 11/14. <newline/></item>
+<item><emphasis effect="bold">Alternatiewe oplossing:</emphasis> <newline/> <newline/>
+• Alternatiewelik, P(R') = P(B) + P(W) + P(G) <newline/>
+• P(R') = 4/14 + 5/14 + 2/14 = 11/14
+</item></list>
+    
+
+</solution>
+</exercise></section>
+ <section id="cid4">
+      <title>Waarskynlikheid in die Alledaagse Lewe</title>
+      
+      <para id="id111785">Waarskynlikheidsleer hou verband met onsekerheid. In enige statistiese eksperiment, kan die moontlike uitkomste bekend wees, maar om presies te sê watter een, is nie bekend nie. Waarskynlikheidsteorie formuleer, op 'n Wiskundige wyse, onvolledige kennis met betrekking tot die moontlikheid of waarskynlikheid van 'n gebeurtenis. Byvoorbeeld, 'n weervoorspeller sal sê dat daar 'n 60% kans is dat dit môre gaan reën. Dit beteken dat 6 van elke 10 keer wanneer die wêreld in die huidige toestand verkeer, dit môre sal reën.</para>
+      
+      <para id="id111800">Nog 'n manier om na waarskynlikheid te verwys is kans. Die kans van 'n gebeurtenis word gedefinieer as die verhouding van die waarskynlikheid dat die gebeurtenis plaasvind na die waarskynlikheid dat dit nie plaasvind nie. Byvoorbeeld, die kans dat 'n muntstuk op 'n gegewe kant land is <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, gewoonlik geskryf "1 tot 1"
+of "1:1". Dit beteken dat die muntstuk gemiddeld so veel keer op die een kant sal land as wat dit op die ander kant sal land.</para>
+      <section id="uid36">
+        <title>Die Eenvoudigste Voorbeeld: Ewe Waarskynlike Uitkomste</title>
+         <para id="eip-953">Ons sê dat twee uitkomste ewe waarskynlik is as hulle 'n gelyke kans het om te gebeur. Byvoorbeeld wanneer 'n billike muntstuk opgeskiet word, sal elke uitkoms in die steekproefruimte <m:math overflow="scroll"><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mrow><m:mi>k</m:mi><m:mi>o</m:mi><m:mi>p</m:mi><m:mo>,</m:mo><m:mi>s</m:mi><m:mi>t</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mi>t</m:mi><m:mo>}</m:mo></m:mrow></m:mrow></m:math> ewe waarskynlik wees om voor te kom.</para><para id="eip-594">Waarskynlikheid is 'n funksie van gebeurtenisse (sedert dit nie moontlik is dat vir 'n enkele gebeurtenis twee verskillende waarskynlikhede bestaan nie), so ons dui gewoonlik die waarskynlikheid <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi></m:mrow></m:math> dat 'n seker gebeurtenis <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi></m:mrow></m:math> voorkom as <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow></m:math>. 
+
+Wanneer al die uitkomste ewe waarskynlik is (in enige aktiwiteit), is dit redelik maklik om die waarskynlikheid dat 'n sekere gebeurtenis sal plaasvind te bepaal. In hierdie geval,
+</para><para id="eip-56"><m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math></para>
+        <para id="eip-525">Byvoorbeeld, wanneer ons 'n ewekansige dobbelsteen rol is die steekproefruimtee
+space is <m:math overflow="scroll"><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>}</m:mo></m:mrow></m:math> so die totale aantal moontlike uitkomste <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>.
+
+ </para><para id="id111979"><emphasis effect="bold">Gebeurtenis 1: Rol 'n 4</emphasis>
+        </para>
+        <para id="id111985">Die enigste moontlike uitkom is
+<m:math overflow="scroll"><m:mrow><m:mn>4</m:mn></m:mrow></m:math>, i.e <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>4</m:mn><m:mo>}</m:mo></m:mrow></m:math>. So <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.
+</para>
+        <para id="id111992">Die waarskynlikheid dat 'n 4 gerol word: <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mn>1</m:mn><m:mo>/</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</para>
+        <para id="id111998"><emphasis effect="bold">Gebeurtenis 2: Rol 'n nommer groter as 3</emphasis>
+        </para>
+        <para id="id112007">Gunstige uitkomste: <m:math overflow="scroll"><m:mrow><m:mi>E</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>}</m:mo></m:mrow></m:math></para>
+        <para id="id112039">Aantal gunstige uitkomste : <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+        <para id="id112045">Die waarskynlikheid om 'n nommer groter as 3 te rol:
+<m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>k</m:mi><m:mo>&gt;</m:mo><m:mn>3</m:mn><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<m:mn>3</m:mn><m:mo>/</m:mo><m:mn>6</m:mn> <m:mo>=</m:mo>
+<m:mn>1</m:mn><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+<exercise id="secfhsst_id319"><problem id="probfhsst_id320">
+        <para id="id112064">'n Standaard pak kaarte (sonder harlekyne) het 52 kaarte. Daar is vier stelle kaarte: harte, klawers, skoppe, en diamante wat die pas genoem word. Die pas waaraan 'n kaart behoort word aangedui deur' n simbool op die kaart. Elke pas het 13 kaarte (<m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mspace width="4pt"/><m:mi> passe
+</m:mi><m:mspace width="4pt"/><m:mo>×</m:mo><m:mspace width="4pt"/><m:mn>13</m:mn><m:mspace width="4pt"/><m:mi> kaarte </m:mi><m:mo>=</m:mo><m:mn>52</m:mn></m:mrow></m:math>) wat opgemaak word deur een van elke tipe - ase, koning, koningin, boer en die nommerkaarte 2 tot 10.</para>
+        <para id="id112108">As ons lukraak 'n kaart uit die pak trek, kan ons die gekose kaart beskou as 'n moontlike uitkoms.  Dus is daar is 52 moontlike uitkomstes. Ons kan nou kyk na verskeie gebeurtenisse en hul waarskynlikhede bereken:</para>
+        <list id="id112113" display="block" list-type="enumerated"><item id="uid39">Slegs 13 van die 52 kaarte is klawers. Daarom, as die gebeurtenis van belang die trek van 'n klawer is, sal daar 13 gunstige uitkomste wees. Wat is die waarskynlikheid van hierdie gebeurtenis?
+</item>
+          <item id="uid40">Daar is 4 konings in 'n pak (een van elke pas). Wat is die waarskynlikheid dat 'n koning getrek word?
+</item>
+        <item id="uid41">Wat is die waarskynlikheid om 'n koning of klawer te trek?</item>
+</list>
+        
+        </problem>
+        <solution id="solfhsst_id333"> <list id="listfhsst_id333" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Eerste vraag </label>
+        <para id="id112177">Die waarskynlikheid van hierdie gebeurtenis is <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>13</m:mn><m:mn>52</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>.</para>
+        </item> <item> <label> Tweede vraag </label>
+        <para id="id112208"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>52</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>13</m:mn></m:mfrac></m:mrow></m:math>.</para>
+        </item> 
+<item> <label> Derde vraag </label>
+        <para id="id112236">Hierdie voorbeeld is 'n bietjie meer ingewikkeld. Ons kan nie bloot die aantal uitkomste in elke geval afsonderlik bymekaar tel nie
+(4 + 13 = 17) want dan word een van die uitkomste dubbeld getel (die koning van klawers). Hoekom is dit so? Wel, soos aangedui in vraag 3, deel (f) hierbo,
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math>. In die resultate met die gooi van die dobbelsteen, was die kruising van enige twee uitkomste leeg (en dus
+<m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>)
+aangesien dit nie moontlik is vir die bokant van 'n dobbelsteen om twee verskillende waardes gelyktydig te hê. Maar in hierdie geval, kan 'n kaart op dieselfde tyd sowel as' n klawer en 'n koning wees (dws <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>).
+Daarom, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>13</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math>. So die korrekte antwoord is <m:math overflow="scroll"><m:mfrac><m:mn>16</m:mn><m:mn>52</m:mn></m:mfrac></m:math>.
+ </para>
+        </item> 
+</list> </solution>
+</exercise>
+<section id="secfhsst_id343"><title>Waarskynlikheids modelle</title>
+        <list id="id112273" display="block" list-type="enumerated"><item id="uid42">'n Houer bevat 1 wit, 6 rooi, 3 blou en 2 groen balle. 'n Bal word lukraak gekies. Wat is die waarskynlikheid dat dit die volgende kleur het: 
+
+<list id="id112289" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid43">rooi
+</item><item id="uid44">blou of wit
+</item><item id="uid45">nie groen nie (wenk: dink 'komplement')
+</item><item id="uid46">nie groen of rooi nie?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lqu">Kliek hier vir die antwoord.</link></item>
+          <item id="uid47">'n Enkele kaart word lukraak uit 'n pak van 52 kaarte getrek. Wat is die waarskynlikheid dat die kaart:
+<list id="id112354" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid48">die 2 van harte is
+</item><item id="uid49">rooi
+</item><item id="uid50">'n prent kaart 
+</item><item id="uid51">'n ase
+</item><item id="uid52">'n nommer kaart kleiner as 4?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lqJ">Kliek hier vir die antwoord.</link></item>
+          <item id="uid53">Ewe getalle van 2-100 word elk op 'n kaart geskryf. Wat is die waarskynlikheid daarvan dat die getal'n veelvoud van 5 is as 'n kaart lukraak getrek word?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lqS">Kliek hier vir die antwoord.</link>
+</item>
+        </list>
+        
+</section>
+</section>
+    </section>
+  <section id="cid7"><title>Waarskynlikheids Identiteite</title><para id="id113940">Die volgende resultate is van toepassing op waarskynlikhede, vir die steekproefruimte 
+<m:math overflow="scroll"><m:mi>S</m:mi></m:math> en die twee gebeurtenisse <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, binne <m:math overflow="scroll"><m:mi>S</m:mi></m:math>.</para>
+      <equation id="uid57">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>S</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="uid58">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>×</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="uid59">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+<para id="eip-41">Ons kan die laaste resultaat demonstreer met behulp van 'n Venn-diagram. Die vereniging van A en B is die versameling van al die elemente in 'n of in B of beide.
+<figure id="id743"><media id="uid743_media" alt="">
+              <image mime-type="image/png" src="../../media/venn1.png" id="uid743_onlineimage" width="180"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 680. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/venn1.eps" id="uid743_printimage"/>
+            </media>
+</figure>
+
+</para><para id="eip-227">Die waarskynlikheid dat gebeurtenis A voorkom word gegee as <m:math><m:mi>P(A)</m:mi></m:math> en die waarskynlikheid dat gebeurtenis B voorkom deur <m:math><m:mi>P(B)</m:mi></m:math>. Maar, as ons die sirkels wat hierdie gebeurtenisse voorstel ondersoek sal ons opmerk dat dat die waarskynlikheid 'n klein deeltjie van die ander gebeurtenis insluit. So gebeurtenis A bevat 'n stukkie van B en andersom. Dit word in die volgende diagram aangedui:
+<figure id="id1112"><media id="id1112_media" alt="">
+            <image mime-type="image/png" src="../../media/identity1.png" id="id1112_onlineimage" width="150"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/identity1.eps" id="id1112_printimage"/>
+            </media>
+            </figure>
+Ons merk op dat hierdie klein gedeelte die snyding van die twee gebeurtenisse is.</para><para id="eip-609">Wanneer ons die waarskynlikheid van <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo></m:math> wil bepaal merk ons die volgende op: <list id="id9324"><item>Ons kan  <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo></m:math> en  <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo></m:math> bymekaar tel</item>
+<item>Maar deur dit te doen tel ons die snyding dubbeld: een keer in <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo></m:math> en nog 'n keer in <m:math><m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo></m:math>.</item>
+</list>
+So, as ons net die waarskynlikheid van die snyding aftrek, dan sal ons vind dat die totale waarskynlikheid van die unie is:
+<m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math></para><exercise id="secfhsst_id850"><title>Waarskynlikheids identiteite</title><problem id="probfhsst_id851">
+      <para id="id114130">Wat is die waarskynlikheid dat ons 'n swart of rooi kaart uit 'n pak van 52 kaarte sal trek.</para>
+      </problem>
+      <solution id="solfhsst_id854"> <list id="listfhsst_id854" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Skryf die antwoord neer</label>
+      <para id="id114154"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>52</m:mn><m:mn>52</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:math> want al die kaarte is of swart of rooi!
+ </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id860"><title>Waarskynlikheids identiteite</title><problem id="probfhsst_id861">
+      <para id="id114183">Wat is die waarskynlikheid om met 'n enkele trekbeurt uit 'n pak van 52 kaarte 'n klawer of ase te trek.</para>
+      </problem>
+      <solution id="solfhsst_id864"> <list id="listfhsst_id864" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Besluit watter identiteit beskryf die situasie
+</label>
+      <equation id="id114207"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi> klawer </m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi> ase </m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi> klawer </m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi> ase </m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>-</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi> klawer </m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi> ase </m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bereken die antwoord </label>
+      <equation id="id114279">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>13</m:mn>
+                  </m:mfrac>
+                  <m:mo>-</m:mo>
+                  <m:mfenced separators="" open="(" close=")">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>13</m:mn>
+                    </m:mfrac>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>13</m:mn>
+                  </m:mfrac>
+                  <m:mo>-</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>52</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>16</m:mn>
+                  <m:mn>52</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>4</m:mn>
+                  <m:mn>13</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id114403">Neem kennis hoe ons gebruik gemaak het van <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∪</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C
+</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>∩</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+ </para>
+      </item> </list> </solution>
+</exercise>
+<para id="eip-778">Die volgende video verskaf 'n kort opsomming van sommige van die werk wat ons tot dusver behandel het.
+<figure id="uid333" class="khanacademy"><title>Khan academy video oor waarskynlikheid</title><media id="yt-media" display="block" alt="Video on probability">
+  <flash id="yt-video" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/3ER8OkqBdpE&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para><section id="secfhsst_id985"><title>Oefeninge met waarskynlikheidsidentiteite</title>
+      <para id="id114484">Beantwoord die volgende vrae:</para>
+      <list id="id114495" display="block" list-type="enumerated"><item id="uid60">Rory oefen vir 'n skyfskiet kompetisie. Sy waarskynlikheid om die teiken te tref is
+<m:math><m:mn>0,7</m:mn></m:math>. Hy vuur vyf skote af. Wat is die waarskynlikheid dat al vyf skote mis is?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lab">Kliek hier vir die antwoord.</link></item>
+        <item id="uid63">'n Boogskut skiet op 'n teiken. Die waarskynlikheid vir 'n kolskoot is 
+<m:math><m:mn>0,4</m:mn></m:math>. As sy drie pyle skiet, wat is die waarskynlikheid van drie kolskote?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laj">Kliek hier vir die antwoord.</link></item>
+        <item id="uid66">'n Dobbelsteen met die nommers 1,3,5,7,9,11 word gerol.
+Op dieselfde tyd word 'n ewekansige munt opgeskiet. Wat is die waarskynlikheid dat :
+<list id="id114596" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid69"> Die munt land op "kop" en 'n 9 word gerol?
+</item><item id="uid70">Die munt land op "stert" en 'n 3 word gerol?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laD">Kliek hier vir die antwoord.</link></item>
+        <item id="uid71">Vier leerder skryf 'n toets. Die waarskynlikhede dat elkeen slaag is as volg. Sarah: <m:math><m:mn>0,8</m:mn></m:math>, Kosma:
+<m:math><m:mn>0,5</m:mn></m:math>, Heather: <m:math><m:mn>0,6</m:mn></m:math>,
+Wendy: <m:math><m:mn>0,9</m:mn></m:math>. Wat is die waarskynlikheid dat:
+<list id="id114667" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid72">al vier slaag?
+</item><item id="uid73">al vier druip?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laW">Kliek hier vir die antwoord.</link></item>
+        <item id="uid75">Met 'n enkele trekbeurt uit 'n pak van 52 kaarte, wat is die waarskynlikheid dat die kaart 'n ase of 'n swart kaart is? <newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laZ">Kliek hier vir die antwoord.</link>
+</item>
+      </list>
+  </section>  </section>
+    <section id="cid8"><title>Onderling Uitsluitende Gebeurtenisse</title><para id="id114732">Onderling uitsluitende gebeurtenisse is gebeurtenisse wat nie op dieselfde tyd waar kan waar wees nie.</para>
+      <para id="id114736">Voorbeelde van onderling uitsluitende gebeure is:</para>
+      <list id="id114740" display="block" list-type="enumerated"><item id="uid76">'n Dobbelsteen wat op 'n ewe of op 'n onewe getal land.
+</item>
+        <item id="uid77">'n Student wat 'n eksamen dop of slaag.
+</item>
+        <item id="uid78">'n Muntstuk wat op kop of stert land
+</item>
+      </list>
+      <para id="id114782">Dit beteken dat as ons die elemente ondersoek wat die stelle <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math> opmaak, sal daar geen gemeenskaplike elemente wees nie. Daarom, <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>∅</m:mi></m:mrow></m:math> (waar <m:math overflow="scroll"><m:mi>∅</m:mi></m:math> verwys na die leë stel). Since, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, vergelyking <link target-id="uid59"/> word:</para>
+      <equation id="id114861">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id114906">vir onderling uitsluitende gebeurtenisse.</para>
+<para id="eip-366">Ons kan onderling uitsluitende gebeurtenisse op 'n Venn-diagram voorstel. In hierdie geval raak die twee sirkels nie aan mekaar raak, maar is eerder heeltemal aparte dele van die steekproefruimte.
+
+
+<figure id="id6899"><media id="id6899_media" alt="">
+            <image mime-type="image/png" src="../../media/mutualexclusive.png" id="id6899_onlineimage" width="150"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/mutualexclusive.eps" id="id6899_printimage"/>
+            </media>
+
+            <caption>Venn diagram vir onderlinge uitsluitende gebeurtenisse</caption></figure>
+</para><section id="secfhsst_id1048"><title>Oefeninge met onderling uitsluitende gebeutrenisse</title><list id="id114930" display="block" list-type="enumerated"><item id="uid79">'n Boks bevat gekleurde blokkies. Die aantal van elke kleur word deur die volgende tabel voorgestel.
+<table id="id114946" summary="table">
+<tgroup cols="5"><tbody><row><entry>Kleur</entry><entry>Pers</entry><entry>Oranje</entry><entry>Wit</entry><entry>Pienk</entry></row><row><entry>Aantal blokkies</entry><entry>24</entry><entry>32</entry><entry>41</entry><entry>19</entry></row></tbody>
+
+</tgroup>
+</table>
+'n Blokkie word ewekansig gekies. Wat is die waarskynlikheid dat die blokkie:
+<list id="id115050" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid80">pers
+</item><item id="uid81">pers of wit is
+</item><item id="uid82">pienk en oranje is
+</item><item id="uid83">nie oranje is nie?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/laB">Klik hier vir die oplossing.</link></item>
+
+
+        <item id="uid8400">'n Klein private skool het' n klas met kinders van
+verskillende ouderdomme. Die tabel gee die aantal leerlinge van elke ouderdomsgroep in die klas.
+<table id="id115116" summary=""><tgroup cols="6"><tbody><row><entry>3 jarige meisies
+</entry><entry>3 jarige seuns</entry><entry>4 jarige meisies</entry><entry>4
+jarige seuns</entry><entry>5 jarige meisies</entry><entry>5 jarige seuns</entry></row><row><entry>6</entry><entry>2</entry><entry>5</entry><entry>7</entry><entry>4</entry><entry>6</entry></row></tbody></tgroup></table>
+As 'n leerder lukraak gekies word, wat is die waarskynlikheid dat dat die leerder: <list id="id11523600" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid8500">'n meisie is
+</item><item id="uid860">'n 4 jarige seun is
+</item><item id="uid870">3 of 4 jaar oud is
+</item><item id="uid880">3 en 4 jaar oud is
+</item><item id="uid890">nie 5 jaar oud is nie
+</item><item id="uid900">3 jaar oud of 'n meisie is?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/laK">Kliek hier vir die oplossing.</link></item>
+        <item id="uid91">Fiona het 85 gemerkte skyfies wat genommer is vanaf 1 tot 85. As 'n skyfie lukraak gekies word, wat is die waarskynlikheid dat die nommer van die skyfie:
+<list id="id115326" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid92">eindig met 'n 5
+</item><item id="uid93">met 3 vermenigvuldig kan word
+</item><item id="uid94">met 6 vermenigvuldig kan word
+</item><item id="uid95">die nommer 65 is
+</item><item id="uid96">nie 'n veelvoud van 5 is nie
+</item><item id="uid97">'n veelvoud van 4 of 3 is
+</item><item id="uid98">'n veelvoud van 2 en 6 is
+</item><item id="uid99">die nommmer 1 is?
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lak">Kliek hier vir die oplossing.</link></item>
+      </list></section>
+    </section>
+    <section id="cid9">
+      <title>Komplementêre Gebeurtenisse</title>
+      <para id="id115439">Die waarskynlikheid van komplementêre gebeurtenis verwys na die waarskynlikheid dat gebeure nie sal plaasvind nie. Byvoorbeeld: as <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>25</m:mn></m:mrow></m:math>, dan is die warskynlikheid dat <m:math overflow="scroll"><m:mi>A</m:mi></m:math> nie gebeur nie dieselfde as die waarskynlikheid dat al die ander gebeure in <m:math overflow="scroll"><m:mi>S</m:mi></m:math> gebeur minus as die waarskynlikheid dat <m:math overflow="scroll"><m:mi>A</m:mi></m:math> gebeur. Dit beteken dat</para>
+      <equation id="id115496">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msup>
+                <m:mi>A</m:mi>
+                <m:mo>'</m:mo>
+              </m:msup>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>A</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id115537">waar A' verwys na `nie A'
+Met ander woorde, die waarskynlikheid van `nie A' is gelyk aan een minus die waarskynlikheid van A.</para>
+<exercise id="secfhsst_id1111"><title>Waarskynlikheid</title><problem id="probfhsst_id1112">
+      <para id="id115556">As jy twee dobbelstene gooi, een rooi en die ander blou, wat is die waarskynlikheid dat ten minste een van hulle 'n ses sal wees? </para>
+      </problem>
+      <solution id="solfhsst_id1115"> <list id="listfhsst_id1115" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Bereken die waarskynlikheid van gebeurtenis 1 </label>
+      <para id="id115580">Om hierdie tipe probleem op te los, bereken die waarskynlikheid dat daar geen 6 sal wees nie.</para>
+      </item> <item> <label> Werk uit die waarskynlikheid van gebeurtenis 2 </label>
+      <para id="id115588">Die waarskynlikheid dat die rooi dobbelsteen nie 'n 6 is nie is 5/6 en die waarskynlikheid dat die bloue nie 'n 6 is nie, is ook 5/6.</para>
+      </item> <item> <label> Waarskynlikheid dat nie </label>
+      <para id="id115596">So die waarskynlikheid dat geeneen 'n ses sal wees nie is <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>/</m:mo><m:mn>6</m:mn><m:mo>×</m:mo><m:mn>5</m:mn><m:mo>/</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>/</m:mo><m:mn>36</m:mn></m:mrow></m:math>.</para>
+      </item> <item> <label> Waarskynlikheid van een </label>
+      <para id="id115636">So die waarskynlikheid dat ten minste een 'n 6 sal wees is <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>25</m:mn><m:mo>/</m:mo><m:mn>36</m:mn><m:mo>=</m:mo><m:mn>11</m:mn><m:mo>/</m:mo><m:mn>36</m:mn></m:mrow></m:math>.
+ </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1127"><title>Waarskynlikheid</title><problem id="probfhsst_id1129">
+      <para id="id115691">'n Sak bevat drie rooi balle, vyf wit balle, twee groen balle en vier blou balle:</para>
+      <para id="id115697">1. Bereken die waarskynlikheid dat 'n rooi bal getrek word.</para>
+      <para id="id115703">2. Bereken die waarskynlikheid dat 'n bal wat nie rooi is nie getrek word.  </para>
+      </problem>
+      <solution id="solfhsst_id1133"> <list id="listfhsst_id1133" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Vind gebeurtenis 1 </label>
+      <para id="id115727">Laat R die gebeurtenis waar 'n rooi bal getrek word wees:</para>
+      <list id="id115731" display="block" list-type="bulleted">
+        <item id="uid100">P(R)-n(R)/n(S)=3/14
+</item>
+        <item id="uid101">R en R' is komplementêre gebeure.
+</item>
+      </list>
+      </item> <item> <label> Vind die waarskynlikhede </label>
+      <para id="id115764"><m:math overflow="scroll"><m:mo>∴</m:mo></m:math> P(R') = 1 - P(R) = 1 -3/14 = 11/14</para>
+      </item> <item> <label> Alternatiewe manier van oplossing </label>
+      <list id="id115780" display="block" list-type="bulleted">
+        <item id="uid102">Alternatiewelik P(R') = P(B) + P(W) + P(G)
+</item>
+        <item id="uid103">P(R') = 4/14 + 5/14 + 2/14 = 11/14
+</item>
+      </list>
+      
+      </item> </list> </solution>
+</exercise></section>
+<section id="secfhsst_id264"><title>Ewekansige Eksperimente</title>
+          <list id="eip-967"><item id="uid1600"><m:math overflow="scroll"><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mrow><m:mi> heel getalle vanaf </m:mi><m:mn>1</m:mn><m:mi> tot </m:mi><m:mn>16</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:math>,
+<m:math overflow="scroll"><m:mrow><m:mi>X</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mrow><m:mi> ewe getalle vanaf</m:mi><m:mn>1</m:mn><m:mi> tot </m:mi><m:mn>16</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:math> en
+<m:math overflow="scroll"><m:mrow><m:mi>Y</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mrow><m:mi> priemgetalle vanaf </m:mi><m:mn>1</m:mn><m:mi> tot </m:mi><m:mn>16</m:mn></m:mrow><m:mo>}</m:mo></m:mrow></m:math><list id="id11122300" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid1700">Teken 'n Venn-diagram <m:math overflow="scroll"><m:mi>S</m:mi></m:math>, <m:math overflow="scroll"><m:mi>X</m:mi></m:math> en <m:math overflow="scroll"><m:mi>Y</m:mi></m:math>.
+</item><item id="uid1800">Skryf neer <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>Y</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>∪</m:mo><m:mi>Y</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>∩</m:mo><m:mi>Y</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst/lqe">Klik hier vir die oplossing.</link></item>
+            <item id="uid1900">Daar is 79 Graad 10 leerders by die skool. Almal van hulle neem  Wiskunde, Aardrykskunde of Geskiedenis. Die aantal wat Aardrykskunde neem is 41, die wat Geskiedenis neem is 36 en 30 neem Wiskunde. Die aantal wat Wiskunde en Geskiedenis neem is 16; die aantal wat Geskiedenis en Aardrykskunde neem is 6. Dan is daar 8 wat slegs Wiskunde en 16 wat slegs Geskiedenis neem.
+<list id="id1113730000" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid2000">Teken 'n Venn-diagram om al die inligting voor te stel.
+</item><item id="uid2100">Hoeveel leerders neem Wiskunde en Aardrykskunde, maar nie Geskiedenis nie?
+</item><item id="uid2200">Hoeveel leerders neem slegs Aardrykskunde?
+</item><item id="uid2300">Hoeveel leerders neem al drie hierdie vakke?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst/lqt">Klik hier vir die oplossing.</link></item>
+            <item id="uid2400">Stukkies papier met die getalle 1 tot 12 word in 'n boks geplaas en die boks word geskud. Een stukkie papier word getrek en dan terug geplaas.
+<list id="id11143700" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid2500">Wat is die steekproefruimte, <m:math overflow="scroll"><m:mi>S</m:mi></m:math> ?
+</item><item id="uid2600">Skryf die versameling <m:math overflow="scroll"><m:mi>A</m:mi></m:math> neer, wat die gebeurtenis om 'n faktor van 12 te trek, voorstel.
+</item><item id="uid2700">Skryf die versameling <m:math overflow="scroll"><m:mi>B</m:mi></m:math> neer, wat die gebeurtenis om 'n priemgetal te trek, voorstel.
+</item><item id="uid2800">Doen nou 'n voorstelling van <m:math overflow="scroll"><m:mi>A</m:mi></m:math>, <m:math overflow="scroll"><m:mi>B</m:mi></m:math> en <m:math overflow="scroll"><m:mi>S</m:mi></m:math> deur middel van 'n Venn-diagram.
+</item><item id="uid2900">Skryf die volgende neer:
+<list id="id11154600" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid3000"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid3100"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid3200"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid3300"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid3400"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math></item></list></item><item id="uid3500">Is <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math>?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst/lqz">Klik hier vir die oplossing.</link></item>
+          </list>
+          
+</section>
+</section>
+
+
+  </content>
+</document>

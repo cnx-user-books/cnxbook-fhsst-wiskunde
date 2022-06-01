@@ -1,0 +1,2102 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Eksponensiale</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37289</md:content-id>
+  <md:title>Eksponensiale</md:title>
+  <md:abstract/>
+  <md:uuid>d8a3f6f8-c959-4f81-9029-602a5072f59c</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>Inleiding</title>
+      <para id="id62184">In hierdie hoofstuk sal jy leer van 'n eenvoudiger manier om uitdrukkings soos <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn></m:mrow></m:math> te skryf. Dit staan bekend as <emphasis effect="italics">eksponensiaalnotasie</emphasis>.</para>
+    </section>
+    <section id="cid3"><title>Definisie</title><para id="id62562">Eksponensiaalnotasie is 'n kort manier om te skryf dat 'n getal meermale met homself vermenigvuldig word. Byvoorbeeld, eerder as om te skryf <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>×</m:mo><m:mn>5</m:mn><m:mo>×</m:mo><m:mn>5</m:mn></m:mrow></m:math>, gebruik ons <m:math overflow="scroll"><m:msup><m:mn>5</m:mn><m:mn>3</m:mn></m:msup></m:math> om aan te dui dat die getal 5 drie maal met homself vermenigvuldig word en 'n mens sê "5 tot die mag 3". Soortgelyk is <m:math overflow="scroll"><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup></m:math> dieselfde as <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>×</m:mo><m:mn>5</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:msup><m:mn>3</m:mn><m:mn>5</m:mn></m:msup></m:math> is <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>×</m:mo><m:mn>3</m:mn><m:mo>×</m:mo><m:mn>3</m:mn><m:mo>×</m:mo><m:mn>3</m:mn><m:mo>×</m:mo><m:mn>3</m:mn></m:mrow></m:math>. Laat ons beter definieer hoe om eksponensiaalnotasie te gebruik.</para>
+<definition id="fhsst_id74"><term id="termfhsst_id74">Eksponensiaalnotasie</term><meaning id="meaningfhsst_id74">
+      <para id="id62672">Eksponensiaalnotasie verwys na 'n getal wat geskryf word as</para>
+      <equation id="id62677">
+        <m:math overflow="scroll" mode="display">
+          <m:msup>
+            <m:mi>a</m:mi>
+            <m:mi>n</m:mi>
+          </m:msup>
+        </m:math>
+      </equation>
+      <para id="id62692">waar <m:math overflow="scroll"><m:mi>n</m:mi></m:math> 'n heelgetal is en <m:math overflow="scroll"><m:mi>a</m:mi></m:math> enige reële getal is. Ons noem <m:math overflow="scroll"><m:mi>a</m:mi></m:math> die <emphasis effect="italics">grondtal</emphasis> en <m:math overflow="scroll"><m:mi>n</m:mi></m:math> die <emphasis effect="italics">eksponent</emphasis>.</para>
+      </meaning></definition>
+      <para id="id62750"><m:math overflow="scroll"><m:mi>a</m:mi></m:math> tot die mag <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is</para>
+      <equation id="uid1"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mi>n</m:mi>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mi>a</m:mi>
+            <m:mo>×</m:mo>
+            <m:mi>a</m:mi>
+            <m:mo>×</m:mo>
+            <m:mo>⋯</m:mo>
+            <m:mo>×</m:mo>
+            <m:mi>a</m:mi>
+            <m:mspace width="2.em"/>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mi>-keer </m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id62819">Dit wil sê, <m:math overflow="scroll"><m:mi>a</m:mi></m:math> word <m:math overflow="scroll"><m:mi>n</m:mi></m:math> keer met homself vermenigvuldig.</para>
+      <para id="id62840">Ons kan ook 'n negatiewe eksponent, <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mi>n</m:mi></m:mrow></m:math>, gebruik. In hierdie geval
+</para>
+      <equation id="uid2"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mo>×</m:mo>
+                <m:mi>a</m:mi>
+                <m:mo>×</m:mo>
+                <m:mo>⋯</m:mo>
+                <m:mo>×</m:mo>
+                <m:mi>a</m:mi>
+                <m:mspace width="2.em"/>
+                <m:mo>(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mi>-keer </m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+<note id="notfhsst_id145" type="tip">Eksponente</note>
+      <para id="id62918">Indien <m:math overflow="scroll"><m:mi>n</m:mi></m:math> 'n ewe getal is, sal <m:math overflow="scroll"><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:math> altyd 'n positiewe getal wees vir enige reële getal <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, behalwe <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn></m:mrow></m:math>. Byvoorbeeld, hoewel <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math> negatief is, is beide <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> positief.</para><para id="eip-180"><figure id="Exponents-1" class="khanacademy"><title>Khan Academy video oor eksponente 1 (in Engels)</title><media id="yt-media1" display="block" alt="Video oor eksponente 1 (in Engels)">
+<flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/8htcZca0JIA&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para><para id="eip-375"><figure id="Exponents-2" class="khanacademy"><title>Khan Academy video oor eksponente 2 (in Engels)</title><media id="yt-media2" display="block" alt="Video oor eksponente 2 (in Engels)">
+<flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/1Nt-t9YJM8k&amp;rel=0" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para>
+    </section>
+    <section id="cid4">
+      <title>Eksponentwette</title>
+      <para id="id63061">Daar is heelwat eksponentwette wat ons kan gebruik om getalle met eksponente te vereenvoudig. Sommige van hierdie wette het ons reeds in vorige grade teëgekom, maar ons sal die volledige lys hier sien en elke wet verduidelik, sodat jy hulle kan verstaan en nie bloot memoriseer nie.
+</para>
+      <equation id="uid3">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>0</m:mn>
+                </m:msup>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mi>m</m:mi>
+                  </m:msup>
+                  <m:mo>×</m:mo>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mrow>
+                    <m:mi>m</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:msup>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mi>m</m:mi>
+                  </m:msup>
+                  <m:mo>÷</m:mo>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mrow>
+                    <m:mi>m</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mrow>
+                    <m:mi>m</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <section id="uid4">
+        <title>Eksponente, Wet 1: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></title>
+        <para id="id63512">Volgens die definisie van eksponensiaalnotasie is </para>
+        <equation id="uid5">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mo>,</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>≠</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id63571">Byvoorbeeld, <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mspace width="0.277778em"/><m:mn>000</m:mn><m:mspace width="0.277778em"/><m:mn>000</m:mn><m:mo>)</m:mo></m:mrow><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
+<section id="secfhsst_id339"><title>Toepassing van Wet 1: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> </title>
+        <list id="id63666" display="block" list-type="enumerated"><item id="uid6">
+            <m:math overflow="scroll">
+          <m:msup>
+            <m:mn>16</m:mn>
+            <m:mn>0</m:mn>
+          </m:msup>
+        </m:math>
+      </item>
+      <item id="uid7">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mn>16</m:mn>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>0</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </item>
+      <item id="uid8">
+        <m:math overflow="scroll">
+          <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mn>16</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>a</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mn>0</m:mn>
+          </m:msup>
+        </m:math>
+      </item>
+      <item id="uid9">
+        <m:math overflow="scroll">
+          <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>16</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mn>0</m:mn>
+          </m:msup>
+        </m:math>
+      </item>
+      <item id="uid10">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mn>16</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math> 
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lOG">Kliek hier vir die oplossing</link>
+          </item>
+         </list>
+        
+</section>
+      </section>
+      <section id="uid11">
+        <title>Eksponente, Wet 2: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>×</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math></title>
+        <para id="eip-427"><figure id="ExponentsRule1" class="khanacademy"><title>Khan Academy video oor eksponente 3 (in Engels)</title><media id="yt-media3" display="block" alt="Video oor eksponente 3">
+<flash id="yt-video3" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/kSYJxGqOcjA&amp;rel=0" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para><para id="id63888">Die definisie van eksponensiaalnotasie wys dat</para>
+        <equation id="uid12"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>m</m:mi>
+                    <m:mi>-keer </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd/>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mspace width="-0.166667em"/>
+                    <m:mspace width="-0.166667em"/>
+                    <m:mspace width="-0.166667em"/>
+                    <m:mspace width="-0.166667em"/>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mi>-keer </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>m</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mi>-keer </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mrow>
+                      <m:mi>m</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64082">Byvoorbeeld,</para>
+        <equation id="id64085">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>7</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mrow>
+                      <m:mn>7</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mn>10</m:mn>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<note id="notfhsst_id613"><title>Interessante feit </title>Hierdie eenvoudige wet is die rede waarom eksponente oorspronklik geskep is. Voor die dae van rekenaars moes vermenigvuldiging met potlood en papier gedoen word. Dit vat baie lank om vermenigvuldiging te doen, maar dit is vinnig en eenvoudig om getalle bymekaar te tel. Hierdie eksponentwet wys dat dit moontlik is om twee getalle te vermenigvuldig deur hulle eksponente bymekaar te tel (indien hulle dieselfde grondtal het). Hierdie ontdekking het wiskundiges baie tyd gespaar, wat hulle toe kon gebruik om iets meer produktiefs te doen.</note>
+<section id="secfhsst_id614"><title> Toepassing van Wet 2: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>×</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math> </title>
+        <list id="id64269" display="block" list-type="enumerated"><item id="uid13">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>·</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>5</m:mn>
+                </m:msup>
+          </m:mrow>
+        </m:math>
+      </item>
+      <item id="uid14">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:msup>
+              <m:mn>2</m:mn>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>.</m:mo>
+            <m:msup>
+              <m:mn>2</m:mn>
+              <m:mn>4</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+        [Neem kennis dat die grondtal (2) dieselfde bly.]
+      </item>
+      <item id="uid15">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mo>×</m:mo>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:msup>
+            <m:mo>×</m:mo>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lO7">Kliek hier vir die oplossing</link>
+          </item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid16">
+        <title>Eksponente, Wet 3: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mo>-</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mfrac><m:mo>,</m:mo><m:mspace width="1.em"/><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math></title>
+        <para id="id64482">Die definisie van eksponensiaalnotasie vir 'n negatiewe eksponent wys dat</para>
+        <equation id="uid17"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>÷</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>÷</m:mo>
+                    <m:mi>a</m:mi>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mi>-keer </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:mi>a</m:mi>
+                        <m:mo>×</m:mo>
+                        <m:mo>⋯</m:mo>
+                        <m:mo>×</m:mo>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mi>-keer </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mfrac>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64624">Dit beteken dat 'n minus teken in die eksponent 'n alternatiewe manier
+is om aan te dui dat die hele eksponensiaal gedeel eerder as
+vermenigvuldig moet word.</para>
+        <para id="id64630">Byvoorbeeld,</para>
+        <equation id="id64634">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>7</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>7</m:mn>
+                    </m:msup>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<section id="secfhsst_id835"><title> Toepassing van Wet 3: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mo>-</m:mo><m:mi>n</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup></m:mfrac><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> </title>
+        <list id="id64771" display="block" list-type="enumerated"><item id="uid18">
+            <m:math overflow="scroll">
+             <m:mrow>
+            <m:msup>
+              <m:mn>2</m:mn>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </item>
+      <item id="uid19">
+        <m:math overflow="scroll">
+          <m:mfrac>
+            <m:msup>
+              <m:mn>2</m:mn>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mfrac>
+        </m:math>
+      </item>
+      <item id="uid20">
+        <m:math overflow="scroll">
+          <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mfrac>
+                <m:mn>2</m:mn>
+                <m:mn>3</m:mn>
+              </m:mfrac>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>-</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:msup>
+        </m:math>
+      </item>
+      <item id="uid21">
+        <m:math overflow="scroll">
+          <m:mfrac>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:mi>n</m:mi>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:msup>
+          </m:mfrac>
+        </m:math>
+      </item>
+      <item id="uid22">
+        <m:math overflow="scroll">
+          <m:mfrac>
+            <m:mrow>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mo>·</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>4</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:mrow>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>5</m:mn>
+              </m:msup>
+              <m:mo>·</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:mfrac>
+        </m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcx">Kliek hier vir die oplossing</link>
+          </item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid23">
+        <title>Eksponente, Wet 4: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>÷</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>-</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math></title>
+        <para id="id65186">Met Wet 3 het ons reeds besef dat 'n minusteken 'n manier is om te
+wys dat die eksponensiaal gedeel eerder as vermenigvuldig moet
+word. Wet 4 is basies 'n meer algemene manier om dieselfde stelling te
+maak. Ons verkry hierdie wet deur Wet 3 aan beide kante met <m:math overflow="scroll"><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:math> te
+vermenigvuldig en dan Wet 2 te gebruik.</para>
+        <equation id="uid24">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:msup>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:msup>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mi>n</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mrow>
+                      <m:mi>m</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65293">Byvoorbeeld,</para>
+        <equation id="id65296">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>7</m:mn>
+                    </m:msup>
+                    <m:mo>÷</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mrow>
+                      <m:mn>7</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<para id="eip-693"><figure id="exponents-5" class="khanacademy"><title>Khan Academy video oor eksponente 4 (in Engels)</title><media id="yt-media6" display="block" alt="Video oor eksponente 4">
+	  <flash id="yt-video6" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/tvj42WdKlH4&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><section id="secfhsst_id1192"><title>Toepassing van Wet 4: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>÷</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>-</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math></title>
+        <list id="id65493" display="block" list-type="enumerated"><item id="uid25">
+            <m:math overflow="scroll">
+              <m:mrow>
+            <m:mfrac>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>6</m:mn>
+              </m:msup>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mfrac>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mn>6</m:mn>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </item>
+      <item id="uid26">
+        <m:math overflow="scroll">
+          <m:mfrac>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mn>6</m:mn>
+            </m:msup>
+          </m:mfrac>
+        </m:math>
+      </item>
+      <item id="uid27">
+        <m:math overflow="scroll">
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>32</m:mn>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>8</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfrac>
+        </m:math>
+      </item>
+      <item id="uid28">
+        <m:math overflow="scroll">
+          <m:mfrac>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:msup>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>4</m:mn>
+            </m:msup>
+          </m:mfrac>
+        </m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lOA">Kliek hier vir die oplossing</link>
+          </item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid29">
+        <title>Eksponente, Wet 5: <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:msup><m:mi>b</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math></title>
+        <para id="id65819">Die volgorde waarin twee getalle
+        vermenigvuldig word, is onbelangrik. Dus,</para>
+        <equation id="uid30"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mi>b</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mo>(</m:mo>
+                     <m:mi>n</m:mi>
+                    <m:mi>-keer </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mo>(</m:mo>
+                     <m:mi>n</m:mi>
+                    <m:mi>-keer </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd/>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mspace width="-0.166667em"/>
+                    <m:mspace width="-0.166667em"/>
+                    <m:mspace width="-0.166667em"/>
+                    <m:mspace width="-0.166667em"/>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mo>(</m:mo>
+                     <m:mi>n</m:mi>
+                    <m:mi>-keer </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id66030">Byvoorbeeld,</para>
+        <equation id="id66034">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mn>4</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>3</m:mn>
+                        <m:mn>4</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<section id="secfhsst_id1581"><title>Toepassing van Wet 5: <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>n</m:mi></m:msup><m:msup><m:mi>b</m:mi><m:mi>n</m:mi></m:msup></m:mrow></m:math> </title>
+        <list id="id66288" display="block" list-type="enumerated"><item id="uid31">
+            <m:math overflow="scroll">
+             <m:mrow>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mi>y</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mn>2</m:mn>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </item>
+      <item id="uid32">
+        <m:math overflow="scroll">
+          <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+                <m:mi>b</m:mi>
+              </m:mfrac>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:math>
+      </item>
+      <item id="uid33">
+        <m:math overflow="scroll">
+          <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mn>5</m:mn>
+              <m:mi>a</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mn>3</m:mn>
+          </m:msup>
+        </m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lOs">Kliek hier vir die oplossing</link>
+          </item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid34">
+        <title>Eksponente, Wet 6: <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math></title>
+        <para id="id66531">Dit is moontlik om die eksponensiaal van 'n eksponensiaal te bereken. Die eksponensiaal van 'n getal is 'n reële getal. So, selfs al klink die eerste sin ingewikkeld, beteken dit bloot dat 'n mens die eksponensiaal van 'n getal bereken en dan die eksponensiaal van die resultaat bereken.</para>
+        <equation id="uid35"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mi>a</m:mi>
+                        <m:mi>m</m:mi>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:msup>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                       <m:mi>n</m:mi>
+                    <m:mi>-keer </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mi>a</m:mi>
+                     </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>m</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mi>-keer </m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mrow>
+                      <m:mi>m</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id66694">Byvoorbeeld,</para>
+        <equation id="id66697">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>6</m:mn>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<section id="secfhsst_id1894"><title>Toepassing van Wet 6: <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mo>)</m:mo></m:mrow><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math> </title>
+        <list id="id66924" display="block" list-type="enumerated"><item id="uid36">
+            <m:math overflow="scroll">
+              <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mn>4</m:mn>
+          </m:msup>
+        </m:math>
+      </item>
+      <item id="uid37">
+        <m:math overflow="scroll">
+          <m:msup>
+            <m:mrow>
+              <m:mo>[</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mn>4</m:mn>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>]</m:mo>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:math>
+      </item>
+      <item id="uid38">
+        <m:math overflow="scroll">
+          <m:msup>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msup>
+                <m:mn>3</m:mn>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lO6">Kliek hier vir die oplossing</link>
+          </item>
+        </list>
+        
+</section>
+<para id="eip-323"><exercise id="secfhsst_id41"><title> Vereenvoudig die eksponente </title>
+    <problem id="probfhsst_id42">
+    <para id="id117610">Vereenvoudig: <m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mn>5</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mn>9</m:mn><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mn>15</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mfrac></m:math> </para>
+    </problem>
+    <solution id="solfhsst_id45"> <list id="listfhsst_id45" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Faktoriseer al die grondtalle in priemfaktore</label>
+    <equation id="id118023">
+      <m:math overflow="scroll" mode="display">
+        <m:mtable displaystyle="true">
+          <m:mtr>
+            <m:mtd/>
+            <m:mtd>
+              <m:mo>=</m:mo>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msup>
+                          <m:mn>3</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mfrac>
+                <m:mspace width="1.em"/>
+                <m:mspace width="1.em"/>
+                <m:mspace width="1.em"/>
+              </m:mrow>
+            </m:mtd>
+          </m:mtr>
+          <m:mtr>
+            <m:mtd/>
+            <m:mtd>
+              <m:mo>=</m:mo>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mfrac>
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>5</m:mn>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>·</m:mo>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>5</m:mn>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>·</m:mo>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:mfrac>
+            </m:mtd>
+          </m:mtr>
+        </m:mtable>
+      </m:math>
+    </equation>
+    </item> <item> <label> Tel die eksponente van ooreenstemmende grondtalle bymekaar,
+volgens Wette 2 en 4</label>
+    <equation id="id118205">
+      <m:math overflow="scroll" mode="display">
+        <m:mtable displaystyle="true">
+          <m:mtr>
+            <m:mtd/>
+            <m:mtd>
+              <m:mo>=</m:mo>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>5</m:mn>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mo>·</m:mo>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:mtd>
+          </m:mtr>
+          <m:mtr>
+            <m:mtd/>
+            <m:mtd>
+              <m:mo>=</m:mo>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>5</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>·</m:mo>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:mtd>
+          </m:mtr>
+        </m:mtable>
+      </m:math>
+    </equation>
+    </item> <item> <label> Skryf die vereenvoudigde antwoord met positiewe eksponente</label>
+    <equation id="id118312">
+      <m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:mo>=</m:mo>
+          <m:mfrac>
+            <m:mn>25</m:mn>
+            <m:mn>3</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:math>
+    </equation>
+   
+    </item> </list> </solution>
+</exercise>
+</para>
+<section id="secfhsst_id2193"><title> Ondersoek: Eksponensiale </title>
+        <para id="id67549">Skryf die korrekte antwoord in the <emphasis effect="bold">Antwoord</emphasis> kolom. Die beskikbare
+antwoorde is: <m:math overflow="scroll"><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:math>, 1, <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>, 8. Antwoorde mag herhaal word.</para>
+        <table id="id67604" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Vraag</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Antwoord</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mfrac>
+                          <m:mn>2</m:mn>
+                          <m:mn>3</m:mn>
+                        </m:mfrac>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>8</m:mn>
+                      <m:mrow>
+                        <m:mn>7</m:mn>
+                        <m:mo>-</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>23</m:mn>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        
+</section>
+      </section><para id="eip-160">Die volgende video gee 'n voorbeeld van hoe om sommige van die
+konsepte wat in hierdie hoofstuk gedek is, te gebruik.
+<figure id="ExponentsLaw3" class="khanacademy"><title>Khan Academy video oor eksponente 5 (in Engels)</title><media id="yt-media5" display="block" alt="Video oor eksponente 5">
+<flash id="yt-video5" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/AbmQNC-iE84&amp;rel=0" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para>
+    </section>
+    <section id="cid5">
+      <title>Hoofstukoefeninge</title>
+      <list id="id67892" display="block" list-type="enumerated"><item id="uid39">Vereenvoudig so ver as moontlik.
+<list id="id67908" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid56">
+  <m:math overflow="scroll">
+   <m:msup><m:mn>302</m:mn><m:mn>0</m:mn></m:msup></m:math>
+   </item>
+ <item id="uid57">
+   <m:math overflow="scroll">
+    <m:msup><m:mn>1</m:mn><m:mn>0</m:mn></m:msup></m:math>
+    </item>
+ <item id="uid58"> 
+   <m:math overflow="scroll">
+    <m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mi>y</m:mi><m:mi>z</m:mi><m:mo>)</m:mo></m:mrow><m:mn>0</m:mn></m:msup></m:math>
+    </item>
+ <item id="uid59"> 
+   <m:math overflow="scroll">
+    <m:msup><m:mrow><m:mo>[</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>7</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>12</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>9</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>4</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>]</m:mo></m:mrow><m:mn>0</m:mn></m:msup></m:math>
+    </item>
+ <item id="uid60"> 
+    <m:math overflow="scroll">
+     <m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:math>
+    </item>
+ <item id="uid61">
+    <m:math overflow="scroll">
+     <m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:math>
+    </item>
+ <item id="uid62">
+    <m:math overflow="scroll">
+     <m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:math>
+    </item>
+ <item id="uid63">
+    <m:math overflow="scroll">
+     <m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>)</m:mo>  </m:mrow><m:mn>4</m:mn></m:msup></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lOJ">Kliek hier vir die oplossing</link>
+    </item>
+    </list>
+    </item>
+<item id="uid40">Vereenvoudig sonder om 'n sakrekenaar te gebruik. Skryf antwoorde met positiewe eksponente.
+<list id="id68198" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid41"><m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mfrac></m:math></item><item id="uid42"><m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>0</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>8</m:mn><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mn>1</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></item><item id="uid43"><m:math overflow="scroll"><m:mfrac><m:msup><m:mn>5</m:mn><m:mrow><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:msup><m:mn>5</m:mn><m:mrow><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mfrac></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lOu">Kliek hier vir die oplossing</link>
+</item></list></item>
+        <item id="uid44">Vereenvoudig en wys alle stappe.
+<list id="id68378" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid45"><m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mn>6</m:mn><m:mi>a</m:mi></m:msup></m:mfrac></m:math></item><item id="uid46"><m:math overflow="scroll"><m:mfrac><m:msup><m:mi>a</m:mi><m:mrow><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>p</m:mi></m:mrow></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>p</m:mi></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:mrow></m:mfrac></m:math></item><item id="uid47"><m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup><m:mo>·</m:mo><m:msup><m:mn>9</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mn>27</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mfrac></m:math></item><item id="uid48"><m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:msup></m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mo>-</m:mo><m:mi>b</m:mi></m:mrow></m:msup></m:mfrac><m:mo>)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:math></item><item id="uid49"><m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mn>8</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mn>4</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:math></item><item id="uid50"><m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mn>6</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mn>11</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>22</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:mfrac></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lOS">Kliek hier vir die oplossing</link>
+</item></list></item>
+        <item id="uid51">Vereenvoudig sonder om 'n sakrekenaar te gebruik.
+<list id="id68759" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid52"><m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:msup></m:mfrac></m:math></item><item id="uid53"><m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math></item><item id="uid54"><m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mn>9</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mn>27</m:mn><m:mrow><m:mn>3</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:msup></m:mrow><m:msup><m:mn>81</m:mn><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>n</m:mi></m:mrow></m:msup></m:mfrac></m:math></item><item id="uid55"><m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>·</m:mo><m:msup><m:mn>8</m:mn><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mn>4</m:mn><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lOh">Kliek hier vir die oplossing</link>
+</item></list></item>
+      </list>
+    </section>
+  </content>
+</document>

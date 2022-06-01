@@ -1,0 +1,643 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Waarskynlikheid: deel 2</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39758</md:content-id>
+  <md:title>Waarskynlikheid: deel 2</md:title>
+  <md:abstract/>
+  <md:uuid>7cc7b614-690b-47b7-bb13-a0c01b204536</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid5"><title>Relatiewe Frekwensie  <emphasis effect="italics">vs.</emphasis> Waarskynlikheid</title><para id="id112458">Daar is twee maniere om die waarskynlikheid van enige gebeurtenis van 'n lukrake eksperiment te bepaal:</para>
+      <list id="id112462" display="block" list-type="enumerated"><item id="uid54">Bepaal die totale aantal moontlike uitkomstes en bereken die waarskynlikheid deur die definisie te gebruik of
+</item>
+        <item id="uid55">doen die eksperiment en bereken die relatiewe frekwensie van elke uitkomste.
+</item>
+      </list>
+      <para id="id112492"><emphasis effect="italics">Relatiewe Frekwensie</emphasis> word gedefiniëer as die aantal kere wat 'n gebeurtenis in 'n eksperiment plaasvind, gedeel deur die aantal kere wat die eksperiment gedoen is.</para>
+      <para id="id112501">Dit verg 'n baie groot aantal eksperimente voor die relatiewe frekwensie van gebeurtenis gelyk is aan die waarskynlikheid daarvan. Byvoorbeeld: die data in <link target-id="uid56"/> verteenwoordig die uitkomste van 100 proewe van 'n statistieke eksperiment (die gooi van 'n muntstuk 100 keer).</para>
+      <table id="uid56" summary="Uitslae van 100 gooie van 'n regverdige muntstuk. K beteken die muntstuk het met sy kop na bo geland en S beteken die muntstuk het met sy stert na bo geland.">
+<tgroup cols="10"><tbody>
+            <row>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+            </row>
+            <row>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+            </row>
+            <row>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+            </row>
+            <row>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+            </row>
+            <row>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+            </row>
+            <row>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+            </row>
+            <row>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+            </row>
+            <row>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+            </row>
+            <row>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+            </row>
+            <row>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>S</entry>
+              <entry>K</entry>
+              <entry>S</entry>
+            </row>
+          </tbody>
+
+</tgroup><caption>Uitslae van 100 gooie van 'n regverdige muntstuk. K beteken die muntstuk het met sy kop na bo geland en S beteken die muntstuk het met sy stert na bo geland.</caption>
+</table>
+      <para id="id113359">Die volgende twee voorbeelde wys dat die relatiewe frekwensie van 'n gebeurtenis nie noodwendig gelyk is aan die waarskynlikheid daarvan nie. Relatiewe frekwensie behoort dus eerder beskou te word as 'n benaderde waarskynlikheid.</para>
+<exercise id="secfhsst_id504"><title> Relatiewe Frekwensie en Waarskynlikheid </title>
+      <problem id="probfhsst_id505">
+      <para id="id113377">Bepaal die relatiewe frekwensie wat met elke uitkoms in die volgende data geassosiëer word <link target-id="uid56"/>. </para>
+      </problem>
+      <solution id="solfhsst_id508"> <list id="listfhsst_id508" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identifiseer die verskillende uitkomste </label>
+      <para id="id113407">Daar is twee unieke uitkomste: K en S.</para>
+      </item> <item> <label> Tel hoeveel keer elke uitkoms gebeur. </label>
+      <table id="id113415" summary="describe">
+<tgroup cols="2"><tbody>
+            <row>
+              <entry>Uitkoms</entry>
+              <entry>Frekwensie</entry>
+            </row>
+            <row>
+              <entry>K</entry>
+              <entry>44</entry>
+            </row>
+            <row>
+              <entry>S</entry>
+              <entry>56</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup>
+</table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Bepaal die totale aantal proewe. </label>
+      <para id="id113492">Die statistieke eksperiment van die muntstuk gooi was 100 keer uitgevoer. Daarom was daar 'n totaal van 100 proewe.</para>
+      </item> <item> <label> Bereken die relatiewe frekwensie van elke uitkoms  </label>
+      <equation id="id113501"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Waarskynlikheid van K</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi> frekwensie van uitkoms</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> aantal proewe</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>44</m:mn>
+                  <m:mn>100</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>44</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Relatiewe frekwensie van S</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi> frekwensie van uitkoms</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> aantal proewe</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>56</m:mn>
+                  <m:mn>100</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>56</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id113660">Die relatiewe frekwensie van die muntstuk gooie om kop te lewer is 0,44 en die relatiewe frekwensie om stert te lewer is 0,56. </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id649"><title> Waarskynlikheid </title>
+      <problem id="probfhsst_id650">
+      <para id="id113689">Bepaal die waarskynlikheid van 'n regverdige muntstuk om op enige kant te land. </para>
+      </problem>
+      <solution id="solfhsst_id653"> <list id="listfhsst_id653" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identifiseer die verskillende uitkomste </label>
+      <para id="id113713">Daar is twee unieke uitkomste: K en S.</para>
+      </item> <item> <label> Bepaal die totale aantal uitkomste. </label>
+      <para id="id113721">Daar is twee moontlike uitkomste.</para>
+      </item> <item> <label> Bereken die waarskynlikheid van elke uitkoms </label>
+      <equation id="id113728"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Relatiewe Frekwensie van K</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi> aantal gunstige uitkomste</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> totale aantal uitkomste</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Relatiewe Frekwensie van S</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi> aantal gunstige uitkomste</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> totale aantal uitkomste</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id113899">Die waarskynlikheid van 'n regverdige muntstuk om op enige kant te land is <m:math><m:mn>0,5</m:mn></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+    </section>
+    <section id="cid6">
+      <title>Projek Idee</title>
+      <para id="id113925">Voer 'n eksperiment uit wat wys dat die relatiewe frekwensie die waarskynlikheid van 'n gegewe uitkoms benader soos wat die aantal proewe toeneem. Doen 10, 20, 50, 100 en 200 proewe van die gooi van 'n muntstuk.</para>
+    </section>
+  
+<section id="secfhsst_id1154"><title>Interpretasie van Waarskynlikheidswaardes  - (nie in CAPS, maar ingesluit vir volledigheid)</title>
+      <para id="id115830">Die waarskynlikheid van 'n gebeurtenis word dikwels uitgedruk as 'n reële getal tussen 0 en 1, ingesluit. Waar 'n onmoontlike waarskynlikheid deur 0 en 'n versekerde waarskynlikheid deur 1 voorgestel word. Tog is 0 waarskynlikheid gebeure nie altyd onmoontlik nie, terwyl 1 waarskynlikheid gebeure nie altyd verseker is nie. Hierdie subtiele verskil tussen seker en waarskynlikheid 1 word verder bespreek in die gedeelte "amper seker".</para>
+      <para id="eip-550">Byvoorbeeld, ons kan sê dat die son altyd sal opkom ​​in die ooste. Dit is 'n sekere gebeurtenis, die son sal nie skielik ​​in die noorde opkom nie. Maar, as ons kyk na die geval van 'n swem kompetisie tussen Penny Heyns en jou wiskunde-onderwyser, dan is hierdie gebeurtenis is amper seker. Daar is' n baie klein kans dat jou onderwyser hierdie wedren sal wen.</para><para id="id115839">Die meeste waarskynlikhede wat plaasvind in die praktyk is getalle
+tussen 0 en 1, wat die gebeurtenis se posisie op die kontinuum tussen
+onmoontlik en sekerheid aandui. Hoe nader 'n gebeurtenis se waarskynlikheid is aan 1, hoe meer
+waarskynlik is dit on te gebeur.</para>
+      <para id="id115844">Byvoorbeeld, as ons aanvaar dat twee onderling uitsluitende gebeurtenisse
+ewe waarskynlik is om te gebeur, soos vir 'n regverdige muntstuk om op "kop" of "stert" te land, kan ons die waarskynlikheid van elke gebeurtenis uitdruk as "1 in 2", ewe, "50%" of "1 / 2".</para>
+      <para id="id115849">Waarskynlikhede kan ook uitgedruk word as kanse , wat die verhouding van die waarskynlikheid van een gebeurtenis tot die waarskynlikheid van alle ander gebeurtenisse is. In die geval van "kop" by "kop-of-stert" is dit (1/2)/(1 - 1/2), wat gelyk is aan 1/1. Dit word uitgedruk as "1 tot 1 kanse" en word dikwels geskryf as "1:1".</para>
+      <para id="id115855">Kans a:b vir 'n gebeurtenis is dus a/(a+b). Byvoorbeeld: kanse van 1:1 is gelyk aan waarskynlikheid van 1/2 en kanse van 3:2 is gelyk aan waarskynlikheid van 3/5. </para>
+    </section>
+    <section id="eip-512"><title>Opsomming</title><list id="eip-106"><item>Die term <emphasis effect="italics">ewekansige eksperiment</emphasis>,<emphasis effect="italics">lukrake eksperiment</emphasis> of <emphasis effect="italics">statistiese eksperiment</emphasis> word gebruik om enige herhaalbare proses te beskryf waarvan die resultate in een of ander manier ontleed is.</item><item>
+'n Uitkoms van 'n eksperiment is 'n enkele resultaat van die eksperiment.
+</item><item>
+Die steekproefruimte van 'n eksperiment is die volledige stel van die moontlike uitkomste van die eksperiment.</item><item>
+'n Gebeurtenis is enige stel van uitkomstes van 'n eksperiment.
+</item><item>
+'N Venn-diagram kan gebruik word om die verhouding tussen die moontlike uitkomste van' n ewekansige eksperiment en die steekproefruimte aan te toon. Venn-diagramme kan ook gebruik word om die vereniging en die snyding tussen die gebeurtenisse in die steekproefruimte aan te dui.
+
+</item><item>
+Wanneer al die uitkomstes ewe waarskynlik is, het hulle 'n gelyke kans om te gebeur. 
+
+<m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>E</m:mi><m:mo>)</m:mo><m:mo>/</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math> beskryf die waarskynlikheid dat 'n ewe waarskynlike uitkoms gebeur.</item><item>
+<emphasis effect="italics">Relatiewe Frekwensie</emphasis> word gedefinieer as die aantal kere wat 'n gebeurtenis plaasgevind het in 'n statistiese eksperiment gedeel deur die aantal kere wat die steekproef gedoen is.</item>
+<item>Die volgende resultate is van toepassing op waarskynlikhede, vir die steekproefruimte <m:math overflow="scroll"><m:mi>S</m:mi></m:math> twee gebeurtenisse <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, binne <m:math overflow="scroll"><m:mi>S</m:mi></m:math>.
+      <equation id="uid3457">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>S</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="uid5853">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>×</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="uid4559">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∪</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+
+</item>
+<item>
+Onderling uitsluitende gebeurtenisse is gebeurtenisse wat nie op dieselfde tyd waar kan wees nie.
+</item><item>
+<m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msup>
+                <m:mi>A</m:mi>
+                <m:mo>'</m:mo>
+              </m:msup>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>-</m:mo>
+            <m:mi>P</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>A</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math> is die waarskynilikheid dat A nie sal gebeur nie. Dit is ook bekend as 'n komplimentêre gebeurtenis van A.
+</item>
+</list><para id="eip-199">'n Paar van die belangrikste begrippe in hierdie hoofstuk word in die volgende tabel opgesom:</para><table id="eip-360" summary="summary of probabilities">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry>Term</entry>
+    <entry>Betekenis</entry>
+    <entry>Voorstelling</entry>
+    <entry>Venn diagram</entry>
+  </row>
+  <row>
+<entry>Vereniging</entry>
+    <entry>Alles in A en B</entry>
+    <entry><m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi></m:mrow></m:math></entry>
+    <entry><figure id="uid14547"><media id="uid14547_media" alt="">
+              <image mime-type="image/png" src="../../media/union.png" id="uid14547_onlineimage" width="131"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/union.eps" id="uid14547_printimage"/>
+            </media>
+          </figure></entry>
+  </row>
+  <row>
+    <entry>Snyding</entry>
+    <entry>Alles in A of B</entry>
+    <entry><m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:mrow></m:math></entry>
+    <entry><figure id="uid14587"><media id="uid14587_media" alt="">
+              <image mime-type="image/png" src="../../media/intersect.png" id="uid14587_onlineimage" width="131"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/intersect.eps" id="uid14587_printimage"/>
+            </media>
+          </figure></entry>
+  </row>
+  <row>
+    <entry>Komplement</entry>
+    <entry>Alles wat nie in A is nie</entry>
+    <entry><m:math><m:msub><m:mi>A</m:mi><m:mi>c</m:mi></m:msub></m:math></entry>
+    <entry> <figure id="uid14567"><media id="uid14567_media" alt="">
+              <image mime-type="image/png" src="../../media/complement.png" id="uid14567_onlineimage" width="131"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/complement.eps" id="uid14567_printimage"/>
+            </media>
+          </figure></entry>
+  </row>
+  <row>
+    <entry>Slegs een</entry>
+    <entry>Alles wat slegs in A is</entry>
+    <entry><m:math><m:mi>A</m:mi><m:mo>-</m:mo><m:mi>B</m:mi></m:math></entry>
+    <entry><figure id="uid14767"><media id="uid14767_media" alt="">
+              <image mime-type="image/png" src="../../media/a-b.png" id="uid14767_onlineimage" width="131"><!-- NOTE: attribute width changes image size
+online (pixels). original width is 331. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/a-b.eps" id="uid14767_printimage"/>
+            </media>
+          </figure></entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table></section><section id="cid10">
+      <title>Finale Oefeninge</title>
+      <list id="id115876" display="block" list-type="enumerated"><item id="uid104">'n Groep van 45 kinders was gevra of hulle Frosties en/of Strawberry Pops eet. 31 eet beide en 6 eet slegs Frosties. Wat is die waarskynlikheid dat 'n kind wat willekeurig gekies word slegs Strawberry Pops eet?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lqh">Kliek hier vir die oplossing.</link>
+</item>
+        <item id="uid105">In 'n groep van 42 leerders,het almal behalwe 3 'n pakkie skyfies of 'n Fanta of beide. Indien 23 'n pakkie skyfies het en 7 van hulle ook 'n Fanta het, wat is die waarskynlikheid dat 'n leerder wat willekeurig gekies word:
+<list id="id115906" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid106">Beide skyfies en Fanta het?
+</item><item id="uid107">Slegs Fanta het?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llq">Kliek hier vir die oplossing.</link></item>
+        <item id="uid108">Gebruik 'n Venn-diagram om die volgende waarskynlikhede van 'n gerolde dobbelsteen te bepaal:
+<list id="id115948" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid109">'n veelvoud van 5 en 'n onewe getal
+</item><item id="uid110">'n getal wat nie 'n veelvoud van 5 of 'n onewe getal is nie
+</item><item id="uid111">'n getal wat nie 'n veelvoud van 5 is nie, maar wel onewe is.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lll">Kliek hier vir die oplossing.</link></item>
+        <item id="uid112">'n Pakkie bevat geel en pienk lekkers. Die waarskynlikheid om 'n pienk lekker te vat is 7/12.
+<list id="id116002" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid113">Wat is die waarskynlikheid om 'n geel lekker te vat?
+</item><item id="uid114">Indien 44 van die lekkers geel is, hoeveel lekkers is pienk?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lli">Kliek hier vir die oplossing.</link></item>
+        <item id="uid115">In 'n parkeerarea is 300 motors, waarvan 190 Opels is. Wat is die waarskynlikheid dat die eerste kar wat die parkeerarea verlaat:
+<list id="id116044" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid116">'n Opel is?
+</item><item id="uid117">nie 'n Opel is nie?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/ll3">Kliek hier vir die oplossing.</link></item>
+        <item id="uid118">Tamara het 18 los sokkies in haar laai. Agt van hulle is oranje en twee is pienk. Bereken die waarskynlikheid dat die eerste sokkie wat sy uithaal:
+<list id="id116086" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid119">Oranje is
+</item><item id="uid120">nie oranje is nie
+</item><item id="uid121">pienk is
+</item><item id="uid122">nie pienk is nie
+</item><item id="uid123">oranje of pienk is
+</item><item id="uid124">nog minder oranje of pienk is
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llO">Kliek hier vir die oplossing.</link></item>
+        <item id="uid125">Daar is 9 botterkoekies, 4 gemmerkoekies, 11 soetkoekies en 18 Jambo's op 'n bord. Wat is die waarskynlikheid dat 'n koekie wat willekeurig gekies word:
+<list id="id116177" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid126">of 'n gemmerkoekie of 'n Jambo is?
+</item><item id="uid127">nie 'n botterkoekie is nie?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llc">Kliek hier vir die oplossing.</link></item>
+        <item id="uid128">280 kaartjies word tydens 'n lotery verkoop. Ingrid het 15 gekoop. Wat is die waarskynlikheid dat:
+<list id="id116219" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid129">Sy die prys wen?
+</item><item id="uid130"> Sy nie die prys wen nie?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llx">Kliek hier vir die oplossing.</link></item>
+        <item id="uid131">Die kinders in 'n kleuterskool word volgens haar- en oogkleur ingedeel. 44 het rooi hare, maar nie bruin oë nie, 14 het bruin oë en rooi hare, 5 het bruin oë, maar nie rooi hare nie en 40 het nie bruin oë of rooi hare nie.
+<list id="id116261" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid132">Hoeveel kinders is in die skool?
+</item><item id="uid133">Wat is die waarskynlikheid dat 'n kind wat willekeurig gekies word:
+<list id="id116289" display="block" list-type="enumerated"><item id="uid134">Bruin oë het?
+</item><item id="uid135">Rooi hare het?
+</item></list></item><item id="uid136">'n Kind met bruin oë word willekeurig gekies. Wat is die waarskynlikheid dat hierdie kind rooi hare het?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lla">Kliek hier vir die oplossing.</link></item>
+        <item id="uid137">'n Fles bevat pers, blou en swart lekkers. Die waarskynlikheid dat 'n lekker, wat willekeurig gekies word, pers is, is 1/7 en die waarskynlikheid dat dit swart is, is 3/5.
+<list id="id116346" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid138">Indien 'n lekker willekeurig gekies word, wat is die waarskynlikheid dat dit:
+<list id="id116362" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid139">pers of blou is?
+</item><item id="uid140">Swart is?
+</item><item id="uid141">Pers is?
+</item></list></item><item id="uid142">Indien daar 70 lekkers in die fles is, hoeveel perses is daar?
+</item><item id="uid143">'n 1/4 van die pers lekkers in b) het strepe op en die res het nie. Hoeveel pers lekkers het strepe?
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llC">Kliek hier vir die oplossing.</link></item>
+        <item id="uid144">Vir elk van die volgende, teken 'n Venn-diagram om die situasie voor te stel en dink aan 'n praktiese voorbeeld van die situasie.
+<list id="id116443" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid145">'n Steekproefruimte waarin daar 2 gebeure is wat nie onderling uitsluitend is nie.
+</item><item id="uid146">'n Steekproefruimte waarin daar 2 gebeure is wat komplementer is.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/ll1">Kliek hier vir die oplossing.</link></item>
+        <item id="uid147">Gebruik 'n Venn-diagram om te bewys dat die waarskynlikheid dat gebeurtenis A of B plaasvind, gegee word deur: 
+P(A of B) = P(A) + P(B) - P(A en B)<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/llr">Kliek hier vir die oplossing.</link>
+</item>
+        <item id="uid148">Al die klawers word uit 'n pak kaarte gehaal. Die oorblywende kaarte word geskommel en een kaart word gekies. Nadat die kaart gekies is, word dit teruggeplaas voor die volgende kaart gekies word.
+<list id="id116505" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid149">Wat is die steekproefruimte?
+</item><item id="uid150">Vind 'n manier om gebeurtenis P, wat die trek van 'n Prentjie kaart behels, voorstel.
+</item><item id="uid151">Vind 'n manier om gebeurtenis N, wat die trek van 'n Nommer kaart behels, voorstel. 
+</item><item id="uid152">Stel die gebeure op 'n Venn-diagram voor.
+</item><item id="uid153">Watter beskrywing van die versamelings P en N is gepas? (Wenk: Vind enige elemente van P in N en N in P.)
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llY">Kliek hier vir die oplossing.</link></item>
+        <item id="uid154">Thuli het 'n sak wat vyf oranje, drie pers en sewe pienk blokkies bevat. Die sak word geskud en 'n blokkie word getrek. Die blokkie se kleur word aangeteken en die blokkie word teruggesit.
+<list id="id116586" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid155">Wat is die steekproefruimte vir hierdie eksperiment?
+</item><item id="uid156">Watter stelsel beskryf die gebeurtenis om 'n pienk blokkie P te trek?
+</item><item id="uid157">Skryf 'n stelsel, O of B, wat die gebeurtenis om 'n oranje of 'n pers blok te trek, voorstel.
+</item><item id="uid158">Teken 'n Venn-diagram om die inligting voor te stel.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/llq">Kliek hier vir die oplossing.</link></item>
+      </list>
+    </section>
+  </content>
+</document>

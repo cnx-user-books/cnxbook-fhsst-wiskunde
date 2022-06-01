@@ -1,0 +1,102 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Letterlike vergelykings</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39748</md:content-id>
+  <md:title>Letterlike vergelykings</md:title>
+  <md:abstract/>
+  <md:uuid>b562c01f-ddc5-483f-a918-2c1da996c7ba</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-798"><title>Vergelykings met Letterkoëffisiënte (Lettervergelykings)</title><para id="eip-224">'n Vergelyking met letterkoëffisiënte is een wat verskeie letters of veranderlikes bevat. Voorbeelde sluit die area van 'n sirkel (<m:math><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:math>) in en die formule vir die berekening van spoed (<m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mi>t</m:mi></m:mfrac></m:math>). In hierdie afdeling sal jy leer hoe om vergelykings met letterkoëffisiënte op te los in terme van een van die veranderlikes. Om dit te doen, sal jy die beginsels oor die oplos van vergelykings wat jy geleer het, gebruik en toepas om die woordvergelykings te herrangskik. Die oplos van vergelykings met letterkoëffisiënte staan ook bekend as verandering van die onderwerp van 'n formule. 
+</para>
+<para id="id9732423">Wanneer jy lettervergelykings oplos, behoort jy die volgende in gedagte tehou: <list id="id987324">
+<item>Ons isoleer die onbekende deur te vra wat daaraan verbind is en hoe dit daaraan verbind is en dan doen ons die teenoorgestelde bewerking (aan beide kante as 'n geheel).
+</item>
+<item>As die onbekende veranderlike in twee of meer terme voorkom, haal ons dit uit as 'n gemeenskaplike faktor. 
+</item>
+<item>As ons weerskante die vierkantswortel moet neem, onthou dat daar 'n positiewe sowel as 'n negatiewe antwoord mag wees.
+</item>
+<item>As die onbekende veranderlike in die noemer is, dan vind ons die kleinste gemene noemer (KGN), vermenigvuldig weerskante met die KGN en gaan dan voort om die probleem op te los.
+</item>
+</list>
+</para>
+<exercise id="eip-979"><title>Oplos van lettervergelykings - 1</title><problem id="probfhsst_id64377">
+        <para id="id162453587">Die area van 'n driehoek is <m:math><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi></m:math>. Wat is die hoogte van die driehoek in terme van die basis en area?</para>
+        </problem>
+        <solution id="solfhsst_id66480"> <list id="listfhsst_id63453480" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Herskryf die vergelyking</label>Ons herrangskik die vergelyking sodat die hoogte aan die een kant van die gelykaanteken is en die res van die veranderlikes aan die ander kant van die gelykaanteken.    <equation id="uid5665411"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac>
+<m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                 <m:mtd columnalign="right">
+                  <m:mn>2</m:mn><m:mi>A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+<m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi>
+                    </m:mtd><m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> vermenigvuldig weerskante met 2</m:mi>
+                      <m:mo>)</m:mo></m:mrow>
+                </m:mtd>
+              </m:mtr>
+               <m:mtr>
+                 <m:mtd columnalign="right">
+                  <m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>A</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+<m:mi>h</m:mi>
+                    </m:mtd><m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> deel weerskante met b</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer</label>
+        <para id="id1625465489">Die hoogte van 'n driehoek word gegee deur: <m:math><m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>A</m:mi></m:mrow><m:mi>b</m:mi></m:mfrac></m:math>
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="id978342"> 
+<title>Oplos van Lettervergelykings</title>
+<list id="id9734" list-type="enumerated"><item>Los op vir t:
+<m:math><m:mi>v</m:mi><m:mo>=</m:mo><m:mi>u</m:mi><m:mo>+</m:mo><m:mi>at</m:mi>
+</m:math><newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lgw">Kliek hier vir die oplossing</link>
+</item>
+<item>Los op vir x:
+<m:math><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>
+</m:math><newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lgw">Kliek hier vir die oplossing</link>
+</item>
+<item> Los op vir x:
+<m:math><m:mfrac><m:mn>1</m:mn><m:mi>b</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:math>
+<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lgw">Kliek hier vir die oplossing</link>
+</item>
+</list>
+</section>
+</section>
+
+  </content>
+</document>

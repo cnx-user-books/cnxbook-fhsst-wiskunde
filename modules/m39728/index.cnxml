@@ -1,0 +1,827 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Die trig funksies en 2D probleme</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39728</md:content-id>
+  <md:title>Die trig funksies en 2D probleme</md:title>
+  <md:abstract/>
+  <md:uuid>91ad9503-9d37-4fbe-bf7e-57f5a1df8ac2</md:uuid>
+</metadata>
+
+<content>
+            <section id="cid5">
+              <title>Definisies van die Trigonometriese Funksies</title>
+              <para id="id79356">Ons is bekend met funksies in die vorm <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi> x</m:mi><m:mo>)</m:mo></m:mrow></m:math>, waar <m:math overflow="scroll"><m:mi>f</m:mi></m:math> die funksie en <m:math overflow="scroll"><m:mi>x</m:mi></m:math> die veranderlike is. Byvoorbeeld:</para>
+              <equation id="id79391"><m:math overflow="scroll" mode="display">
+                  <m:mtable displaystyle="true">
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mrow>
+                          <m:mi>f</m:mi>
+                          <m:mo>(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mtd>
+                      <m:mtd>
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mrow>
+                          <m:msup>
+                            <m:mn>2</m:mn>
+                            <m:mi>x</m:mi>
+                          </m:msup>
+                          <m:mspace width="2.em"/>
+                          <m:mspace width="4pt"/>
+                          <m:mspace width="4pt"/>
+                          <m:mspace width="4pt"/>
+                          <m:mspace width="4pt"/>
+                          <m:mtext>(eksponensiële</m:mtext>
+                          <m:mspace width="4.pt"/>
+                          <m:mtext>funksie)</m:mtext>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mrow>
+                          <m:mi>g</m:mi>
+                          <m:mo>(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mtd>
+                      <m:mtd>
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mrow>
+                          <m:mo>+</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mspace width="2.em"/>
+                          <m:mspace width="4pt"/>
+                          <m:mspace width="4pt"/>
+<m:mspace width="4pt"/>
+                          <m:mtext>(lineêre</m:mtext>
+                          <m:mspace width="4.pt"/>
+                          <m:mtext>funksie)</m:mtext>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mrow>
+                          <m:mi>h</m:mi>
+                          <m:mo>(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mtd>
+                      <m:mtd>
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mspace width="2.em"/>
+                          <m:mspace width="4pt"/>
+                          <m:mspace width="4pt"/>
+                          <m:mtext>(paraboliese</m:mtext>
+                          <m:mspace width="4.pt"/>
+                          <m:mtext>funksie)</m:mtext>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:math>
+              </equation>
+              <para id="id79540">Die basis van trigonometrie is die  <emphasis effect="italics">trigonometriese funksies</emphasis>. Daar is drie basiese trigonometriese funksies:</para>
+              <list id="id79552" display="block" list-type="enumerated">
+                <item id="uid15">sinus
+        </item>
+                <item id="uid16">cosinus
+        </item>
+                <item id="uid17">tangens
+        </item>
+              </list>
+              <para id="id79593">Dit word afgekort na:</para>
+              <list id="id79596" display="block" list-type="enumerated">
+                <item id="uid18">sin
+        </item>
+                <item id="uid19">cos
+        </item>
+                <item id="uid20">tan
+        </item>
+              </list>
+              <para id="id79636">Hierdie funksies word gedefinieer vanaf 'n <emphasis effect="bold">reghoekige driehoek</emphasis>, 'n driehoek waar een interne hoek 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> is.</para>
+              <para id="id79660">Beskou 'n reghoekige driehoek.</para>
+              <para id="id79664">
+                <figure id="id79667">
+                  <media id="id79667_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_003.png" id="id79667_onlineimage" width="123"><!-- NOTE: attribute width changes image size online (pixels). original width is 123. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_003.eps" id="id79667_printimage"/>
+                  </media>
+                </figure>
+              </para>
+              <para id="id79673">In die reghoekige driehoek verwys ons na die lengtes van die drie sye volgens hulle geplasing in verhouding tot die hoek <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>. Die teenoorstaande sy vanaf die regte hoek word die <emphasis effect="italics">skuinssy</emphasis> genoem, die sy aan die oorkant van <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> word die <emphasis effect="italics">teenoorstande</emphasis> sy genoem, en die sy langs <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> word die <emphasis effect="italics">aangrensende</emphasis> sy genoem. Let daarop dat die keuse van 'n nie-90-graad binnehoek arbitrêr is.  Jy kan enige binnehoek kies en dan die aangrensende en teenoorgestelde sye dienooreenkomstig definieer.  Die skuinssy bly egter dieselfde ongeag na watter interne hoek jy verwys.</para>
+              <para id="id79725">Ons definieer die trigonometriese funksies as volg:
+        </para>
+              <equation id="uid21"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>teenoorstaande</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>skuinssy</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>aangrensend</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>skuinssy</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">tan</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>teenoorstaande</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>aangrensend</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+              <para id="id79934">Hierdie funksies gee die verwantskap tussuen die sylengtes en die binnehoeke van 'n reghoekige driehoek.</para>
+              <note id="eip-628">Die trigonometriese verhoudings is onafhanklik van die lengte van die driehoek se sye en is slegs afhanklik van die hoeke. Dit is waarom ons die verhoudings as funksies van die hoeke kan beskou.</note><para id="id79941">Een manier om die definisies te memoriseer is om die volgende Engelse geheuehulpmiddel te gebruik wat dit miskien makliker maak om te onthou:</para>
+              <para id="id79945">
+                <table id="id79953" summary="">
+                  <tgroup cols="2">
+                    <tbody>
+                      <row>
+                        <entry><emphasis effect="bold">S</emphasis>illy <emphasis effect="bold">O</emphasis>ld <emphasis effect="bold">H</emphasis>ens</entry>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi mathvariant="bold">S</m:mi>
+                              <m:mi> in </m:mi>
+                              <m:mo>=</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi mathvariant="bold">O</m:mi>
+                                  <m:mi> pposite </m:mi>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi mathvariant="bold">H</m:mi>
+                                  <m:mi> ypotenuse </m:mi>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry><emphasis effect="bold">C</emphasis>ackle <emphasis effect="bold">A</emphasis>nd <emphasis effect="bold">H</emphasis>owl</entry>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi mathvariant="bold">C</m:mi>
+                              <m:mi> os </m:mi>
+                              <m:mo>=</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi mathvariant="bold">A</m:mi>
+                                  <m:mi> djacent </m:mi>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi mathvariant="bold">H</m:mi>
+                                  <m:mi> ypotenuse </m:mi>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry><emphasis effect="bold">T</emphasis>ill <emphasis effect="bold">O</emphasis>ld <emphasis effect="bold">A</emphasis>ge</entry>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi mathvariant="bold">T</m:mi>
+                              <m:mi> an </m:mi>
+                              <m:mo>=</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi mathvariant="bold">O</m:mi>
+                                  <m:mi> pposite </m:mi>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi mathvariant="bold">A</m:mi>
+                                  <m:mi> djacent </m:mi>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </para>
+        <para id="eip-186">Jy mag ook hoor mense sê Soh Cah Toa.  Dit is net 'n ander manier om die trigonometriese funksies te onthou.</para><note id="notfhsst_id934" type="tip">Die definisies van teenoorstaande, aangrensende en skuinssye is slegs van toepassing wanneer jy besig is met 'n reghoekige driehoeke! Maak altyd seker jou driehoek het 'n regte hoek voordat jy dit gebruik, anders sal jy die verkeerde antwoord kry. Ons sal in Graad 11 maniere vind om met ons kennis van reghoekige driehoeke die trigonometrie van nie-reghoekige driehoeke te hanteer.</note>
+        <section id="secfhsst_id935"><title>Ondersoek: Definisies van Trigonometriese Funksies </title>
+              <list id="id80155" display="block" list-type="enumerated"><item id="uid22">In elk van die volgende driehoeke, sê watter van <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> en <m:math overflow="scroll"><m:mi>c</m:mi></m:math> die skuinssy, die teenoorstaande sy en die aangrensende sy van die driehoek is met betrekking tot die gemerkte hoek.
+        <figure id="id80200"><media id="id80200_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_004.png" id="id80200_onlineimage" width="418"><!-- NOTE: attribute width changes image size online (pixels). original width is 418. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_004.eps" id="id80200_printimage"/></media></figure></item>
+                <item id="uid23">Voltooi elk van die volgende. Die eerste een is vir jou gedoen:
+        <figure id="id80226"><media id="id80226_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_005.png" id="id80226_onlineimage" width="119"><!-- NOTE: attribute width changes image size online (pixels). original width is 119. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_005.eps" id="id80226_printimage"/></media></figure><equation id="id80237"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo>)</m:mo><m:mspace width="1.em"/><m:mo form="prefix">sin</m:mo></m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mfrac><m:mi> teenoorstaande sy </m:mi><m:mi> skuinssy </m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mrow><m:mi>b</m:mi><m:mo>)</m:mo><m:mspace width="1.em"/><m:mo form="prefix">cos</m:mo></m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mrow><m:mi>c</m:mi><m:mo>)</m:mo><m:mspace width="1.em"/><m:mo form="prefix">tan</m:mo></m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><!--empty paragraphs get left behind.--><equation id="id80376"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd/><m:mtd><m:mrow><m:mi>d</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="1.em"/><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mrow><m:mi>e</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="1.em"/><m:mo form="prefix">cos</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mrow><m:mi>f</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow><m:mspace width="1.em"/><m:mo form="prefix">tan</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><!--empty paragraphs get left behind.--></item>
+                <item id="uid24">Voltooi elk van die volgende sonder 'n sakrekenaar:
+        <figure id="id80508"><media id="id80508_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_006.png" id="id80508_onlineimage" width="123"><!-- NOTE: attribute width changes image size online (pixels). original width is 123. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_006.eps" id="id80508_printimage"/></media></figure><equation id="id80519"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">sin</m:mo><m:mn>60</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">cos</m:mo><m:mn>30</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">tan</m:mo><m:mn>60</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><!--empty paragraphs get left behind.--><figure id="id80587"><media id="id80587_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_007.png" id="id80587_onlineimage" width="116"><!-- NOTE: attribute width changes image size online (pixels). original width is 116. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_007.eps" id="id80587_printimage"/></media></figure><equation id="id80598"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">sin</m:mo><m:mn>45</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">cos</m:mo><m:mn>45</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd/></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mo form="prefix">tan</m:mo><m:mn>45</m:mn></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd></m:mtr></m:mtable></m:math></equation><!--empty paragraphs get left behind.--></item>
+              </list>
+              
+        </section>
+              <para id="id80673">Vir die meeste hoeke  <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> is dit baie moeilik om die waardes van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> te bereken. 'n Mens moet gewoonlik 'n sakrekenaar gebruik om dit te doen. Ons het egter in die bogenoemde aktiwiteit gesien ons kan hierdie waardes vir 'n paar spesiale hoeke uitwerk.  Sommige van hierdie hoeke is gelys in die tabel hieronder, saam met die waardes van die trigonometriese funksies van hierdie hoeke. Onthou dat die lengtes van die sye van 'n reghoekige driehoek Pythagoras se stelling moet gehoorsaam. Die vierkant van die skuinssy (oorkant die 90 grade hoek) is gelyk aan die som van die vierkante van die ander twee sye.</para>
+              <table id="id80733" summary="table">
+<tgroup cols="7"><tbody>
+            <row>
+              <entry/>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>0</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>30</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>45</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>60</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>90</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>180</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:msqrt>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:msqrt>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mo>-</m:mo>
+                </m:math>
+              </entry>
+              <entry>0</entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+              <!--empty paragraphs get left behind.-->
+              <para id="id81112">Hierdie waardes is nuttig om  'n probleem waar trigonometriese funksies betrokke is op te los <emphasis effect="italics">sonder</emphasis> om 'n sakrekenaar te gebruik.</para>
+        <exercise id="secfhsst_id1130"><title>Die berekening van lengtes</title><problem id="probfhsst_id1131">
+              <para id="id81134">Kry die lengte van x in die volgende driehoek.</para>
+              <para id="id81140">
+                <figure id="id81141">
+                  <media id="id81141_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_008.png" id="id81141_onlineimage" width="100"><!-- NOTE: attribute width changes image size online (pixels). original width is 100. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_008.eps" id="id81141_printimage"/>
+                  </media>
+                </figure>
+              </para>
+              
+              </problem>
+              <solution id="solfhsst_id1143"> <list id="listfhsst_id1143" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Stel vas watter trigonometriese funksie jy benodig</label>
+              <para id="id81169">In hierdie geval werk ons met 'n hoek van <m:math overflow="scroll"><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup></m:math>, die teenoorstaande sy en die skuinssy.</para>
+              <para id="id81188">Dus moet jy<m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math>gebruik.</para>
+              <equation id="id81204"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo form="prefix">sin</m:mo>
+            <m:msup>
+              <m:mn>50</m:mn>
+              <m:mo>∘</m:mo>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mi>x</m:mi>
+              <m:mn>100</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+              </item> <item> <label> Herrangskik die vergelyking om <m:math overflow="scroll"><m:mi>x</m:mi></m:math> op te los </label>
+              <equation id="id81247"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>⇒</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>100</m:mn>
+            <m:mo>×</m:mo>
+            <m:mo form="prefix">sin</m:mo>
+            <m:msup>
+              <m:mn>50</m:mn>
+              <m:mo>∘</m:mo>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+              </item> <item> <label> Gebruik jou sakrekenaar om die antwoord te kry </label>
+              <para id="id81284">Gebruik die sin-knoppie op jou sakrekenaar.</para>
+              <equation id="id81293"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>⇒</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>76</m:mn>
+            <m:mo>.</m:mo>
+            <m:mn>6</m:mn>
+            <m:mi mathvariant="normal">m</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+              
+              </item> </list> </solution>
+        </exercise>
+        <exercise id="secfhsst_id1199"><title>Die berekening van hoeke </title><problem id="probfhsst_id1200">
+              <para id="id81349">Vind die waarde van <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> in die volgende driehoek.</para>
+              <para id="id81364"><figure id="id81368"><media id="id81368_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_009.png" id="id81368_onlineimage" width="112"><!-- NOTE: attribute width changes image size online (pixels). original width is 112. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_009.eps" id="id81368_printimage" print-width="1"><!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)--></image></media></figure>
+        
+         </para>
+              </problem>
+              <solution id="solfhsst_id1206"> <list id="listfhsst_id1206" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Stel vas watter trigonometriese funksie jy benodig </label>
+              <para id="id81396">In hierdie geval het jy die teenoorstaande sy en die skuinssy ten opsigte van die hoek <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>.</para>
+              <para id="id81410">Dus moet jy<m:math overflow="scroll"><m:mo form="prefix">tan</m:mo></m:math>gebruik.</para>
+              <equation id="id81425"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo form="prefix">tan</m:mo>
+            <m:mi>θ</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>50</m:mn>
+              <m:mn>100</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+              </item> <item> <label> Bereken die breuk as 'n desimale getal </label>
+              <equation id="id81454"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo form="prefix">tan</m:mo>
+            <m:mi>θ</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+            <m:mo>.</m:mo>
+            <m:mn>5</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+              </item> <item> <label> Gebruik jou sakrekenaar om die hoek te kry </label>
+              <para id="id81485">Omdat jy die <emphasis effect="italics">hoek</emphasis> wil kry,</para>
+              <para id="id81494">gebruik <m:math overflow="scroll"><m:msup><m:mo form="prefix">tan</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>
+         op jou sakrekenaar.</para>
+              <para id="id81524">Moenie vergeet om jou sakrekenaar na 'degree' modus te stel nie!</para>
+              <equation id="id81529"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>θ</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>26</m:mn>
+            <m:mo>.</m:mo>
+            <m:msup>
+              <m:mn>6</m:mn>
+              <m:mo>∘</m:mo>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+              
+              </item> </list> </solution>
+        </exercise>
+        <section id="eip-266"><para id="eip-237">In die vorige voorbeeld het ons <m:math><m:msup><m:mi>tan</m:mi><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math> gebruik. Dit is eenvoudig die inverse van die tan-funksie. Sin en cos het ook inverses. Al wat dit beteken, is dat ons die hoek wil vind wat die uitdrukking waar maak. </para></section><para id="eip-358">Die volgende video gee 'n opsomming van wat jy tot dusver geleer het.
+        <figure id="trigonometry-1" class="khanacademy"><title>Khan Akademie video oor trigonometrie - 1</title><media id="yt-media" display="block" alt="Khan academy video on trigonometry - 1">
+          <flash id="yt-video" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/F21S9Wpi0y8&amp;rel=0" width="425" height="344">
+           <param name="allowscriptaccess" value="always"/>
+           <param name="allowsfullscreen" value="true"/>
+          </flash>
+         </media>
+        </figure></para><para id="eip-33"><figure id="trigonometry-2" class="khanacademy"><title>Khan Akademie video oor trigonometrie - 2</title><media id="yt-media2" display="block" alt="video on trigonometrie 2">
+                  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/QS4r_mqs-rY&amp;rel=0" width="425" height="344">
+                  <param name="allowscriptaccess" value="always"/>
+                  <param name="allowsfullscreen" value="true"/>
+                  </flash>
+                  </media>
+                  </figure></para><section id="secfhsst_id1260"><title>Hoe om Sylengtes te kry</title>
+              <para id="id81582">Kry die lengtes van die sye wat met letters gemerk is. Gee die antwoorde korrek tot 2 desimale plekke.</para>
+              <para id="id81589"><figure id="id81592">
+                  <media id="id81592_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_010.png" id="id81592_onlineimage" width="313"><!-- NOTE: attribute width changes image size online (pixels). original width is 313. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_010.eps" id="id81592_printimage"/>
+                  </media>
+                </figure>
+              <figure id="id816001">
+                  <media id="id816001_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_011.png" id="id816001_onlineimage" width="319"><!-- NOTE: attribute width changes image size online (pixels). original width is 319. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_011.eps" id="id816001_printimage"/>
+                  </media>
+                </figure></para>
+              <para id="eip-142"><link window="new" class="fullmarks" url="http://www.fhsst.org/lc1">Kliek hier vir die oplossing.</link></para>
+              
+        </section>
+            </section>
+            <section id="eip-282"><title>Twee-dimensionele Probleme</title><para id="eip-214">Ons kan die trigonometriese funksies gebruik om probleme in twee dimensies wat reghoekige driehoeke bevat, op te los. As jy byvoorbeeld een van die hoeke van 'n vierhoek wil kry, kan jy 'n reghoekige driehoek konstrueer en die trigonometriese funksies gebruik om die hoek te bereken. Dit sal duideliker word namate jy deur die voorbeelde werk.
+
+</para><exercise id="eip-187"><problem id="eip-532">
+  <para id="eip-716">ABCD is 'n trapesium met <m:math><m:mi>AB</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="1pt"/><m:mi>cm</m:mi></m:math>, <m:math><m:mi>CD</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="1pt"/><m:mi>cm</m:mi></m:math>, <m:math><m:mi>BC</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="1pt"/><m:mi>cm</m:mi></m:math> en <m:math><m:mi>AD</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="1pt"/><m:mi>cm</m:mi></m:math>. Punt E op die diagonaal AC verdeel die diagonaal sodat <m:math><m:mi>AE</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="1pt"/><m:mi>cm</m:mi></m:math>. Kry <m:math><m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>C</m:mi></m:math>.
+  </para>
+</problem>
+
+<solution id="eip-325">
+<list id="listfhsst_id1932" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Maak 'n skets</label>
+Ons maak 'n skets en konstrueer reghoekige driehoeke om ons te help om die probleem visueel voor te stel.
+<figure id="fid9827"><media id="id81601_media" alt="">
+            <image mime-type="image/png" src="../../media/q1trig.png" id="id81601_onlineimage" width="219"><!-- NOTE: attribute width changes image size online (pixels). original width is 319. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/q1trig.eps" id="id81601_printimage"/>
+          </media></figure></item>
+<item><label>Bepaal hoe om die probleem op te los</label>Ons sal driehoeke ABE en BEC gebruik om die twee hoeke te bereken wat ons dan kan optel om die gevraagde hoek te kry.</item>
+<item><label>Bepaal watter trigonometriese funksies om te gebruik</label>Ons gebruik sin vir beide driehoeke aangesien ons die skuinssye en die teenoorstaande sye het.</item>
+<item><label>Los die probleem op</label>In driehoek ABE kry ons:
+<equation id="eid824"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                      <m:mi>opp</m:mi>
+                      <m:mi>hyp</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow>
+</m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd><m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup>
+<m:mo form="prefix">sin</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup>
+                    <m:mo>(</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd><m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup><m:mrow><m:mn>48</m:mn><m:mo>,</m:mo><m:mn>59</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+</equation>
+Ons gebruik die Stelling van Pythagoras en kry <m:math><m:mi>EC</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mspace width="1pt"/><m:mi>cm</m:mi></m:math>.
+In driehoek BEC kry ons:
+<equation id="eid82344"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                      <m:mi>opp</m:mi>
+                      <m:mi>hyp</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>4</m:mi></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow>
+</m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd><m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup>
+<m:mo form="prefix">sin</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup>
+                    <m:mo>(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>4</m:mi></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow>
+</m:mfrac><m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd><m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup><m:mrow><m:mn>61</m:mn><m:mo>,</m:mo><m:mn>64</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+</equation></item>
+<item><label>Skryf die finale antwoord neer</label>Ons tel die twee hoeke saam en kry <m:math><m:mrow><m:msup><m:mrow><m:mn>48</m:mn><m:mo>,</m:mo><m:mn>59</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow><m:mo>+</m:mo><m:mrow><m:msup><m:mrow><m:mn>61</m:mn><m:mo>,</m:mo><m:mn>64</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow><m:mo>=</m:mo><m:mrow><m:msup><m:mrow><m:mn>110</m:mn><m:mo>,</m:mo><m:mn>23</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+</list>
+</solution>
+</exercise></section>
+
+          </content>
+</document>

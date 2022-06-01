@@ -1,0 +1,258 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Ander funksies</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39669</md:content-id>
+  <md:title>Ander funksies</md:title>
+  <md:abstract/>
+  <md:uuid>8f1de64e-426a-47b0-88d6-5c0b3ef1ed19</md:uuid>
+</metadata>
+
+<content>
+<section id="secfhsst356"><title>Gemiddelde Gradiënt van ander Funksies</title>
+<para id="id7342">Ons kan die konsep van die gemiddelde gradiënt uitbrei na enige funksie. Die gemiddelde gradiënt van enige nie-reglynige funksie hang af van die gekose interval want dit is die gradiënt van die reguitlyn wat deur die twee gekose punte gaan; dit is nie konstant nie. Ons kan dus die formule gebruik wat ons gebruik het vir die gemiddelde gradiënt van paraboliese funksies en dit toepas op enige ander funksie. Ons sal die gemiddelde gradiënt van twee funksies hier ondersoek: die eksponensiële funksie en die hiperboliese funksie. 
+
+
+
+</para>
+<section id="cid452"><title>Gemiddelde Gradiënt van Eksponensiële Funksies</title>
+<para id="id734">Veronderstel ons word gevra om die gemiddelde gradiënt van die funksie <m:math overflow="scroll"><m:mi>g(x)</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:math> tussen die punte <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mi>2,2</m:mi><m:mo>)</m:mo></m:math> en <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>0,6</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:math> te vind. Dit word getoon in <link target-id="uid31"/>. 
+<figure id="uid31"><media id="uid31_media" alt="">
+          <image mime-type="image/png" src="../../media/exponent.png" id="uid31_onlineimage" width="401"><!-- NOTE: attribute width changes image size online (pixels). original width is 401. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/exponent.eps" id="uid31_printimage"/>
+        </media>
+        
+      <caption>Die gemiddelde gradiënt vir 'n eksponensiële funksie</caption></figure>
+As ons die formule gebruik, vind ons:
+ <equation id="id193486">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>2,2</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                       <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>0,6</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1,8</m:mn>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>0,6</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1,8</m:mn>
+                    <m:mn>5,2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0,35</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+</para>
+</section>
+<section id="cid442"><title>Gemiddelde Gradiënt van Hiperboliese Funksies</title>
+<para id="id67324">Gestel ons word byvoorbeeld gevra om die gemiddelde gradiënte te vind van die funksie <m:math overflow="scroll"><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mn>2</m:mn></m:math> tussen die punte<m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>2,5</m:mn><m:mo>)</m:mo></m:math> en <m:math><m:mo>(</m:mo><m:mn>0,5</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:math> ; asook tussen <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>2,2</m:mn><m:mo>)</m:mo></m:math> en <m:math><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>0,6</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:math>. Dit word getoon in <link target-id="uid32"/>.
+<figure id="uid32"><media id="uid32_media" alt="">
+          <image mime-type="image/png" src="../../media/hyperbola.png" id="uid32_onlineimage" width="401"><!-- NOTE: attribute width changes image size online (pixels). original width is 401. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/hyperbola.eps" id="uid32_printimage"/>
+        </media>
+        
+      <caption>Die gemiddelde gradiënt vir 'n hiperboliese funksie</caption></figure></para>
+<para id="id2322">Vir die eerste punt kry ons:
+ <equation id="id196486"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                       <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>2,5</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>0,5</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac><m:mrow>
+                   <m:mo>-</m:mo>
+                      <m:mn>3,5</m:mn></m:mrow>
+<m:mrow>
+                    <m:mo>-</m:mo>
+                      <m:mn>4,5</m:mn>
+</m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0,78</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+Soortgelyk, die gemiddelde gradiënt tussen die tweede stel punte sal wees <m:math><m:mn>0,53</m:mn></m:math>.
+</para>
+</section>
+</section>
+    <section id="eip-479"><title>Opsomming</title><list id="eip-922"><item>Die gemiddelde gradiënt tussen twee punte is: <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:math></item>
+<item>Die gemiddelde gradiënt van 'n reguitlynfunksie is dieselfde oor enige interval (tussen enige twee punte) op die reguitlyn.</item>
+<item>Die gemiddelde gradiënt van 'n paraboliese funksie hang af van die punte (interval) wat gekies is; dit is die gradiënt van die reguitlyn wat deur die gekose punte gaan.</item>
+<item>Ons kan die konsep van gemiddelde gradiënt uitbrei na enige funksie.</item>
+</list></section><section id="cid5"><title>Einde van die Hoofstuk Oefeninge</title><list id="id191703" display="block" list-type="enumerated"><item id="uid9">'n Voorwerp beweeg volgens die funksie <m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> , waar <m:math overflow="scroll"><m:mi>d</m:mi></m:math> die afstand in meter is en <m:math overflow="scroll"><m:mi>t</m:mi></m:math> die tyd in sekondes. Bereken die gemiddelde snelheid van die voorwerp tussen die tweede en derde sekondes. Die snelheid is die gradiënt van die funksie <m:math overflow="scroll"><m:mi>d</m:mi></m:math><newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/llP">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid10">Gegee: <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math>.
+Bepaal die gemiddelde gradiënt tussen die punte <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>.<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/llE">Kliek hier vir die oplossing</link>
+</item>
+     </list>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,1117 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Buitelandse wisselkoerse</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39647</md:content-id>
+  <md:title>Buitelandse wisselkoerse</md:title>
+  <md:abstract/>
+  <md:uuid>3f81d9ae-7b4e-462f-9773-fc474ad8665e</md:uuid>
+</metadata>
+
+<content>
+<section id="cid3">
+      <title>Buitelandse Wisselkoerse - (Nie in CAPS, ingesluit vir volledigheid)</title>
+      <para id="id66720">Is $500 ("500 US dollar") per persoon per nag 'n goeie tarief vir 'n hotel in New York? Die eerste vraag wat jy moet vra is “Hoeveel is dit werd in rand?". 'n Vinnige oproep na die plaaslike bank of 'n navraag op die internet (byvoorbeeld by <emphasis effect="underline">http://www.x-rates.com/</emphasis>) vir die dollar/rand wisselkoers gaan vir jou 'n basis gee om die prys te oorweeg.
+
+
+
+</para>
+      <para id="id66734">'n Buitelandse wisselkoers is niks anders nie as die prys van een land se geldeenheid in terme van 'n ander land se geldeenheid.
+Byvoorbeeld, 'n wisselkoers van R6,18/USD beteken dat $1 vir jou R6,18 sal kos. Met ander woorde, as jy $1 het, kan jy dit verkoop vir R6,18; of as jy $1 wil hê, sal jy R6,18 daarvoor moet betaal.
+
+
+</para>
+      <para id="id66739">Wat bepaal wisselkoerse, en watter faktore laat wisselkoerse verander? Hoe beïnvloed dit jou? Hierdie afdeling kyk na die antwoorde op hierdie vrae.
+
+
+
+</para>
+      <section id="uid1">
+        <title>Hoeveel is R1 regtig werd?</title>
+        <para id="id66752">Ons kan die prys van 'n geldeenheid in terme van enige ander geldeenheid uitdruk, byvoorbeeld, ons kan die Japanese jen uitdruk in terme van die Indiese rupee. Die VSA dollar (USD), Britse pond (GBP) en die Euro (EUR) is die mees algemene markstandaarde. Jy sal oplet dat die finansiële nuus verslag doen van die Suid-Afrikaanse wisselkoers in terme van hierdie drie groot geldeenhede.
+
+
+</para>
+        <table id="uid2" summary="currency">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Geldeenheid</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Afkorting</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Simbool</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>Suid-Afrikaanse Rand</entry>
+                <entry>ZAR</entry>
+                <entry>R</entry>
+              </row>
+              <row>
+                <entry>VSA Dollar</entry>
+                <entry>USD</entry>
+                <entry>$</entry>
+              </row>
+              <row>
+                <entry>Britse Pond Sterling</entry>
+                <entry>GBP</entry>
+                <entry>£</entry>
+              </row>
+            </tbody>
+
+
+
+
+</tgroup><caption>Afkortings en simbole vir sommige bekende geldeenhede</caption>
+</table>
+        <para id="id66888">Dus die Suid-Afrikaanse Rand, aangedui deur ZAR, kan op 'n sekere dag aangegee word as as 6,07040 ZAR per USD (o.a. $1,00 kos R6,07040), of 12,2374 ZAR per GBP. Dus as ek $1 000 wil spandeer tydens 'n vakansie in die VSA, sal dit my R6 070,40 kos; en as ek £1 000 wil hê vir 'n naweek in London, sal dit my R12 237,40 kos.
+
+
+</para>
+        <para id="id66897">Dit lyk vanselfsprekend, maar kom ons kyk hoe hierdie getalle bereken is:
+die koers word gegee as ZAR per USD, of ZAR/USD sodat $1,00 'n bedrag van R6,0704 kan koop. Dus, ons moet met 1 000 vermenigvuldig om die aantal rand per $1 000 te bepaal.
+
+
+</para>
+        <para id="id66904">Wiskundig,</para>
+        <equation id="id66909"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+<m:mspace width="3.33333pt"/>
+                    <m:mo>×</m:mo>
+<m:mspace width="3.33333pt"/>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+<m:mspace width="3.33333pt"/>
+                    <m:mo>×</m:mo>
+<m:mspace width="3.33333pt"/>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>074</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67034">soos verwag.</para>
+        <para id="id67039">Gestel jy het R10 000 gespaar as sakgeld vir dieselfde vakansie en jy wil dit gebruik om VSA dollars (USD) te koop. Hoeveel USD kan jy hiervoor kry? Die koers is in ZAR/USD maar ons wil weet hoeveel USD ons kan kry vir ons Suid-Afrikaanse rand (ZAR). Dit is maklik want ons weet hoeveel $1,00 kos in terme van rand.
+
+
+
+</para>
+        <equation id="id67049">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>$</m:mi>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">R</m:mi>
+                      <m:mn>6</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>0740</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>0740</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>164636</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67253">Soos ons kan sien, is die finale antwoord die omgekeerde van die ZAR/USD koers. Dus, vir R10 000 sal ons kry:
+
+
+</para>
+        <equation id="id67260"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>$</m:mi>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>00</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>0740</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>646</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>36</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67402">Ons kan die antwoord as volg kontroleer:</para>
+        <equation id="id67408"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>646</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>$</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>646</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0740</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>00</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <section id="uid3">
+          <title>Ses van die een en 'n halfdosyn van die ander</title>
+          <para id="id67548">Ons het dus twee verskillende maniere om dieselfde wisselkoers uit te druk: rand per dollar (ZAR/USD) en dollar per rand (USD/ZAR). Albei wisselkoerse beteken dieselfde en druk die waarde van een geldeenheid uit in terme van 'n ander geldeenheid. Jy kan maklik van die een na die ander een werk  - hulle is omgekeerdes van mekaar.
+
+</para>
+          <para id="id67554">Aangesien die Suid-Afrikaanse rand ons binnelandse (of tuis) geldeenheid is, noem ons die ZAR/USD koers 'n “direkte" koers, en ons noem die USD/ZAR koers 'n “indirekte" koers.
+
+
+
+</para>
+          <para id="id67560">In die algemeen kan gesê word:  'n direkte koers is 'n wisselkoers waar die eenheid van die binnelandse geldeenheid uitgedruk word per eenheid van die buitelandse geldeenheid, as volg:  <m:math overflow="scroll"><m:mfrac><m:mrow><m:mi> Binnelandse Geldeenheid  </m:mi></m:mrow><m:mrow><m:mi> Buitelandse Geldeenheid  </m:mi></m:mrow></m:mfrac></m:math>
+
+
+</para>
+          <para id="id67583">Die rand wisselkoerse wat ons op die nuus sien, is gewoonlik uitgedruk as direkte koerse. Jy sal byvoorbeeld sien:
+
+
+
+
+</para>
+          <table id="uid4" summary="exchange rates">
+<tgroup cols="2"><tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">Geldeenheid Afkorting</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Wisselkoers </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>1 USD</entry>
+                  <entry>R6,9556</entry>
+                </row>
+                <row>
+                  <entry>1 GBP</entry>
+                  <entry>R13,6628</entry>
+                </row>
+                <row>
+                  <entry>1 EUR</entry>
+                  <entry>R9,1954</entry>
+                </row>
+              </tbody>
+            
+
+
+
+</tgroup><caption>Voorbeelde van wisselkoerse</caption>
+</table>
+          <para id="id67685">Die wisselkoers is die prys van elkeen van die buitelandse geldeenhede (USD, GBP en EUR) in terme van ons binnelandse geldeenheid, die rand.
+
+
+</para>
+          <para id="id67689">'n Indirekte wisselkoers is 'n wisselkoers waar die eenheid van die buitelandse geldeenheid uitgedruk word in terme van eenhede van die binnelandse geldeenheid, dus <m:math overflow="scroll"><m:mfrac><m:mrow><m:mi> Buitelandse Geldeenheid </m:mi></m:mrow><m:mrow><m:mi> Binnelandse Geldeenheid </m:mi></m:mrow></m:mfrac></m:math>.
+
+
+</para>
+          <para id="id67712">Die omskrywing van wisselkoerse as direk of indirek hang af van watter geldeenheid die binnelandse geldeenheid is. Die binnelandse geldeenheid vir 'n Amerikaanse belegger sal dollars (USD) wees - wat vir die Suid-Afrikaanse belegger 'n buitelandse geldeenheid is. Dus direkte koerse, vanuit die oogpunt van die Amerikaanse belegger (USD/ZAR), is dieselfde as die indirekte koers uit die oogpunt van die Suid-Afrikaanse belegger.
+
+
+</para>
+        </section>
+        <section id="uid5">
+          <title>Terminologie</title>
+          <para id="id67731">Aangesien wisselkoerse eintlik die prys van geld is, beteken 'n verandering in wisselkoers dat die prys of die waarde van die geldeenheid verander het. Die prys van petrol verander gedurig, so ook die prys van goud en geldeenhede se prys beweeg ook gedurig op en af.
+
+
+</para>
+          <para id="id67737">Wat beteken dit as die rand wisselkoers verander van bv. R6,71 per USD na R6,50 per USD? Wel, dit beteken dat $1 nou slegs R6,50 sal kos in plaas van R6,71. Die dollar is nou goedkoper om te koop, en ons kan sê die dollar het depresieer (of verswak) teenoor die rand. Of ons kan sê dat die rand appresieer (of verstewig) het teenoor die dollar.
+
+
+</para>
+          <para id="id67743">Gestel ons kyk na indirekte wisselkoerse en die wisselkoers verander van $0,149 per ZAR (=<m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>71</m:mn></m:mrow></m:mfrac></m:math>) na $0,1538 per ZAR (=<m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>50</m:mn></m:mrow></m:mfrac></m:math>).
+
+
+
+</para>
+          <para id="id67782">Nou kan ons sien dat die R1,00 wat aan die begin $0,149 gekos het, aan die einde $0,1538 kos. Die rand het duurder geword (in terme van dollar), en weer kan ons sê dat die rand appresieer het.
+
+
+</para>
+          <para id="id67787">Ons sal tot dieselfde gevolgtrekking kom, ongeag watter wisselkoers gebruik word.
+
+
+</para>
+          <para id="id67791">In die algemeen:</para>
+          <list id="id67794" display="block" list-type="bulleted"><item id="uid6">Direkte wisselkoerse:  die binnelandse geldeenheid sal appresieer (depresieer) as die wisselkoers daal (styg)
+</item>
+            <item id="uid7">Indirekte wisselkoerse:  die binnelandse geldeenheid sal appresieeer (depresieer) as die wisselkoers styg (daal)
+</item>
+
+
+</list>
+          <para id="id67823">Soos met alles in hierdie hoofstuk is dit belangrik om nie hierdie formules te probeer memoriseer nie - dit gaan net lei tot verwarring. Dink oor wat jy het en wat jy wil hê - en dit behoort heel duidelik te wees hoe om die regte antwoord te kry.
+
+
+</para>
+<section id="secfhsst_id536"><title>Bespreking: Buitelandse Wisselkoerse</title>
+          <para id="id67836">Bespreek in groepies van 5:</para>
+          <list id="id67841" display="block" list-type="enumerated"><item id="uid8">Wat moet ons weet van wisselkoerse?
+</item>
+            <item id="uid9">Wat gebeur as een land se geldeenheid drasties in waarde verminder teenoor 'n ander land se geldeenheid?
+</item>
+            <item id="uid10">Wanneer sal jy wisselkoerse gebruik?
+</item>
+
+
+</list>
+          
+</section>
+        </section>
+      </section>
+      <section id="uid11">
+        <title>Tussen-Geldeenheid Wisselkoerse - (nie in CAPS, ingesluit vir volledigheid)</title>
+        <para id="id67898">Ons weet dat wisselkoerse die waarde van een geldeenheid uitdruk in terme van 'n ander geldeenheid en ons kan wisselkoerse teenoor enige ander geldeenheid uitdruk. Die rand wisselkoers wat ons in die media sien, word gewoonlik uitgedruk teenoor die belangrikste geldeenhede, USD, GBP en EUR.
+
+</para>
+        <para id="id67904">Gestel byvoorbeeld, die rand wisselkoers word gegee as 6,71 ZAR/USD en 12,71 ZAR/GBP. Vertel dit vir ons enige iets in verband met die wisselkoers tussen USD en GBP?
+</para>
+        <para id="id67908">Wel, ek weet dat as $1 vir my R6,71 kan koop, dan is die Britse pond (GBP) sterker as die dollar (USD) want jy gaan meer rande vir een eenheid van die geldeenheid kry. Ons kan dus die USD/GBP wisselkoers as volg bereken:
+
+
+</para>
+        <para id="id67916">Voordat ons enige getalle gebruik, hoe kan ek die USD/GBP wisselkoers kry uit die ZAR/USD en ZAR/GBP wisselkoerse?
+
+</para>
+        <para id="id67920">Wel,</para>
+        <equation id="id67923"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> GBP </m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> ZAR </m:mi>
+              </m:mrow>
+              <m:mo>×</m:mo>
+              <m:mrow>
+                <m:mi> ZAR </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> GBP </m:mi>
+              </m:mrow>
+              <m:mo/>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id67961">Let op dat die ZAR in die teller kanselleer met die ZAR in die noemer, en dat ons oorbly met die USD/GBP wisselkoers.
+</para>
+        <para id="id67965">Alhoewel ons nie weet wat die USD/ZAR wisselkoers is nie, weet ons dat dit net die omgekeerde is van die ZAR/USD wisselkoers.
+
+</para>
+        <equation id="id67970">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> ZAR </m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mrow>
+                  <m:mi> ZAR </m:mi>
+                  <m:mo>/</m:mo>
+                  <m:mi> USD </m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id68000">As ons nou getalle instel, kry ons:</para>
+        <equation id="id68003">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> USD </m:mi>
+                    <m:mo>/</m:mo>
+                    <m:mi> GBP </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> USD </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> ZAR </m:mi>
+                    </m:mrow>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mi> ZAR </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> GBP </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mi> ZAR </m:mi>
+                        <m:mo>/</m:mo>
+                        <m:mi> USD </m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mi> ZAR </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> GBP </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>71</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mn>12</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>71</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>894</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<note id="notfhsst_id696" type="tip">Dit kan gebeur dat daar wisselkoerse in die alledaagse lewe is wat lyk asof die nie presies so werk soos hier verduidelik nie. Dit is gewoonlik omdat sommige finansiële instellings ander kostes byvoeg by die wisselkoerse en dan verander die resultate. As jy die effek van daardie ekstra kostes sou kon verwyder, sal die getalle weer ooreenstem. 
+
+
+</note>
+<exercise id="secfhsst_id700"><title>Tussen-Geldeenheid Wisselkoerse</title><problem id="probfhsst_id701">
+        <para id="id68151">As $1 = R 6,40, en £1 = R11,58 wat is die $/£ wisselkoers i.e. die aantal USD per £? </para>
+        </problem>
+        <solution id="solfhsst_id704"> <list id="listfhsst_id704" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <para id="id68176">Die volgende word gegee:</para>
+        <list id="id68180" display="block" list-type="bulleted">
+          <item id="uid12">ZAR/USD wisselkoers = R6,40
+</item>
+          <item id="uid13">ZAR/GBP wisselkoers = R11,58
+</item>
+        </list>
+        <para id="id68208">Die volgende word gevra:</para>
+        <list id="id68212" display="block" list-type="bulleted">
+          <item id="uid14">USD/GBP wisselkoers
+</item>
+        </list>
+        </item> <item> <label> Bepaal hoe om die probleem aan te pak </label>
+        <para id="id68233">Ons weet dat:</para>
+        <equation id="id68236"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> GBP </m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mi> USD </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> ZAR </m:mi>
+              </m:mrow>
+              <m:mo>×</m:mo>
+              <m:mrow>
+                <m:mi> ZAR </m:mi>
+                <m:mo>/</m:mo>
+                <m:mi> GBP </m:mi>
+              </m:mrow>
+              <m:mo/>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id68280">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> USD </m:mi>
+                    <m:mo>/</m:mo>
+                    <m:mi> GBP </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> USD </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> ZAR </m:mi>
+                    </m:mrow>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mi> ZAR </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> GBP </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mi> ZAR </m:mi>
+                        <m:mo>/</m:mo>
+                        <m:mi> USD </m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mi> ZAR </m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi> GBP </m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>40</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mn>11</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>58</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>8094</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id68414">$ 1,8094 kan gekoop word vir £1. </para>
+        </item> </list> </solution>
+
+</exercise>
+<section id="secfhsst_id841"><title>Ondersoek: Tussen-Geldeenheid Wisselkoerse - Alternatiewe Metode </title>
+        <para id="id68438">As $1 = R 6,40, en £1 = R11,58 wat is die $/£ wisselkoers, dus die aantal USD per £? 
+
+</para>
+        <para id="id68445"><emphasis effect="bold">Oorsig van die probleem</emphasis>
+        </para>
+        <para id="id68454">Jy het die $/£ wisselkoers nodig, met ander woorde hoeveel dollar moet jy betaal vir 'n pond. So jy het £1 nodig. Uit die gegewe inligting weet ons dat dit jou R11,58 sal kos om £1 te koop en dat $ 1 = R6,40.
+
+
+
+</para>
+        <para id="id68463">Gebruik hierdie inligting om:</para>
+        <list id="id68466" display="block" list-type="enumerated"><item id="uid15">te bereken hoeveel R1 werd is in terme van $
+</item>
+          <item id="uid16">te bereken hoeveel R11,58 werd is in terme van $
+</item>
+        
+
+
+</list>
+        <para id="id68496">Kry jy dieselfde antwoord as in die uitgewerkte voorbeeld?</para>
+</section>
+      </section>
+      <section id="uid17">
+        <title>Vir verryking: Fluktuerende Wisselkoerse</title>
+        <para id="id68515">Indien almal huise wil koop in 'n sekere voorstad, sal die huispryse daar styg, want die kopers kompeteer met mekaar om die huise te koop. As daar 'n voorstad is waar al die inwoners wil wegtrek, dan is daar baie verkopers en dit sal daartoe lei dat die huispryse in daardie omgewing val, want die kopers hoef nie so baie te soek om 'n gretige verkoper te kry nie.
+
+
+
+</para>
+        <para id="id68522">Dit gaan alles oor vraag en aanbod - aspekte wat 'n belangrike afdeling is in die studie van Ekonomie. Jy kan in baie verskillende kontekste hieraan dink, soos byvoorbeeld die versameling van seëls. As daar 'n seël is wat 'n klomp mense graag wil hê (hoë vraag) en min mense wat die seël het (lae aanbod) dan sal daardie seël baie duur wees.
+
+</para>
+        <para id="id68528">En as jy begin wonder waarom dit van belang is, dink aan geldeenhede. As jy London toe gaan, dan het jy rande, maar jy moet ponde "koop". Die wisselkoers is die prys wat jy gaan betaal om daardie ponde te koop.
+
+
+</para>
+        <para id="id68535">Dink aan 'n tyd wanneer daar baie Suid-Afrikaners is wat die Verenigde Koninkryk besoek, en ander Suid-Afrikaners voer goedere in uit die Verenigde Koninkryk. Dit beteken dat daar baie rande (hoë aanvraag) is wat probeer om ponde te koop. Ponde sal duurder begin raak (vergelyk dit met die voorbeeld oor huispryse aan die begin van hierdie afdeling as jy nie oortuig is nie), en die wisselkoers sal verander. Met ander woorde, vir R1 000 sal jy nou minder ponde kry as wat jy sou gekry het voordat die wisselkoers verander het.
+
+</para>
+        <para id="id68547">'n Ander agtergrond kan handig wees om jou te help om te verstaan: dink wat sou gebeur as mense in ander lande dink dat Suid-Afrika 'n wonderlike plek is om te bly, en dat meer mense in Suid-Afrika wil belê - dalk in eiendom, besighede - of dat mense meer goedere uit Suid-Afrika begin koop. Daar is dan 'n groter vraag na rand - en die "prys van rand" sal styg. Met ander woorde, mense het meer dollars, of ponde, of euros nodig om dieselfde hoeveelheid rand te koop. Dit word gesien as verandering in wisselkoerse.
+
+
+
+</para>
+        <para id="id68560">Alhoewel dit neerkom op vraag en aanbod, is dit interessant om te dink watter faktore die aanbod (mense wat 'n sekere geldeenheid wil "verkoop") en die vraag (mense wat probeer om 'n ander geldeenheid te "koop") sal beïnvloed. Dit word in detail behandel in die studie van Ekonomie, maar laat ons hier na 'n paar basiese aspekte kyk.
+
+
+</para>
+        <para id="id68568">Daar is verskeie faktore wat die wisselkoers beïnvloed.  Sommige het meer ekonomiese onderbou as ander:
+
+</para>
+        <list id="id68573" display="block" list-type="bulleted"><item id="uid18">ekonomiese faktore (soos inflasiesyfers, rentekoerse, handelstekort inligting, monetêre beleid en fiskale beleid)
+</item>
+          <item id="uid19">politieke faktore (soos 'n onseker politieke omgewing of politieke onrus)
+</item>
+          <item id="uid20">marksentiment en markgedrag (byvoorbeeld, as buitelandse wisselkoersmarkte 'n geldeenheid lees as oorwaardeer en begin om die geldeenheid te verkoop, sal dit lei tot 'n daling in die waarde van die geldeenheid  - 'n selfvervullende verwagting).
+</item>
+</list>
+<para id="id7324">Die wisselkoers beïnvloed die prys wat ons betaal vir sekere produkte. Alle lande voer sekere goedere in en voer ander goedere uit. Suid-Afrika, byvoorbeeld, het baie minerale (goud, platinum, ens.) wat die res van die wêreld wil hê. Dus voer Suid-Afrika hierdie minerale uit na die wêreld teen 'n sekere prys. Die wisselkoers wanneer die goedere uitgevoer word, beïnvloed hoeveel ons daarvoor kry. Op dieselfde wyse sal enige goedere wat ingevoer word, ook beïnvloed word deur die wisselkoers. Die prys van brandstof is 'n goeie voorbeeld hiervan.  
+
+
+
+</para>
+ </section> </section>
+<section id="secfhsst_id876"><title>Buitelandse Verhandeling</title><list id="id68624" display="block" list-type="enumerated"><item id="uid21">Ek wil 'n MP3-speler koop wat £100 kos, en die huidige wisselkoers is tans <m:math overflow="scroll"><m:mrow><m:mi>£</m:mi><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>R</m:mi><m:mn>14</m:mn></m:mrow></m:math>. Ek glo die wisselkoers gaan verander na  <m:math overflow="scroll"><m:mrow><m:mi>R</m:mi><m:mn>12</m:mn></m:mrow></m:math> binne 'n maand.
+<list id="id68677" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid22">Hoeveel sal die MP3 speler in rand kos as ek dit nou koop?
+</item><item id="uid23">Hoeveel sal ek spaar as die wisselkoers daal na  <m:math overflow="scroll"><m:mrow><m:mi>R</m:mi><m:mn>12</m:mn></m:mrow></m:math>?
+</item><item id="uid24">Hoeveel sal ek verloor as die wisselkoers verander na <m:math overflow="scroll"><m:mrow><m:mi>R</m:mi><m:mn>15</m:mn></m:mrow></m:math>?
+</item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lc4">Kliek hier vir die oplossing</link></item>
+          <item id="uid25">Bestudeer die volgende tabel met wisselkoerse:
+<table id="id68755" summary="currency">
+<tgroup cols="3"><tbody><row><entry><emphasis effect="bold">Land</emphasis> </entry><entry><emphasis effect="bold">Geldeenheid</emphasis></entry><entry><emphasis effect="bold">Wisselkoers</emphasis></entry></row><row><entry>Verenigde Koninkryk(VK)</entry><entry>Pond(£)</entry><entry><m:math overflow="scroll"><m:mrow><m:mspace width="1.em"/><m:mi>R</m:mi><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>13</m:mn></m:mrow></m:math></entry></row><row><entry>Amerika (VSA)</entry><entry>Dollar ($)</entry><entry><m:math overflow="scroll"><m:mrow><m:mspace width="1.em"/><m:mi>R</m:mi><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>04</m:mn></m:mrow></m:math></entry></row></tbody>
+
+
+</tgroup>
+</table><list id="id68888" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid26">In Suid-Afrika is die koste van 'n nuwe Honda Civic <m:math overflow="scroll"><m:mrow><m:mi>R</m:mi><m:mn>173</m:mn><m:mspace width="3.33333pt"/><m:mn>400</m:mn></m:mrow></m:math>. In Engeland kos dieselfde voertuig  <m:math overflow="scroll"><m:mrow><m:mi>£</m:mi><m:mn>12</m:mn><m:mspace width="3.33333pt"/><m:mn>200</m:mn></m:mrow></m:math> en in die VSA  $ <m:math overflow="scroll"><m:mrow><m:mn>21</m:mn><m:mspace width="3.33333pt"/><m:mn>900</m:mn></m:mrow></m:math>. In watter land is die voertuig die goedkoopste as jy die pryse omskakel na Suid-Afrikaanse rand ?
+</item><item id="uid27">Sollie en Arinda is kelners in 'n Suid-Afrikaanse restaurant wat baie oorsese toeriste lok. Sollie kry 'n <m:math overflow="scroll"><m:mrow><m:mi>£</m:mi><m:mn>6</m:mn></m:mrow></m:math> fooitjie van 'n toeris en Arinda kry $ 12.
+Hoeveel Suid-Afrikaanse rand het elkeen gekry?
+</item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lc2">Kliek hier vir die oplossing</link></item>
+</list>
+        
+</section>
+    <section id="cid7"><title>Opsomming</title><list id="eip-923"><item>'n Buitelandse wisselkoers is die prys van een geldeenheid in terme van 'n ander.</item>
+<item>Daar is twee soorte rente:  enkelvoudige rente en saamgetelde rente.</item>
+<item>Die volgende tabel verduidelik die simbole wat in die formules vir enkelvoudige sowel as saamgestelde rente gebruik word.
+<table id="id75382" summary="symbols for interest">
+<tgroup cols="2"><tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>P</m:mi>
+                  </m:math>
+                </entry>
+                <entry>Aanvangsbedrag ("Principal amount") (die bedrag geld aan die begin van die transaksie)</entry>
+              </row>
+             <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>A</m:mi>
+                  </m:math>
+                </entry>
+                <entry>Eindbedrag ("Accumulated amount") (die bedrag geld aan die einde van die transaksie)</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>i</m:mi>
+                  </m:math>
+                </entry>
+                <entry>rentekoers per tydsinterval </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>n</m:mi>
+                  </m:math>
+                </entry>
+                <entry>aantal tydsintervalle (bv. jare, maande, dae)  </entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup>
+</table>
+</item><item>Vir enkelvoudige rente gebruik ons:
+        <equation id="id75453"><m:math overflow="scroll" mode="display">
+ <m:mi mathvariant="normal">A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>i</m:mi>
+                <m:mo>·</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+          </m:math>
+        </equation></item>
+<item> Vir saamgestelde rente gebruik ons:
+        <equation id="id75538"><m:math overflow="scroll" mode="display">
+                        <m:mi mathvariant="normal">A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+          </m:math>
+        </equation></item>
+</list>
+<note id="notfhsst_id3321" type="tip">Sorg dat die rentekoers en die periode altyd in dieselfde tydseenhede (bv. albei in jare, of albei in maande, ens.) uitgedruk word.
+
+</note>
+     <para id="eip-595">Die volgende 3 videos gee 'n opsomming oor hoe om rente te bereken. Let daarop dat hoewel die voorbeelde met dollars gedoen word, ons die feit kan gebruik dat die dollar 'n desimale geldeenheid is net soos die rand (ignoreer die wisselkoers). Dit is wat in die onderafdelings gedoen is.
+
+
+
+</para><para id="eip-209"><figure id="circuits-1" class="khanacademy-subtitled"><title>Khan Akademie video oor rente - 1</title><media id="yt-media1" display="block" alt="video on interest 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/nR-8xYGJM9Q" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para>
+    <para id="eip-20912"><figure id="interest-2" class="khanacademy-subtitled"><title>Khan Akademie video oor rente - 2</title><media id="yt-media2" display="block" alt="video oor rente - 2">
+	  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/nYO9-wl42JY&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para>
+<para id="eip-20913">Let Wel:  Aan die einde van hierdie video word die reël van 72 genoem. Jy sal nie hierdie reël gebruik nie, maar sal liewer die probeer-en-tref metode gebruik om die gevraagde probleem op te los.
+
+<figure id="interest-3" class="khanacademy-subtitled"><title>Khan Akademie video oor rente - 3</title><media id="yt-media3" display="block" alt="video on interest - 3">
+	  <flash id="yt-video3" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/whmE_8l0JtA&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para></section>
+    <section id="cid8"><title>Einde van Hoofstuk Oefeninge</title><list id="id75641" display="block" list-type="enumerated"><item id="uid79">Jy is met vakansie in Europa. Die hotel vra 200 euro per nag. Hoeveel rand het jy nodig om die hotelrekening te betaal as die wisselkoers 1 euro = R9,20 is?<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcK">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid80">Bereken hoeveel rente jy sal verdien as jy R500 vir 1 jaar belê teen die volgende rentekoerse:
+<list id="id75671" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid81">6,85% enkelvoudige rente
+</item><item id="uid82">4,00% saamgestelde rente
+</item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lck">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid83">Bianca het R1 450 om vir 3 jaar te belê. Bank A bied 'n spaarrekening aan wat enkelvoudige rente betaal teen 'n koers van 11% per annum. Bank B bied 'n spaarrekening aan wat saamgestelde rente betaal teen 'n koers van 10,5% per annum. Watter bank gaan vir Bianca die spaarrekening gee met die grootste opgeloopte bedrag aan die einde van die 3 jaar?<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lc0">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid84">Hoeveel enkelvoudige rente is betaalbaar op 'n lening van R2 000 vir 'n jaar indien die rentekoers 10% per jaar is?<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lc8">Kliek hier vir die antwoord</link>
+</item>
+        <item id="uid85">Hoeveel saamgestelde rente is betaalbaar op 'n lening van R2 000 vir 'n jaar indien die rentekoers 10% per jaar is?<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lc9">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid86">Bespreek:
+<list id="id75754" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid87">watter soort rente jy sal verkies as jy die lener is
+</item><item id="uid88">watter soort rente jy sal verkies as jy die bankier is
+</item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcX">Kliek hier vir die antwoord</link>
+</item>
+        <item id="uid89">Bereken die saamgestelde rente vir die volgende probleme:
+<list id="id75796" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid90">'n lening van R2 000 vir 2 jaar teen 5% per jaar
+</item><item id="uid91">'n belegging van R1 500 vir 3 jaar teen 6% per jaar
+</item><item id="uid92">'n lening van R800 vir l jaar teen 16% per jaar
+</item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcl">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid93">As die wisselkoers vir 100 jen = R6,2287 en 1 Australiese dollar (AUD) = R5,1094 , bepaal die wisselkoers tussen die Australiese dollar en die Japanese jen.<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lc5">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid94">Bonnie het 'n stoof gekoop vir R3 750. Na 3 jaar het sy dit klaar betaal, asook die R956,25 huurkoopkoste. Bereken die koers waarteen enkelvoudige rente bereken is.<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcN">Kliek hier vir die oplossing</link>
+</item>
+      
+
+</list>
+    </section>
+  </content>
+</document>

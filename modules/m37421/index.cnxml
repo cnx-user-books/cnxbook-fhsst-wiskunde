@@ -1,0 +1,218 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Benadering van Wortelgetalle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37421</md:content-id>
+  <md:title>Benadering van Wortelgetalle</md:title>
+  <md:abstract/>
+  <md:uuid>1b940aef-e635-499b-a569-e45815f95a95</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1">
+
+      <title>Inleiding</title><para id="id258007">Jy behoort reeds te weet wat die <m:math overflow="scroll"><m:mi>n</m:mi></m:math>de magswortel van 'n getal is. Indien die <m:math overflow="scroll"><m:mi>n</m:mi></m:math>de magswortel van 'n getal nie as 'n rasionale getal geskryf kan word nie, noem ons dit 'n <m:math overflow="scroll"><m:mi mathvariant="italic">wortelgetal</m:mi></m:math>. Byvoorbeeld, <m:math overflow="scroll"><m:msqrt><m:mn>2</m:mn></m:msqrt></m:math> en <m:math overflow="scroll"><m:mroot><m:mn>6</m:mn><m:mn>3</m:mn></m:mroot></m:math> is wortelgetalle, maar <m:math overflow="scroll"><m:msqrt><m:mn>4</m:mn></m:msqrt></m:math> is nie 'n wortelgetal nie, aangesien ons dit kan vereenvoudig tot die rasionale getal 2.</para>
+      <para id="id258405">In hierdie hoofstuk gaan ons slegs wortelgetalle van die vorm <m:math overflow="scroll"><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:math> ondersoek, waar <m:math overflow="scroll"><m:mi>n</m:mi></m:math> 'n positiewe heelgetal en <m:math overflow="scroll"><m:mi>a</m:mi></m:math> enige positiewe getal is, byvoorbeeld <m:math overflow="scroll"><m:msqrt><m:mn>7</m:mn></m:msqrt></m:math> en <m:math overflow="scroll"><m:mroot><m:mn>5</m:mn><m:mn>3</m:mn></m:mroot></m:math>. Dit is algemeen dat <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> en daarom skryf ons <m:math overflow="scroll"><m:msqrt><m:mi>a</m:mi></m:msqrt></m:math> in plaas van <m:math overflow="scroll"><m:mroot><m:mi>a</m:mi><m:mn>2</m:mn></m:mroot></m:math> want dit is makliker om te lees.</para>
+      <para id="id258479">Dit is soms nuttig om 'n wortelgetal te benader sonder om 'n sakrekenaar te gebruik. Ons wil, byvoorbeeld, kan benader waar <m:math overflow="scroll"><m:msqrt><m:mn>3</m:mn></m:msqrt></m:math> op die getallelyn lê. Met 'n sakrekenaar kan ons bereken <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>73205</m:mn><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:msqrt><m:mn>3</m:mn></m:msqrt></m:math> is dus tussen 1 en 2. Om sonder 'n sakrekenaar te bepaal waar ander wortelgetalle, soos <m:math overflow="scroll"><m:msqrt><m:mn>18</m:mn></m:msqrt></m:math>, op die getallelyn lê, moet jy eers die volgende verstaan:</para>
+<note id="notfhsst_id71"><title> Interessante Feit </title> 
+As <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>b</m:mi></m:math> positiewe getalle is met <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi></m:mrow></m:math>, is <m:math overflow="scroll"><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot><m:mo>&lt;</m:mo><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math>. (Uitdaging: Kan jy verduidelik waarom dit die geval is?)
+</note>
+      <para id="id258599">Gebruik jou sakrekenaar om hierdie stelling te toets vir 'n paar getalle.</para>
+      <para id="id258603">Hoe kan ons hierdie reël gebruik om <m:math overflow="scroll"><m:msqrt><m:mn>18</m:mn></m:msqrt></m:math> te benader? Eerstens, weet ons dat <m:math overflow="scroll"><m:mrow><m:mn>18</m:mn><m:mo>&lt;</m:mo><m:mn>25</m:mn></m:mrow></m:math>. Met ons reël weet ons nou ook dat <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>18</m:mn></m:msqrt><m:mo>&lt;</m:mo><m:msqrt><m:mn>25</m:mn></m:msqrt></m:mrow></m:math>. Aangesien <m:math overflow="scroll"><m:mrow><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math>, is <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>25</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> en ons weet dat <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>18</m:mn></m:msqrt><m:mo>&lt;</m:mo><m:mn>5</m:mn></m:mrow></m:math>. Nou het ons reeds 'n beter idee van waar <m:math overflow="scroll"><m:msqrt><m:mn>18</m:mn></m:msqrt></m:math> op die getallelyn voorkom.</para>
+      <para id="id258700">Ons kan nou dieselfde reël gebruik, maar hierdie keer met 18 aan die regterkant. Aangesien <m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:mo>&lt;</m:mo><m:mn>18</m:mn></m:mrow></m:math> en deur die reël te gebruik, weet ons dat <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>16</m:mn></m:msqrt><m:mo>&lt;</m:mo><m:msqrt><m:mn>18</m:mn></m:msqrt></m:mrow></m:math>. Maar ons weet ook dat 16 'n volkome vierkant is en <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>16</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>. Dus weet ons dat <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>&lt;</m:mo><m:msqrt><m:mn>18</m:mn></m:msqrt></m:mrow></m:math>.</para>
+      <para id="id258766">Met hierdie twee stappe weet ons nou dat <m:math overflow="scroll"><m:msqrt><m:mn>18</m:mn></m:msqrt></m:math> tussen 4 en 5 lê. 'n Sakrekenaar sal jou wys dat <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>18</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1231</m:mn><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math> wat bevestig dat ons reg is! Die basiese idee is om volkome vierkante naby aan 18 te gebruik om te bepaal waar dit op die getallelyn lê. Ons het die grootste volkome vierkant kleiner as 18 gevind, naamlik <m:math overflow="scroll"><m:mrow><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math>, en die kleinste volkome vierkant groter as 18, naamlik <m:math overflow="scroll"><m:mrow><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math>. Hier is 'n kort oorsig van wat 'n volkome vierkant en 'n volkome derdemag is:</para>
+<note id="notfhsst_id78"><title>Interessante Feit </title>'n Volkome vierkant is die getal wat verkry word wanneer 'n heelgetal met homself vermenigvuldig word. Byvoorbeeld, 9 is 'n volkome vierkant aangesien <m:math overflow="scroll"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math>. Soortgelyk is 'n volkome derdemag die getal wat verkry word wanneer 'n heelgetal tot die derde mag verhef word. Byvoorbeeld, 27 is 'n volkome derdemag aangesien <m:math overflow="scroll"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math>.</note>
+      <para id="id258890">Om dit makliker te maak om ons reël te gebruik, kan ons 'n lys van volkome vierkante en derdemagte saamstel.</para>
+      <table id="uid1" summary="">
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Heelgetal</entry>
+              <entry>Volkome Vierkant</entry>
+              <entry>Volkome Derdemag</entry>
+            </row>
+            <row>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>1</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>4</entry>
+              <entry>8</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>9</entry>
+              <entry>27</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>16</entry>
+              <entry>64</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>25</entry>
+              <entry>125</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>36</entry>
+              <entry>216</entry>
+            </row>
+            <row>
+              <entry>7</entry>
+              <entry>49</entry>
+              <entry>343</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>64</entry>
+              <entry>512</entry>
+            </row>
+            <row>
+              <entry>9</entry>
+              <entry>81</entry>
+              <entry>729</entry>
+            </row>
+            <row>
+              <entry>10</entry>
+              <entry>100</entry>
+              <entry>1000</entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <caption>Enkele volkome vierkante en derdemagte.</caption>
+      </table>
+      <para id="id259412">Gegee die wortelgetal <m:math overflow="scroll"><m:mroot><m:mn>52</m:mn><m:mn>3</m:mn></m:mroot></m:math>, behoort jy te kan sien dat dit iewers tussen 3 en 4 lê op die getallelyn, aangesien <m:math overflow="scroll"><m:mrow><m:mroot><m:mn>27</m:mn><m:mn>3</m:mn></m:mroot><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mroot><m:mn>64</m:mn><m:mn>3</m:mn></m:mroot><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> en 52 tussen 27 en 64 is. Jou sakrekenaar sal dit bevestig: <m:math overflow="scroll"><m:mrow><m:mroot><m:mn>52</m:mn><m:mn>3</m:mn></m:mroot><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>73</m:mn><m:mo>...</m:mo></m:mrow></m:math>.</para>
+<exercise id="secfhsst_id162"><title>Benadering van Wortelgetalle</title>
+      <problem id="probfhsst_id163">
+      <para id="id259741">Vind die opeenvolgende heelgetalle wat weerskante van <m:math overflow="scroll"><m:msqrt><m:mn>26</m:mn></m:msqrt></m:math> lê.</para>
+      <para id="id259757">(Onthou dat opeenvolgende heelgetalle met 1 verskil, byvoorbeeld 5 en 6, of 8 en 9.)</para>
+      </problem>
+      <solution id="solfhsst_id167"> <list id="listfhsst_id167" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label>Gebruik die tabel om die grootste volkome vierkant kleiner as 26 te vind</label>
+      <para id="id259781">Dit is <m:math overflow="scroll"><m:mrow><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math>. Daarom <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:msqrt><m:mn>26</m:mn></m:msqrt></m:mrow></m:math>.</para>
+      </item> <item> <label>Gebruik die tabel om die kleinste volkome vierkant groter as 26 te vind</label>
+      <para id="id259824">Dit is <m:math overflow="scroll"><m:mrow><m:msup><m:mn>6</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>36</m:mn></m:mrow></m:math>. Daarom <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>26</m:mn></m:msqrt><m:mo>&lt;</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</para>
+      </item> <item> <label>Kombineer die twee ongelykhede</label>
+      <para id="id259866">Die antwoord is <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:msqrt><m:mn>26</m:mn></m:msqrt><m:mo>&lt;</m:mo><m:mn>6</m:mn></m:mrow></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id176"><title>Benadering van Wortelgetalle</title>
+      <problem id="probfhsst_id177">
+      <para id="id259913"><m:math overflow="scroll"><m:mroot><m:mn>49</m:mn><m:mn>3</m:mn></m:mroot></m:math> lê tussen:</para>
+      <table id="id259932" summary="">
+        <tgroup cols="4">
+          <tbody>
+            <row>
+              <entry>(a) 1 en 2</entry>
+              <entry>(b) 2 en 3</entry>
+              <entry>(c) 3 en 4</entry>
+              <entry>(d) 4 en 5</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      
+      </problem>
+      <solution id="solfhsst_id193"> <list id="listfhsst_id193" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label>Beskou (a) as die oplossing</label>
+      <para id="id259980">Indien <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mroot><m:mn>49</m:mn><m:mn>3</m:mn></m:mroot><m:mo>&lt;</m:mo><m:mn>2</m:mn></m:mrow></m:math>, is die derdemagte van al die getalle <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>49</m:mn><m:mo>&lt;</m:mo><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math>. Vereenvoudig: <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>49</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn></m:mrow></m:math> wat vals is. Dus lê <m:math overflow="scroll"><m:mroot><m:mn>49</m:mn><m:mn>3</m:mn></m:mroot></m:math> nie tussen 1 en 2 nie.</para>
+      </item> <item> <label>Beskou (b) as die oplossing</label>
+      <para id="id260068">Indien <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>&lt;</m:mo><m:mroot><m:mn>49</m:mn><m:mn>3</m:mn></m:mroot><m:mo>&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:math>, is die derdemagte van al die getalle <m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:mo>&lt;</m:mo><m:mn>49</m:mn><m:mo>&lt;</m:mo><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math>. Vereenvoudig: <m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:mo>&lt;</m:mo><m:mn>49</m:mn><m:mo>&lt;</m:mo><m:mn>27</m:mn></m:mrow></m:math> wat vals is. Dus lê <m:math overflow="scroll"><m:mroot><m:mn>49</m:mn><m:mn>3</m:mn></m:mroot></m:math> nie tussen 2 en 3 nie.</para>
+      </item> <item> <label>Beskou (c) as die oplossing</label>
+      <para id="id260160">Indien <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mroot><m:mn>49</m:mn><m:mn>3</m:mn></m:mroot><m:mo>&lt;</m:mo><m:mn>4</m:mn></m:mrow></m:math>, is die derdemagte van al die getalle <m:math overflow="scroll"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup><m:mo>&lt;</m:mo><m:mn>49</m:mn><m:mo>&lt;</m:mo><m:msup><m:mn>4</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math>. Vereenvoudig: <m:math overflow="scroll"><m:mrow><m:mn>27</m:mn><m:mo>&lt;</m:mo><m:mn>49</m:mn><m:mo>&lt;</m:mo><m:mn>64</m:mn></m:mrow></m:math> wat waar is. Dus lê <m:math overflow="scroll"><m:mroot><m:mn>49</m:mn><m:mn>3</m:mn></m:mroot></m:math> tussen 3 en 4.
+ </para>
+      </item> </list> </solution>
+</exercise>
+    </section>
+    <section id="cid4">
+      <title>Hoofstukoefeninge</title>
+      <table id="id260269" summary="">
+        <tgroup cols="7">
+          <tbody>
+            <row>
+              <entry>1.</entry>
+              <entry><m:math overflow="scroll"><m:msqrt><m:mn>5</m:mn></m:msqrt></m:math> lê tussen</entry>
+              <entry>(a) 1 en 2</entry>
+              <entry>(b) 2 en 3</entry>
+              <entry>(c) 3 en 4</entry>
+              <entry>(d) 4 en 5</entry>
+              <entry><link window="new" class="fullmarks" url="http://fhsst.org/lqr">Kliek hier vir die oplossing</link></entry>
+            </row>
+            <row>
+              <entry>2.</entry>
+              <entry><m:math overflow="scroll"><m:msqrt><m:mn>10</m:mn></m:msqrt></m:math> lê tussen</entry>
+              <entry>(a) 1 en 2</entry>
+              <entry>(b) 2 en 3</entry>
+              <entry>(c) 3 en 4</entry>
+              <entry>(d) 4 en 5</entry>
+              <entry><link window="new" class="fullmarks" url="http://fhsst.org/lqY">Kliek hier vir die oplossing</link></entry>
+            </row>
+            <row>
+              <entry>3.</entry>
+              <entry><m:math overflow="scroll"><m:msqrt><m:mn>20</m:mn></m:msqrt></m:math> lê tussen</entry>
+              <entry>(a) 2 en 3</entry>
+              <entry>(b) 3 en 4</entry>
+              <entry>(c) 4 en 5</entry>
+              <entry>(d) 5 en 6</entry>
+              <entry><link window="new" class="fullmarks" url="http://fhsst.org/lqg">Kliek hier vir die oplossing</link></entry>
+            </row>
+            <row>
+              <entry>4.</entry>
+              <entry><m:math overflow="scroll"><m:msqrt><m:mn>30</m:mn></m:msqrt></m:math> lê tussen</entry>
+              <entry>(a) 3 en 4</entry>
+              <entry>(b) 4 en 5</entry>
+              <entry>(c) 5 en 6</entry>
+              <entry>(d) 6 en 7</entry>
+              <entry><link window="new" class="fullmarks" url="http://fhsst.org/lq4">Kliek hier vir die oplossing</link></entry>
+            </row>
+            <row>
+              <entry>5.</entry>
+              <entry><m:math overflow="scroll"><m:mroot><m:mn>5</m:mn><m:mn>3</m:mn></m:mroot></m:math> lê tussen</entry>
+              <entry>(a) 1 en 2</entry>
+              <entry>(b) 2 en 3</entry>
+              <entry>(c) 3 en 4</entry>
+              <entry>(d) 4 en 5</entry>
+              <entry><link window="new" class="fullmarks" url="http://fhsst.org/lq2">Kliek hier vir die oplossing</link></entry>
+            </row>
+            <row>
+              <entry>6.</entry>
+              <entry><m:math overflow="scroll"><m:mroot><m:mn>10</m:mn><m:mn>3</m:mn></m:mroot></m:math> lê tussen</entry>
+              <entry>(a) 1 en 2</entry>
+              <entry>(b) 2 en 3</entry>
+              <entry>(c) 3 en 4</entry>
+              <entry>(d) 4 en 5</entry>
+              <entry><link window="new" class="fullmarks" url="http://fhsst.org/lqT">Kliek hier vir die oplossing</link></entry>
+            </row>
+            <row>
+              <entry>7.</entry>
+              <entry><m:math overflow="scroll"><m:mroot><m:mn>20</m:mn><m:mn>3</m:mn></m:mroot></m:math> lê tussen</entry>
+              <entry>(a) 2 en 3</entry>
+              <entry>(b) 3 en 4</entry>
+              <entry>(c) 4 en 5</entry>
+              <entry>(d) 5 en 6</entry>
+              <entry><link window="new" class="fullmarks" url="http://fhsst.org/lqb">Kliek hier vir die oplossing</link></entry>
+            </row>
+            <row>
+              <entry>8.</entry>
+              <entry><m:math overflow="scroll"><m:mroot><m:mn>30</m:mn><m:mn>3</m:mn></m:mroot></m:math> lê tussen</entry>
+              <entry>(a) 3 en 4</entry>
+              <entry>(b) 4 en 5</entry>
+              <entry>(c) 5 en 6</entry>
+              <entry>(d) 6 en 7</entry>
+              <entry><link window="new" class="fullmarks" url="http://fhsst.org/ll5">Kliek hier vir die oplossing</link></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+<list id="uid935" display="block" list-type="enumerated"><item>Vind twee opeenvolgende heelgetalle wat weerskante van <m:math overflow="scroll"><m:msqrt><m:mn>7</m:mn></m:msqrt></m:math> lê op die getallelyn. <link window="new" class="fullmarks" url="http://fhsst.org/lqW">Kliek hier vir die oplossing</link> </item>
+<item>Vind twee opeenvolgende heelgetalle wat weerskante van <m:math overflow="scroll"><m:msqrt><m:mn>15</m:mn></m:msqrt></m:math> lê op die getallelyn. <link window="new" class="fullmarks" url="http://fhsst.org/lq1">Kliek hier vir die oplossing</link> </item>
+</list>
+    </section>
+  </content>
+</document>

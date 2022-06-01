@@ -1,0 +1,1435 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Saamgestelde rente</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39649</md:content-id>
+  <md:title>Saamgestelde rente</md:title>
+  <md:abstract/>
+  <md:uuid>e13b14ac-e46b-47d9-9e18-169cc68017bb</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid6">
+      <title>Saamgestelde Rente</title>
+      <para id="id71967">Om die begrip van saamgestelde rente te verduidelik, word die volgende voorbeeld bespreek:</para>
+<exercise id="secfhsst_id1776"><title>Gebruik Enkelvoudige Rente om Saamgestelde Rente te verstaan</title><problem id="probfhsst_id1777">
+      <para id="id71984">Ek deponeer R1 000 in 'n spesiale bankrekening wat enkelvoudige rente van 7% per jaar betaal. Gestel ek onttrek al die geld uit die rekening aan die einde van die eerste jaar; dan neem ek die aanvangsbedrag sowel as die rente van die eerste jaar en deponeer dit weer in dieselfde rekening aan die begin van die tweede jaar. Dan onttrek ek alles aan die einde van die tweede jaar, en deponeer alles weer aan die begin van die volgende jaar. Ek onttrek al die geld aan die einde van 3 jaar.</para>
+      </problem>
+      <solution id="solfhsst_id1780"> <list id="listfhsst_id1780" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+      <list id="id72013" display="block" list-type="bulleted"><item id="uid58">Aanvangsbedrag, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+        <item id="uid59">Rentekoers per interval, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>%</m:mo></m:mrow></m:math></item>
+        <item id="uid60">Aantal tydsintervalle, <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mi> jaar </m:mi></m:mrow></m:math> per keer, vir 3 jaar
+</item>
+      </list>
+      <para id="id72108">Ons moet bepaal wat die eindbedrag aan die einde van 3 jaar sal wees.</para>
+      </item> <item> <label> Bepaal hoe om die probleem aan te pak </label>
+      <para id="id72115">Ons weet reeds dat:</para>
+      <equation id="id72119"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi mathvariant="normal">A</m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi mathvariant="normal">i</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi mathvariant="normal">n</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bepaal die eindbedrag aan die einde van die eerste jaar </label>
+      <equation id="id72165"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>070</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bepaal die eindbedrag aan die einde van die tweede jaar </label>
+      <para id="id72277">Aan die einde van die eerste jaar het ons al die geld onttrek en dit weer belê aan die begin van die tweede jaar. Die aanvangsbedrag vir die tweede jaar is dus  <m:math overflow="scroll"><m:mrow><m:mi mathvariant="normal">R</m:mi><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mn>070</m:mn></m:mrow></m:math>, want dit was die eindbedrag aan die einde van die eerste jaar.</para>
+      <equation id="id72302"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>070</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>144</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>90</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bepaal die eindbedrag aan die einde van die derde jaar </label>
+      <para id="id72418">Aan die einde van die tweede jaar het ons al die geld onttrek en dit weer belê aan die begin van die derde jaar. Die aanvangsbedrag vir die derde jaar is dus <m:math overflow="scroll"><m:mrow><m:mi mathvariant="normal">R</m:mi><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mn>144</m:mn><m:mo>,</m:mo><m:mn>90</m:mn></m:mrow></m:math>, want dit was die eindbedrag na die tweede jaar.</para>
+      <equation id="id72447"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>144</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>90</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>225</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>04</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Skryf die finale antwoord neer </label>
+      <para id="id72567">Die eindbedrag op 'n belegging van R1 000, nadat al die geld aan die einde van 'n jaar onttrek is en weer belê is vir die volgende jaar vir 'n tydperk van 3 jaar teen 'n koers van 7% per jaar, is R1 225,04. </para>
+      </item> </list> </solution>
+</exercise>
+      <para id="id72585">In die twee uitgewerkte voorbeelde waar enkelvoudige rente gebruik is (<link target-id="secfhsst_id1168"/> and <link target-id="secfhsst_id1776"/>), het ons basies dieselfde probleem, want  <m:math overflow="scroll"><m:mi>P</m:mi></m:math>=R1 000, <m:math overflow="scroll"><m:mi>i</m:mi></m:math>=7% per jaar en <m:math overflow="scroll"><m:mi>n</m:mi></m:math>= 3 jaar vir albei probleme. Die verskil is dat ons in die tweede voorbeeld geëindig het met R1 225,04 wat R1 210 meer is as in die eerste voorbeeld. Wat het verander?
+
+
+</para>
+      <para id="id72618">In die eerste voorbeeld het ek elke jaar R70 verdien - dieselfde bedrag in die eerste, tweede en derde jaar. In die tweede voorbeeld, toe ek die geld onttrek en weer belê het, het ek eintlik in die tweede jaar rente verdien op die rente (R70) van die eerste jaar. (En in die derde jaar het ek rente op rente op rente verdien!)
+
+
+
+
+</para>
+      <para id="id72624">Hierdie voorbeeld gee 'n weergawe van wat elke dag in die wêreld gebeur en dit staan bekend as Saamgestelde Rente. Dit is die begrip wat onderliggend is aan omtrent alles wat ons doen - ons sal dit dus vervolgens goed bestudeer.
+
+
+</para>
+<definition id="fhsst_id2023"><term id="termfhsst_id2023"> Saamgestelde Rente </term> <meaning id="meaningfhsst_id2023">
+      <para id="id72635">Saamgestelde rente is die rente wat bereken word op die aanvangsbedrag en op die opgeloopte rente. </para>
+      </meaning></definition>
+      <para id="id72647">Saamgestelde rente is egter 'n swaard wat na twee kante toe sny:  wonderlik as jy rente verdien op geld wat jy belê het, maar baie erger as jy rente moet betaal op geld wat jy geleen het!
+
+
+
+
+</para>
+      <para id="id72652">Laat ons 'n formule ontwikkel vir saamgestelde rente op dieselfde manier as wat ons 'n formule ontwikkel het vir enkelvoudige rente.
+
+
+
+
+</para>
+      <para id="id72656">Indien ons aanvangsbedrag   <m:math overflow="scroll"><m:mi>P</m:mi></m:math> is en ons het 'n rentekoers van  <m:math overflow="scroll"><m:mi>i</m:mi></m:math> per jaar, dan sal die eindbedrag aan die einde van die eerste jaar gelyk wees aan:
+
+</para>
+      <equation id="id72678"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Eindbedrag na </m:mi><m:mspace width="2pt"/>
+              <m:mn> 1 </m:mn><m:mspace width="2pt"/>
+              <m:mi> jaar </m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi mathvariant="normal">i</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id72719">Dit is dieselfde as enkelvoudige rente, want dit strek net oor een tydsinterval ('n jaar in hierdie geval). As ons die geld dan onttrek en weer belê vir nog 'n jaar - soos wat ons in die uitgewerkte voorbeeld hierbo gedoen het - sal die eindbedrag aan die einde van die tweede jaar as volg wees:
+
+
+</para>
+      <equation id="id72727"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Eindbedrag na </m:mi><m:mspace width="2pt"/>
+                  <m:mn>2</m:mn><m:mspace width="2pt"/>
+                  <m:mi> jaar </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>[</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>]</m:mo>
+                  <m:mo>×</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id72823">As ons hierdie geld onttrek en weer vir nog 'n jaar belê, sal die eindbedrag wees:
+
+
+</para>
+      <equation id="id72827"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Eindbedrag na </m:mi><m:mspace width="2pt"/>
+                  <m:mn>3</m:mn><m:mspace width="2pt"/>
+                  <m:mi> jaar </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>[</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>]</m:mo>
+                  <m:mo>×</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id72931">Ons kan sien dat die eksponent van die term  <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow></m:math> gelyk is aan die aantal tydsintervalle (jare in hierdie voorbeeld.) Dus, 
+
+</para>
+      <equation id="uid61"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Eindbedrag na </m:mi><m:mspace width="2pt"/>
+              <m:mi>n</m:mi><m:mspace width="2pt"/>
+              <m:mi> jaar </m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi mathvariant="normal">i</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mi mathvariant="normal">n</m:mi>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <section id="uid62">
+        <title>Die geheel bestaan uit kleiner dele</title>
+        <para id="id73019">Dit is maklik om te bewys dat hierdie formule wel werk, selfs wanneer <m:math overflow="scroll"><m:mi>n</m:mi></m:math> 'n breuk van 'n jaar is. Byvoorbeeld: gestel ons belê die geld vir 1 maand, dan vir 4 maande en dan vir 7 maande.
+
+
+
+</para>
+        <equation id="id73033"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Eindsaldo na </m:mi><m:mspace width="2pt"/>
+                    <m:mn>1</m:mn><m:mspace width="2pt"/>
+                    <m:mi> maand </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>12</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Eindsaldo na </m:mi><m:mspace width="2pt"/>
+                    <m:mn>5</m:mn><m:mspace width="2pt"/>
+                    <m:mi> maande </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi> Eindsaldo na </m:mi><m:mspace width="2pt"/>
+                    <m:mn>1</m:mn><m:mspace width="2pt"/>
+                    <m:mi> maand belê met </m:mi><m:mspace width="2pt"/>
+                    <m:mn>4</m:mn><m:mspace width="2pt"/>
+                    <m:mi> maande oor </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow>
+                      <m:mo>[</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mi>i</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:msup>
+                      <m:mo>]</m:mo>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>4</m:mn>
+                        <m:mn>12</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                        <m:mo>+</m:mo>
+                        <m:mfrac>
+                          <m:mn>4</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>5</m:mn>
+                        <m:mn>12</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Eindsaldo na </m:mi><m:mspace width="2pt"/>
+                    <m:mn>12</m:mn><m:mspace width="2pt"/>
+                    <m:mi> maande </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi> Eindsaldo na </m:mi><m:mspace width="2pt"/>
+                    <m:mn>5</m:mn><m:mspace width="2pt"/>
+                    <m:mi> maande belê met </m:mi><m:mspace width="2pt"/>
+                    <m:mn>7</m:mn><m:mspace width="2pt"/>
+                    <m:mi> maande oor </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow>
+                      <m:mo>[</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mi>i</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mn>5</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:msup>
+                      <m:mo>]</m:mo>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>7</m:mn>
+                        <m:mn>12</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>5</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                        <m:mo>+</m:mo>
+                        <m:mfrac>
+                          <m:mn>7</m:mn>
+                          <m:mn>12</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>12</m:mn>
+                        <m:mn>12</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+
+
+
+
+        </equation>
+        <para id="id73464">wat dieselfde is as om die geld vir 'n jaar te belê.
+</para>
+        <para id="id73470">Kyk nou versigtig na die lang berekening hierbo. Dit is nie so ingewikkeld as wat dit lyk nie! Al wat ons doen is om die aanvanklike bedrag (<m:math overflow="scroll"><m:mi>P</m:mi></m:math>) te neem en net 1 maand se rente by te voeg. Dan neem ons daardie nuwe saldo en voeg 'n verdere 4 maande se rente by. Dan neem ons die saldo na al 5 maande en voeg 7 maande se rente by. Kyk weer daarna en let op hoe maklik dit eintlik is!
+
+
+
+</para>
+        <para id="id73487">Lyk die finale formule bekend? Reg - dit is dieselfde resultaat as wanneer die geld vir een volle jaar belê word. Dit is presies wat ons verwag, want:
+
+
+</para>
+        <para id="id73500">1 maand + 4 maande + 7 maande = 12 maande, wat 'n jaar is.</para>
+        <para id="id73506">Kan jy dit sien? Moenie aanbeweeg totdat jy hierdie gedeelte verstaan nie.
+</para>
+      </section>
+      <section id="uid63">
+        <title>Die Krag van Saamgestelde Rente</title>
+        <para id="id73519">Om te sien hoe belangrik "rente op rente" is, sal ons kyk na die verskil in die eindbedrae van geld wat teen enkelvoudige rente belê is en geld wat teen saamgestelde rente belê is. Beskou 'n bedrag van R10 000 wat jy vir 10 jaar moet belê en aanvaar dat jy rente kan verdien teen 9% per jaar. Wat sal die waarde van die belegging wees na 10 jaar?
+
+
+
+</para>
+        <para id="id73528">Die eindbedrag indien die geld enkelvoudige rente verdien, is:</para>
+        <equation id="id73532"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>%</m:mo>
+                    <m:mo>×</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>19</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id73640">Die eindbedrag indien die geld saamgestelde rente verdien, is:</para>
+        <equation id="id73644"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>10</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>9</m:mn>
+                        <m:mo>%</m:mo>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>10</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>23</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>673</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>64</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id73760">Die volgende keer wanneer iemand praat oor die “magic" van saamgestelde rente gaan jy nie net verstaan wat die persoon bedoel nie - jy gaan in staat wees om dit wiskundig te bewys!
+
+
+
+</para>
+        <para id="id73766">Weereens, hou in gedagte dat dit goeie nuus en slegte nuus is. As jy rente verdien op geld wat jy belê het, sal saamgestelde rente daartoe lei dat die bedrag eksponensieel vermeerder. Maar, as jy geld geleen het, sal daardie bedrag ook eksponensieel groei.
+
+
+
+
+</para>
+<exercise id="secfhsst_id2645"><title>Uitneem van 'n lening </title><problem id="probfhsst_id2646">
+        <para id="id73785">Mnr Lowe wil 'n lening van R350 000 uitneem. 
+Hy wil in totaal nie meer as R625 000 terugbetaal aan die lening nie. Bereken vir watter tydperk hy die lening moet uitneem indien 'n rentekoers van 13% per jaar aangebied word. 
+
+
+</para>
+        </problem>
+        <solution id="solfhsst_id2651"> <list id="listfhsst_id2651" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <list id="id73812" display="block" list-type="bulleted"><item id="uid64">Aanvangsbedrag, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>350</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+          <item id="uid65">Eindbedrag, <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>625</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+          <item id="uid66">Rentekoers per tydsinterval, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>13</m:mn><m:mo>%</m:mo><m:mspace width="3.33333pt"/><m:mrow><m:mi> per </m:mi><m:mi> jaar </m:mi></m:mrow></m:mrow></m:math></item>
+        </list>
+        <para id="id73922">Ons moet die tydsduur van die lening bepaal (<m:math overflow="scroll"><m:mi>n</m:mi></m:math>).</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id73942">Ons weet vanuit  <link target-id="uid61"/> dat:</para>
+        <equation id="id73949"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi mathvariant="normal">i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi mathvariant="normal">n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id74003">Ons moet vir  <m:math overflow="scroll"><m:mi>n </m:mi></m:math> bepaal.</para>
+        <para id="id74019">Daarom verander ons die formule na:</para>
+        <equation id="id74024">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mfrac>
+                <m:mi mathvariant="normal">A</m:mi>
+                <m:mi mathvariant="normal">P</m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id74064">en dan bepaal ons  <m:math overflow="scroll"><m:mi>n</m:mi></m:math> met probeer en tref.</para>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id74083"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mi mathvariant="normal">A</m:mi>
+                    <m:mi mathvariant="normal">P</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mn>625000</m:mn>
+                    <m:mn>350000</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>13</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>785</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>13</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd/>
+                <m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Probeer </m:mi><m:mspace width="2pt"/>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>:</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>13</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>44</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Probeer </m:mi><m:mspace width="2pt"/>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>:</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>13</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>63</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Probeer </m:mi><m:mspace width="2pt"/>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>:</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mspace width="1.em"/>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>13</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>84</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        Mnr Lowe moet die lening vir 4 jaar uitneem.
+        </item> 
+
+
+</list> </solution>
+</exercise>
+      </section>
+      <section id="uid67">
+        <title>Ander Toepassings van Saamgestelde Groei</title>
+<para id="eip-431">Suid-Afrika se bevolking neem toe teen 2,5% per jaar. Indien die huidige bevolking 43 miljoen mense is, hoeveel meer mense sal daar oor twee jaar in Suid-Afrika wees? 
+
+
+</para><exercise id="secfhsst_id2915"><title>Bevolkingsgroei</title><problem id="probfhsst_id2916">
+        <para id="id74449">Suid-Afrika se bevolking neem toe teen 2,5% per jaar. Indien die huidige bevolking 43 miljoen mense is, hoeveel meer mense sal daar oor 2 jaar in Suid-Afrika wees? </para>
+        </problem>
+        <solution id="solfhsst_id2919"> <list id="listfhsst_id2919" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <list id="id74474" display="block" list-type="bulleted"><item id="uid68">Aanvangstotaal , <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>43</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+          <item id="uid69">Aantal tydsintervalle , <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mi> jaar </m:mi></m:mrow></m:math></item>
+          <item id="uid70">Groeikoers , <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>%</m:mo><m:mspace width="3.33333pt"/><m:mrow><m:mi> per </m:mi><m:mi> jaar </m:mi></m:mrow></m:mrow></m:math></item>
+        </list>
+        <para id="id74586">Ons moet die eindtotaal bepaal (<m:math overflow="scroll"><m:mi>A</m:mi></m:math>).</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id74605">Ons weet vanuit  <link target-id="uid61"/> dat:</para>
+        <equation id="id74612">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id74650">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>43</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>025</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>45</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>176</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>875</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id74768">Daar sal oor 2 jaar <m:math overflow="scroll"><m:mrow><m:mn>45</m:mn><m:mspace width="3.33333pt"/><m:mn>176</m:mn><m:mspace width="3.33333pt"/><m:mn>875</m:mn><m:mo>-</m:mo><m:mn>43</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mn>176</m:mn><m:mspace width="3.33333pt"/><m:mn>875</m:mn></m:mrow></m:math> meer mense in Suid-Afrika wees.
+ </para>
+        </item> </list> </solution>
+
+</exercise>
+<exercise id="secfhsst_id3026"><title>Saamgestelde Vermindering </title><problem id="probfhsst_id3027">
+        <para id="id74847">'n Swembad word behandel vir die opbou van alge. Aanvanklik was  <m:math overflow="scroll"><m:mrow><m:mn>50</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> van die swembad bedek met alge. Met elke dag van behandeling, verminder die alge met 5%. Bepaal die grootte van die oppervlakte van die swembad wat met alge bedek is na 30 dae van behandeling.</para>
+        </problem>
+        <solution id="solfhsst_id3030"> <list id="listfhsst_id3030" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <list id="id74890" display="block" list-type="bulleted"><item id="uid71">Aanvangsoppervlakte, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:msup><m:mi mathvariant="normal">m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+          <item id="uid72">Aantal tydsintervalle  , <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>30</m:mn><m:mspace width="3.33333pt"/><m:mi> dae </m:mi></m:mrow></m:math></item>
+          <item id="uid73">Koers van vermindering, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>%</m:mo><m:mspace width="3.33333pt"/><m:mrow><m:mi> per </m:mi><m:mi> dag </m:mi></m:mrow></m:mrow></m:math></item>
+        </list>
+        <para id="id74996">Ons moet die oppervlakte bepaal wat aan die einde bedek is (<m:math overflow="scroll"><m:mi>A</m:mi></m:math>).</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id75016">Ons weet vanuit  <link target-id="uid61"/> dat:</para>
+        <equation id="id75023"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi mathvariant="normal">i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi mathvariant="normal">n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id75077">Maar ons werk met saamgestelde <emphasis effect="bold">vermindering</emphasis> so ons kan die volgende formule gebruik:</para>
+        <equation id="id75089"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mi mathvariant="normal">i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi mathvariant="normal">n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id75148">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>-</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>50</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>-</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>05</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>30</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>73</m:mn>
+                    <m:msup>
+                      <m:mi>m</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id75256">Die grootte van die oppervlakte wat bedek is met alge na 30 dae is <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>73</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+
+</exercise>
+<section id="secfhsst_id3169"><title>Saamgestelde Rente</title><list id="id75300" display="block" list-type="enumerated"><item id="uid74">'n Bedrag van R3 500 word belê in 'n spaarrekening wat saamgestelde rente verdien teen 7,5% per jaar. Bereken die bedrag wat opgebou is in die rekening na verloop van 2 jaar.<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcW">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid75">Die gemiddelde inflasiekoers vir die afgelope aantal jaar is 7,3% per jaar en jou water- en elektrisiteitsrekening is gemiddeld R1 425. Bereken wat jy kan verwag om te betaal oor 6 jaar.<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcZ">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid76">Shrek wil geld belê teen 11% per jaar saamgestelde rente. Hoeveel geld (tot die naaste rand) moet hy belê indien hy oor 5 jaar 'n bedrag van R100 000 wil hê?<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcB">Kliek hier vir die oplossing</link>
+</item>
+</list>
+        
+</section>
+      </section>
+    </section>
+  <para id="eip-523">Die volgende afdeling op wisselkoerse is ingesluit ter wille van volledigheid. Dit is belangrik dat jy sal weet van fluktuerende wisselkoerse en die invloed daarvan op invoere en uitvoere. Fluktuerende wisselkoerse lei tot faktore soos die verhoging in die koste van brandstof.  Jy kan meer hieroor lees in 
+<link target-id="uid17">Fluktuerende wisselkoerse</link>.</para>
+  </content>
+</document>

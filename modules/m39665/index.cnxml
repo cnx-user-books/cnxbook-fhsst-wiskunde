@@ -1,0 +1,1122 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Eksponensiële funksies</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39665</md:content-id>
+  <md:title>Eksponensiële funksies</md:title>
+  <md:abstract/>
+  <md:uuid>41ce391c-8c52-4cdd-ab19-79a33024c4d1</md:uuid>
+</metadata>
+
+<content>     
+      <section id="uid172">
+        <title>Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+        <para id="id249604">Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is bekend as <emphasis effect="italics">eksponensiële</emphasis> funksies. Die algemene vorm van ‘n funksie van hierdie tipe word gewys in <link target-id="uid173"/>.</para>
+        <figure id="uid173"><media id="uid173_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C11_027.png" id="uid173_onlineimage" width="493"><!-- NOTE: attribute width changes image size online (pixels). original width is 493. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_027.eps" id="uid173_printimage"/>
+          </media>
+          
+        <caption>Algemene vorm en posisie van die grafiek van ‘n funksie met die vorm <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</caption></figure>
+<section id="secfhsst_id3489"><title>Ondersoek: Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> </title>
+        <!--empty paragraphs get left behind.-->
+        <list id="id249746" display="block" list-type="enumerated"><item id="uid174">Op dieselfde assestelsel, skets  die volgende grafieke:
+
+<list id="id249761" display="block" list-type="enumerated"><item id="uid175"><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid176"><m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid177"><m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid178"><m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid179"><m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item></list>
+
+Gebruik jou antwoorde om 'n gevolgtrekking ten opsigte van die invloed van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> te maak.
+
+</item>
+
+          <item id="uid180">Op dieselfde assestelsel, skets die volgende grafieke:
+
+<list id="id250057" display="block" list-type="enumerated"><item id="uid181"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid182"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid183"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>0</m:mn></m:mrow></m:math></item><item id="uid184"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid185"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list>
+
+Gebruik jou antwoorde om 'n gevolgtrekking ten opsigte van die invloed van <m:math overflow="scroll"><m:mi>q</m:mi></m:math> te maak.
+
+</item>
+
+        </list>
+        
+</section>
+        <para id="id250340">Jy sou gevind het dat die waarde van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> bepaal die vorm van die grafiek, dit wil sê: “Curves Upwards” – “CU” (<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>) of “Curves Downwards” – “CD” (<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>).</para>
+        <para id="id250385">Jy sou ook gevind het die waarde van <m:math overflow="scroll"><m:mi>q</m:mi></m:math> bepaal die posisie van die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit.</para>
+        <para id="id250408">Hierdie verskillende eienskappe word opgesom in <link target-id="uid186"/>.</para>
+        <table id="uid186" summary="Table showing graph">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry/>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>q</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <figure id="id250546">
+                    <media id="id250546_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C11_028.png" id="id250546_onlineimage" width="58"><!-- NOTE: attribute width changes image size online (pixels). original width is 58. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_028.eps" id="id250546_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id250558">
+                    <media id="id250558_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C11_029.png" id="id250558_onlineimage" width="58"><!-- NOTE: attribute width changes image size online (pixels). original width is 58. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_029.eps" id="id250558_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>q</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <figure id="id250596">
+                    <media id="id250596_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C11_030.png" id="id250596_onlineimage" width="58"><!-- NOTE: attribute width changes image size online (pixels). original width is 58. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_030.eps" id="id250596_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id250608">
+                    <media id="id250608_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C11_031.png" id="id250608_onlineimage" width="58"><!-- NOTE: attribute width changes image size online (pixels). original width is 58. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_031.eps" id="id250608_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>Getabelleerde opsomming van algemene vorms en posisies van funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></caption>
+</table>
+        <section id="uid187">
+          <title>Definisieversameling en Waardeversameling </title>
+          <para id="id250625">Vir <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, is die funksie gedefinieer vir alle reële waardes van <m:math overflow="scroll"><m:mi>x</m:mi></m:math>. Dus, die definisieversameling is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>x</m:mi><m:mo>:</m:mo><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math>.</para>
+          <para id="id250696">Die waardeversameling van <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> word bepaal deur die teken van <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.</para>
+          <para id="id250742">As <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> dan:</para>
+          <equation id="id250762">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≥</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≥</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≥</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi>q</m:mi>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≥</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi>q</m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id250891">Dus, as <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, dan is die waardeversameling <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mi>q</m:mi><m:mo>;</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+          <para id="id250956">As <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> dan:</para>
+          <equation id="id250976">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi>q</m:mi>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi>q</m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id251104">Dus, as <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, dan is die waardeversameling <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>;</m:mo><m:mi>q</m:mi><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+          <para id="id251171">Byvoorbeeld, die definisieversameling van <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>x</m:mi><m:mo>:</m:mo><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math>.
+
+Vir die waardeversameling,</para>
+          <equation id="id251239">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≥</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≥</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≥</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>2</m:mn>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id251329">Dus is die waardeversameling  <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid188">
+          <title>Afsnitte</title>
+          <para id="id251389">Vir funksies van die vorm, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, word die afsnitte met die <m:math overflow="scroll"><m:mi>x</m:mi></m:math> en <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as bereken deur <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> te stel vir die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit en deur <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> te stel vir die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnit.</para>
+          <para id="id251491">Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit word as volg bereken:</para>
+          <equation id="uid189"><m:math overflow="scroll" mode="display">
+
+              <m:mtable displaystyle="true">
+
+                <m:mtr>
+
+                  <m:mtd columnalign="right">
+
+                    <m:mi>y</m:mi>
+
+                  </m:mtd>
+
+                  <m:mtd>
+
+                    <m:mo>=</m:mo>
+
+                  </m:mtd>
+
+                  <m:mtd columnalign="left">
+
+                    <m:mrow>
+
+                      <m:mi>a</m:mi>
+
+                      <m:msup>
+
+                        <m:mi>b</m:mi>
+
+                        <m:mrow>
+
+                          <m:mo>(</m:mo>
+
+                          <m:mi>x</m:mi>
+
+                          <m:mo>)</m:mo>
+
+                        </m:mrow>
+
+                      </m:msup>
+
+                      <m:mo>+</m:mo>
+
+                      <m:mi>q</m:mi>
+
+                    </m:mrow>
+
+                  </m:mtd>
+
+                </m:mtr>
+
+                <m:mtr>
+
+                  <m:mtd columnalign="right">
+
+                    <m:msub>
+
+                      <m:mi>y</m:mi>
+
+                      <m:mrow>
+
+                        <m:mi>i</m:mi>
+
+                        <m:mi>n</m:mi>
+
+                        <m:mi>t</m:mi>
+
+                      </m:mrow>
+
+                    </m:msub>
+
+                  </m:mtd>
+
+                  <m:mtd>
+
+                    <m:mo>=</m:mo>
+
+                  </m:mtd>
+
+                  <m:mtd columnalign="left">
+
+                    <m:mrow>
+
+                      <m:mi>a</m:mi>
+
+                      <m:msup>
+
+                        <m:mi>b</m:mi>
+
+                        <m:mrow>
+
+                          <m:mo>(</m:mo>
+
+                          <m:mn>0</m:mn>
+
+                          <m:mo>)</m:mo>
+
+                        </m:mrow>
+
+                      </m:msup>
+
+                      <m:mo>+</m:mo>
+
+                      <m:mi>q</m:mi>
+
+                    </m:mrow>
+
+                  </m:mtd>
+
+                </m:mtr>
+
+                <m:mtr>
+
+                  <m:mtd/>
+
+                  <m:mtd>
+
+                    <m:mo>=</m:mo>
+
+                  </m:mtd>
+
+                  <m:mtd columnalign="left">
+
+                    <m:mrow>
+
+                      <m:mi>a</m:mi>
+
+                      <m:mo>(</m:mo>
+
+                      <m:mn>1</m:mn>
+
+                      <m:mo>)</m:mo>
+
+                      <m:mo>+</m:mo>
+
+                      <m:mi>q</m:mi>
+
+                    </m:mrow>
+
+                  </m:mtd>
+
+                </m:mtr>
+
+                <m:mtr>
+
+                  <m:mtd/>
+
+                  <m:mtd>
+
+                    <m:mo>=</m:mo>
+
+                  </m:mtd>
+
+                  <m:mtd columnalign="left">
+
+                    <m:mrow>
+
+                      <m:mi>a</m:mi>
+
+                      <m:mo>+</m:mo>
+
+                      <m:mi>q</m:mi>
+
+                    </m:mrow>
+
+                  </m:mtd>
+
+                </m:mtr>
+
+              </m:mtable>
+
+            </m:math>
+
+          </equation>
+          <para id="id251637">Byvoorbeeld, die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit van <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> word gegee deur  <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> te stel, om dan te kry:</para>
+          <equation id="id251703"><m:math overflow="scroll" mode="display">
+
+              <m:mtable displaystyle="true">
+
+                <m:mtr>
+
+                  <m:mtd columnalign="right">
+
+                    <m:mi>y</m:mi>
+
+                  </m:mtd>
+
+                  <m:mtd>
+
+                    <m:mo>=</m:mo>
+
+                  </m:mtd>
+
+                  <m:mtd columnalign="left">
+
+                    <m:mrow>
+
+                      <m:mn>3</m:mn>
+
+                      <m:mo>.</m:mo>
+
+                      <m:msup>
+
+                        <m:mn>2</m:mn>
+
+                        <m:mi>x</m:mi>
+
+                      </m:msup>
+
+                      <m:mo>+</m:mo>
+
+                      <m:mn>2</m:mn>
+
+                    </m:mrow>
+
+                  </m:mtd>
+
+                </m:mtr>
+
+                <m:mtr>
+
+                  <m:mtd columnalign="right">
+
+                    <m:msub>
+
+                      <m:mi>y</m:mi>
+
+                      <m:mrow>
+
+                        <m:mi>i</m:mi>
+
+                        <m:mi>n</m:mi>
+
+                        <m:mi>t</m:mi>
+
+                      </m:mrow>
+
+                    </m:msub>
+
+                  </m:mtd>
+
+                  <m:mtd>
+
+                    <m:mo>=</m:mo>
+
+                  </m:mtd>
+
+                  <m:mtd columnalign="left">
+
+                    <m:mrow>
+
+                      <m:mn>3</m:mn>
+
+                      <m:mo>.</m:mo>
+
+                      <m:msup>
+
+                        <m:mn>2</m:mn>
+
+                        <m:mn>0</m:mn>
+
+                      </m:msup>
+
+                      <m:mo>+</m:mo>
+
+                      <m:mn>2</m:mn>
+
+                    </m:mrow>
+
+                  </m:mtd>
+
+                </m:mtr>
+
+                <m:mtr>
+
+                  <m:mtd/>
+
+                  <m:mtd>
+
+                    <m:mo>=</m:mo>
+
+                  </m:mtd>
+
+                  <m:mtd columnalign="left">
+
+                    <m:mrow>
+
+                      <m:mn>3</m:mn>
+
+                      <m:mo>+</m:mo>
+
+                      <m:mn>2</m:mn>
+
+                    </m:mrow>
+
+                  </m:mtd>
+
+                </m:mtr>
+
+                <m:mtr>
+
+                  <m:mtd/>
+
+                  <m:mtd>
+
+                    <m:mo>=</m:mo>
+
+                  </m:mtd>
+
+                  <m:mtd columnalign="left">
+
+                    <m:mn>5</m:mn>
+
+                  </m:mtd>
+
+                </m:mtr>
+
+              </m:mtable>
+
+            </m:math>
+
+          </equation>
+          <para id="id251812">Die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnitte word bereken deur <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> te stel, soos volg:</para>
+          <equation id="uid190">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>y</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mi>i</m:mi>
+                              <m:mi>n</m:mi>
+                              <m:mi>t</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mi>i</m:mi>
+                              <m:mi>n</m:mi>
+                              <m:mi>t</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mi>i</m:mi>
+                            <m:mi>n</m:mi>
+                            <m:mi>t</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mfrac>
+                        <m:mi>q</m:mi>
+                        <m:mi>a</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id252022">Dit het net ‘n rëele oplossing as een van beide <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> of <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Anders, het die grafiek van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> geen  <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnitte.</para>
+          <para id="id252098">Byvoorbeeld, die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnit van <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> word gegee deur  <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> te stel:</para>
+          <equation id="id252162">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>y</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mi>i</m:mi>
+                            <m:mi>n</m:mi>
+                            <m:mi>t</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mi>i</m:mi>
+                            <m:mi>n</m:mi>
+                            <m:mi>t</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                          <m:mi>n</m:mi>
+                          <m:mi>t</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:msup>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id252323">en dit het geen rëele oplossing nie. Dus, die grafiek van <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> het geen  <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnitte nie.</para>
+        </section>
+        <section id="uid191"><title>Asimptote</title><para id="id252384">Daar is een asimptoot vir funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. Die asimptoot kan bepaal word deur die analise van die waardeversameling.</para>
+          <para id="id252423">Ons het gesien dat die terrein bepaal word deur die waarde van q. As <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, dan is die terrein <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mi>q</m:mi><m:mo>;</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>. </para>
+<para id="id7623">Dit wys dat die funksiewaarde neig na die waarde van q as <m:math display="display">
+  <m:apply>
+    <m:tendsto/>
+    <m:ci>x</m:ci>
+    <m:apply>
+      <m:minus/>
+      <m:infinity/>
+    </m:apply>
+  </m:apply>
+</m:math>. Dus die horisontale asimptoot lê by <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>q</m:mi></m:math>.
+</para>
+        </section>
+        <section id="uid192">
+          <title>Sketse van Grafieke van die vorm <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+          <para id="id252708">Om grafieke te skets van funksies van die vorm, <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, moet ons vier eienskappe bereken:</para>
+          <list id="id252753" display="block" list-type="enumerated"><item id="uid193"> Definisieversameling en Waardeversameling
+
+</item>
+
+            <item id="uid194"><m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit
+
+</item>
+
+            <item id="uid195"><m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnit
+
+</item>
+
+          </list>
+          <para id="id252808">Byvoorbeeld, skets die grafiek van <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.  Merk die afsnitte.</para>
+          <para id="id252849">Ons het die definisieversameling bepaal om <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>x</m:mi><m:mo>:</m:mo><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> te wees en die waardeversameling om <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math> te wees.</para>
+          <para id="id252925">Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit is <m:math overflow="scroll"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> en daar is geen <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnitte.</para>
+          <figure id="uid196"><media id="uid196_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C11_032.png" id="uid196_onlineimage" width="366"><!-- NOTE: attribute width changes image size online (pixels). original width is 366. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_032.eps" id="uid196_printimage"/>
+            </media>
+            
+          <caption>Grafiek van <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></caption></figure>
+<exercise id="eid78823"><title>Trek van 'n Eksponsiële Grafiek</title><problem id="probid7884"><para id="id6255">Trek die grafiek van <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:math>.</para>
+</problem>
+<solution id="solid7884">
+<list id="id73683" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Vind die gebied en die terrein</label>Die gebied is: <m:math><m:mo>{</m:mo><m:mi>x</m:mi><m:mo>:</m:mo><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:math> en die terrein is: <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>;</m:mo><m:mi>5</m:mi><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</item>
+<item><label>Bereken die asimptoot</label>Funksies van hierdie vorm het een asimptoot. Dit lê by <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>q</m:mi></m:math>. Dus die asimptoot van die grafiek is by <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:math></item>
+<item><label>Bereken die y-afsnit</label>Ons kry die y-afsnit waar <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>.
+<equation id="id72785">
+<m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:mn>y</m:mn></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mn>3</m:mn><m:mn>0</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:msub><m:mi>y</m:mi><m:mi>int</m:mi></m:msub></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>7</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+Daar is dus een y-afsnit by <m:math><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:math>.
+</item>
+<item><label>Bereken die x-afsnit</label>Die x-afsnit lê by <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>. Berekening van die x-afsnit gee:
+<equation id="id72545">
+<m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:mn>0</m:mn></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:mo>-</m:mo><m:mn>5</m:mn></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:msup><m:mn>3</m:mn><m:mrow><m:msub><m:mi>x</m:mi><m:mi>int</m:mi></m:msub></m:mrow></m:msup></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:msub><m:mi>x</m:mi><m:mi>int</m:mi></m:msub></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>0,83</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+Dus daar is een x-afsnit by <m:math><m:mo>(</m:mo><m:mn>0,83</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:math>.</item>
+<item><label>Trek die grafiek</label>As ons dit alles bymekaarsit, gee dit die volgende grafiek:
+<figure id="uid12329">
+            <media id="uid12329_media" alt="">
+              <image mime-type="image/png" src="../../media/exponent1.png" id="uid123279_onlineimage" width="488"><!-- NOTE: attribute width changes image size online (pixels). original width is 488. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/exponent1.eps" id="uid123279_printimage"/>
+            </media>
+          </figure>
+</item>
+</list>
+</solution>
+</exercise>
+<section id="secfhsst_id4260"><title>Eksponensiele Funksies en Grafieke </title>
+          <!--empty paragraphs get left behind.-->
+          <list id="id253033" display="block" list-type="enumerated"><item id="uid197">Skets die grafieke van <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> op dieselfde assestelsel.
+
+<list id="id253098" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid198">Is die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as die asimptoot en/of simmetrie-as in albei grafieke? Verduidelik jou antwoord.
+
+</item><item id="uid199">Watter grafiek word aangedui met die volgende vergelyking <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math>? Verduidelik jou antwoord.
+
+</item><item id="uid200">Los die vergelyking <m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> met behulp van 'n skets op en kontroleer jou antwoord deur middel van translasie.
+
+</item><item id="uid201">Voorspel hoe die grafiek <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> vergelyk met <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>en teken vervolgens die grafiek van <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> op dieselfde assestelsel.
+
+</item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lxk">Kliek hier vir die antwoord </link></item>
+
+            <item id="uid202">Die kurwe van die eksponensiele funksie <m:math overflow="scroll"><m:mi>f</m:mi></m:math> in die meegaande diagram sny die y-as by die punt A(0; 1). Die punt B(2; 4) is op <m:math overflow="scroll"><m:mi>f</m:mi></m:math>.
+
+<figure id="id253318"><media id="id253318_media" alt=""><image mime-type="image/png" src="../../media/MG10C11_033.png" id="id253318_onlineimage" width="178"><!-- NOTE: attribute width changes image size online (pixels). original width is 178. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_033.eps" id="id253318_printimage"/></media></figure><list id="id253324" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid203">Bepaal die vergelyking van funksie <m:math overflow="scroll"><m:mi>f</m:mi></m:math>.
+
+</item><item id="uid204">Bepaal die vergelyking van <m:math overflow="scroll"><m:mi>h</m:mi></m:math>, die refleksie van die kurwe van <m:math overflow="scroll"><m:mi>f</m:mi></m:math> in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as.
+
+</item><item id="uid205">Bepaal die waardeversameling van <m:math overflow="scroll"><m:mi>h</m:mi></m:math>.
+
+</item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lx0">Kliek hier vir die oplossing </link></item>
+
+          </list>
+          
+</section>
+        </section>
+      </section>
+    
+    <section id="eip-714"><title>Opsomming</title><list id="eip-408"><item>Jy behoort die volgende kenmerke van funksies te ken: <list id="id69342" display="block"><item><label>Afhanklike en onafhanklike veranderlikes</label>Die gegewe of gekose x-waarde is bekend as die onafhanklike veranderlike want die waarde van x kan vrylik gekies word. Die berekende y-waarde staan bekend as die afhanklike veranderlike aangesien die waarde van y afhang van die gekose waarde van x.</item>
+<item><label>Gebied en terrein</label>Die gebied van 'n relasie is die versameling van al die x-waardes waarvoor daar ten minste een y-waarde bestaan volgens die funksievoorskrif. Die terrein is die versameling van al die y-waardes wat verkry kan word deur ten minste een van die x-waardes te gebruik.</item>
+<item><label>Afsnitte met asse</label>Die afsnit is die punt waar die grafiek 'n as sny. Die x-afsnit(te) is die punt(e) waar die grafiek die x-as sny en die y-afsnit(te) is die punt(e) waar die grafiek die y-as sny. </item>
+<item><label>Draaipunte</label>Slegs vir grafieke van funksies met 'n hoogste mag van groter as 1. Daar is twee tipes draaipunte: 'n minimum draaipunt en 'n maksimum draaipunt. 'n Minimum draaipunt is 'n punt op die grafiek waar die grafiek ophou afneem in waarde en begin toeneem in waarde. 'n Maksimum draaipunt is 'n punt op die grafiek waar die grafiek ophou toeneem in waarde en begin afneem in waarde. </item>
+<item><label>Asimptote</label>'n Asimptoot is 'n reguitlyn of kurwe wat die grafiek van 'n funksie sal nader, maar nooit raak nie.</item>
+<item><label>Asse van simmetrie</label>'n Lyn ten opsigte waarvan die grafiek simmetries is.</item>
+<item><label>Intervalle waar die funksie toeneem / afneem</label> Die interval waar die grafiek toeneem of afneem.</item>
+<item><label>Kontinue aard van die funksie</label>'n Grafiek is kontinu as daar geen onderbreking in die grafiek is nie. </item></list></item>
+<item>
+Versamelingnotasie: 
+	'n versameling van sekere x-waardes het die volgende notasie: {x : voorwaardes, meer voorwaardes}</item><item>
+Interval notasie:
+	hier skryf ons 'n interval in die vorm ’laer hakie, laer getal, kommapunt, hoër getal, hoër hakie’</item><item> Jy moet die volgende funksies en hulle eienskappe ken:<list id="id679348"><item>
+Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. Dit is reguitlyne.</item><item>
+Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. Dit staan bekend as paraboliese funksies of parabole.</item><item>
+Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>a</m:mi><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. Dit staan bekend as hiperboliese funksies of hiperbole.</item><item>
+Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. Hulle staan bekend as eksponensiële funksies.</item></list></item>
+</list></section><section id="cid7">
+      <title>Einde van Hoofstuk Oefeninge </title>
+      <list id="id253432" display="block" list-type="enumerated"><item id="uid206">Gegee die funksies <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>18</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math><list id="id253512" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid207">Skets <m:math overflow="scroll"><m:mi>f</m:mi></m:math> en <m:math overflow="scroll"><m:mi>g</m:mi></m:math> op dieselfde assestelsel.
+
+</item><item id="uid208">Bereken die snypunte van <m:math overflow="scroll"><m:mi>f</m:mi></m:math> en <m:math overflow="scroll"><m:mi>g</m:mi></m:math>.
+
+</item><item id="uid209">Gebruik dan jou grafieke en hulle snypunte om vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math> op te los wanneer:
+
+<list id="id253596" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid210"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></item><item id="uid211"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></item></list></item><item id="uid212">Gee die vergelyking van die refleksie van <m:math overflow="scroll"><m:mi>f</m:mi></m:math> in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as.
+
+</item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lx8">Kliek hier vir die antwoord </link></item>
+
+        <item id="uid213">Nadat 'n bal neergegooi is, is die hoogte wat die bal terugbons elke keer minder. Die vergelyking <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>)</m:mo></m:mrow><m:mi>x</m:mi></m:msup></m:mrow></m:math> toon die verwantskap tussen <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, die nommer van die bons, en <m:math overflow="scroll"><m:mi>y</m:mi></m:math>, die hoogte van die bons vir 'n spesifieke bal. Wat is die benaderde hoogte van die vyfde bons tot die naaste tiende van 'n eenheid ?<newline/>
+
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lxX">Kliek hier vir die oplossing </link></item>
+
+        <item id="uid214">Mark het 15 muntstukke in R5- en R2-stukke. Hy het 3 meer R2-stukke as R5-stukke. Hy het ‘n stelsel van vergelykings opgestel om die situasie te toon, waar <m:math overflow="scroll"><m:mi>x</m:mi></m:math> die hoeveelheid R5-stukke voorstel en <m:math overflow="scroll"><m:mi>y</m:mi></m:math> die hoeveelheid R2-stukke voorstel. Hy het vervolgens die probleem grafies opgelos.
+
+<list id="id253801" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid215">Skryf die sisteem van vergelykings neer.
+
+</item><item id="uid216">Skets die grafieke op dieselfde assestelsel.
+
+</item><item id="uid217">Wat is die oplossing?
+
+</item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lx9">Kliek hier vir die oplossing </link></item>
+
+      </list>
+    </section>
+  </content>
+</document>

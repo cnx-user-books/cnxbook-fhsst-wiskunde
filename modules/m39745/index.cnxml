@@ -1,0 +1,640 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Lineêre ongelykhede</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39745</md:content-id>
+  <md:title>Lineêre ongelykhede</md:title>
+  <md:abstract/>
+  <md:uuid>f90a435e-544c-40a6-afa6-01f8d0f2868c</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid6">
+      <title>Lineêre Ongelykhede</title>
+<section id="secfhsst_id3912"><title>Ondersoek : Ongelykhede  op 'n Getallelyn </title>
+      <para id="id157128">Stel die volgende voor op getallelyne:
+</para>
+      <list id="id157134" display="block" list-type="enumerated">
+        <item id="uid77">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid78">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>&lt;</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid79">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>≤</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid80">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid81">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>&gt;</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+      </list>
+      
+</section>
+      <para id="id157267">'n Lineêre ongelykheid is soortgelyk aan 'n lineêre vergelyking aangesien die hoogste eksponent van die veranderlike 1 is. Die volgende is voorbeelde van lineêre ongelykhede:
+
+
+</para>
+      <equation id="id157271">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>≤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>≥</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>2</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id157374">Die metodes wat gebruik word om lineêre ongelykhede op te los, is identies aan dié wat gebruik word om lineêre vergelykings op te los. Die enigste verskil kom voor wanneer daar 'n vermenigvuldiging met of deling deur 'n negatiewe getal is. Ons weet byvoorbeeld dat <m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:mo>&gt;</m:mo><m:mn>6</m:mn></m:mrow></m:math>. As beide kante van die ongelykheid gedeel word (byvoorbeeld deur <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>), sien ons <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math> is nie
+groter as <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> nie. Dus moet die ongelykheid omkeer, wat beteken <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>&lt;</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>.
+
+</para>
+<note id="notfhsst_id4041" type="tip">Wanneer beide kante van 'n ongelykheid met 'n negatiewe getal vermenigvuldig word, of met 'n negatiewe getal gedeel word, verander die rigting van die ongelykheid. Om hierdie rede mag ons nie met 'n veranderlike vermenigvuldig as ons nie weet nie wat die onbekende (veranderlike) se teken is nie.
+
+</note>
+      <para id="id157457">Byvoorbeeld, as <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, dan <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+      <para id="id157494">Om 'n ongelykheid met 'n gewone vergelyking te vergelyk, sal ons eers die gewone vergelyking oplos. Los op
+<m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+      <equation id="id157519">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id157620">As ons hierdie antwoord op 'n getallelyn voorstel, kry ons:</para>
+      <para id="id157626">
+        <figure id="id157630">
+          <media id="id157630_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_001.png" id="id157630_onlineimage" width="528"><!-- NOTE: attribute width changes image size online (pixels). original width is 528. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_001.eps" id="id157630_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id157636">Kom ons los nou die ongelykheid <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>≤</m:mo><m:mn>1</m:mn></m:mrow></m:math> op:</para>
+      <equation id="id157661">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>≤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>≤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>≤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>≤</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id157764">As ons hierdie antwoord op 'n getallelyn voorstel, kry ons: </para>
+      <para id="id157770">
+        <figure id="id157774">
+          <media id="id157774_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_002.png" id="id157774_onlineimage" width="520"><!-- NOTE: attribute width changes image size online (pixels). original width is 520. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_002.eps" id="id157774_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id157780">Soos jy kan sien, vir die vergelyking is daar slegs 'n enkele waarde van <m:math overflow="scroll"><m:mi>x</m:mi></m:math> waarvoor die vergelyking waar is. Vir die ongelykheid is daar egter 'n hele versameling waardes waarvoor die ongelykheid waar is. Dit is die groot verskil tussen gewone vergelykings (gelykhede) en ongelykhede. 
+
+</para>
+<para id="eip-441"><figure id="inequalities-1" class="khanacademy"><title>Khan Akademie video oor ongelykhede - 1</title><media id="yt-media4" display="block" alt="video on inequalities 1">
+	  <flash id="yt-video4" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/y7QLay8wrW8&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><para id="eip-749"><figure id="inequalities-2" class="khanacademy"><title>Khan Akademie video oor ongelykhede - 2</title><media id="yt-media5" display="block" alt="video on inequalities 2">
+	  <flash id="yt-video5" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/VgDe_D8ojxw&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="secfhsst_id4213"><title>Lineêre Ongelykhede</title><problem id="probfhsst_id4214">
+      <para id="id157808">Los op vir <m:math overflow="scroll"><m:mi>r</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mo>-</m:mo><m:mi>r</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn></m:mrow></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id4217"> <list id="listfhsst_id4217" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Kry al die konstantes aan die RK </label>
+      <equation id="id157858">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mi>r</m:mi>
+                  <m:mo>&gt;</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mi>r</m:mi>
+                  <m:mo>&gt;</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Vermenigvuldig weerskante met -1 </label>
+      <para id="id157909">Wanneer jy met 'n negatiewe getal vermenigvuldig, draai die rigting van die ongelykheid om.</para>
+      <equation id="id157913">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>r</m:mi>
+            <m:mo>&lt;</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Stel die antwoorde grafies voor </label>
+      <para id="id157934">
+        <figure id="id157937">
+          <media id="id157937_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_003.png" id="id157937_onlineimage" width="199"><!-- NOTE: attribute width changes image size online (pixels). original width is 199. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_003.eps" id="id157937_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id4271"><title>Lineêre Ongelykhede</title><problem id="probfhsst_id4272">
+      <para id="id157972">Los op vir <m:math overflow="scroll"><m:mi>q</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mo>(</m:mo><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math> en stel die oplossing voor op 'n getallelyn. </para>
+      </problem>
+      <solution id="solfhsst_id4275"> <list id="listfhsst_id4275" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Brei alle hakies uit </label>
+      <equation id="id158035">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Kra al die konstantes aan die RK en al die onbekendes aan die LK </label>
+      <equation id="id158117">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>q</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>6</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>3</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Los die ongelykheid op </label>
+      <equation id="id158212"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>q</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mspace width="1.em"/>
+                  <m:mrow>
+                    <m:mi> deel beide kante deur</m:mi><m:mspace width="2pt"/>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>q</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>&lt;</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Stel die oplossing grafies voor </label>
+      <para id="id158284">
+        <figure id="id158287">
+          <media id="id158287_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_004.png" id="id158287_onlineimage" width="199"><!-- NOTE: attribute width changes image size online (pixels). original width is 199. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_004.eps" id="id158287_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id4447"><title>Saamgestelde Lineêre Ongelykhede </title><problem id="probfhsst_id4448">
+      <para id="id158322">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn></m:mrow></m:math> en stel die antwoord op 'n getallelyn voor.</para>
+      </problem>
+      <solution id="solfhsst_id4451"> <list id="listfhsst_id4451" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Trek 3 af van die linkerkant, middel en regterkant van die ongelykhede </label>
+      <equation id="id158378">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>≤</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>&lt;</m:mo>
+                  <m:mn>8</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo>≤</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>&lt;</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Stel die antwoord grafies voor </label>
+      <para id="id158456">
+        <figure id="id158459">
+          <media id="id158459_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_005.png" id="id158459_onlineimage" width="199"><!-- NOTE: attribute width changes image size online (pixels). original width is 199. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_005.eps" id="id158459_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id4515"><title>Lineêre Ongelykhede </title>
+      <list id="id158488" display="block" list-type="enumerated"><item id="uid82">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math> en stel die oplossing grafies voor:
+<list id="id158514" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid83"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>&gt;</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></item><item id="uid84"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>≤</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></item><item id="uid85"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>7</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>&gt;</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></item><item id="uid86"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid87"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>≥</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></item></list><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcJ">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid88">Los die volgende ongelykhede op. Illustreer jou antwoord op 'n getallelyn as  <m:math overflow="scroll"><m:mi>x</m:mi></m:math> 'n reële getal is.
+<list id="id158773" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid89"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>3</m:mn></m:mrow></m:math>
+</item><item id="uid90"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>≤</m:mo><m:mn>7</m:mn></m:mrow></m:math>
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lcS">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid91">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>&gt;</m:mo><m:mn>7</m:mn></m:mrow></m:math><space/>Illustreer die antwoord op 'n getallelyn.<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lch">Kliek hier vir die oplossing</link>
+</item> 
+      </list>
+      
+</section>
+    </section>
+
+  </content>
+</document>

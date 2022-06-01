@@ -1,0 +1,141 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Gradiënt lyn</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39614</md:content-id>
+  <md:title>Gradiënt lyn</md:title>
+  <md:abstract/>
+  <md:uuid>13546bd2-7da2-4eab-9d2f-ee3f508a8c59</md:uuid>
+</metadata>
+
+<content>
+      <section id="uid40"><title>Berekening van die Gradiënt van 'n Lyn</title><para id="id67971">Die gradiënt van 'n lyn beskryf hoe steil die lyn is, hoe groot die helling van die lyn is. In die figuur hieronder is lyn <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>T</m:mi></m:mrow></m:math> se helling die grootste. Lyn <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>S</m:mi></m:mrow></m:math> is minder steil as <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>T</m:mi></m:mrow></m:math> maar is steiler as <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math>, en die lyn <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math> is steiler as <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math>.</para>
+        <figure id="uid41">
+          <media id="uid41_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_017-9e93.png" id="uid41_onlineimage" width="198"><!-- NOTE: attribute width changes image size online (pixels). original width is 198. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_017-00de.eps" id="uid41_printimage"/>
+          </media>
+        </figure>
+        <para id="id68057">Die gradiënt van die lyn word gedefinieer as
+        die verhouding tussen die vertikale verandering in posisie en die horisontale verandering in posisie. Dit kan verstaan word deur te kyk na die lyn as die
+        skuinssy van die reghoekige driehoek. Die gradiënt is die
+        verhouding van die lengte van die vertikale sy van die driehoek
+        tot die horisontale sy van die driehoek. Dink aan 'n lyn tussen
+        punt <m:math overflow="scroll"><m:mi>A</m:mi></m:math> met koördinate <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en punt <m:math overflow="scroll"><m:mi>B</m:mi></m:math> met koördinate <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid42"><media id="uid42_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_018-288b.png" id="uid42_onlineimage" width="258"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_018-4035.eps" id="uid42_printimage"/>
+          </media>
+        </figure>
+        <para id="id68147">Gradiënt<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></para>
+        <para id="eip-332">Ons kan gradiënt gebruik om te bepaal of twee lyne parallel is aan mekaar of loodreg is op mekaar. As die lyne parallel is (<link target-id="uid4212"/>a) sal hulle dieselfde gradiënt hê, byvoorbeeld <m:math><m:msub><m:mi>m</m:mi><m:mi>AB</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>CD</m:mi></m:msub></m:math>. As hulle loodreg is op mekaar, (<link target-id="uid4212"/>b) dan sal: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>AB</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>CD</m:mi></m:msub></m:mrow></m:math>
+
+ <figure id="uid4212"><media id="uid4212_media" alt="">
+            <image mime-type="image/png" src="../../media/geom.png" id="uid4212_onlineimage" width="228"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/geom.eps" id="uid4212_printimage"/>
+          </media>
+        </figure>
+</para><para id="id68198">Byvoorbeeld, die gradiënt van die lyn tussen punt <m:math overflow="scroll"><m:mi>P</m:mi></m:math> en <m:math overflow="scroll"><m:mi>Q</m:mi></m:math>, met koördinate (2;1) en (-2;-2) (<link target-id="uid38"/>) is:</para>
+        <equation id="id68224"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi> Gradiënt </m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>3</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><para id="eip-611">Die volgende video bied 'n opsomming van die gradiënt van 'n lyn.
+<figure id="uid993" class="khanacademy"><title>Gradiënt van 'n lyn</title><media id="yt-media1" display="block" alt="Video on gradient of a line">
+  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/R948Tsyq4vA&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para>
+      </section>
+
+</content>
+
+</document>

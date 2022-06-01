@@ -1,0 +1,265 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Irrasionale Getalle en Afronding</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37420</md:content-id>
+  <md:title>Irrasionale Getalle en Afronding</md:title>
+  <md:abstract/>
+  <md:uuid>e0f26fcc-24d3-4fb0-8089-dc7944b80d4f</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Inleiding</title>
+      <para id="id324260">Jy het reeds gesien dat baie ink en papier nodig sou wees om repeterende desimale getalle neer te skryf. Dis nie net onmoontlik om hierdie getalle neer te skryf nie, maar om énige getal tot baie desimale plekke of met <emphasis effect="italics">hoë akkuraatheid</emphasis> neer te skryf, is gewoonlik onprakties. Daarom benader ons dikwels 'n getal tot 'n sekere aantal desimale plekke of, selfs beter, tot 'n sekere aantal <emphasis effect="italics">beduidende syfers</emphasis>.
+</para>
+    </section>
+    <section id="cid3"><title>Irrasionale Getalle</title><para id="id324624">Irrasionale getalle is getalle wat nie as 'n breuk met 'n heeltallige teller en noemer geskryf kan word nie. Dit beteken dat enige getal wat nóg 'n eindige nóg 'n herhalende desimale getal is, irrasionaal is. Voorbeelde van irrasionale getalle is:</para>
+      <equation id="id324635">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mn>2</m:mn>
+                  </m:msqrt>
+                  <m:mo>,</m:mo>
+                  <m:mspace width="1.em"/>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                  <m:mo>,</m:mo>
+                  <m:mspace width="1.em"/>
+                  <m:mroot>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                  <m:mo>,</m:mo>
+                  <m:mspace width="1.em"/>
+                  <m:mi>π</m:mi>
+                  <m:mo>,</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msqrt>
+                        <m:mn>5</m:mn>
+                      </m:msqrt>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mo>≈</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>618</m:mn>
+                  <m:mspace width="0.166667em"/>
+                  <m:mn>033</m:mn>
+                  <m:mspace width="0.166667em"/>
+                  <m:mn>989</m:mn>
+                  <m:mspace width="0.166667em"/>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+<note id="notfhsst_id128" type="tip">Wanneer irrasionale getalle in desimaalnotasie geskryf word, het hulle 'n oneindige aantal desimale syfers wat nooit herhaal nie.</note>
+      <para id="id324739">As jy gevra word om uit te werk of 'n getal rasionaal of irrasionaal is, skryf eers die getal in desimaalnotasie. As die desimaal eindig, is die getal rasionaal. As dit vir ewig aanhou, soek vir 'n herhalende syferpatroon. As daar geen patroon is nie, is die getal irrasionaal.</para>
+      <para id="id324745">As jy 'n irrasionale getal in desimaalnotasie skryf, kan jy (as jy baie tyd en papier het!) aanhou skryf vir baie, baie syfers. Dit is egter ongeriefliek en 'n mens rond gewoonlik af.</para>
+<section id="secfhsst_id133"><title>Ondersoek: Irrasionale Getalle</title>
+      <para id="id324757">Watter van die volgende getalle is irrasionaal?</para>
+      <para id="id324763"><emphasis effect="bold">Onthou</emphasis>: 'n Rasionale getal is 'n breuk met 'n heeltallige teller en noemer. Eindige en herhalende desimale getalle is rasionaal.</para>
+      <!--empty paragraphs get left behind.-->
+      <list id="id324775" display="block" list-type="enumerated">
+        <item id="uid1">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>π</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>14159265358979323846264338327950288419716939937510</m:mn>
+              <m:mo>...</m:mo>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid2">1,4
+</item>
+        <item id="uid3">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>618</m:mn>
+              <m:mspace width="0.166667em"/>
+              <m:mn>033</m:mn>
+              <m:mspace width="0.166667em"/>
+              <m:mn>989</m:mn>
+              <m:mspace width="0.166667em"/>
+              <m:mo>...</m:mo>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid4">100
+</item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid4">
+      <title>Afronding</title>
+      <para id="id324198">Afronding van 'n desimale getal tot 'n sekere aantal desimale plekke is 'n eenvoudige manier om die benaderde waarde van 'n desimale getal te vind. As jy byvoorbeeld <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>6525272</m:mn></m:mrow></m:math> wil afrond tot drie desimale plekke, tel jy drie plekke na die desimale komma af en plaas 'n | tussen die derde en die vierde syfer na die desimale komma. 
+
+
+
+</para>
+      <equation id="id325085">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>652</m:mn>
+            <m:mo>|</m:mo>
+            <m:mn>5272</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id325105">Nadat jy vasgestel het of die syfer in die derde desimale plek na bo of na onder afgerond moet word, word al die syfers aan die regterkant van die <m:math overflow="scroll"><m:mo>|</m:mo></m:math> geïgnoreer. Jy rond die finale syfer <emphasis effect="italics">na bo</emphasis> af as die eerste syfer ná die <m:math overflow="scroll"><m:mo>|</m:mo></m:math> groter of gelyk is aan 5, andersins rond jy <emphasis effect="italics">na onder</emphasis> af (los die syfer onveranderd). Wanneer die eerste syfer links van die | 'n 9 is en jy moet boontoe afrond, dan word die 9 'n 0 en die tweede syfer links van die | word boontoe afgerond.
+</para>
+      <para id="id325160">Dus, aangesien die eerste syfer na die | 'n 5 is, moet ons afrond na bo en die derde desimaal na die komma word 3. Die antwoord is dus</para>
+      <equation id="id325186">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>653</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+<exercise id="secfhsst_id199"><title>Afronding</title>
+      <problem id="probfhsst_id200">
+      <para id="id325213">Rond die volgende getalle af:</para>
+      <list id="id325219" display="block" list-type="enumerated"><item id="uid5"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>120</m:mn><m:mn>99</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>212121212</m:mn><m:mover accent="true"><m:mn>1</m:mn><m:mo>˙</m:mo></m:mover><m:mover accent="true"><m:mn>2</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math> tot 3 desimale plekke
+</item>
+        <item id="uid6"><m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>141592654</m:mn><m:mo>...</m:mo></m:mrow></m:math> tot 4 desimale plekke
+</item>
+        <item id="uid7"><m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>7320508</m:mn><m:mo>...</m:mo></m:mrow></m:math> tot 4 desimale plekke
+</item>
+      <item><m:math><m:mn>2,78974526</m:mn><m:mo>...</m:mo></m:math> tot 3 desimale plekke</item></list>
+      
+      </problem>
+      <solution id="solfhsst_id212"> <list id="listfhsst_id212" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label>Vind die laaste syfer wat behou moet word en merk die afsnypunt met <m:math overflow="scroll"><m:mo>|</m:mo></m:math></label>
+      <list id="id325360" display="block" list-type="enumerated">
+        <item id="uid8">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mfrac>
+                <m:mn>120</m:mn>
+                <m:mn>99</m:mn>
+              </m:mfrac>
+              <m:mrow>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>212</m:mn>
+                <m:mo>|</m:mo>
+                <m:mn>121212</m:mn>
+              </m:mrow>
+              <m:mover accent="true">
+                <m:mn>1</m:mn>
+                <m:mo>˙</m:mo>
+              </m:mover>
+              <m:mover accent="true">
+                <m:mn>2</m:mn>
+                <m:mo>˙</m:mo>
+              </m:mover>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid9">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>π</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>1415</m:mn>
+              <m:mo>|</m:mo>
+              <m:mn>92654</m:mn>
+              <m:mo>...</m:mo>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid10">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:msqrt>
+                <m:mn>3</m:mn>
+              </m:msqrt>
+              <m:mrow>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>7320</m:mn>
+                <m:mo>|</m:mo>
+                <m:mn>508</m:mn>
+                <m:mo>...</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
+        </item>
+<item><m:math><m:mn>2,789</m:mn><m:mo>|</m:mo><m:mn>74526</m:mn><m:mo>...</m:mo></m:math></item>
+      </list>
+      </item> <item> <label>Bepaal of die laaste syfer na bo of na onder afgerond moet word</label>
+      <list id="id325490" display="block" list-type="enumerated"><item id="uid11">Die laast syfer van <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>120</m:mn><m:mn>99</m:mn></m:mfrac><m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>212</m:mn><m:mo>|</m:mo><m:mn>121212</m:mn></m:mrow><m:mover accent="true"><m:mn>1</m:mn><m:mo>˙</m:mo></m:mover><m:mover accent="true"><m:mn>2</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math> moet na onder afgerond word.
+</item>
+        <item id="uid12">Die laaste syfer van <m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1415</m:mn><m:mo>|</m:mo><m:mn>92654</m:mn><m:mo>...</m:mo></m:mrow></m:math> moet na bo afgerond word.
+</item>
+        <item id="uid13">Die laaste syfer van <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>7320</m:mn><m:mo>|</m:mo><m:mn>508</m:mn><m:mo>...</m:mo></m:mrow></m:mrow></m:math> moet na bo afgerond word.
+</item>
+      <item> Die laaste syfer van <m:math><m:mn>2,789</m:mn><m:mo>|</m:mo><m:mn>74526</m:mn>
+                <m:mo>...</m:mo></m:math> moet na bo afgerond word. Aangesien dit 'n 9 is, vervang ons die 9 met 'n 0 en rond die tweede laaste syfer boontoe af.</item>
+
+
+
+
+
+</list>
+      </item> <item> <label>Skryf die finale antwoord neer</label>
+      <list id="id325626" display="block" list-type="enumerated"><item id="uid14"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>120</m:mn><m:mn>99</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>212</m:mn></m:mrow></m:math> afgerond tot 3 desimale plekke
+</item>
+        <item id="uid15"><m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1416</m:mn></m:mrow></m:math> afgerond tot 4 desimale plekke
+</item>
+        <item id="uid16"><m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>7321</m:mn></m:mrow></m:math> afgerond tot 4 desimale plekke
+</item>
+       <item><m:math><m:mn>2,790</m:mn></m:math></item></list>
+      
+      </item> </list> </solution>
+</exercise>
+    </section>
+    <section id="cid5"><title>Hoofstukoefeninge</title><list id="id325742" display="block" list-type="enumerated"><item id="uid17">Skryf die volgende rasionale getalle tot 2 desimale plekke:
+<list id="id325757" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid18"><m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math></item><item id="uid19">1
+</item><item id="uid20"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>11111</m:mn><m:mover><m:mn>1</m:mn><m:mo>¯</m:mo></m:mover></m:mrow></m:math></item><item id="uid21"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>99999</m:mn><m:mover><m:mn>1</m:mn><m:mo>¯</m:mo></m:mover></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/llN">Kliek hier vir die oplossing</link></item>
+        <item id="uid22">Skryf die volgende irrasionale getalle tot 2 desimale plekke:
+<list id="id325863" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid23"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>141592654</m:mn><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid24"><m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>618</m:mn><m:mspace width="0.166667em"/><m:mn>033</m:mn><m:mspace width="0.166667em"/><m:mn>989</m:mn><m:mspace width="0.166667em"/><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid25"><m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>41421356</m:mn><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid26"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>71828182845904523536</m:mn><m:mo>...</m:mo></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/llR">Kliek hier vir die oplossing</link></item>
+        <item id="uid27">Gebruik jou sakrekenaar om die volgende irrasionale getalle tot 3 desimale plekke te skryf:
+<list id="id325991" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid28"><m:math overflow="scroll"><m:msqrt><m:mn>2</m:mn></m:msqrt></m:math></item><item id="uid29"><m:math overflow="scroll"><m:msqrt><m:mn>3</m:mn></m:msqrt></m:math></item><item id="uid30"><m:math overflow="scroll"><m:msqrt><m:mn>5</m:mn></m:msqrt></m:math></item><item id="uid31"><m:math overflow="scroll"><m:msqrt><m:mn>6</m:mn></m:msqrt></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lln">Kliek hier vir die oplossing</link></item>
+        <item id="uid32">Gebruik jou sakrekenaar (waar nodig) om die volgende getalle tot 5 desimale plekke te skryf en dui aan of die getal rasionaal of irrasionaal is:
+<list id="id326080" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid33"><m:math overflow="scroll"><m:msqrt><m:mn>8</m:mn></m:msqrt></m:math></item><item id="uid34"><m:math overflow="scroll"><m:msqrt><m:mn>768</m:mn></m:msqrt></m:math></item><item id="uid35"><m:math overflow="scroll"><m:msqrt><m:mn>100</m:mn></m:msqrt></m:math></item><item id="uid36"><m:math overflow="scroll"><m:msqrt><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>49</m:mn></m:mrow></m:msqrt></m:math></item><item id="uid37"><m:math overflow="scroll"><m:msqrt><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0016</m:mn></m:mrow></m:msqrt></m:math></item><item id="uid38"><m:math overflow="scroll"><m:msqrt><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>25</m:mn></m:mrow></m:msqrt></m:math></item><item id="uid39"><m:math overflow="scroll"><m:msqrt><m:mn>36</m:mn></m:msqrt></m:math></item><item id="uid40"><m:math overflow="scroll"><m:msqrt><m:mn>1960</m:mn></m:msqrt></m:math></item><item id="uid41"><m:math overflow="scroll"><m:msqrt><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0036</m:mn></m:mrow></m:msqrt></m:math></item><item id="uid42"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>8</m:mn><m:msqrt><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>04</m:mn></m:mrow></m:msqrt></m:mrow></m:math></item><item id="uid43"><m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:msqrt><m:mn>80</m:mn></m:msqrt></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/llQ">Kliek hier vir die oplossing</link></item>
+        <item id="uid44">Skryf die volgende irrasionale getalle tot 3 desimale plekke, en skryf die afgeronde getal dan as 'n rasionale breuk om 'n benadering tot die irrasionale getal te verkry. Byvoorbeeld, <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>73205</m:mn><m:mo>...</m:mo></m:mrow></m:math>. Tot 3 desimale plekke, <m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>732</m:mn></m:mrow></m:math>. <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>732</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mfrac><m:mn>732</m:mn><m:mn>1000</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mfrac><m:mn>183</m:mn><m:mn>250</m:mn></m:mfrac></m:mrow></m:math>. Dus is <m:math overflow="scroll"><m:msqrt><m:mn>3</m:mn></m:msqrt></m:math> ongeveer <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mfrac><m:mn>183</m:mn><m:mn>250</m:mn></m:mfrac></m:mrow></m:math>.
+<list id="id326443" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid45"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>141592654</m:mn><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid46"><m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>618</m:mn><m:mspace width="0.166667em"/><m:mn>033</m:mn><m:mspace width="0.166667em"/><m:mn>989</m:mn><m:mspace width="0.166667em"/><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid47"><m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>41421356</m:mn><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid48"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>71828182845904523536</m:mn><m:mo>...</m:mo></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/llU">Kliek hier vir die oplossing</link></item>
+      </list>
+    </section>
+  </content>
+</document>

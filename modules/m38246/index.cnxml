@@ -1,0 +1,589 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rasionale getalle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38246</md:content-id>
+  <md:title>Rasionale getalle</md:title>
+  <md:abstract/>
+  <md:uuid>1e925ac7-08fb-40bc-bbe1-0d82daa5c6bf</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Inleiding</title>
+      <para id="id62184">'n Getal (soos beskryf in die hersieningshoofstuk) is 'n manier om 'n hoeveelheid voor te stel. Die getalle wat op hoërskool gebruik sal word is almal reëel, maar daar is heelwat verskillende maniere om enige gegewe reële getal voor te stel.</para>
+      <para id="id62191">Hierdie hoofstuk beskryf <emphasis effect="italics">rasionale getalle</emphasis>.</para><para id="eip-195"><figure id="circuits-1" class="khanacademy"><title>Khan Academy video oor heelgetalle en rasionale getalle (in Engels)</title><media id="yt-media1" display="block" alt="Integers and Rational Numbers">
+<flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/kyu-IQ-gBIg&amp;arel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para>
+    </section>
+    <section id="cid3">
+      <title>Die oorhoofse beskouing van getalle</title>
+      <para id="id62547">
+        <figure id="id62548"><media id="id62548_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C3_001.png" id="id62548_onlineimage" width="386"><!-- NOTE: attribute width changes image size online (pixels). original width is 386. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C3_001.eps" id="id62548_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id62554">Die term "heelgetal" het nie 'n konsekwente definisie nie. Verskillende skrywers gebruik dit op  verskillende wyses. Ons gebruik die volgende definisies:</para>
+      <list id="id62559" display="block" list-type="bulleted"><item id="uid1">natuurlike getalle is (1, 2, 3, ...)
+</item>
+        <item id="uid2">telgetalle is (0, 1, 2, 3, ...)
+</item>
+        <item id="uid3">heelgetalle is (... -3, -2, -1, 0, 1, 2, 3, ....)
+</item>
+      </list>
+    </section>
+    <section id="cid4">
+      <title>Definisie</title>
+      <para id="id62607">Die volgende getalle is almal rasionaal</para>
+      <equation id="uid4">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>10</m:mn>
+              <m:mn>1</m:mn>
+            </m:mfrac>
+            <m:mo>,</m:mo>
+            <m:mspace width="1.em"/>
+            <m:mfrac>
+              <m:mn>21</m:mn>
+              <m:mn>7</m:mn>
+            </m:mfrac>
+            <m:mo>,</m:mo>
+            <m:mspace width="1.em"/>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:mfrac>
+            <m:mo>,</m:mo>
+            <m:mspace width="1.em"/>
+            <m:mfrac>
+              <m:mn>10</m:mn>
+              <m:mn>20</m:mn>
+            </m:mfrac>
+            <m:mo>,</m:mo>
+            <m:mspace width="1.em"/>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+              <m:mn>6</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id62687">Jy kan sien dat al die tellers en noemers heelgetalle is.</para>
+<definition id="fhsst_id138"><term id="termfhsst_id138"> Rasionale getal </term> <meaning id="meaningfhsst_id138">
+      <para id="id62709">'n Rasionale getal is enige getal wat geskryf kan word as:</para>
+      <equation id="uid6">
+        <m:math overflow="scroll" mode="display">
+          <m:mfrac>
+            <m:mi>a</m:mi>
+            <m:mi>b</m:mi>
+          </m:mfrac>
+        </m:math>
+      </equation>
+      <para id="id62732">waar <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>b</m:mi></m:math> heelgetalle is en <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>. </para>
+      </meaning></definition>
+<note id="notfhsst_id150" type="tip">Slegs breuke wat 'n heeltallige teller en noemer het (wat nie 0 is nie), is rasionale getalle.</note>
+      <para id="id62778">Dit beteken dat alle heelgetalle rasionaal is, aangesien hulle geskryf kan word met 'n noemer van 1.</para>
+      <para id="id62782">Dus is</para>
+      <equation id="uid7">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mfrac>
+              <m:msqrt>
+                <m:mn>2</m:mn>
+              </m:msqrt>
+              <m:mn>7</m:mn>
+            </m:mfrac>
+            <m:mo>,</m:mo>
+            <m:mspace width="1.em"/>
+            <m:mfrac>
+              <m:mi>π</m:mi>
+              <m:mn>20</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id62817"><emphasis effect="bold">nie</emphasis> voorbeelde van rasionale getalle nie, want in elke geval is óf die teller óf die noemer nie 'n heelgetal nie.</para>
+      <para id="id62829">'n Getal wat nie geskryf word in die vorm van 'n heelgetal gedeel deur 'n heelgetal nie kan nogtans 'n rasionale getal wees. Dit is omdat die vereenvoudigde resultaat wel as 'n kwosiënt van heelgetalle geskryf kan word. Die reël is dat indien 'n getal geskryf kan word as 'n kwosiënt van heelgetalle, dit rasionaal is, selfs al kan dit op 'n manier geskryf word wat nie so 'n kwosiënt is nie. Hier is twee voorbeelde wat dalk nie na rasionale getalle lyk nie, maar nogtans is, omdat daar ekwivalente vorms gevind kan word wat bestaan uit 'n heelgetal gedeel deur 'n heelgetal:</para>
+      <equation id="uid8"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mspace width="1.em"/>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>33</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:mfrac>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>133</m:mn>
+              <m:mn>300</m:mn>
+            </m:mfrac>
+            <m:mo>,</m:mo>
+            <m:mspace width="1.em"/>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>6</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>39</m:mn>
+              </m:mrow>
+            </m:mfrac>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>300</m:mn>
+              </m:mrow>
+              <m:mn>639</m:mn>
+            </m:mfrac>
+            <m:mo>=</m:mo><m:mfrac>
+            <m:mrow>
+              <m:mo>-</m:mo>
+              <m:mn>100</m:mn>
+            </m:mrow>
+            <m:mn>213</m:mn></m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      
+<section id="secfhsst_id232"><title>Rasionale getalle</title><list id="id63121" display="block" list-type="enumerated"><item id="uid9">Indien <m:math overflow="scroll"><m:mi>a</m:mi></m:math> 'n heelgetal is, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> 'n heelgetal is en <m:math overflow="scroll"><m:mi>c</m:mi></m:math> irrasionaal is, watter van die volgende is rasionale getalle?
+<table id="id63160" summary=""><tgroup cols="4"><tbody><row><entry>(i) <m:math overflow="scroll"><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:math></entry><entry>(ii) <m:math overflow="scroll"><m:mfrac><m:mi>a</m:mi><m:mn>3</m:mn></m:mfrac></m:math></entry><entry>(iii) <m:math overflow="scroll"><m:mfrac><m:mi>b</m:mi><m:mn>2</m:mn></m:mfrac></m:math></entry><entry>(iv) <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mi>c</m:mi></m:mfrac></m:math></entry></row></tbody></tgroup></table>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l35">Klik hier vir die oplossing</link></item>
+        <item id="uid10">Indien <m:math overflow="scroll"><m:mfrac><m:mi>a</m:mi><m:mn>1</m:mn></m:mfrac></m:math> 'n rasionale getal is, watter van die volgende is geldige waardes vir <m:math overflow="scroll"><m:mi>a</m:mi></m:math>?
+<table id="id63268" summary=""><tgroup cols="4"><tbody><row><entry>(i) 1</entry><entry>(ii) <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>10</m:mn></m:mrow></m:math></entry><entry>(iii) <m:math overflow="scroll"><m:msqrt><m:mn>2</m:mn></m:msqrt></m:math></entry><entry>(iv) <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry></row></tbody></tgroup></table>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l3N">Klik hier vir die oplossing</link></item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid5">
+      <title>Vorme van rasionale getalle</title>
+      <para id="id63345">Alle heelgetalle en heeltallige kwosiënte is rasionaal. Daar is twee bykomende vorme van rasionale getalle.</para>
+<section id="secfhsst_id245"><title>Ondersoek: Desimale getalle</title>
+      <para id="id63357">Jy kan die rasionale getal
+<m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math> skryf as die desimale getal 0,5. Skryf die volgende getalle as desimale getalle:</para>
+      <list id="id63375" display="block" list-type="enumerated">
+        <item id="uid11">
+          <m:math overflow="scroll">
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>4</m:mn>
+            </m:mfrac>
+          </m:math>
+        </item>
+        <item id="uid12">
+          <m:math overflow="scroll">
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>10</m:mn>
+            </m:mfrac>
+          </m:math>
+        </item>
+        <item id="uid13">
+          <m:math overflow="scroll">
+            <m:mfrac>
+              <m:mn>2</m:mn>
+              <m:mn>5</m:mn>
+            </m:mfrac>
+          </m:math>
+        </item>
+        <item id="uid14">
+          <m:math overflow="scroll">
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>100</m:mn>
+            </m:mfrac>
+          </m:math>
+        </item>
+        <item id="uid15">
+          <m:math overflow="scroll">
+            <m:mfrac>
+              <m:mn>2</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+          </m:math>
+        </item>
+      </list>
+      <para id="id63486">Beskou die getalle na die desimale komma. Kom hulle tot 'n einde of gaan hulle voort? Indien hulle voortgaan, is daar 'n herhalende patroon in die getalle?</para>
+</section>
+      <para id="id63495">Jy kan 'n rasionale getal as 'n desimale getal skryf. Twee tipes desimale getalle wat as rasionale getalle geskryf kan word:</para>
+      <list id="id63500" display="block" list-type="enumerated"><item id="uid16">Desimale getalle waarvan die nie-nul getalle na die komma tot 'n einde kom of <emphasis effect="italics">termineer</emphasis>, byvoorbeeld die breuk <m:math overflow="scroll"><m:mfrac><m:mn>4</m:mn><m:mn>10</m:mn></m:mfrac></m:math> kan geskryf word as 0,4.
+</item>
+        <item id="uid17">Desimale getalle wat 'n nimmereindigende herhalende patroon van getalle na die komma het, byvoorbeeld die breuk <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math> kan geskryf word as
+
+<m:math overflow="scroll">
+  <m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mn>3</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math>. 
+Die dot beteken dat die <m:math overflow="scroll">
+  <m:mrow><m:mn>3</m:mn></m:mrow></m:math>'e repeteer, m.a.w.
+<m:math overflow="scroll">
+  <m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>333</m:mn><m:mo>...</m:mo> <m:mo>=</m:mo> <m:mn>0</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mn>3</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math>.
+</item>
+      </list>
+      <para id="id63576">Byvoorbeeld, die rasionale getal <m:math overflow="scroll"><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:math> kan in desimale notasie geskryf word as <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mover accent="true"><m:mn>3</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math> en soortgelyk kan die desimale getal 0,25 soos volg as 'n rasionale getal geskryf word: <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:math>.</para>
+<note id="notfhsst_id301" type="tip"><title>Notasie vir repeterende desimale</title>Jy kan 'n kol oor die herhalende desimale aanbring om aan te dui dat die desimaal repeterend is.</note>
+      
+    </section>
+    <section id="cid6">
+      <title>Omskakeling tussen terminerende desimale getalle en rasionale getalle</title>
+      <para id="id63646">'n Desimale getal het 'n heeltallige deel en 'n breukdeel. Byvoorbeeld <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>589</m:mn></m:mrow></m:math> het 'n heeltallige deel van 10 en 'n breukdeel van <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>589</m:mn></m:mrow></m:math> omdat <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>589</m:mn><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>589</m:mn></m:mrow></m:math>. Die breukdeel kan geskryf word as 'n rasionale getal, m.a.w. met 'n teller en 'n noemer wat heelgetalle is.
+</para>
+      <para id="id63704">Elke syfer na die desimale komma is 'n breuk met 'n noemer wat 'n vermeerderende mag van 10 is. Byvoorbeeld:</para>
+      <list id="id63708" display="block" list-type="bulleted">
+        <item id="uid18"><m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn></m:mfrac></m:math> is <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow></m:math></item>
+        <item id="uid19"><m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>100</m:mn></m:mfrac></m:math> is <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>01</m:mn></m:mrow></m:math></item>
+      </list>
+      <para id="id63781">Dit beteken dat:</para>
+      <equation id="id63784"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>589</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>5</m:mn>
+                    <m:mn>10</m:mn>
+                  </m:mfrac>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>8</m:mn>
+                    <m:mn>100</m:mn>
+                  </m:mfrac>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>9</m:mn>
+                    <m:mn>1000</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                  <m:mfrac>
+                    <m:mn>589</m:mn>
+                    <m:mn>1000</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>10589</m:mn>
+                  <m:mn>1000</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+<section id="secfhsst_id378"><title>Breuke</title>
+      <list id="id63882" display="block" list-type="enumerated"><item id="uid20">Skryf die volgende as breuke:
+<table id="id63896" summary=""><tgroup cols="4"><tbody><row><entry>(a) <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn></m:mrow></m:math></entry><entry>(b) <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow></m:math></entry><entry>(c) <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>58</m:mn></m:mrow></m:math></entry><entry>(d) <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2589</m:mn></m:mrow></m:math></entry></row></tbody></tgroup></table>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l3R">Klik hier vir die oplossing</link></item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid7">
+      <title>Omskakeling tussen repeterende desimale breuke en rasionale getalle</title>
+      <para id="id63993">Wanneer die desimaal repeterend is, is daar 'n bietjie meer werk nodig om die breukdeel van die desimale getal as 'n breuk te skryf. Ons sal verduidelik aan die hand van 'n voorbeeld.</para>
+      <para id="id63998">Indien ons <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mover accent="true"><m:mn>3</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math> in die vorm <m:math overflow="scroll"><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:math> wil skryf (waar <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>b</m:mi></m:math> heelgetalle is), sal ons soos volg te werk gaan:
+</para>
+      <equation id="uid21"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>33333</m:mn>
+                  <m:mo>...</m:mo>
+                </m:mrow>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>33333</m:mn>
+                  <m:mo>...</m:mo>
+                 </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                  <m:mi>vermenigvuldig met </m:mi>
+                  <m:mspace width="2.pt"/>
+                  <m:mn>10</m:mn>
+                  <m:mspace width="2.pt"/>
+                  <m:mi>aan beide kante</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>9</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                  <m:mi>(trek die tweede verg. van die eerste verg. af)</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>3</m:mn>
+                    <m:mn>9</m:mn>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id64237">Nog 'n voorbeeld sou wees om
+<m:math overflow="scroll">
+    <m:mrow>
+        <m:mn>5</m:mn><m:mo>,</m:mo>
+        <m:mover accent="true"><m:mn>4</m:mn><m:mo>˙</m:mo></m:mover>  
+        <m:mover accent="true"><m:mn>3</m:mn><m:mo>˙</m:mo></m:mover>  
+        <m:mover accent="true"><m:mn>2</m:mn><m:mo>˙</m:mo></m:mover>  
+    </m:mrow>
+</m:math> 
+as 'n rasionale breuk te skryf.
+
+</para>
+      <equation id="uid22"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>432432432</m:mn>
+                  <m:mo>...</m:mo>
+                </m:mrow>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>1000</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5432</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>432432432</m:mn>
+                  <m:mo>...</m:mo></m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                  <m:mi>vermenigvuldig met </m:mi>
+                  <m:mspace width="2.pt"/>
+                  <m:mn>1 000</m:mn>
+                  <m:mspace width="2.pt"/>
+                  <m:mi>aan beide kante</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow/>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>999</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5427</m:mn>
+</m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                  <m:mtext>(trek die tweede verg. van die eerste verg. af)</m:mtext>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>5427</m:mn>
+                    <m:mn>999</m:mn>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mn>201</m:mn>
+                    <m:mn>37</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id64459">In die eerste voorbeeld is die desimaal vermenigvuldig met 10 en in die tweede voorbeeld is dit vermenigvuldig met 1000. Dit is omdat daar in die eerste voorbeeld slegs een repeterende syfer (nl. 3) was, terwyl die tweede voorbeeld drie repeterende syfers (nl. 432) gehad het.</para>
+      <para id="id64465">In die algemeen, as jy een repeterende syfer het, vermenigvuldig jy met 10. As jy twee repeterende syfers het, vermenigvuldig jy met 100. Met drie syfers vermenigvuldig jy met 1000. Kan jy al die patroon raaksien?</para>
+      <para id="id64470">Die aantal nulle is dieselfde as die aantal repeterende syfers.</para>
+      <para id="id64474">Nie alle desimale getalle kan as rasionale getalle geskryf word nie. Hoekom nie? Irrasionale desimale getalle soos
+
+<m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4142135</m:mn><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+
+kan nie geskryf word met 'n heeltallige teller en noemer nie, omdat daar geen patroon van repeterende syfers is nie. Jy behoort egter, so ver moontlik, eerder rasionale getalle of breuke as desimale getalle te gebruik.</para>
+<section id="secfhsst_id606"><title>Repeterende desimale notasie</title>
+      <list id="id64513" display="block" list-type="enumerated"><item id="uid23">Skryf die volgende in repeterende (herhalende) desimale notasie:
+<list id="id64529" display="block" list-type="enumerated"><item id="uid24"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>11111111</m:mn><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid25"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1212121212</m:mn><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid26"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>123123123123</m:mn><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid27"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>11414541454145</m:mn><m:mo>...</m:mo></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l3U">Klik hier vir die oplossing</link></item>
+        <item id="uid28">Skryf die volgende in repeterende desimale notasie:
+<list id="id64650" display="block" list-type="enumerated"><item id="uid29"><m:math overflow="scroll"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math></item><item id="uid30"><m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mfrac><m:mn>3</m:mn><m:mn>11</m:mn></m:mfrac></m:mrow></m:math></item><item id="uid31"><m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math></item><item id="uid32"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l3n">Klik hier vir die oplossing</link></item>
+        <item id="uid33">Skryf die volgende in breukvorm:
+<list id="id64767" display="block" list-type="enumerated"><item id="uid34"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>633</m:mn><m:mover accent="true"><m:mn>3</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math></item><item id="uid35"><m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3131</m:mn><m:mover><m:mn>31</m:mn><m:mo>¯</m:mo></m:mover></m:mrow></m:math></item><item id="uid36"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>99999</m:mn><m:mover accent="true"><m:mn>9</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l3Q">Klik hier vir die oplossing</link></item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid8"><title>Opsomming</title><list id="eip-280" list-type="enumerated" number-style="arabic"><item>Reële getalle is óf rasionaal óf irrasionaal.</item><item> 'n Rasionale getal is enige getal wat geskryf kan word as
+<m:math overflow="scroll" mode="display">
+          <m:mfrac>
+            <m:mi>a</m:mi>
+            <m:mi>b</m:mi>
+          </m:mfrac>
+        </m:math>
+waar <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>b</m:mi></m:math> heelgetalle is en <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+<item>Die volgende is rasionale getalle:
+      <list id="id64890" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid37">Breuke waarvan beide die teller en die noemer heeltallig is
+</item>
+        <item id="uid38">Heelgetalle
+</item>
+        <item id="uid39">Desimale getalle wat eindig
+</item>
+        <item id="uid40">Desimale getalle wat repeteer
+</item>
+      </list></item></list>
+    </section>
+    <section id="cid9"><title>Oefeninge</title><list id="id64954" display="block" list-type="enumerated"><item id="uid41">Indien <m:math overflow="scroll"><m:mi>a</m:mi></m:math> 'n heelgetal is, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> 'n heelgetal is en <m:math overflow="scroll"><m:mi>c</m:mi></m:math> irrasionaal is, watter van die volgende is rasionaal?
+<list id="id64997" display="block" list-type="enumerated"><item id="uid42"><m:math overflow="scroll"><m:mfrac><m:mn>5</m:mn><m:mn>6</m:mn></m:mfrac></m:math><newline/></item>
+<item id="uid43"><m:math overflow="scroll"><m:mfrac><m:mi>a</m:mi><m:mn>3</m:mn></m:mfrac></m:math></item><item id="uid44"><m:math overflow="scroll"><m:mfrac><m:mi>b</m:mi><m:mn>2</m:mn></m:mfrac></m:math><newline/></item>
+<item id="uid45"><m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mi>c</m:mi></m:mfrac></m:math>
+</item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l3v">Klik hier vir die oplossing</link>
+</item>
+
+        <item id="uid46">Skryf elkeen van die volgende as 'n onegte breuk:
+<list id="id65104" display="block" list-type="enumerated"><item id="uid47"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math></item><item id="uid48"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow></m:math></item><item id="uid49"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow></m:math></item><item id="uid50"><m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>59</m:mn></m:mrow></m:math></item><item id="uid51"><m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>27</m:mn><m:mover accent="true"><m:mn>7</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math>
+</item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l3f">Klik hier vir die oplossing</link>
+</item>
+
+        <item id="uid52">Wys dat die desimaal <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>21</m:mn><m:mover accent="true"><m:mn>1</m:mn><m:mo>˙</m:mo></m:mover><m:mover accent="true"><m:mn>8</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math> 'n rasionale getal is.
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/l3G">Klik hier vir die oplossing</link>
+</item>
+        <item id="uid53">Druk <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mover accent="true"><m:mn>8</m:mn><m:mo>˙</m:mo></m:mover></m:mrow></m:math> as 'n breuk <m:math overflow="scroll"><m:mfrac><m:mi>a</m:mi><m:mi>b</m:mi></m:mfrac></m:math> uit waar <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">Z</m:mi></m:mrow></m:math> (wys alle stappe).
+<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lOf">Klik hier vir die oplossing</link>
+
+</item>
+</list>
+    </section>
+  </content>
+</document>

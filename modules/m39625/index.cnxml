@@ -1,0 +1,571 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Poligone</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39625</md:content-id>
+  <md:title>Poligone</md:title>
+  <md:abstract/>
+  <md:uuid>d9914a16-12a2-44c0-bc46-dd9178b36a81</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid5">
+      <title>Poligone</title>
+      <para id="id317435">As jy 'n aantal lyne verbind sodat die eindpunt van die eerste lyn die beginpunt van die laaste lyn ontmoet, kry jy 'n <emphasis effect="italics">poligoon</emphasis>. Elke lyn wat deel van die poligoon uitmaak, staan bekend as 'n <emphasis effect="italics">sy</emphasis>. 'n Poligoon het binnehoeke - dit is die hoeke aan die binnekant van die poligoon. Poligone het net soveel sye as binnehoeke. As 'n poligoon se sye ewe lank is en sy hoeke ewe groot is, noem ons dit 'n <emphasis effect="italics">reëlmatige poligoon</emphasis>. Voorbeelde van poligone word getoon in<link target-id="uid37"/>.
+
+</para>
+      <figure id="uid37"><media id="uid37_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C13_0221.png" id="uid37_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 87. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_0221.eps" id="uid37_printimage"/>
+        </media>
+        
+      <caption>Voorbeelde van poligone. Hulle is almal reëlmatig, behalwe die gemerk met *.</caption></figure>
+      <section id="uid38"><title>Driehoeke</title><para id="id317485">'n Driehoek is 'n drie-sydige poligoon. Daar is verskeie soorte driehoeke: ongelyksydig, gelyksydig, gelykbenig, reghoekig, skerphoekig, stomphoekig. Die eienskappe van hierdie driehoeke is opgesom in <link target-id="uid39"/>.</para>
+        <table id="uid39" summary="Summary of triangles" pgwide="1">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry>Naam</entry>
+                <entry>Diagram</entry>
+                <entry>Eienskappe</entry>
+              </row>
+              <row>
+                <entry>gelyksydig</entry>
+                <entry>
+                  <figure id="id317558">
+                    <media id="id317558_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C13_023.png" id="id317558_onlineimage" width="160"><!-- NOTE: attribute width changes image size online (pixels). original width is 110. --></image>
+                      <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_023.eps" id="id317558_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>Al 3 sye is ewe lank (aangedui met die kort strepies wat getrek is deur die gelyke sye) en al 3 die hoeke is ewe groot.</entry>
+              </row>
+              <row>
+                <entry>gelykbenig</entry>
+                <entry>
+                  <figure id="id317593">
+                    <media id="id317593_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C13_024.png" id="id317593_onlineimage" width="117"><!-- NOTE: attribute width changes image size online (pixels). original width is 67. --></image>
+                      <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_024.eps" id="id317593_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>Twee sye is ewe lank. Die hoeke teenoor die gelyke sye is ewe groot.</entry>
+              </row>
+              <row>
+                <entry>reghoekig</entry>
+                <entry>
+                  <figure id="id317628">
+                    <media id="id317628_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C13_025.png" id="id317628_onlineimage" width="131"><!-- NOTE: attribute width changes image size online (pixels). original width is 81. --></image>
+                      <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_025.eps" id="id317628_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>Hierdie driehoek het een regte hoek. Die sy teenoor hierdie hoek word genoem die <emphasis effect="italics">skuinssy</emphasis>.</entry>
+              </row>
+              <row>
+                <entry>skerphoekig (nie-sillabus)</entry>
+                <entry>
+                  <figure id="id317668">
+                    <media id="id317668_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C13_026.png" id="id317668_onlineimage" width="118"><!-- NOTE: attribute width changes image size online (pixels). original width is 68. --></image>
+                      <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_026.eps" id="id317668_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>Alle sye en alle hoeke is van verskillende lengtes/groottes.</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+</tgroup><caption>Tipes Driehoeke</caption>
+</table>
+        <para id="id317683">As die hoekpunte van 'n driehoek benoem word met A, B en C - dan praat ons van <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>.</para>
+        <section id="uid40"><title>Eienskappe van Driehoeke</title><section id="secfhsst_id655"><title> Ondersoek : Som van die hoeke van 'n driehoek </title>
+          <list id="id317720" display="block" list-type="enumerated"><item id="uid41">Trek 'n driehoek van enige grootte of vorm op 'n vel papier.
+</item>
+            <item id="uid42">Sny dit uit en benoem die hoeke <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math>, <m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math> en <m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math> aan beide kante van die papier.
+</item>
+            <item id="uid43">Trek stippellyne soos aangetoon en sny langs hierdie lyne om 3 stukke papier te kry.
+</item>
+            <item id="uid44">Plaas die 3 stukke teen jou liniaal soos aangetoon om te sien dat <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>+</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>+</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+          </list>
+          <para id="id317868"><figure id="id317874"><media id="id317874_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_027.png" id="id317874_onlineimage" width="171"><!-- NOTE: attribute width changes image size online (pixels). original width is 171. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_027.eps" id="id317874_printimage"/></media></figure><figure id="id317886"><media id="id317886_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_028.png" id="id317886_onlineimage" width="247"><!-- NOTE: attribute width changes image size online (pixels). original width is 247. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_028.eps" id="id317886_printimage"/></media></figure>
+
+
+ </para>
+</section>
+<note id="notfhsst_id670" type="tip">Die som van die hoeke van 'n driehoek is 180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>.</note>
+          <figure id="uid45">
+            <media id="uid45_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_029.png" id="uid45_onlineimage" width="172"><!-- NOTE: attribute width changes image size online (pixels). original width is 172. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_029.eps" id="uid45_printimage"/>
+            </media>
+            <caption>In enige driehoek, <m:math overflow="scroll"><m:mrow><m:mi>∠</m:mi><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>∠</m:mi><m:mi>B</m:mi><m:mo>+</m:mo><m:mi>∠</m:mi><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></caption>
+          </figure>
+<note id="notfhsst_id678" type="tip">'n Buitehoek van 'n driehoek is gelyk aan die som van die twee teenoorstaande binnehoeke. 'n Buitehoek word gevorm deur een van die sye te verleng.</note>
+          <figure id="uid46"><media id="uid46_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_030.png" id="uid46_onlineimage" width="398"><!-- NOTE: attribute width changes image size online (pixels). original width is 398. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_030.eps" id="uid46_printimage"/>
+            </media>
+            
+          <caption>In enige driehoek is enige buitehoek gelyk aan die som van die 2 teenoorstaande binnehoeke.</caption></figure>
+        </section>
+        <section id="uid47">
+          <title>Kongruente Driehoeke</title>
+          <table id="id317997" summary="Congruent triangles">
+<tgroup cols="3"><tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">Simbool</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Beskrywing</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Diagram</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>SS90H</entry>
+                  <entry>As die skuinssy en een ander sy van een reghoekige driehoek gelyk is aan die skuinssy en ooreenkomstige ander sy van 'n tweede driehoek, dan is die driehoeke kongruent.</entry>
+                  <entry>
+                    <figure id="id318071"><media id="id318071_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_031.png" id="id318071_onlineimage" width="212"><!-- NOTE: attribute width changes image size online (pixels). original width is 212. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_031.eps" id="id318071_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+                <row>
+                  <entry>SSS</entry>
+                  <entry>As die 3 sye van 'n driehoek net so lank is soos die ooreenkomstige 3 sye van 'n ander driehoek, dan is die 2 driehoeke kongruent.</entry>
+                  <entry>
+                    <figure id="id318107"><media id="id318107_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_032.png" id="id318107_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 250. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_032.eps" id="id318107_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+                <row>
+                  <entry>SHS</entry>
+                  <entry>As 2 sye en die ingeslote hoek van een driehoek net so groot is soos 2 sye en die ingeslote hoek van 'n ander driehoek, dan is die 2 driehoeke kongruent. </entry>
+                  <entry>
+                    <figure id="id318143"><media id="id318143_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_033.png" id="id318143_onlineimage" width="245"><!-- NOTE: attribute width changes image size online (pixels). original width is 245. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_033.eps" id="id318143_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+                <row>
+                  <entry>HHS</entry>
+                  <entry>As 1 sy en 2 hoeke van 'n driehoek net so groot is as die ooreenkomstige sy en 2 hoeke van 'n ander driehoek, dan is die 2 driehoeke kongruent.</entry>
+                  <entry>
+                    <figure id="id318178"><media id="id318178_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_034.png" id="id318178_onlineimage" width="238"><!-- NOTE: attribute width changes image size online (pixels). original width is 238. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_034.eps" id="id318178_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+              </tbody>
+            
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+        </section>
+        <section id="uid48"><title>Gelykvormige Driehoeke</title><table id="id318196" summary="similar triangles">
+<tgroup cols="2"><tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">Beskrywing</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Diagram</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>As 3 hoeke van een driehoek gelyk is aan die 3 hoeke van 'n ander driehoek is die driehoeke gelykvormig. </entry>
+                  <entry>
+                    <figure id="id318251"><media id="id318251_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_035.png" id="id318251_onlineimage" width="247"><!-- NOTE: attribute width changes image size online (pixels). original width is 197. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_035.eps" id="id318251_printimage"/>
+                      </media>
+                    </figure>
+                  </entry>
+                </row>
+                <row>
+                  <entry>As al 3 sye van 'n driehoek eweredig is aan die ooreenstemmende 3 sye van 'n ander driehoek, dan is die 2 driehoeke gelykvormig.</entry>
+                  <entry>
+                    <figure id="id318279"><media id="id318279_media" alt="">
+                        <image mime-type="image/png" src="../../media/MG10C13_036.png" id="id318279_onlineimage" width="196"><!-- NOTE: attribute width changes image size online (pixels). original width is 146. --></image>
+                        <image mime-type="application/postscript" for="pdf" print-width="2cm" src="../../media/MG10C13_036.eps" id="id318279_printimage"/>
+                      </media>
+                    </figure>
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mi>x</m:mi>
+                          <m:mi>p</m:mi>
+                        </m:mfrac>
+                        <m:mo>=</m:mo>
+                        <m:mfrac>
+                          <m:mi>y</m:mi>
+                          <m:mi>q</m:mi>
+                        </m:mfrac>
+                        <m:mo>=</m:mo>
+                        <m:mfrac>
+                          <m:mi>z</m:mi>
+                          <m:mi>r</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                </row>
+              </tbody>
+            
+
+</tgroup>
+</table>
+        </section>
+        <section id="uid49">
+          <title>Die Stelling van Pythagoras</title>
+          <para id="id318328"><figure id="id318334"><media id="id318334_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_037.png" id="id318334_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 150. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_037.eps" id="id318334_printimage"/></media></figure>
+
+
+
+As <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC 'n reghoekige driehoek is (<m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>) dan
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math><!--empty paragraphs get left behind.--><newline/><emphasis effect="bold">Omgekeerde:</emphasis>
+As <m:math overflow="scroll"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, dan is
+<m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC 'n reghoekige driehoek (<m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>).
+
+</para>
+<exercise id="eip-693"><title>Driehoeke</title><problem id="eip-221">
+  <para id="eip-154">
+  In die volgende figure, bepaal of die 2 driehoeke kongruent is en gebruik dan die resultaat om die onbekendes te vind.
+<figure id="id5433">
+            <media id="id5433_media" alt="">
+            <image mime-type="image/png" src="../../media/triangle1.png" id="id5433_onlineimage" width="350"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/triangle1.eps" id="id5433_printimage"/>
+            </media>
+            </figure>
+  </para>
+</problem>
+
+<solution id="eip-477">
+  <list id="eip-156" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Bewys kongruensie</label><para id="id65234"><m:math><m:mi>D</m:mi><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">ˆ</m:mo></m:mover><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mi>B</m:mi><m:mover accent="true"><m:mi>A</m:mi><m:mo stretchy="false">ˆ</m:mo></m:mover><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>55</m:mn><m:mi>°</m:mi></m:msup></m:math><space/>(som van die hoeke van 'n driehoek is 
+<m:math><m:msup><m:mn>180</m:mn><m:mi>°</m:mi></m:msup></m:math></para>
+      <para id="id1166232344812"><m:math><m:mi>A</m:mi><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="false">ˆ</m:mo></m:mover><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mi>C</m:mi><m:mover accent="true"><m:mi>D</m:mi><m:mo stretchy="false">ˆ</m:mo></m:mover><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>90</m:mn><m:mi>°</m:mi></m:msup></m:math><space/> (gegee)</para>
+      <para id="id1166233687055"><m:math><m:mtext>DE</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>AB</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:math><space/> (gegee)</para>
+      <equation id="id1166230595268"><m:math>
+                    <m:mo>∴</m:mo>
+                    <m:mi>Δ</m:mi>
+                      <m:mtext>ABC</m:mtext>
+                      <m:mo stretchy="false">≡</m:mo>
+                      <m:mi>Δ</m:mi>
+                    <m:mtext>EDC</m:mtext>
+        </m:math>
+      </equation></item>
+ <item><label>Vind die onbekende veranderlikes</label><para id="id6543">Ons gebruik Pythagoras om x te bereken: 
+      <equation id="id1166232298669"><m:math>
+    <m:mtable>
+<m:mtr>
+       <m:mtd columnalign="right"><m:msup>
+                        <m:mtext>CE</m:mtext>
+                            <m:mn>2</m:mn>
+                      </m:msup></m:mtd>
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:msup>
+                          <m:mtext>DE</m:mtext>
+                              <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mtext>DC</m:mtext>
+
+                              <m:mn>2</m:mn>
+</m:msup>
+                            </m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mn>5</m:mn>
+                            <m:mn>2</m:mn>
+                      </m:msup></m:mtd><m:mtd>
+                      <m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:msup>
+                          <m:mn>3</m:mn>
+                              <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                              <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right">
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                              <m:mn>2</m:mn>
+                        </m:msup></m:mtd><m:mtd>
+                        <m:mo stretchy="false">=</m:mo></m:mtd><m:mtd columnalign="left">
+                        <m:mn>16</m:mn>
+                      </m:mtd></m:mtr><m:mtr>
+<m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd> 
+                      <m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable>
+        </m:math>
+      </equation></para>
+      <para id="id1166229837179"><m:math><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mn>35</m:mn><m:mi>°</m:mi></m:msup></m:math><space/>(hoeke in 'n driehoek)</para>
+      <para id="id1166228117285"><m:math><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:math><space/>(kongruente driehoeke, 
+<m:math><m:mtext>AC</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>CE</m:mtext></m:math>)</para></item>
+  </list>
+</solution>
+</exercise><section id="secfhsst_id824"><title>Driehoeke </title>
+          <list id="id318528" display="block" list-type="enumerated"><item id="uid50">Bereken die onbekende veranderlikes in elk van die volgende figure. Alle lengtes is in mm.
+<figure id="id318548"><media id="id318548_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_038.png" id="id318548_onlineimage" width="358"><!-- NOTE: attribute width changes image size online (pixels). original width is 358. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_038.eps" id="id318548_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/lxz">Kliek hier vir die oplossing</link></item>
+            <item id="uid51">Bepaal of elk van die volgende pare driehoeke kongruent is of nie. 
+Gee redes vir jou antwoorde. As daar nie genoeg inliging is om 'n besluit te neem nie, sê hoekom.
+<figure id="id318571"><media id="id318571_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_039.png" id="id318571_onlineimage" width="360"><!-- NOTE: attribute width changes image size online (pixels). original width is 360. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_039.eps" id="id318571_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/lxu">Kliek hier vir die oplossing</link></item>
+          </list>
+          
+</section>
+        </section>
+  
+      
+      <section id="eip-75"><title>Vierhoeke</title><para id="eip-366">'n Vierhoek is 'n geslote vier-sydige figuur. Daar is 'n aantal spesiale vierhoeke (trapesium, parallelogram, vlieër, rombus, reghoek, vierkant) waaroor jy later sal leer in <link document="m38381">Geometry</link>. 
+</para></section><section id="uid91">
+        <title>Ander poligone</title>
+        <para id="id319439">Daar is baie ander poligone waarvan sommige gegee word in die tabel hieronder.</para>
+        <table id="uid92" summary="poligone">
+<tgroup cols="2"><tbody>
+              <row>
+                <entry>Sye</entry>
+                <entry>Naam</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>pentagoon</entry>
+              </row>
+              <row>
+                <entry>6</entry>
+                <entry>heksagoon</entry>
+              </row>
+              <row>
+                <entry>7</entry>
+                <entry>heptagoon</entry>
+              </row>
+              <row>
+                <entry>8</entry>
+                <entry>oktagoon</entry>
+              </row>
+              <row>
+                <entry>10</entry>
+                <entry>dekagoon</entry>
+              </row>
+              <row>
+                <entry>15</entry>
+                <entry>pentagoon</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+</tgroup><caption>Tabel van sommige poligone en hulle aantal sye</caption>
+</table>
+        <figure id="uid93"><media id="uid93_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C13_046.png" id="uid93_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_046.eps" id="uid93_printimage"/>
+          </media>
+          
+        <caption>Voorbeelde van poligone</caption></figure>
+      </section><section id="eip-210"><title>Hoeke van Reëlmatige Poligone</title><para id="id319627">Jy kan die grootte van die binnehoek van 'n reëlmatige poligoon as volg bereken:</para>
+          <equation id="uid96">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mfrac>
+                <m:mo>×</m:mo>
+                <m:msup>
+                  <m:mn>180</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id319678">waar <m:math overflow="scroll"><m:mi>n</m:mi></m:math> die aantal sye is en <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math> enige hoek is.</para><exercise id="eip-804"><problem id="eip-708">
+  <para id="eip-618">Vind die grootte van die binnehoeke van 'n reëlmatige oktogoon.
+  </para>
+</problem>
+
+<solution id="eip-937">
+<list id="id7432" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Skryf die aantal sye van 'n oktogoon neer</label>
+'n Oktogoon het 8 sye.
+</item>
+<item><label>Gebruik die formule</label>
+<equation id="id7344">
+<m:math overflow="scroll" mode="display"><m:mtable>
+              <m:mtr><m:mtd columnalign="right"><m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover></m:mrow></m:mtd>
+                <m:mtd><m:mo>=</m:mo></m:mtd>
+                <m:mtd columnalign="left"><m:mfrac>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mfrac>
+                <m:mo>×</m:mo>
+                <m:msup>
+                  <m:mn>180</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover></m:mrow></m:mtd>
+                <m:mtd><m:mo>=</m:mo></m:mtd>
+                <m:mtd columnalign="left"><m:mfrac>
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mn>8</m:mn>
+                </m:mfrac>
+                <m:mo>×</m:mo>
+                <m:msup>
+                  <m:mn>180</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover></m:mrow></m:mtd>
+                <m:mtd><m:mo>=</m:mo></m:mtd>
+                <m:mtd columnalign="left"><m:mfrac>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                  <m:mi>2</m:mi>
+                </m:mfrac>
+                <m:mo>×</m:mo>
+                <m:msup>
+                  <m:mn>180</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup></m:mtd></m:mtr>
+<m:mtr>
+<m:mtd columnalign="right"><m:mrow>
+                <m:mover accent="true">
+                  <m:mi>A</m:mi>
+                  <m:mo>^</m:mo>
+                </m:mover></m:mrow></m:mtd>
+                <m:mtd><m:mo>=</m:mo></m:mtd>
+                <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mn>135</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup></m:mtd></m:mtr>
+              
+</m:mtable>
+            </m:math>
+</equation>
+</item>
+</list>
+</solution>
+</exercise></section>
+       </section></section>
+    <section id="eip-514"><title>Opsomming</title><list id="eip-439"><item>Maak seker dat jy weet wat die volgende terme beteken: vierhoeke, hoekpunte, sye, hoeke, parallelle lyne, loodregte lyne, diagonale/hoeklyne, halveerlyne en snylyne.</item>
+<item>Die eienskappe van driehoeke is bespreek.</item>
+<item>Kongruensie en gelykvormigheid van driehoeke is belangrike konsepte.</item>
+<item>Hoeke kan geklassifiseer word as skerp, reghoekig, stomp, gestrek, refleks of omwenteling.</item>
+<item>Die Stelling van Pythagoras word gebruik om die lengtes van die sye van reghoekige driehoeke te bereken.</item>
+<item>Hoeke: <list id="id98732"><item>Skerphoek: 'n Hoek tussen <m:math overflow="scroll"><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:math> en <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Regte hoek: 'n Hoek van <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Stomphoek: 'n Hoek tussen <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math> en <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Gestrekte hoek: 'n Hoek van <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Reflekse hoek: 'n Hoek tussen <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math> en <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math></item>
+<item>Omwenteling: 'n Hoek van <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math></item></list></item>
+<item>Hoeke het verskillende eienskappe en spesiale name daarvoor.</item>
+<item>Daar is verskeie tipes driehoeke: gelyksydig, gelykbenig, reghoekig,  skerphoekig.</item>
+<item>Die hoeke van 'n driehoek is saam <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘.</m:mo></m:msup></m:math></item></list></section><section id="cid6"><title>Oefeninge</title><list id="id320135" display="block" list-type="enumerated"><item id="uid112">Vind al die pare parallelle lyne in die volgende figure en gee redes in elke geval.
+
+<list id="eip-78" list-type="enumerated" number-style="lower-alpha">
+        <item id="uid113">
+          <figure id="id320164">
+            <media id="id320164_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_054.png" id="id320164_onlineimage" width="145"><!-- NOTE: attribute width changes image size online (pixels). original width is 145. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_054.eps" id="id320164_printimage"/>
+            </media>
+          </figure>
+        </item>
+        <item id="uid114">
+          <figure id="id320183">
+            <media id="id320183_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_055.png" id="id320183_onlineimage" width="196"><!-- NOTE: attribute width changes image size online (pixels). original width is 196. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_055.eps" id="id320183_printimage"/>
+            </media>
+          </figure>
+        </item>
+        <item id="uid115">
+          <figure id="id320201">
+            <media id="id320201_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_056.png" id="id320201_onlineimage" width="228"><!-- NOTE: attribute width changes image size online (pixels). original width is 228. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_056.eps" id="id320201_printimage"/>
+            </media>
+          </figure>
+        </item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lxh">Kliek hier vir die oplossing</link></item>
+        <item id="uid116">Vind hoeke <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>c</m:mi></m:math> en <m:math overflow="scroll"><m:mi>d</m:mi></m:math> gee redes in elke geval.
+<list id="id320255" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid117"><figure id="id320271"><media id="id320271_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_057.png" id="id320271_onlineimage" width="93"><!-- NOTE: attribute width changes image size online (pixels). original width is 93. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_057.eps" id="id320271_printimage"/></media></figure></item><item id="uid118"><figure id="id320290"><media id="id320290_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_058.png" id="id320290_onlineimage" width="105"><!-- NOTE: attribute width changes image size online (pixels). original width is 105. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_058.eps" id="id320290_printimage"/></media></figure></item><item id="uid119"><figure id="id320310"><media id="id320310_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_059.png" id="id320310_onlineimage" width="106"><!-- NOTE: attribute width changes image size online (pixels). original width is 106. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_059.eps" id="id320310_printimage"/></media></figure></item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/laq">Kliek hier vir die oplossing</link>
+</item><item id="uid126">Identifiseer watter van die volgende pare driehoeke is kongruent en gee redes.
+<list id="id320498" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid127"><figure id="id320512"><media id="id320512_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_060.png" id="id320512_onlineimage" width="198"><!-- NOTE: attribute width changes image size online (pixels). original width is 198. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_060.eps" id="id320512_printimage"/></media></figure></item><item id="uid128"><figure id="id320530"><media id="id320530_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_061.png" id="id320530_onlineimage" width="196"><!-- NOTE: attribute width changes image size online (pixels). original width is 196. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_061.eps" id="id320530_printimage"/></media></figure></item><item id="uid129"><figure id="id320548"><media id="id320548_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_062.png" id="id320548_onlineimage" width="237"><!-- NOTE: attribute width changes image size online (pixels). original width is 237. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_062.eps" id="id320548_printimage"/></media></figure></item><item id="uid130"><figure id="id320565"><media id="id320565_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_063.png" id="id320565_onlineimage" width="255"><!-- NOTE: attribute width changes image size online (pixels). original width is 255. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_063.eps" id="id320565_printimage"/></media></figure></item></list>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lai">Kliek hier vir die oplossing</link>
+</item></list>
+      <section id="uid132">
+        <title>Probleem met 'n Uitdaging</title>
+        <list id="id320611" display="block" list-type="enumerated"><item id="uid133">Toon aan dat die som van die drie hoeke van 'n driekhoek gelyk is aan 180 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> deur gebruik te maak van die skets hieronder. Lyn <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math><space/> is parallel aan <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>.
+<figure id="id320668"><media id="id320668_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_065.png" id="id320668_onlineimage" width="350"><!-- NOTE: attribute width changes image size online (pixels). original width is 350. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_065.eps" id="id320668_printimage"/></media></figure><newline/><link window="new" url="http://www.fhsst.org/laO" class="fullmarks">Kliek hier vir die oplossing</link></item>
+        </list>
+      </section>
+    </section>
+  </content>
+</document>

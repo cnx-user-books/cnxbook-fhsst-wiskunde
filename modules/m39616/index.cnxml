@@ -1,0 +1,644 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Middelpunt van 'n lyn</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39616</md:content-id>
+  <md:title>Middelpunt van 'n lyn</md:title>
+  <md:abstract/>
+  <md:uuid>73cc7a98-0393-4dd9-832c-412140e3061c</md:uuid>
+</metadata>
+
+<content>
+      <section id="uid43">
+        <title>Middelpunt van 'n Lynstuk</title>
+        <para id="id68364">Soms is dit nuttig om die koördinate van 'n lyn se middel of <emphasis effect="italics">middelpunt</emphasis> te hê. Byvoorbeeld: wat is die middelpunt van die lynstuk tussen punt <m:math overflow="scroll"><m:mi>P</m:mi></m:math> met koördinate <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> en punt <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> met koördinate <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math>?</para>
+        <para id="id68433">Die koördinate van die middelpunt van 'n lyn tussen enige twee punte <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math> met koördinate <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, word as volg bereken. Gestel die middelpunt van <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math> is die punt <m:math overflow="scroll"><m:mi>S</m:mi></m:math> met koördinate <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>X</m:mi><m:mo>;</m:mo><m:mi>Y</m:mi><m:mo>)</m:mo></m:mrow></m:math>. Die doel is om te bereken <m:math overflow="scroll"><m:mi>X</m:mi></m:math> en <m:math overflow="scroll"><m:mi>Y</m:mi></m:math> in terme van <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid44"><media id="uid44_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_019-64fd.png" id="uid44_onlineimage" width="209"><!-- NOTE: attribute width changes image size online (pixels). original width is 109. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_019-3e46.eps" id="uid44_printimage"/>
+          </media>
+        </figure>
+        <equation id="id68637">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>X</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd/>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>S</m:mi>
+                    <m:mfenced separators="" open="(" close=")">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>+</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mo>;</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>+</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id68788">Dus die koördinate van (<m:math overflow="scroll"><m:mi>S</m:mi></m:math>), die middelpunt van die lyn tussen punt <m:math overflow="scroll"><m:mi>P</m:mi></m:math> met koördinate <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> en punt <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> met koördinate <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math>, is:</para>
+        <equation id="id68860"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>X</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>S</m:mi>
+                    <m:mspace width="4pt"/>
+                    <m:mrow>
+                      <m:mi> is </m:mi>
+                      <m:mspace width="4pt"/>
+                      <m:mi> by </m:mi>
+                    </m:mrow>
+                    <m:mspace width="4pt"/>
+                    <m:mo>(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>;</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id69058">Dit kan bewys word dat die afstande vanaf die eindpunte na die middelpunt gelyk is. Die koördinate van die middelpunt <m:math overflow="scroll"><m:mi>S</m:mi></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <equation id="id69097">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mi>S</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mo>.</m:mo>
+                          <m:mn>5</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>.</m:mo>
+                          <m:mn>5</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id69323">en</para>
+        <equation id="id69326"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Q</m:mi>
+                    <m:mi>S</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>0</m:mn>
+                          <m:mo>.</m:mo>
+                          <m:mn>5</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mn>0</m:mn>
+                            <m:mo>+</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>+</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>0</m:mn>
+                            <m:mo>.</m:mo>
+                            <m:mn>5</m:mn>
+                            <m:mo>+</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>+</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>+</m:mo>
+                            <m:mn>1</m:mn>
+                            <m:mo>.</m:mo>
+                            <m:mn>5</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mo>.</m:mo>
+                      <m:mn>25</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id69633">Daar kan gesien word dat <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>Q</m:mi><m:mi>S</m:mi></m:mrow></m:math> soos verwag is.</para>
+        <figure id="uid45"><media id="uid45_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_020-5fc2.png" id="uid45_onlineimage" width="252"><!-- NOTE: attribute width changes image size online (pixels). original width is 172. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_020-e841.eps" id="uid45_printimage"/>
+          </media>
+        </figure><para id="eip-891">Die volgende video verskaf 'n opsomming oor die berekening van die middelpunt van 'n lyn.
+<figure id="uid666" class="khanacademy">
+ <title>Khan Akademie video oor die middelpunt van 'n lyn</title>
+ <media id="yt-media2" display="block" alt="video on midpoint of a line">
+  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/Ez_-RwV9WVo&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para>
+
+      </section>
+</content>
+
+</document>

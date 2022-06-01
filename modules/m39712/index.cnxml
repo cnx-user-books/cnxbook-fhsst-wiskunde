@@ -1,0 +1,583 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Inleiding en kernbegrippe</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39712</md:content-id>
+  <md:title>Inleiding en kernbegrippe</md:title>
+  <md:abstract/>
+  <md:uuid>d34f6f90-edeb-4a8a-8e6b-cfcf7ceea905</md:uuid>
+</metadata>
+
+<content>
+            <section id="cid2">
+              <title>Inleiding</title>
+              <para id="id77510">In meetkunde leer ons wat die verwantskap tussen die sye en hoeke van veelhoeke is, maar nie hoe om 'n hoek te bereken as ons die lengtes van die sye weet nie. Trigonometrie handel oor die verwantskap tussen die hoeke en die sye van 'n reghoekige driehoek. Ons gaan leer oor trigonometriese funksies (driehoeksmetingfunksies), wat die grondslag van trigonometrie vorm.
+        </para>
+        <section id="secfhsst_id65"><title>Ondersoek: Die Geskiedenis van Trigonometrie</title><para id="id77524">Werk in pare of groepe en ondersoek die geskiedenis van die grondslag van trigonometrie. Beskryf die verskillende stadia van ontwikkeling en hoe die onderstaande kulture trigonometrie gebruik het om hulle lewens te verbeter.</para>
+              <para id="id77870">Die werk van die volgende mense of kulture kan ondersoek word:</para>
+              <list id="id77873" display="block" list-type="enumerated">
+                <item id="uid1">Kulture
+        <list id="id77887" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid2">Antieke Egiptenare
+        </item><item id="uid3">Mesopotamiërs
+        </item><item id="uid4">Antieke Indiërs van die Indusvallei
+        </item></list></item>
+                <item id="uid5">Mense
+        <list id="id77937" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid6">Lagadha (ongeveer 1350-1200 VC)
+        </item><item id="uid7">Hipparchus (ongeveer 150 BC)
+        </item><item id="uid8">Ptolemy (ongeveer 100)
+        </item><item id="uid9">Aryabhata (ongeveer 499)
+        </item><item id="uid10">Omar Khayyam (1048-1131)
+        </item><item id="uid11">Bhaskara (ongeveer 1150)
+        </item><item id="uid12">Nasir al-Din (13de eeu)
+        </item><item id="uid13">al-Kashi and Ulugh Beg (14de eeu)
+        </item><item id="uid14">Bartholemaeus Pitiscus (1595)
+        </item></list></item>
+              </list>
+              
+        </section>
+        <note id="notfhsst_id88"><title>Interessante Feit</title><para id="id78058">Jy behoort uit meetkunde bekend te wees met die idee om hoeke te meet, maar het jy al ooit gewonder hoekom daar 360 grade in 'n sirkel is?  Die rede is suiwer geskiedkundig.  Daar is 360 grade in 'n sirkel omdat die antieke Babiloniërs 'n getallestelsel met grondtal (basis) 60 gehad het. 'n Grondtal is die basisgetal waarby jy nog 'n syfer byvoeg wanneer jy tel.  Die getallestelsel wat ons daagliks gebruik word die desimale stelsel genoem (die grondtal is 10), maar rekenaars gebruik die binêre sisteem (die grondtal is 2).  360 = 6 x 60. Dus het dit vir hulle sin gemaak om 360 grade in 'n sirkel te hê.</para>
+        </note>
+            </section>
+            <section id="cid3"><title>Die Gebruik van Trigonometrie</title><para id="id78100">Daar is baie toepassings van trigonometrie.  Die tegniek van triangulering, wat in sterrekunde gebruik word om die afstand na nabygeleë sterre te meet, is van besondere waarde in geografie om die afstand tussen landmerke te meet. Satellietnavigasiestelsels soos GPS (globale posisionering stelsel) sou nie moontlik gewees het sonder trigonometrie nie.  Ander velde wat gebruik maak van trigonometrie sluit in sterrekunde (en by implikasie navigasie op die oseane, in vliegtuie en in die ruimte), musiek teorie, akoestiek, optika, ontleding van finansiële markte, elektronika, waarskynlikheidsteorie, statistiek, biologie, mediese beeldvorming (CAT-skanderings en ultraklank), farmakologie, chemie, getalleteorie (en dus kriptologie), seismologie, meteorologie, oseanografie, verskeie fisiese wetenskappe, landmeting en geodesie, argitektuur, fonetiek, ekonomie, elektriese ingenieurswese, meganiese ingenieurswese, siviele ingenieurswese, rekenaargrafika, kartografie, kristallografie en spelontwikkeling.</para>
+        <section id="secfhsst_id95"><title> Bespreking: Gebruike van Trigonometrie </title>
+              <para id="id78126">Kies een van die gebruike van trigonometrie uit die gegewe lys en skryf 'n 1-bladsy verslag wat beskryf hoe trigonometrie in jou gekose veld gebruik word. </para>
+        </section>
+            </section>
+            <section id="cid4">
+              <title>Gelykvormigheid van Driehoeke</title>
+              <para id="id78153">As <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>▵</m:mi>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>C</m:mi> 
+     </m:mrow>
+        </m:math> gelykvormig is aan 
+
+<m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>▵</m:mi>
+            <m:mi>D</m:mi>
+            <m:mi>E</m:mi>
+            <m:mi>F</m:mi>
+          </m:mrow>
+        </m:math>  skryf ons dit as volg:
+      </para>
+              <equation id="id78186"><m:math overflow="scroll" mode="display">
+                  <m:mrow>
+                    <m:mi>▵</m:mi>
+                    <m:mi>A</m:mi>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>|||</m:mo>
+                    <m:mi>▵</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mi>E</m:mi>
+                    <m:mi>F</m:mi>
+                  </m:mrow>
+                </m:math>
+              </equation>
+              <para id="id78214">
+                <figure id="id78218">
+                  <media id="id78218_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_001.png" id="id78218_onlineimage" width="214"><!-- NOTE: attribute width changes image size online (pixels). original width is 214. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_001.eps" id="id78218_printimage"/>
+                  </media>
+                </figure>
+              </para>
+              <para id="id78224">Dan is dit moontlik om die verhoudings tussen ooreenstemmende sye van die twee driehoeke af te lei:</para>
+              <equation id="id78228">
+                <m:math overflow="scroll" mode="display">
+                  <m:mtable displaystyle="true">
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>A</m:mi>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>B</m:mi>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mtd>
+                      <m:mtd>
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                            <m:mi>E</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>E</m:mi>
+                            <m:mi>F</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>A</m:mi>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>A</m:mi>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mtd>
+                      <m:mtd>
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                            <m:mi>E</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                            <m:mi>F</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>A</m:mi>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>B</m:mi>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mtd>
+                      <m:mtd>
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                            <m:mi>F</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>E</m:mi>
+                            <m:mi>F</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>A</m:mi>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                            <m:mi>E</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mtd>
+                      <m:mtd>
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>B</m:mi>
+                              <m:mi>C</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>E</m:mi>
+                              <m:mi>F</m:mi>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo>=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>A</m:mi>
+                              <m:mi>C</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>D</m:mi>
+                              <m:mi>F</m:mi>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:math>
+              </equation>
+              <para id="id78401">Die belangrikste feit omtrent gelykvormige driehoeke <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>F</m:mi></m:mrow></m:math> is dat die hoek by punt A geyk is aan die hoek by punt D, die hoek by B is gelyk aan die hoek by E, en die hoek by C is gelyk aan die hoek by F.</para>
+              <equation id="id78434"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>A</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>D</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>B</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>E</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>C</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>∠</m:mi>
+                  <m:mi>F</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math></equation>
+        <section id="secfhsst_id319"><title>Ondersoek: Verhoudings tussen Gelykvormige Driehoeke</title>
+              <para id="id78516">In jou oefeningboek, teken drie gelykvormiige driehoeke van verskillende groottes, maar elkeen met A^=30°;Bˆ=90° and Cˆ=60°. Meet die hoeke en lengtes van die driehoeke baie akkuraat om die tabel hieronder te voltooi (rond antwoorde af tot een desimale plek).</para>
+              <para id="id78597">
+                <figure id="id78598">
+                  <media id="id78598_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_002.png" id="id78598_onlineimage" width="232"><!-- NOTE: attribute width changes image size online (pixels). original width is 232. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_002.eps" id="id78598_printimage"/>
+                  </media>
+                </figure>
+              </para>
+              <table id="id78604" summary=""><tgroup cols="3">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c3">Verdeling van die lengtes van sye (Verhoudings)</entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mi>A</m:mi>
+                                <m:mi>B</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mi>B</m:mi>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mi>A</m:mi>
+                                <m:mi>B</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mi>A</m:mi>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                                <m:mi>B</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mi>A</m:mi>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>A</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>B</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>B</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>C</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>A</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>B</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>A</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>C</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>C</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>B</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>A</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>C</m:mi>
+                                  <m:mo>'</m:mo>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>A</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>B</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>B</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>C</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>A</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>B</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>A</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>C</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math overflow="scroll">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>C</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>B</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>A</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>C</m:mi>
+                                  <m:mrow>
+                                    <m:mo>'</m:mo>
+                                    <m:mo>'</m:mo>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo>=</m:mo>
+                            <m:mspace width="42.67912pt"/>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <para id="id79075">Watter waarnemings kan jy oor die verhoudings van die sye maak?</para>
+              <para id="id79081">Hierdie gelyke verhoudings word gebruik om die trigonometriese funksies te definieer.</para>
+              <para id="id79087"><emphasis effect="underline">Let wel:</emphasis> In algebra gebruik ons dikwels die letter  <m:math overflow="scroll"><m:mi>x</m:mi></m:math> vir die onbekende veranderlike (alhoewel ons enige ander letter kan gebruik, soos <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>k</m:mi></m:math>, ens). In trigonometrie gebruik ons dikwels die Griekse simbool <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> vir 'n onbekende hoek (ons kan ook <m:math overflow="scroll"><m:mi>α</m:mi></m:math> , <m:math overflow="scroll"><m:mi>β</m:mi></m:math> , <m:math overflow="scroll"><m:mi>γ</m:mi></m:math> etc gebruik).</para>
+        </section>
+            </section>
+
+          </content>
+</document>

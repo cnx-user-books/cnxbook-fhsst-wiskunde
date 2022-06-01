@@ -1,0 +1,645 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Wiskundige modelle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39751</md:content-id>
+  <md:title>Wiskundige modelle</md:title>
+  <md:abstract/>
+  <md:uuid>645c1a4b-12ac-44ae-b0d7-d88da0332fb0</md:uuid>
+</metadata>
+
+<content>
+<section id="cid8">
+      <title>Wiskundige Modelle (Nie in CAPS - ingesluit vir volledigheid)</title>
+      <section id="uid102">
+        <title>Inleiding</title>
+        <para id="id161557">Thinus and Ronelle is vriende. Thinus gaan haal Ronelle se Fisika antwoordstel, maar wil nie haar punt vir haar sê nie. Hy weet sy hou nie van Wiskunde nie, so hy besluit om haar siel uit te trek. Thinus sê: “Ek het 2 punte meer as jy behaal en die som van ons altwee se punte is gelyk aan 14. Hoeveel het ons elkeen gekry?” Kom ons help Ronelle om haar punt te bereken. </para>
+        <para id="id161565">Ons het twee onbekendes, Thinus se punt, wat ons <m:math overflow="scroll"><m:mi>t</m:mi></m:math> sal noem, en Ronelle s’n, wat ons <m:math overflow="scroll"><m:mi>j</m:mi></m:math> sal noem. Thinus het 2 meer punte as Ronelle. Daarom is,
+</para>
+        <equation id="id161587">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>t</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>j</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id161608">Ons weet ook beide punte is saam 14. Dus,</para>
+        <equation id="id161614">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>t</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>j</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>14</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id161635">Die 2 vergelykings maak 'n stel lineêre (want die hoogste mag is een) gelyktydige vergelykings - en ons weet hoe om dit op te los! Vervang <m:math overflow="scroll"><m:mi>t</m:mi></m:math> in die tweede vergelyking om te kry:
+
+</para>
+        <equation id="id161648">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>j</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>14</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>j</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>14</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>14</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>14</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>7</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>j</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>6</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id161806">Dus,</para>
+        <equation id="id161812">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>t</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>j</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>8</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id161871">So, ons sien Thinus het 8 en Ronelle het 6 gekry vir die toets.</para>
+        <para id="id161878">Hierdie probleem is 'n voorbeeld van 'n eenvoudige <emphasis effect="italics">wiskundige  model</emphasis>. Ons het 'n probleem geneem en was in staat daartoe om dit wiskundig te formuleer (neer te skryf).  Die oplossing van die vergelykings gee dan die oplossing van die probleem.
+
+
+</para>
+      </section>
+      <section id="uid103">
+        <title>Probleemoplossing Strategie</title>
+        <para id="id161898">Die doel van hierdie afdeling is om vir jou die vaardighede te leer om 'n probleem te neem en dit wiskundig te formuleer sodat dit opgelos kan word. Die algemene stappe is:
+
+</para>
+        <list id="id161903" display="block" list-type="enumerated"><item id="uid104">Lees die HELE vraag!
+</item>
+          <item id="uid105">Bepaal wat gevra word.
+</item>
+          <item id="uid106">Gebruik ('n) veranderlike(s) om die onbekende getalle/hoeveelhede wat gevra word voor te stel, byvoorbeeld <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.
+</item>
+          <item id="uid107">Herskryf die inligting wat gegee is in terme van die veranderlike(s). Dus, vertaal die woorde in algebraïese taal. 
+</item>
+          <item id="uid108">Stel 'n vergelyking of 'n stel gelyktydige vergelykings ('n Wiskundige model) op om die onbekende te kry.
+</item>
+          <item id="uid109">Los die vergelyking algebraïes op om die oplossing te vind.
+</item>
+        </list>
+
+      </section>
+      <section id="uid110"><title>Toepassing van Wiskundige Modellering</title><exercise id="secfhsst_id6176"><title>Wiskundige Modellering: twee veranderlikes</title><problem id="probfhsst_id6177">
+        <para id="id162387">Drie liniale en twee penne kos saam R 21,00. Een liniaal en een pen kos saam R 8,00. Hoeveel kos 'n pen op sy eie en hoeveel kos 'n liniaal op sy eie? 
+
+</para>
+        </problem>
+        <solution id="solfhsst_id6180"> <list id="listfhsst_id6180" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Vertaal die probleem deur veranderlikes te gebruik </label>
+        <para id="id162412">Laat die koste van een liniaal <m:math overflow="scroll"><m:mi>x</m:mi></m:math> rand wees en die koste van een pen <m:math overflow="scroll"><m:mi>y</m:mi></m:math> rand.
+
+</para>
+        </item> <item> <label> Herskryf die inligting in terme van die veranderlikes </label>
+        <equation id="uid111"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>21</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>8</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die gelyktydige vergelykings op </label>
+        <para id="id162503">Los eers die tweede vergelyking op vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math>:</para>
+        <equation id="id162516">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>8</m:mn>
+              <m:mo>-</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id162536">en stel die antwoord in die eerste vergelyking in:</para>
+        <equation id="id162542">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>21</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>16</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>21</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>5</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id162631">dus</para>
+        <equation id="id162637">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>3</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Gee die finale antwoorde </label>
+        <para id="id162689">            'n Liniaal kos R 5,00 en 'n pen kos R 3,00.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id6031"><title>Wiskundige Modellering: een veranderlike</title><problem id="probfhsst_id6032">
+        <para id="id162036">'n Vrugteskommel kos R2,00 meer as 'n sjokolade melkskommel. As 3 vrugteskommels en 5 sjokolade melkskommels saam R78,00 kos, bepaal die individuele pryse.
+
+</para>
+        </problem>
+        <solution id="solfhsst_id6035"> <list id="listfhsst_id6035" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Stel die inligting voor in 'n tabel </label>
+        <para id="eip-121">Gestel die prys van 'n sjokelade melkskommel is <m:math><m:mi>x</m:mi></m:math> rand en die prys van 'n vrugteskommel is <m:math><m:mi>y</m:mi></m:math> rand.</para><table id="id162061" summary="solving equations">
+<tgroup cols="4"><tbody>
+              <row>
+                <entry/>
+                <entry>Prys</entry>
+                <entry>Aantal</entry>
+                <entry>Totaal</entry>
+              </row>
+              <row>
+                <entry>Vrugte</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>3</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>Sjokelade</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>x</m:mi>
+                  </m:math>
+                </entry>
+                <entry>5</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+        <!--empty paragraphs get left behind.-->
+        </item> <item> <label> Formuleer 'n stel algebraïese vergelykings </label>
+        <equation id="id162231">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>78</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><para id="eip-840"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:math></para>
+        </item> <item> <label> Los die vergelykings op </label>
+        <equation id="id162280"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>78</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>78</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>72</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>9</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>x+2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>9</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>11</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Gee die finale antwoord </label>
+        <para id="id162358">Een sjokelade melkskommel kos R 9,00 en een vrugteskommel kos R 11,00
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id6331"><title>Wiskundige Modelle </title>
+        <list id="id162712" display="block" list-type="enumerated"><item id="uid112">Vian het 1 liter van 'n mengsel wat 69% sout bevat. Hoeveel water moet Vian bygooi om die mengsel 50% sout te maak? Skryf jou antwoord as 'n breukdeel van 'n liter.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcy">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid113">Die diagonaal van 'n reghoek is 25 cm meer as die wydte. Die lengte van die reghoek is 17 cm meer as die wydte. Wat is die afmetings van die reghoek?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcV">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid114">Die som van 27 en 12 is 73 meer as 'n onbekende getal. Vind die onbekende getal.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcp">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid115">Die twee kleiner hoeke van 'n reghoekige driehoek is in die verhouding 1:2. Wat is die groottes van die twee hoeke?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcw">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid116">Werner besit 'n bakkery wat spesialiseer in troukoeke. Vir elke troukoek kos dit Werner R150 vir bestandele, R50 vir ekstras en R5 vir advertering. Werner se troukoeke kos R400 elk. Hoeveel wins maak Werner op 'n troukoek? Druk jou antwoord uit as 'n persentasie van die koste.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcd">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid117">As 4 keer 'n getal met 7 vermeerder word, is die resultaat 15 minder as die vierkant (kwadraat) van die getal. Vind die getal wat hierdie stelling bevredig deur 'n vergelyking op te stel en dan op te los. 
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcf">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid118">Die lengte van 'n reghoek is 2 cm meer as die wydte van die reghoek. Die omtrek van die reghoek is 20 cm. Vind die lengte en breedte van die reghoek.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcv">Kliek hier vir die oplossing</link>
+</item>
+
+ 
+
+  </list>
+        
+</section>
+      </section>
+      <section id="eip-967"><title>Opsomming</title><list id="eip-909"><item>'n Lineêre vergelyking is 'n vergelyking waar die hoogste mag van die veranderlike (letter, byvoorbeeld <m:math overflow="scroll"><m:mi>x</m:mi></m:math>) 1(een) is. 'n Lineêre vergelyking het op die meeste een oplossing.</item>
+<item>'n Kwadratiese vergelyking is 'n vergelyking waar die hoogste mag van die veranderlike 2 is. 'n Kwadratiese vergelyking het op die meeste 2 oplossings.</item>
+<item>'n Eksponensiële vergelyking het in die algemeen die onbekende veranderlike in die mag. Die algemene vorm van 'n eksponensiële vergelyking is:  
+	<m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:msup><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:mi>m</m:mi></m:mrow></m:math></item>
+<item>'n Lineêre ongelykheid is soorgelyk aan 'n lineêre vergelyking en met die hoogste mag van die veranderlike gelyk aan 1.
+	Wanneer jy weerskante van 'n ongelykheid deel of vermenigvuldig met 'n negatiewe getal, draai die rigting van die ongelykheid om. Jy kan lineêre ongelykhede oplos met dieselfde metodes as lineêre vergelykings</item>
+<item>Wanneer 2 onbekende veranderlikes opgelos moet word, moet jy 2 vergelyking gebruik en hierdie vergelykings staan bekend as gelyktydige vergelykings. Daar is twee maniere waarop jy gelyktydige lineêre vergelykings kan oplos: grafies en algebraïes. Om die vergelykings grafies op te los, trek jy 'n grafiek van elke vergelyking en die oplossing sal die koördinate van die snypunt van die grafieke wees. Om die oplossing algebraïes te vind, los jy een vergelyking op vir een veranderlike en stel dan daardie oplossing in die ander vergelyking in om die ander veranderlike se waarde te vind.</item>
+<item>Lettervergelykings is vergelykings waar jy verskeie letters (veranderlikes) het en jy herrangskik die vergelyking om die oplossing te vind in terme van een van die letters (veranderlikes)</item>
+<item>Wiskundige modellering is waar ons 'n vergelyking of 'n stel vergelykings opstel om 'n probleem wiskundig voor  te stel. Die oplossing van die vergelykings gee dan die oplossing van die probleem.</item>
+</list></section><section id="uid119">
+        <title>Einde van Hoofstuk Probleme</title>
+        <list id="id162833" display="block" list-type="enumerated"><item id="uid120">Wat is die wortels van die kwadratiese vergelyking <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/>?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcG">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid121"> Wat is die oplossing van die vergelyking <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math><space/>?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lc7">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid122">In die vergelyking <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>18</m:mn></m:mrow></m:math>, wat is die waarde van <m:math overflow="scroll"><m:mi>x</m:mi></m:math> when <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/>?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcA">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid123">Marlé het 5 meer CD's as Natalie. Rulof het twee keer soveel as Marlé. Saam het hulle 63 CD's. Hoeveel het elke persoon afsonderlik?
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lco">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid124">Sewe agtstes van 'n getal is 5 meer as 'n derde van die getal. Vind die getal.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcs">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid125">'n Man hardloop na 'n telefoon en terug in 15 minute. Sy spoed na die telefoon is 5 m/s en sy spoed terug is 4 m/s. Wat is die afstand na die foon?.
+<space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcH">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid126">Los die ongelykheid op en antwoord dan die vrae:
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mi>x</m:mi><m:mn>3</m:mn></m:mfrac><m:mo>-</m:mo><m:mn>14</m:mn><m:mo>&gt;</m:mo><m:mn>14</m:mn><m:mo>-</m:mo><m:mfrac><m:mi>x</m:mi><m:mn>4</m:mn></m:mfrac></m:mrow></m:math><list id="id163069" display="block" list-type="enumerated"><item id="uid127">As <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math>, skryf die oplossing in intervalnotasie.
+</item><item id="uid128">as <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">Z</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>51</m:mn></m:mrow></m:math>, skryf die oplossing as 'n stel heelgetalle.
+</item></list><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lc6">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid129">Los op vir <m:math overflow="scroll"><m:mi>a</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>a</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>a</m:mi></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcF">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid130">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mfrac><m:mn>42</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcL">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid131">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and <m:math overflow="scroll"><m:mi>y</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcM">Kliek hier vir die oplossing</link>
+</item>
+   
+ 
+
+ </list>
+      </section>
+    </section>
+  </content>
+</document>

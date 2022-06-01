@@ -1,0 +1,884 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Vierhoeke en poligone</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39679</md:content-id>
+  <md:title>Vierhoeke en poligone</md:title>
+  <md:abstract/>
+  <md:uuid>e776b3f5-f7e6-49a5-b524-ca3ecedbb974</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Inleiding</title>
+      <para id="id62184">Meetkunde (Grieks: geo = aarde, metria = meet) het ontstaan as die veld van kennis wat ruimtelike verhoudings hanteer. Dit was een van die twee velde van pre-moderne wiskunde. Die ander veld was die studie van getalle. In die moderne tyd het meetkundige begrippe baie kompleks en abstrak geraak en is dit skaars herkenbaar as ŉ uitvloeisel van vroeë meetkunde. </para>
+<section id="secfhsst_id69"><title>Navorsingsprojek: Die geskiedenis van Meetkunde</title>
+      <para id="id62198">Werk in pare of groepe en bestudeer die geskiedenis van die onstaan van meetkunde. Beskryf die verskillende stadiums van ontwikkeling en hoe meetkunde later gebruik is deur mense om hul lewens te verbeter. Die lys van stadiums moet dien as ŉ riglyn en hoef slegs die minimum vereistes te beskryf. </para>
+      <list id="id62543" display="block" list-type="enumerated"><item id="uid1">Antieke Indiese meetkunde (ong. 3000 - 500 V.C.)
+<list id="id62557" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid2">Harappanse meetkunde
+</item><item id="uid3">Vediese meetkunde
+</item></list></item>
+        <item id="uid4">Klassieke Griekse meetkunde (ong. 600 - 300 V.C.)
+<list id="id62596" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid5">Thales en Pythagoras
+</item><item id="uid6">Plato
+</item></list></item>
+        <item id="uid7">Hellenistiese meetkunde (ong. 300 V.C - 500 N.C )
+<list id="id62634" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid8">Euclides
+</item><item id="uid9">Archimedes
+</item></list></item>
+      </list>
+      
+</section>
+    </section>
+    
+    <section id="uid52">
+        <title>Vierhoeke</title>
+        <para id="id974">In hierdie afdeling sal ons kyk na die eienskappe van sekere spesiale vierhoeke. Ons sal dan hierdie eienskappe gebruik om meetkundige probleme op te los. Dit is belangrik om daarop te let dat alhoewel al die eienskappe van ŉ figuur gegee word, benodig ons net sekere unieke eienskappe van die vierhoek om te bewys dat dit wel daardie spesifieke vierhoek is. Byvoorbeeld, as ons ŉ vierhoek het met twee pare parallellesye, dan is daardie vierhoek ŉ parallelogram. Ons kan dan die ander eienskappe van die vierhoek aflei deur ons kennis van parallellelyne en driehoeke te gebruik.
+
+</para>
+        <section id="uid54">
+          <title>Trapesium</title>
+          <para id="id318803">ŉ Trapesium is ŉ vierhoek waarvan ten minste een paar teenoorgestelde sye parallel loop. Dit word soms ook ŉ <emphasis effect="italics">trapesoïed</emphasis> genoem. ŉ Spesiale tipe trapesium is die <emphasis effect="italics">gelykbenige trapesium</emphasis>, waar een paar teenoorstaande sye parallel is en die ander paar ewe lank is. Die hoeke aan die eindpunte van elke parallelle sy is ewe groot. ŉ Gelykbenige trapesium het een lyn van simmetrie en sy hoeklyne is ewe lank.
+</para>
+          <figure id="uid55"><media id="uid55_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_040.png" id="uid55_onlineimage" width="329"><!-- NOTE: attribute width changes image size online (pixels). original width is 329. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_040-c49d.eps" id="uid55_printimage"/>
+            </media>
+            
+          <caption>Voorbeelde van trapesiums</caption></figure>
+        </section>
+        <section id="uid56">
+          <title>Parallelogram</title>
+          <para id="id318843">ŉ Trapesium met beide pare teenoorstaande sye parallel, word ŉ <emphasis effect="italics">parallelogram</emphasis> genoem. ŉ Opsomming van die eienskappe van ŉ parallelogram is:</para>
+          <list id="id318853" display="block" list-type="bulleted"><item id="uid57">Beide pare teenoorstaande sye is parallel.
+</item>
+            <item id="uid58">Beide pare teenoorstaande sye is ewe lank.
+</item>
+            <item id="uid59">Beide pare teenoorstaande hoeke is ewe groot.
+</item>
+            <item id="uid60">Beide hoeklyne/diagonale halveer mekaar (d.w.s. hulle sny mekaar in die helfte)
+</item>
+          </list>
+          <figure id="uid61"><media id="uid61_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_041.png" id="uid61_onlineimage" width="277"><!-- NOTE: attribute width changes image size online (pixels). original width is 277. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_041-7eea.eps" id="uid61_printimage"/>
+            </media>
+            
+          <caption>ŉ Voorbeeld van ŉ parallelogram</caption></figure>
+        </section>
+        <section id="uid62">
+          <title>Reghoek</title>
+          <para id="id318929">ŉ <emphasis effect="italics">Reghoek</emphasis> is ŉ parallelogram met al vier hoeke ewe groot en gelyk aan <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>. ŉ Opsomming van die eienskappe van ŉ reghoek is:</para>
+          <list id="id318954" display="block" list-type="bulleted"><item id="uid63">Beide pare teenoorstaande sye is parallel.
+</item>
+            <item id="uid64">Beide pare teenoorstaande sye is ewe lank.
+</item>
+            <item id="uid65">Die hoeklyne halveer mekaar.
+</item>
+            <item id="uid66">Die hoeklyne is ewe lank.
+</item>
+            <item id="uid67">Alle hoekpunte is regte hoeke.
+</item>
+          </list>
+          <figure id="uid68"><media id="uid68_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_042.png" id="uid68_onlineimage" width="142"><!-- NOTE: attribute width changes image size online (pixels). original width is 142. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_042-6b41.eps" id="uid68_printimage"/>
+            </media>
+            
+          <caption>Voorbeeld van ŉ reghoek</caption></figure>
+        </section>
+        <section id="uid69">
+          <title>Rombus / Ruit</title>
+          <para id="id319041">ŉ <emphasis effect="italics">Rombus (ruit)</emphasis> is ŉ parallelogram waarvan al vier sye ewe lank is. ŉ Opsomming van die eienskappe van ŉ rombus is:</para>
+          <list id="id319051" display="block" list-type="bulleted"><item id="uid70">Beide pare teenoorstaande sye is parallel.
+</item>
+            <item id="uid71">Al vier sye is ewe lank.
+</item>
+            <item id="uid72">Beide pare teenoorstaande hoeke is ewe groot.
+</item>
+            <item id="uid73">Die diagonale halveer mekaar met hoeke van <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+</item>
+            <item id="uid74">Diagonale halveer die teenoorstaande hoeke.
+</item>
+          </list>
+          <figure id="uid75"><media id="uid75_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_043.png" id="uid75_onlineimage" width="216"><!-- NOTE: attribute width changes image size online (pixels). original width is 216. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_043-fdde.eps" id="uid75_printimage"/>
+            </media>
+            
+          <caption>ŉ Voorbeeld van ŉ ruit, ŉ parallelogram met al vier sye ewe lank</caption></figure>
+        </section>
+        <section id="uid76"><title>Vierkant</title><para id="id319154">ŉ <emphasis effect="italics">Vierkant</emphasis> is ŉ rombus met al vier sye ewe lank en al vier hoeke gelyk aan 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>.</para>
+          <para id="id319177">ŉ Opsomming van die eienskappe van ŉ vierkant:</para>
+          <list id="id319181" display="block" list-type="bulleted"><item id="uid77">Beide pare teenoorstaande sye is parallel.
+</item>
+            <item id="uid78">Al vier sye is ewe lank.
+</item>
+            <item id="uid79">Al vier die hoeke is <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+</item>
+            <item id="uid80">Beide pare teenoorstaande hoeke is ewe groot.
+</item>
+            <item id="uid81">Die hoeklyne halveer mekaar met hoeke van <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+</item>
+            <item id="uid82">Diagonale is ewe lank.
+</item>
+            <item id="uid83">Diagonale halveer beide pare teenoorstaande hoeke (d.w.s. hulle is almal <m:math overflow="scroll"><m:msup><m:mn>45</m:mn><m:mo>∘</m:mo></m:msup></m:math>).
+</item>
+          </list>
+          <figure id="uid84"><media id="uid84_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_044.png" id="uid84_onlineimage" width="286"><!-- NOTE: attribute width changes image size online (pixels). original width is 286. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_044-6307.eps" id="uid84_printimage"/>
+            </media>
+            
+          <caption>ŉ Voorbeeld van ŉ vierkant - ŉ rombus met al die hoeke gelyk aan 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></caption></figure>
+        </section>
+        <section id="uid85">
+          <title>Vlieër</title>
+          <para id="id319349">ŉ <emphasis effect="italics">Vlieër</emphasis> is ŉ vierhoek met twee pare aangrensende sye ewe lank.</para>
+          <para id="id319359">ŉ Oposmming van die eienskappe van ŉ vlieër is:</para>
+          <list id="id319362" display="block" list-type="bulleted"><item id="uid86">Twee pare aangrensende sye is ewe lank.
+</item>
+            <item id="uid87">Een paar teenoorstaande hoeke (die hoeke tussen die ongelyke sye) is ewe groot.
+</item>
+            <item id="uid88">Een diagonaal halveer die ander een en hierdie diagonaal halveer ook een paar teenoorstaande hoeke. 
+</item>
+            <item id="uid89">Diagonale sny mekaar reghoekig.
+</item>
+          </list>
+          <figure id="uid90"><media id="uid90_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C13_045-f004.png" id="uid90_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 202. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_045-ca73.eps" id="uid90_printimage"/>
+            </media>
+            
+          <caption>ŉ Voorbeeld van ŉ vlieër</caption></figure>
+        </section>
+<para id="id9732">Reghoeke is ŉ spesiale geval (ŉ deelversameling) van die parallelogramme. Reghoeke is parallelogramme met alle hoeke regte hoeke. Vierkante is ŉ spesiale geval (deelversameling) van die reghoeke. Vierkante is reghoeke met al vier sye ewe lank. So, alle vierkante is parallelogramme én reghoeke. As jy gevra word om te bewys dat ŉ vierhoek ŉ parallelogram is, is dit genoeg om aan te toon dat beide pare teenoorstaande sye parallel is. Maar, as jy gevra word om te bewys dat ŉ vierhoek ŉ vierkant is, dan moet jy ook wys dat al die hoeke regte hoeke is én dat al die sye ewe lank is. 
+
+
+</para>
+      </section>
+      
+      <section id="cid4">
+      <title>Veelhoeke</title>
+      <para id="id64553">Veelhoeke is oral rondom ons. ŉ Stopteken het die vorm van ŉ agthoek, m.a.w. ŉ agthoekige veelhoek. Die heuningkoek van ŉ bynes bestaan uit heksagonale selle. Die oppervlak van ŉ tafel is dikwels ŉ reghoek.</para>
+      <para id="id64557">In hierdie afdeling sal jy leer van gelykvormige veelhoeke.</para>
+      <section id="uid25">
+        <title>Gelykvormigheid tussen Veelhoeke</title>
+<section id="secfhsst_id491"><title>Bespreking: Gelykvormige Driehoeke</title>
+        <para id="id64577">Gebruik die diagram om die tabel in te vul en beantwoord die vrae wat daarop volg.</para>
+        <table id="id64584" summary="Table of values">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> AB </m:mi><m:mi> DE </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>D</m:mi><m:mo>^</m:mo></m:mover></m:math>...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> BC </m:mi><m:mi> EF </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry><m:math overflow="scroll"><m:mrow><m:mfrac><m:mi> AC </m:mi><m:mi> DF </m:mi></m:mfrac></m:mrow></m:math>=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow><m:mrow><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mi>c</m:mi><m:mi>m</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math>...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry><m:math overflow="scroll"><m:mover accent="true"><m:mi>F</m:mi><m:mo>^</m:mo></m:mover></m:math>=...<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup>
+</table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id65008">
+          <figure id="id65011">
+            <media id="id65011_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_010.png" id="id65011_onlineimage" width="356"><!-- NOTE: attribute width changes image size online (pixels). original width is 356. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_010.eps" id="id65011_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <list id="id65017" display="block" list-type="enumerated"><item id="uid26">Wat kan jy sê oor jou berekening van: <m:math overflow="scroll"><m:mfrac><m:mi> AB </m:mi><m:mi> DE </m:mi></m:mfrac></m:math>, <m:math overflow="scroll"><m:mfrac><m:mi> BC </m:mi><m:mi> EF </m:mi></m:mfrac></m:math>, <m:math overflow="scroll"><m:mfrac><m:mi> AC </m:mi><m:mi> DF </m:mi></m:mfrac></m:math>?
+</item>
+          <item id="uid27">Wat kan jy sê oor <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math> en <m:math overflow="scroll"><m:mover accent="true"><m:mi>D</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+          <item id="uid28">Wat kan jy sê oor <m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math> en <m:math overflow="scroll"><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+          <item id="uid29">Wat kan jy sê oor <m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math> en <m:math overflow="scroll"><m:mover accent="true"><m:mi>F</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+        </list>
+        
+</section>
+        <para id="id65212">As twee veelhoeke <emphasis effect="italics">gelykvormig</emphasis> is, is die een ŉ vergroting van die ander. Dit beteken dat die veelhoeke dieselfde grootte hoeke sal hê en dat hulle sye in verhouding tot mekaar sal wees.</para> 
+        <para id="id65223">Die simbool wat ons gebruik om <emphasis effect="italics">gelykvormigheid</emphasis> aan te dui is <m:math overflow="scroll"><m:mo>|||</m:mo></m:math>.</para>
+<definition id="fhsst_id537"><term id="termfhsst_id537">Gelykvormige Veelhoeke</term> <meaning id="meaningfhsst_id537">
+        <para id="id65247">Twee veelhoeke is gelykvormig as:</para>
+        <list id="id65253" display="block" list-type="enumerated"><item id="uid30">hulle ooreenstemmende hoeke ewe groot is, <emphasis effect="bold">én</emphasis></item>
+          <item id="uid31">hulle ooreenstemmende sye eweredig is (die verhouding van die sylengtes gelyk is.)
+</item>
+        </list>
+        
+        </meaning></definition>
+<exercise id="secfhsst_id546"><title>Gelykvormigheid van Veelhoeke </title><problem id="probfhsst_id547">
+        <para id="id65309">Bewys dat die volgende twee veelhoeke gelykvormig is.</para>
+        <para id="id65315">
+          <figure id="id65318">
+            <media id="id65318_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_011.png" id="id65318_onlineimage" width="307"><!-- NOTE: attribute width changes image size online (pixels). original width is 307. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_011.eps" id="id65318_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id559"> <list id="listfhsst_id559" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label>Bepaal wat gevra word</label>
+        <para id="id65346">Daar word gevra om te bewys dat ŉ paar veelhoeke gelykvormig is. Ons kan dit doen deur te bewys dat die verhouding van ooreenstemmende sye gelyk is en dat die ooreenstemmende hoeke ewe groot is.</para>
+        </item> <item> <label>Ooreenstemmende hoeke</label>
+        <para id="id65355">Die hoeke en hul groottes word gegee, so ons kan bewys dat hulle ewe groot is.</para>
+        </item> <item> <label>Bewys dat die ooreenstemmende hoeke ewe groot is</label>
+        <para id="id65363">Al die hoeke is 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> groot en</para>
+        <equation id="id65380">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>E</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>F</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>G</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>H</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label>Bewys dat die ooreenstemmende sye in dieselfde verhouding is</label>
+        <para id="id65511">Eerstens moet ons kyk watter sye ooreenstem. Die reghoeke het twee lang sye wat gelyk is en twee kort sye wat gelyk is. Ons moet die verhoudings van die lang sye van die twee reghoeke vergelyk en ons moet die verhoudings van die kort sye vergelyk.</para>
+        <para id="id65517">Lang sye, groot reghoek se waardes op die klein reghoek se waardes:</para>
+        <equation id="id65521"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Verhouding</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>L</m:mi>
+                    </m:mrow>
+                    <m:mi>L</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65569">Kort sye, groot reghoek se waardes op die klein reghoek se waardes:</para>
+        <equation id="id65572"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Verhouding</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi>L</m:mi>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mi>L</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65644">Die verhouding van die ooreenstemmende sye is gelyk, twee in hierdie geval.</para>
+        </item> <item> <label>Finale antwoord</label>
+        <para id="id65652">Die ooreenstemmende hoeke is ewe groot en die
+        verhoudings van die ooreenstemmende sye is gelyk, dus is die
+        veelhoeke ABCD en EFGH gelykvormig.</para>
+        </item> </list> </solution>
+</exercise>
+<note id="notfhsst_id731" type="tip">Alle vierkante is gelykvormig.</note>
+<exercise id="secfhsst_id732"><title>Gelykvormigheid van Veelhoeke </title><problem id="probfhsst_id733">
+        <para id="id65687">As twee vyfhoeke ABCDE en GHJKL gelykvormig is, bepaal die lengtes van die sye en die groottes van die hoeke wat met letters gemerk is:</para>
+        <para id="id65694">
+          <figure id="id65697">
+            <media id="id65697_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_012.png" id="id65697_onlineimage" width="249"><!-- NOTE: attribute width changes image size online (pixels). original width is 249. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_012.eps" id="id65697_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id745"> <list id="listfhsst_id745" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label>Bepaal wat is gegee</label>
+        <para id="id65725">Daar word aan ons gegee dat ABCDE en GHJKL gelykvormig is. Dit beteken dat:</para>
+        <equation id="id65729">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mfrac>
+                <m:mi> AB </m:mi>
+                <m:mi> GH </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> BC </m:mi>
+                <m:mi> HJ </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> CD </m:mi>
+                <m:mi> JK </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> DE </m:mi>
+                <m:mi> KL </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> EA </m:mi>
+                <m:mi> LG </m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id65782">en</para>
+        <equation id="id65787">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>G</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>H</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>J</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>K</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mover accent="true">
+                    <m:mi>E</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mover accent="true">
+                    <m:mi>L</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label>Bepaal wat is gevra</label>
+        <para id="id65948">Daar word gevra om te bepaal</para>
+        <list id="id65951" display="block" list-type="enumerated">
+          <item id="uid32"><label>lengtes</label><m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, <m:math overflow="scroll"><m:mi>c</m:mi></m:math> en <m:math overflow="scroll"><m:mi>d</m:mi></m:math>, en
+</item>
+          <item id="uid33"><label>hoeke</label><m:math overflow="scroll"><m:mi>e</m:mi></m:math>, <m:math overflow="scroll"><m:mi>f</m:mi></m:math> and <m:math overflow="scroll"><m:mi>g</m:mi></m:math>.
+</item>
+        </list>
+        </item> <item> <label>Besluit hoe om die probleem te benader</label>
+        <para id="id66048">Die ooreenstemmende hoeke is ewe groot en daar is dus geen berekening nodig nie. Daar word aan ons ŉ paar sye <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi></m:mrow></m:math> gegee wat ooreenstemmend is. <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> so ons weet dat al die sye van <m:math overflow="scroll"><m:mrow><m:mi>K</m:mi><m:mi>J</m:mi><m:mi>H</m:mi><m:mi>G</m:mi><m:mi>L</m:mi></m:mrow></m:math> 1,5 keer kleiner is as die sylengtes van <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math>.</para>
+        </item> <item> <label>Bereken lengtes</label>
+        <equation id="id66160">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>b</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>25</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>6</m:mn>
+                      <m:mi>c</m:mi>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>∴</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label>Bereken hoeke</label>
+        <equation id="id66368"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>e</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>92</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">ooreenstemmend</m:mi><m:mspace width="2pt"/>
+                      <m:mi mathvariant="sans-serif">tot</m:mi><m:mspace width="2pt"/>
+                      <m:mi mathvariant="sans-serif">H</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>f</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>120</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">ooreenstemmend</m:mi><m:mspace width="2pt"/>
+                      <m:mi mathvariant="sans-serif">tot</m:mi><m:mspace width="2pt"/>
+                      <m:mi mathvariant="sans-serif">D</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>g</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>40</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi mathvariant="sans-serif">ooreenstemmend</m:mi><m:mspace width="2pt"/>
+                      <m:mi mathvariant="sans-serif">tot</m:mi><m:mspace width="2pt"/>
+                      <m:mi mathvariant="sans-serif">E</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label>Skryf die finale antwoord neer</label>
+        <equation id="id66506">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>a</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>3</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>b</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>25</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>c</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>d</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>e</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>92</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>f</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>120</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>g</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>40</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1187"><title>Gelykvormigheid van Gelyksydige Driehoeke</title>
+<para id="uid34283409">Werk in pare en toon dat alle gelyksydige driehoeke gelykvormig is.</para>
+        
+</section>
+<section id="secfhsst_id1190"><title>Veelhoeke gemeng</title>
+        <list id="id66690" display="block" list-type="enumerated"><item id="uid34">Vind die onbekende waardes in elke geval. Gee redes.
+<figure id="id66710"><media id="id66710_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_2.png" id="id66710_onlineimage" width="443"><!-- NOTE: attribute width changes image size online (pixels). original width is 443. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_2.eps" id="id66710_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/liD">Kliek hier vir die oplossing</link></item>
+          <item id="uid35">
+Vind die hoeke en lengtes wat met letters gemerk is in die volgende
+figure:
+<figure id="id66733"><media id="id66733_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_014.png" id="id66733_onlineimage" width="297"><!-- NOTE: attribute width changes image size online (pixels). original width is 297. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_014.eps" id="id66733_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/liW">Kliek hier vir die oplossing</link></item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+      <section id="eip-824"><title>Ondersoek: Definieer Poligone</title><para id="eip-779">Ondersoek verskillende maniere om poligone te definieer. Jy behoort spesiale aandag te gee aan die volgende poligone:
+<list id="id6342">
+<item>Gelykbenige driehoeke, gelyksydige driehoeke, reghoekige driehoeke</item>
+<item>Vlieërs, parallelogramme, reghoeke, rombusse, vierkante, trapesiums</item></list>
+</para>
+<para id="id7342">Neem in oorweging hoe die figure in hierdie boek gedefinieer is en watter alternatiewe definisies daar bestaan. Byvoorbeeld, ŉ driehoek is ŉ driesydige poligoon of ŉ driehoek is ŉ figuur met drie sye en drie hoeke. Driehoeke kan geklassifiseer word volgende hulle sye of volgens hulle hoeke. Kan mens ook vierhoeke op hierdie manier klassifiseer? Watter ander name is daar vir hierdie figure? Byvoorbeeld, vierhoeke kan ook genoem word tetragone.
+
+</para></section>
+
+  </content>
+</document>

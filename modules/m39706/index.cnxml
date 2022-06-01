@@ -1,0 +1,835 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Inleiding en herhaling</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39706</md:content-id>
+  <md:title>Inleiding en herhaling</md:title>
+  <md:abstract/>
+  <md:uuid>ed28ef77-991c-4708-9516-664415da987a</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Inleiding</title>
+      <para id="id199946">In die wêreld rondom ons word inligting dikwels in die vorm van syfers, grafieke en tabelle gegee. Ons sien dit op die televisie, op die radio en in die koerante. Ons word blootgestel aan misdaadsyfers, sportuitslae, reënval, die uitgawes van die regering, die tempo van HIV/VIGS infeksie, bevolkingsgroei en ekonomiese groei.</para>
+      <para id="id199952">Hierdie hoofstuk demonstreer hoe Wiskunde gebruik kan word om data te manipuleer, om data en tendense voor te stel of wan voor te stel en om oplossings te bied wat direk betrekking het op die wêreld rondom ons.
+
+</para>
+      <para id="id199957">Vaardighede wat in vorige grade verwerf is en verband hou met die versameling, organisering, uitbeelding, analise en interpretasie van inligting, word hier verder ontwikkel.
+</para>
+    </section>
+    <section id="cid3">
+      <title>Hersiening van vorige Werk</title>
+      <para id="id200309">Dataversameling is in vorige grade bekendgestel as 'n manier om antwoorde te kry vir vrae wat te make het met die wêreld rondom ons.</para>
+      <section id="uid1">
+        <title>Data en Datainsameling</title>
+        <section id="uid2">
+          <title>Data</title>
+<definition id="fhsst_id85"><term id="termfhsst_id85"> Data </term> <meaning id="meaningfhsst_id85">
+          <para id="id200337">Data verwys na inligting wat waargeneem of opgeneem is as deel van 'n eksperiment of 'n meningspeiling. Daar is twee tipes data: primêre en sekondêre data. Die woord "data" is die meervoud van die woord "datum".</para>
+          </meaning></definition>
+          <para id="id200350">Data kan geklassifiseer word as <emphasis effect="italics">primêr</emphasis> of <emphasis effect="italics">sekondêr</emphasis>, en primêre en sekondêre data kan verder geklassifiseer word as <emphasis effect="italics">kwalitatief</emphasis> of <emphasis effect="italics">kwantitatief</emphasis>. <link target-id="uid3"/> som die klassifikasie van data op.</para>
+          <figure id="uid3"><media id="uid3_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C16_001.png" id="uid3_onlineimage" width="128"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_001.eps" id="uid3_printimage"/>
+            </media>
+            
+          <caption>Klassifikasie van data</caption></figure>
+          <list id="id200390" display="block" list-type="labeled-item"><item id="uid4"><label>Primêre data</label>beskryf die oorspronklike data wat versamel is. Hierdie tipe data staan ook bekend as <emphasis effect="italics">rou</emphasis> data. Dikwels is die primêre datastel baie groot en moet dit opgesom of verwerk word om betekenisvolle inligting uit te lig.
+</item>
+<item id="uid5"><label>Kwalitatiewe data</label>is inligting wat nie met getalle beskryf kan word nie, byvoorbeeld as jy data insamel oor hoe mense voel of wat hul gunstelingkleur is.
+</item>
+<item id="uid6"><label>Kwantitatiewe data</label>is inligting wat geskryf kan word as getalle, byvoorbeeld as jy data insamel oor mense se lengte of massa.
+</item>
+<item id="uid7"><label>Sekondêre data</label>is primêre data wat opgesom of verwerk is. Die stel kleure wat mense as hul gunstelingkleure aangedui het, is 'n voorbeeld van sekondêre data omdat dit 'n opsomming is van mense se antwoorde.
+</item>
+          </list>
+          <para id="id200459">Die proses om primêre data om te skakel na sekondêre data deur analise, groepering of organisering is die proses waardeur informasie geskep word.</para>
+        </section>
+        <section id="uid8">
+          <title>Doelwit van die Insameling van Primêre Data</title>
+          <para id="id200473">Data word versamel om antwoorde te kry wat help om 'n sekere situasie beter te verstaan. Hier is 'n paar voorbeelde van dataversameling uit die regte wêreld wat kwalitatiewe en kwantitatiewe data illustreer.</para>
+        </section>
+        <section id="id200480">
+          <title>Kwalitatiewe Data</title>
+          <list id="id200486" display="block" list-type="bulleted"><item id="uid9">Die plaaslike regering sal wil weet hoeveel inwoners elektrisiteit het en mag dan aan hulle vra: "Het jou huis 'n veilige, ononderbroke toevoer van elektrisiteit vanaf die nasionale kragvoorsiener (Eskom)?"
+</item>
+<item id="uid11">'n Maatskappy wat medisyne vervaardig mag vra: "Hoe effektief verlig ons pil hoofpyn?" Daar kan dan aan mense wat die pil gebruik om hoofpyn te verlig, gevra word: "Hoe baie help ons pil om jou hoofpyn weg te neem?" Die maatskappy kan dan op grond van mense se antwoorde bepaal hoe effektief hul produk is.
+</item>
+<item id="uid12">'n Motormaatskappy wil hulle kliëntediens verbeter en kan dan aan kliënte vra: "Hoe kan ons ons kliëntediens verbeter?"
+</item>
+<item id="uid15">'n Supermarkbestuurder mag vra: "Watter tipes gaskoeldrank moet ek in my supermark in voorraad hê?" Daar mag dan miskien aan klante gevra word: "Wat is jou gunsteling gaskoeldrank?" Die klante se keuse of voorkeur is 'n voorbeeld van kwalitatiewe data.
+</item>
+</list>
+        </section>
+        <section id="id200551">
+          <title>Kwantitatiewe Data</title>
+          <list id="id200557" display="block" list-type="bulleted"><item id="uid13">'n Maatskappy wat selfone vervaardig mag moontlik data versamel oor hoe dikwels mense nuwe selfone koop en watter faktore hul besluit beïnvloed. Sodoende kan die selfoonmaatskappy bepaal op watter fasiliteite en eienskappe hulle moet fokus om hul produk meer aantreklik te maak vir kopers.
+</item>
+<item id="uid14">'n Lid van die stadsraad wil moontlik weet hoeveel ongelukke by 'n spesifieke padkruising gebeur om te besluit waar verkeersligte opgerig moet word. Die raadslid kan dan die plaaslike polisiekantoor besoek en hul rekords nagaan om die nodige data te bekom.
+</item>
+<item id="uid10">'n Supermarkbestuurder mag vra: "Watter tipes gaskoeldrank moet ek in my supermark in voorraad hê?" Daar mag dan aan klante gevra word: "Wat is jou gunsteling gaskoeldrank?" Op grond van hoeveel mense 'n spesifieke gaskoeldrank verkies, kan die bestuur dan 'n ingeligte besluit neem van watter gaskoeldrank om aan te hou.
+</item></list>
+          <para id="id200605">Dit is belangrik om daarop te let dat verskillende vrae, verskillende fasette van die 'n situasie na vore bring en dat dit die begrip van die situasie sal beïnvloed. Byvoorbeeld, die eerste vraag op die lys kan geformuleer word om te vra: "Het jou huis elektrisiteit?". Indien die gebruiker "Ja" antwoord hierop, terwyl hy krag van sy buurman af herlei, sal dit die verkeerde indruk gee dat die betrokke persoon nie krag nodig het van die amptelike verskaffer nie.
+</para>
+        </section>
+      </section>
+      <section id="uid16">
+        <title>Metodes van Dataversameling</title>
+        <para id="id200621">Die metode of strategie van dataversameling moet ooreenstem met die vrae wat gevra word. 'n Paar voorbeelde van dataversamelingsmetodes is:</para>
+        <list id="id200626" display="block" list-type="enumerated"><item id="uid17">Vraelyste, meningspeilings en onderhoude
+</item>
+<item id="uid18">Eksperimente
+</item>
+<item id="uid19">Ander bronne (vriende, familie, koerante, boeke, tydskrifte en die Internet)
+</item></list>
+        <para id="id200664">Die belangrikste aspek van elke metode van dataversameling is om die vrae wat beantwoord moet word duidelik te formuleer. Die tipe dataversamelingsmetode moet gekies word om by jou vrae te pas.
+
+</para>
+        <para id="id200670">Byvoorbeeld vraelyste, meningspeilings en onderhoude sal die beste pas by die vrae in die voorbeelde in <link target-id="uid8">"Die Doelwit van die Versameling van Primêre Data"</link>.</para>
+      </section>
+      <section id="uid20">
+        <title>Steekproef en Bevolking (Populasie)</title>
+        <para id="id200688">Voordat daar begin word met die datainsameling is dit belangrik om te besluit hoeveel data nodig is sodat die resultate 'n verteenwoordigende aanduiding sal gee van die antwoord op 'n sekere vraag. In die ideale geval sal die studie so ontwerp word dat die maksimum hoeveelheid inligting verkry word met die minimum hoeveelheid moeite. Die konsepte <emphasis effect="italics">bevolking</emphasis> en <emphasis effect="italics">steekproef</emphasis> is baie belangrik ten einde die energie- en koste-uitset so min as moontlik te hou.
+
+
+
+</para>
+        <para id="id200705">Die volgende terme behoort bekend te wees:</para>
+        <list id="id200708" display="block" list-type="labeled-item"><item id="uid21"><label>Bevolking</label>beskryf die hele groep wat in die studie in ag geneem word. Byvoorbeeld, as jy wil weet hoeveel leerders in jou skool in die winter verkoue gekry het, dan sal jou bevolking al die leerders in jou skool wees.
+</item>
+<item id="uid22"><label>Steekproef</label>beskryf 'n groep wat gekies word om die bevolking te verteenwoordig. Byvoorbeeld, vir die opname oor verkoue in die skool kan jy miskien net 'n paar leerders kies - byvoorbeeld een uit elke klas.
+</item>
+<item id="uid23"><label>Ewekansige steekproef</label>beskryf 'n steekproef wat op so manier uit die bevolking gekies word dat elke lid van die bevolking 'n gelyke kans het om gekies te word.
+</item>
+
+</list>
+        <para id="id200757">
+          <figure id="id200760"><media id="id200760_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C16_002.png" id="id200760_onlineimage" width="231"><!-- NOTE: attribute width changes image size online (pixels). original width is 231. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_002.eps" id="id200760_printimage"/>
+            </media>
+          <caption>'n Illustrasie van hoe 'n steekproef uit die bevolking gekies word</caption></figure>
+        </para>
+        <para id="id200766">Om resultate te verkry wat verteenwoordigend is, is die van kritieke belang om 'n verteenwoordigende steekproef te kry. Byvoorbeeld, as ons wou bepaal hoe groepsdruk die besluit om te begin rook, beïnvloed - dan sou die resultate baie anders gewees het as slegs seuns ondervra is, in vergelyking met 'n studie waar onderhoude met beide seuns en meisies gevoer is.
+
+
+
+</para>
+        <para id="id200773">Daarom moet vrae soos: "Hoeveel onderhoude word benodig?" en "Hoe kies ons kandidate vir onderhoude?" tydens die ontwerpfase van die steekproefproses gevra word.</para>
+        <para id="id200777">Die mees akkurate resultate word verkry indien die hele bevolking gebruik word as steekproef vir 'n opname, maar dit kan baie duur wees en/of baie lank neem. Die tweede beste metode is om 'n steekproef <emphasis effect="italics">ewekansig</emphasis> te kies. Dit beteken dat elke lid van die bevolking 'n gelyke kans het om geselekteer te word, onafhanklik van hoe die lede gekies word. Daar is verskeie metodes om lede op hierdie manier te kies, byvoorbeeld, name kan uit 'n hoed getrek word. Meeste moderne wetenskaplike sakrekenaars het 'n sleutel wat mens kan druk om ewekansige getalle te genereer wat mens kan gebruik om 'n steekproef te kies. Sigbladpakkette op 'n rekenaar het ook gewoonlik so 'n funksie.
+
+
+</para>
+        <para id="id200791">So, as jy byvoorbeeld 'n bevolking van 1 000 leerders in jou skool het, kan jy moontlik 100 leerders ewekansig kies en dit sal dan die steekproef wees wat jy vir die opname gebruik.</para>
+      </section>
+    </section>
+    <section id="cid4">
+      <title>Voorbeelde van Datastelle</title>
+      <para id="id200805">Die res van hierdie hoofstuk handel oor die wiskundige besonderhede wat nodig is om data wat versamel is, te analiseer.</para>
+      <para id="id200809">Hier volg nou 'n paar voorbeelde van datastelle wat gebruik kan word om die metodes wat toegepas word, te verduidelik.</para>
+      <section id="uid24">
+        <title>Datastel 1: Gooi van 'n Muntstuk</title>
+        <para id="id200822">'n Ewekansige muntstuk is 100 keer gegooi en die kant waarop die muntstuk land, is opgeneem (kop of stert). Die data is opgeneem in <link target-id="uid25">"Datastel 1: Gooi van 'n muntstuk"</link>.
+</para>
+        <table id="uid25" summary="Resultate wanneer 'n ewekansige muntstuk 100 keer gegooi word. K beteken dat die muntstuk met sy kop na bo geland het terwyl S beteken dat die muntstuk met sy stert na bo geland het.">
+<tgroup cols="10"><tbody>
+              <row>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+              </row>
+              <row>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+              </row>
+              <row>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+              </row>
+              <row>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+              </row>
+              <row>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+              </row>
+              <row>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+              </row>
+              <row>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+              </row>
+              <row>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+              </row>
+              <row>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+              </row>
+              <row>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>S</entry>
+                <entry>K</entry>
+                <entry>S</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Resultate wanneer 'n ewekansige muntstuk 100 keer gegooi word. K beteken dat die muntstuk met sy kop na bo geland het terwyl S beteken dat die muntstuk met sy stert na bo geland het.</caption>
+</table>
+      </section>
+      <section id="uid26">
+        <title>Datastel 2: Gooi van 'n Dobbelsteen</title>
+        <para id="id201632">'n Ewekansige dobbelsteen is 200 keer gegooi en die waardes waarop die dobbelsteen land, is opgeneem. Die data is opgeneem in <link target-id="uid26">"Datastel 2: Gooi van 'n Dobbelsteen"</link>.</para>
+        <table id="uid27" summary="Resultate wanneer 'n ewekansige dobbelsteen 200 keer gegooi word.">
+<tgroup cols="20"><tbody>
+              <row>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>5</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>6</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>4</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>4</entry>
+              </row>
+              <row>
+                <entry>4</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>6</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>1</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>6</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>2</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>5</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>5</entry>
+                <entry>6</entry>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry>6</entry>
+                <entry>6</entry>
+                <entry>3</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>1</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>6</entry>
+              </row>
+              <row>
+                <entry>6</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>3</entry>
+                <entry>3</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>3</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>4</entry>
+                <entry>2</entry>
+                <entry>5</entry>
+                <entry>2</entry>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>5</entry>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>2</entry>
+                <entry>5</entry>
+                <entry>1</entry>
+                <entry>1</entry>
+              </row>
+            </tbody>
+          
+
+</tgroup><caption>Resultate wanneer 'n ewekansige dobbelsteen 200 keer gegooi word</caption>
+</table>
+      </section>
+      <section id="uid28">
+        <title>Datastel 3: Massa van 'n Brood</title>
+        <para id="id203270">In Suid-Afrika is daar regulasies oor die vervaardiging van brood om verbruikers te beskerm. Hier is 'n uittreksel uit 'n verslag oor die wetgewing:</para>
+        <para id="id203274">"Wetgewing vereis dat 'n brood 800g moet weeg indien dit nie gemerk is nie, met 'n speling van 5 persent bo en 10 persent onder hierdie massa. Die gemiddelde massa van 10 van hierdie brode moet egter presies die aangeduide massa wees." - Sunday Tribune op 10 Oktober 2004, bladsy 10.</para>
+        <para id="id203280">Ons kan die massa van brode bepaal en dit gebruik om vas te stel of verbruikers waarde vir hulle geld kry. 'n Ongemerkte brood moet 800g weeg. Vir een week is 10 verskillende brode by 'n sekere winkel elke dag geweeg. Die data word getoon in <link target-id="uid29"/>.</para>
+        <table id="uid29" summary="Massas (in g) van 10 verskillende brode, vanaf die selfde vervaardiger, gemeet by dieselfde winkel oor 'n tydperk van een week.">
+<tgroup cols="7"><tbody>
+              <row>
+               <entry><emphasis effect="bold">Maandag</emphasis></entry>
+               <entry><emphasis effect="bold">Dinsdag</emphasis></entry> 
+ <entry><emphasis effect="bold">Woensdag</emphasis></entry>              
+ <entry><emphasis effect="bold">Donderdag</emphasis></entry>               
+<entry><emphasis effect="bold">Vrydag</emphasis></entry>
+ <entry><emphasis effect="bold">Saterdag</emphasis></entry>               
+ <entry><emphasis effect="bold">Sondag</emphasis></entry>               
+                
+              </row>
+              <row>
+                <entry>802.39</entry>
+                <entry>787.78</entry>
+                <entry>815.74</entry>
+                <entry>807.41</entry>
+                <entry>801.48</entry>
+                <entry>786.59</entry>
+                <entry>799.01</entry>
+              </row>
+              <row>
+                <entry>796.76</entry>
+                <entry>798.93</entry>
+                <entry>809.68</entry>
+                <entry>798.72</entry>
+                <entry>818.26</entry>
+                <entry>789.08</entry>
+                <entry>805.99</entry>
+              </row>
+              <row>
+                <entry>802.50</entry>
+                <entry>793.63</entry>
+                <entry>785.37</entry>
+                <entry>809.30</entry>
+                <entry>787.65</entry>
+                <entry>801.45</entry>
+                <entry>799.35</entry>
+              </row>
+              <row>
+                <entry>819.59</entry>
+                <entry>812.62</entry>
+                <entry>809.05</entry>
+                <entry>791.13</entry>
+                <entry>805.28</entry>
+                <entry>817.76</entry>
+                <entry>801.01</entry>
+              </row>
+              <row>
+                <entry>801.21</entry>
+                <entry>795.86</entry>
+                <entry>795.21</entry>
+                <entry>820.39</entry>
+                <entry>806.64</entry>
+                <entry>819.54</entry>
+                <entry>796.67</entry>
+              </row>
+              <row>
+                <entry>789.00</entry>
+                <entry>796.33</entry>
+                <entry>787.87</entry>
+                <entry>799.84</entry>
+                <entry>789.45</entry>
+                <entry>802.05</entry>
+                <entry>802.20</entry>
+              </row>
+              <row>
+                <entry>788.99</entry>
+                <entry>797.72</entry>
+                <entry>776.71</entry>
+                <entry>790.69</entry>
+                <entry>803.16</entry>
+                <entry>801.24</entry>
+                <entry>807.32</entry>
+              </row>
+              <row>
+                <entry>808.80</entry>
+                <entry>780.38</entry>
+                <entry>812.61</entry>
+                <entry>801.82</entry>
+                <entry>784.68</entry>
+                <entry>792.19</entry>
+                <entry>809.80</entry>
+              </row>
+              <row>
+                <entry>802.37</entry>
+                <entry>790.83</entry>
+                <entry>792.43</entry>
+                <entry>789.24</entry>
+                <entry>815.63</entry>
+                <entry>799.35</entry>
+                <entry>791.23</entry>
+              </row>
+              <row>
+                <entry>796.20</entry>
+                <entry>817.57</entry>
+                <entry>799.05</entry>
+                <entry>825.96</entry>
+                <entry>807.89</entry>
+                <entry>806.65</entry>
+                <entry>780.23</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+</tgroup><caption>Massas (in g) van 10 verskillende brode, vanaf dieselfde vervaardiger, bepaal by dieselfde winkel oor 'n tydperk van een week</caption>
+</table>
+      </section>
+      <section id="uid30"><title>Datastel 4: Temperature Wêreldwyd</title><para id="id203994">Die wêreldwye gemiddelde temperature van 1861 tot 1996 word in <link target-id="eip-685"/> getoon. Die data, verkry by <link url="http://www.cgd.ucar.edu/stats/Data/Climate/" window="new">http://www.cgd.ucar.edu/stats/Data/Climate/</link>, is na temperatuur in grade Celsius omgeskakel.</para><table id="eip-685" summary="Wêreldwye gemiddelde temperature van 1861 tot 1996. Tans is daar 'n groot bespreking oor die verandering in weerpatrone en die moontlike verwantskap met besoedeling en kweekhuisgasse.">
+<tgroup cols="8"><tbody>
+<row>	<entry><emphasis effect="bold">	Jaar</emphasis>	</entry>	<entry>	<emphasis effect="bold">Temperatuur</emphasis>		</entry>	<entry>	<emphasis effect="bold">Jaar</emphasis>		</entry>	<entry><emphasis effect="bold">	Temperatuur</emphasis>		</entry>	<entry><emphasis effect="bold">	Jaar</emphasis>		</entry>	<entry>	<emphasis effect="bold">Temperatuur</emphasis>		</entry>	<entry>	<emphasis effect="bold">Jaar</emphasis>		</entry>	<entry>	<emphasis effect="bold">Temperatuur</emphasis>		</entry>	</row>
+<row>	<entry>	1861	</entry>	<entry>	12.66	</entry>	<entry>	1901	</entry>	<entry>	12.871	</entry>	<entry>	1941	</entry>	<entry>	13.152	</entry>	<entry>	1981	</entry>	<entry>	13.228	</entry>	</row>
+<row>	<entry>	1862	</entry>	<entry>	12.58	</entry>	<entry>	1902	</entry>	<entry>	12.726	</entry>	<entry>	1942	</entry>	<entry>	13.147	</entry>	<entry>	1982	</entry>	<entry>	13.145	</entry>	</row>
+<row>	<entry>	1863	</entry>	<entry>	12.799	</entry>	<entry>	1903	</entry>	<entry>	12.647	</entry>	<entry>	1943	</entry>	<entry>	13.156	</entry>	<entry>	1983	</entry>	<entry>	13.332	</entry>	</row>
+<row>	<entry>	1864	</entry>	<entry>	12.619	</entry>	<entry>	1904	</entry>	<entry>	12.601	</entry>	<entry>	1944	</entry>	<entry>	13.31	</entry>	<entry>	1984	</entry>	<entry>	13.107	</entry>	</row>
+<row>	<entry>	1865	</entry>	<entry>	12.825	</entry>	<entry>	1905	</entry>	<entry>	12.719	</entry>	<entry>	1945	</entry>	<entry>	13.153	</entry>	<entry>	1985	</entry>	<entry>	13.09	</entry>	</row>
+<row>	<entry>	1866	</entry>	<entry>	12.881	</entry>	<entry>	1906	</entry>	<entry>	12.79	</entry>	<entry>	1946	</entry>	<entry>	13.015	</entry>	<entry>	1986	</entry>	<entry>	13.183	</entry>	</row>
+<row>	<entry>	1867	</entry>	<entry>	12.781	</entry>	<entry>	1907	</entry>	<entry>	12.594	</entry>	<entry>	1947	</entry>	<entry>	13.006	</entry>	<entry>	1987	</entry>	<entry>	13.323	</entry>	</row>
+<row>	<entry>	1868	</entry>	<entry>	12.853	</entry>	<entry>	1908	</entry>	<entry>	12.575	</entry>	<entry>	1948	</entry>	<entry>	13.015	</entry>	<entry>	1988	</entry>	<entry>	13.34	</entry>	</row>
+<row>	<entry>	1869	</entry>	<entry>	12.787	</entry>	<entry>	1909	</entry>	<entry>	12.596	</entry>	<entry>	1949	</entry>	<entry>	13.005	</entry>	<entry>	1989	</entry>	<entry>	13.269	</entry>	</row>
+<row>	<entry>	1870	</entry>	<entry>	12.752	</entry>	<entry>	1910	</entry>	<entry>	12.635	</entry>	<entry>	1950	</entry>	<entry>	12.898	</entry>	<entry>	1990	</entry>	<entry>	13.437	</entry>	</row>
+<row>	<entry>	1871	</entry>	<entry>	12.733	</entry>	<entry>	1911	</entry>	<entry>	12.611	</entry>	<entry>	1951	</entry>	<entry>	13.044	</entry>	<entry>	1991	</entry>	<entry>	13.385	</entry>	</row>
+<row>	<entry>	1872	</entry>	<entry>	12.857	</entry>	<entry>	1912	</entry>	<entry>	12.678	</entry>	<entry>	1952	</entry>	<entry>	13.113	</entry>	<entry>	1992	</entry>	<entry>	13.237	</entry>	</row>
+<row>	<entry>	1873	</entry>	<entry>	12.802	</entry>	<entry>	1913	</entry>	<entry>	12.671	</entry>	<entry>	1953	</entry>	<entry>	13.192	</entry>	<entry>	1993	</entry>	<entry>	13.28	</entry>	</row>
+<row>	<entry>	1874	</entry>	<entry>	12.68	</entry>	<entry>	1914	</entry>	<entry>	12.85	</entry>	<entry>	1954	</entry>	<entry>	12.944	</entry>	<entry>	1994	</entry>	<entry>	13.355	</entry>	</row>
+<row>	<entry>	1875	</entry>	<entry>	12.669	</entry>	<entry>	1915	</entry>	<entry>	12.962	</entry>	<entry>	1955	</entry>	<entry>	12.935	</entry>	<entry>	1995	</entry>	<entry>	13.483	</entry>	</row>
+<row>	<entry>	1876	</entry>	<entry>	12.687	</entry>	<entry>	1916	</entry>	<entry>	12.727	</entry>	<entry>	1956	</entry>	<entry>	12.836	</entry>	<entry>	1996	</entry>	<entry>	13.314	</entry>	</row>
+<row>	<entry>	1877	</entry>	<entry>	12.957	</entry>	<entry>	1917	</entry>	<entry>	12.584	</entry>	<entry>	1957	</entry>	<entry>	13.139	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1878	</entry>	<entry>	13.092	</entry>	<entry>	1918	</entry>	<entry>	12.7	</entry>	<entry>	1958	</entry>	<entry>	13.208	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1879	</entry>	<entry>	12.796	</entry>	<entry>	1919	</entry>	<entry>	12.792	</entry>	<entry>	1959	</entry>	<entry>	13.133	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1880	</entry>	<entry>	12.811	</entry>	<entry>	1920	</entry>	<entry>	12.857	</entry>	<entry>	1960	</entry>	<entry>	13.094	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1881	</entry>	<entry>	12.845	</entry>	<entry>	1921	</entry>	<entry>	12.902	</entry>	<entry>	1961	</entry>	<entry>	13.124	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1882	</entry>	<entry>	12.864	</entry>	<entry>	1922	</entry>	<entry>	12.787	</entry>	<entry>	1962	</entry>	<entry>	13.129	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1883	</entry>	<entry>	12.783	</entry>	<entry>	1923	</entry>	<entry>	12.821	</entry>	<entry>	1963	</entry>	<entry>	13.16	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1884	</entry>	<entry>	12.73	</entry>	<entry>	1924	</entry>	<entry>	12.764	</entry>	<entry>	1964	</entry>	<entry>	12.868	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1885	</entry>	<entry>	12.754	</entry>	<entry>	1925	</entry>	<entry>	12.868	</entry>	<entry>	1965	</entry>	<entry>	12.935	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1886	</entry>	<entry>	12.826	</entry>	<entry>	1926	</entry>	<entry>	13.014	</entry>	<entry>	1966	</entry>	<entry>	13.035	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1887	</entry>	<entry>	12.723	</entry>	<entry>	1927	</entry>	<entry>	12.904	</entry>	<entry>	1967	</entry>	<entry>	13.031	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1888	</entry>	<entry>	12.783	</entry>	<entry>	1928	</entry>	<entry>	12.871	</entry>	<entry>	1968	</entry>	<entry>	13.004	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1889	</entry>	<entry>	12.922	</entry>	<entry>	1929	</entry>	<entry>	12.718	</entry>	<entry>	1969	</entry>	<entry>	13.117	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1890	</entry>	<entry>	12.703	</entry>	<entry>	1930	</entry>	<entry>	12.964	</entry>	<entry>	1970	</entry>	<entry>	13.064	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1891	</entry>	<entry>	12.767	</entry>	<entry>	1931	</entry>	<entry>	13.041	</entry>	<entry>	1971	</entry>	<entry>	12.903	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1892	</entry>	<entry>	12.671	</entry>	<entry>	1932	</entry>	<entry>	12.992	</entry>	<entry>	1972	</entry>	<entry>	13.031	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1893	</entry>	<entry>	12.631	</entry>	<entry>	1933	</entry>	<entry>	12.857	</entry>	<entry>	1973	</entry>	<entry>	13.175	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1894	</entry>	<entry>	12.709	</entry>	<entry>	1934	</entry>	<entry>	12.982	</entry>	<entry>	1974	</entry>	<entry>	12.912	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1895	</entry>	<entry>	12.728	</entry>	<entry>	1935	</entry>	<entry>	12.943	</entry>	<entry>	1975	</entry>	<entry>	12.975	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1896	</entry>	<entry>	12.93	</entry>	<entry>	1936	</entry>	<entry>	12.993	</entry>	<entry>	1976	</entry>	<entry>	12.869	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1897	</entry>	<entry>	12.936	</entry>	<entry>	1937	</entry>	<entry>	13.092	</entry>	<entry>	1977	</entry>	<entry>	13.148	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1898	</entry>	<entry>	12.759	</entry>	<entry>	1938	</entry>	<entry>	13.187	</entry>	<entry>	1978	</entry>	<entry>	13.057	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1899	</entry>	<entry>	12.874	</entry>	<entry>	1939	</entry>	<entry>	13.111	</entry>	<entry>	1979	</entry>	<entry>	13.154	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+<row>	<entry>	1900	</entry>	<entry>	12.959	</entry>	<entry>	1940	</entry>	<entry>	13.055	</entry>	<entry>	1980	</entry>	<entry>	13.195	</entry>	<entry>		</entry>	<entry>		</entry>	</row>
+
+</tbody>
+
+
+
+
+
+
+</tgroup><caption>Wêreldwye gemiddelde temperature van 1861 tot 1996. Tans is daar 'n groot bespreking oor die verandering in weerpatrone en die moontlike verwantskap met besoedeling en kweekhuisgasse.</caption>
+</table>
+        <!--Table that contain tables are not converted.-->
+      </section>
+      <section id="uid32">
+        <title>Datastel 5: Prys van Petrol</title>
+        <para id="id206845">Die prys van petrol in Suid-Afrika vanaf Augustus 1998 tot Julie 2000 word in <link target-id="uid33"/> getoon.</para>
+        <table id="uid33" summary="Petrolpryse in Suid Afrika vanaf Augustus 1998 tot Julie 2000.">
+<tgroup cols="2"><tbody>
+              <row>
+<entry><emphasis effect="bold">Datum</emphasis></entry>
+<entry><emphasis effect="bold">Prys (R/l)</emphasis></entry>               
+                              </row>
+              <row>
+                <entry>Augustus 1998</entry>
+                <entry>R 2.37</entry>
+              </row>
+              <row>
+                <entry>September 1998</entry>
+                <entry>R 2.38</entry>
+              </row>
+              <row>
+                <entry>Oktober 1998</entry>
+                <entry>R 2.35</entry>
+              </row>
+              <row>
+                <entry>November 1998</entry>
+                <entry>R 2.29</entry>
+              </row>
+              <row>
+                <entry>Desember 1998</entry>
+                <entry>R 2.31</entry>
+              </row>
+              <row>
+                <entry>Januarie 1999</entry>
+                <entry>R 2.25</entry>
+              </row>
+              <row>
+                <entry>Februarie 1999</entry>
+                <entry>R 2.22</entry>
+              </row>
+              <row>
+                <entry>Maart 1999</entry>
+                <entry>R 2.25</entry>
+              </row>
+              <row>
+                <entry>April 1999</entry>
+                <entry>R 2.31</entry>
+              </row>
+              <row>
+                <entry>Mei 1999</entry>
+                <entry>R 2.49</entry>
+              </row>
+              <row>
+                <entry>Junie 1999</entry>
+                <entry>R 2.61</entry>
+              </row>
+              <row>
+                <entry>Julie 1999</entry>
+                <entry>R 2.61</entry>
+              </row>
+              <row>
+                <entry>Augustus 1999</entry>
+                <entry>R 2.62</entry>
+              </row>
+              <row>
+                <entry>September 1999</entry>
+                <entry>R 2.75</entry>
+              </row>
+              <row>
+                <entry>Oktober 1999</entry>
+                <entry>R 2.81</entry>
+              </row>
+              <row>
+                <entry>November 1999</entry>
+                <entry>R 2.86</entry>
+              </row>
+              <row>
+                <entry>Desember 1999</entry>
+                <entry>R 2.85</entry>
+              </row>
+              <row>
+                <entry>Januarie 2000</entry>
+                <entry>R 2.86</entry>
+              </row>
+              <row>
+                <entry>Februarie 2000</entry>
+                <entry>R 2.81</entry>
+              </row>
+              <row>
+                <entry>Maart 2000</entry>
+                <entry>R 2.89</entry>
+              </row>
+              <row>
+                <entry>April 2000</entry>
+                <entry>R 3.03</entry>
+              </row>
+              <row>
+                <entry>Mei 2000</entry>
+                <entry>R 3.18</entry>
+              </row>
+              <row>
+                <entry>Junie 2000</entry>
+                <entry>R 3.22</entry>
+              </row>
+              <row>
+                <entry>Julie 2000</entry>
+                <entry>R 3.36</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+</tgroup><caption>Petrolpryse in Suid-Afrika vanaf Augustus 1998 tot Julie 2000</caption>
+</table>
+      </section>
+    </section>
+    <section id="cid5"><title>Groepering van Data</title><para id="id207418">Een van die eerste stappe in die verwerking van 'n groot stel rou data is om die datawaardes te rangskik in 'n kleiner aantal groepe en dan te tel hoeveel daar van elke datawaarde in elke groep is. Die groepe is gewoonlik gebaseer op een of ander interval van datawaardes, sodat datawaardes wat binne 'n sekere interval val, saamgegroepeer word. Die gegroepeerde data word dikwels grafies of in 'n frekwensietabel uitgebeeld. Frekwensie beteken "hoeveel keer kom iets voor".</para>
+<exercise id="secfhsst_id777"><title>Groepering van Data</title><problem id="probfhsst_id778">
+      <para id="id207443">Groepeer die elemente van <link target-id="uid25">Datastel 1</link> om te bepaal hoeveel keer die muntstuk op kop land en hoeveel keer die muntstuk op stert land.</para>
+      </problem>
+      <solution id="solfhsst_id781"> <list id="listfhsst_id781" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Identifiseer die groepe</label>
+      <para id="id207467">Daar is twee unieke datawaardes: K en S. Daarom is daar twee groepe: een vir die K-datawaardes en nog een vir die S-datawaardes.</para>
+      </item> <item> <label> Tel hoeveel datawaardes daar in elke groep val</label>
+      <table id="id207476" summary="Frekwensie van datawaardes in Datastel 1.">
+<tgroup cols="2"><tbody>
+            <row>
+ <entry><emphasis effect="bold">Datawaardes</emphasis></entry>          
+ <entry><emphasis effect="bold">Frekwensie</emphasis></entry>
+                          </row>
+            <row>
+              <entry>K</entry>
+              <entry>44</entry>
+            </row>
+            <row>
+              <entry>S</entry>
+              <entry>56</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+</tgroup><caption>Frekwensie van datawaardes in Datastel 1</caption>
+</table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Maak seker dat die totaal van die frekwensiekolom gelyk is aan die som van die totale aantal datawaardes</label>
+      <para id="id207554">Daar is 100 datawaardes en die total van die frekwensiekolum is 44 + 56 = 100.</para>
+      </item> </list> </solution>
+</exercise>
+      <section id="uid34">
+        <title>Oefeninge: Groepering van Data</title>
+        <list id="id207578" display="block" list-type="enumerated"><item id="uid35">
+Die lengtes van 30 leerders word hier aangetoon. Groepeer die data in die gegewe tabel (onder). (Telmerke is 'n gerieflike manier om in 5'e te tel. Ons gebruik die vierstreep-hek metode: 1111 om 4 aan te dui en 1111 met 'n horisontale streep deur die 4 vertikale strepies om 5 aan te dui.)
+<table id="id207595" summary=""><tgroup cols="10"><tbody><row><entry>142</entry><entry>163</entry><entry>169</entry><entry>132</entry><entry>139</entry><entry>140</entry><entry>152</entry><entry>168</entry><entry>139</entry><entry>150</entry></row><row><entry>161</entry><entry>132</entry><entry>162</entry><entry>172</entry><entry>146</entry><entry>152</entry><entry>150</entry><entry>132</entry><entry>157</entry><entry>133</entry></row><row><entry>141</entry><entry>170</entry><entry>156</entry><entry>155</entry><entry>169</entry><entry>138</entry><entry>142</entry><entry>160</entry><entry>164</entry><entry>168</entry></row></tbody></tgroup></table><table id="id207774" summary="Groepering van data.">
+<tgroup cols="3"><tbody><row><entry><emphasis effect="bold">Groep</emphasis></entry><entry><emphasis effect="bold">Telmerke</emphasis></entry><entry><emphasis effect="bold">Frekwensie</emphasis></entry></row><row><entry>130 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 140</entry><entry/><entry/></row><row><entry>140 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 150</entry><entry/><entry/></row><row><entry>150 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 160</entry><entry/><entry/></row><row><entry>160 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 170</entry><entry/><entry/></row><row><entry>170 <m:math overflow="scroll"><m:mrow><m:mo>≤</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo></m:mrow></m:math> 180</entry><entry/><entry/></row></tbody>
+
+
+</tgroup>
+</table><link window="new" class="fullmarks" url="http://www.fhsst.org/lab">Kliek hier vir die oplossing.</link></item>
+          <item id="uid36">
+'n Eksperiment is uitgevoer in 'n klas en 50 leerders is gevra om te raai hoeveel lekkertjies daar in 'n gegewe fles is. Die volgende raaiskote is opgeneem:
+<table id="id208211" summary=""><tgroup cols="10"><tbody><row><entry>56</entry><entry>49</entry><entry>40</entry><entry>11</entry><entry>33</entry><entry>33</entry><entry>37</entry><entry>29</entry><entry>30</entry><entry>59</entry></row><row><entry>21</entry><entry>16</entry><entry>38</entry><entry>44</entry><entry>38</entry><entry>52</entry><entry>22</entry><entry>24</entry><entry>30</entry><entry>34</entry></row><row><entry>42</entry><entry>15</entry><entry>48</entry><entry>33</entry><entry>51</entry><entry>44</entry><entry>33</entry><entry>17</entry><entry>19</entry><entry>44</entry></row><row><entry>47</entry><entry>23</entry><entry>27</entry><entry>47</entry><entry>13</entry><entry>25</entry><entry>53</entry><entry>57</entry><entry>28</entry><entry>23</entry></row><row><entry>36</entry><entry>35</entry><entry>40</entry><entry>23</entry><entry>45</entry><entry>39</entry><entry>32</entry><entry>58</entry><entry>22</entry><entry>40</entry></row></tbody></tgroup></table> Trek 'n gegroepeerde frekwensietabel op vir die intervalle 11 tot 20, 21 tot 30, 31 tot 40, ens.<newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/laj">Kliek hier vir die oplossing.</link>
+</item>
+        </list>
+      </section>
+    </section>
+    
+
+  </content>
+</document>

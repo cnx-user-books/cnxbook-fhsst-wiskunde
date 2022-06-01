@@ -1,0 +1,1067 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Inleiding en kernbegrippe</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39661</md:content-id>
+  <md:title>Inleiding en kernbegrippe</md:title>
+  <md:abstract/>
+  <md:uuid>63d86c9d-038b-4d54-be83-8c6b956eec47</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Inleiding tot Funksies en Grafieke</title>
+      <para id="id231690">Funksies is wiskundige boustene wat toepassings het in masjienontwerp, die voorspelling van natuurrampe, die mediese veld, ekonomiese analise en vliegtuigontwerp. 'n Funksie het vir elke invoerwaarde net 'n enkele uitvoerwaarde. Dit is moontlik dat 'n funksie meer as een inset van verskillende veranderlikes kan hê, maar dan sal dit steeds net 'n enkele uitset hê. Ons gaan egter nie in hierdie hoofstuk na sulke tipe funksies kyk nie.</para>
+      <para id="id231697">Een van die groot voordele van funksies is dat hulle ons toelaat om vergelykings te <emphasis effect="italics">visualiseer</emphasis> deur middel van 'n <emphasis effect="italics">grafiek</emphasis>. 'n Grafiek is bloot 'n tekening van ’n funksie en dit word gebruik as 'n ander voorstellingswyse in plaas van 'n tabel met getalle. In hierdie hoofstuk gaan ons leer hoe om funksies met reële getalle te skep en te verstaan; en hoe om grafieke te lees en te teken.</para>
+      <para id="id232051">Funksies se toepassing strek van groot wetenskap- en ingenieurs probleme tot alledaagse probleme. So, dit is nuttig om meer te leer van funksies. 'n Funksie is altyd <emphasis effect="italics">afhanklik</emphasis> van een of meer veranderlikes, soos tyd, afstand of 'n meer abstrakte entiteit.</para>
+    </section>
+    <section id="cid3"><title>Alledaagse Gebruike van Funksies en Grafieke</title><para id="id232071">ŉ Paar tipiese voorbeelde van funksies waarmee jy moontlik bekend is:</para>
+      <list id="id232074" display="block" list-type="bulleted"><item id="uid1">Hoeveel geld jy het as 'n funksie van tyd. Hier is tyd die inset vir die funksie en die uitset is die bedrag geld. Jy sal op enige oomblik net een bedrag geld hê. As jy verstaan hoe jou bedrag geld verander oor tyd, kan jy beplan hoe om jou geld beter te spandeer. Besighede <emphasis effect="italics">teken die grafiek</emphasis> van hulle geldsake oor tyd, sodat hulle kan sien wanneer hulle te veel geld spandeer. Sulke waarnemings is nie altyd duidelik deur slegs na die getalle te kyk nie.
+
+</item>
+
+        <item id="uid2">Die temperatuur is 'n voorbeeld van 'n funksie met veelvuldige insette, insluitend die tyd van die dag, die seisoen, die wolkbedekking, die wind, die plek en vele ander. Die belangrike ding om in te sien, is dat daar net een waarde vir temperatuur is op 'n spesifieke plek, op 'n spesifieke tyd. As ons verstaan hoe die insette die temperatuur beïnvloed, kan ons ons dag beter beplan.
+
+</item>
+
+        <item id="uid3">Jou posisie is 'n funksie van tyd omdat jy nie op twee plekke op dieselfde tyd kan wees nie. Indien jy twee mense se posisie as 'n funksie van tyd sou teken of stip ('plot'), sal die plek waar die lyne kruis, aandui waar die mense mekaar ontmoet. Hierdie idee word gebruik in logistiek – 'n veld van Wiskunde wat probeer voorspel waar mense en items is, hoofsaaklik vir besigheid. 
+
+</item>
+
+        <item id="uid4">Jou massa is 'n funksie van hoeveel jy eet en hoe baie oefening jy doen, maar elke persoon se liggaam hanteer die insette anders en mens kan dan verskillende liggame voorstel as verskillende funksies.
+
+</item></list>
+    </section>
+    <section id="cid4">
+      <title>Hersiening</title>
+      <para id="id232161">Die volgende behoort bekend te wees.</para>
+      <section id="uid5">
+        <title>Veranderlikes en Konstantes</title>
+        <para id="id232172">In <link document="m31330" target-id="cid5" window="new">Oorsig van vorige werk</link>, het ons gewerk met veranderlikes en konstantes. Om vinnig te hersien: 'n veranderlike kan enige waarde aanneem in 'n stel getalle, indien die vergelyking konstant is. Gewoonlik word 'n veranderlike geskryf met 'n letter.</para>
+        <para id="id232189">'n <emphasis effect="italics">Konstante</emphasis> het 'n vaste waarde. Byvoorbeeld, die getal 1 is 'n konstante. Soms kan mens ook letters gebruik om konstantes voor te stel in 'n funksie, as 'n plekhouer, omdat hulle soms makliker is om mee te werk.</para>
+<section id="secfhsst_id84"><title>Ondersoek: Veranderlikes en Konstantes. </title>
+        <para id="id232206">Identifiseer die veranderlikes en die konstantes in die volgende vergelykings:</para>
+        <list id="id232211" display="block" list-type="enumerated">
+          <item id="uid6">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid7">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>7</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid8">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid9">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>7</m:mn>
+                  <m:mi>x</m:mi>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid10">
+        <title>Relasies en Funksies</title>
+        <para id="id232358">In die verlede het jy gesien veranderlikes kan <emphasis effect="italics">relasies</emphasis> (verhoudings) hê met mekaar. Byvoorbeeld, Anton is 2 jaar ouer as Naomi. Die relasie of verband tussen die ouderdomme van Anton en Naomi kan geskryf word as <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>N</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, waar Anton se ouderdom voorgestel word met <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en Naomi se ouderdom voorgestel word met <m:math overflow="scroll"><m:mi>N</m:mi></m:math>.</para>
+        <para id="id232402">In die algemeen is 'n <emphasis effect="italics">relasie</emphasis> 'n vergelyking met twee veranderlikes. Byvoorbeeld, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> is relasies. In albei voorbeelde is <m:math overflow="scroll"><m:mi>x</m:mi></m:math> en <m:math overflow="scroll"><m:mi>y</m:mi></m:math> veranderlikes en 5 is 'n konstante. Vir elke waarde van <m:math overflow="scroll"><m:mi>x</m:mi></m:math> sal jy 'n ander, unieke waarde vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math> kry.</para>
+        <para id="id232487">Mens hoef nie relasies as vergelykings te skryf nie, dit kan ook weergegee word in woorde, tabelle of grafieke. Byvoorbeeld, in plaas van <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math> te skryf, kan mens sê “<m:math overflow="scroll"><m:mi>y</m:mi></m:math> is vyf keer so groot as <m:math overflow="scroll"><m:mi>x</m:mi></m:math>”.  Ons kan ook die volgende tabel gee:</para>
+        <table id="id232523" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>x</m:mi>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry>10</entry>
+              </row>
+              <row>
+                <entry>6</entry>
+                <entry>30</entry>
+              </row>
+              <row>
+                <entry>8</entry>
+                <entry>40</entry>
+              </row>
+              <row>
+                <entry>13</entry>
+                <entry>65</entry>
+              </row>
+              <row>
+                <entry>15</entry>
+                <entry>75</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+<section id="secfhsst_id196"><title>Ondersoek:  Relasies en Funksies </title>
+        <para id="id232855">Voltooi die volgende tabel vir die gegewe funksies:</para>
+        <table id="id232861" summary="">
+          <tgroup cols="4">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>x</m:mi>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>3</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>50</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>100</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        
+</section>
+      </section>
+      <section id="uid11">
+        <title>Die Cartesiese Vlak</title>
+        <para id="id233118">Wanneer ons met funksies met reële getalle werk, is ons vernaamste stuk gereedskap 'n grafiek. Eerstens, indien ons twee reële veranderlikes het, <m:math overflow="scroll"><m:mi>x</m:mi></m:math> en <m:math overflow="scroll"><m:mi>y</m:mi></m:math>, kan ons gelyktydig vir hulle waardes toeken. Byvoorbeeld, ons kan sê "<m:math overflow="scroll"><m:mi>x</m:mi></m:math> is 5 en <m:math overflow="scroll"><m:mi>y</m:mi></m:math> is 3”. Net soos wat ons vir "<m:math overflow="scroll"><m:mi>x</m:mi></m:math> is 5” verkort deur te skryf "<m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>”, kan ons ook “<m:math overflow="scroll"><m:mi>x</m:mi></m:math> is 5 en <m:math overflow="scroll"><m:mi>y</m:mi></m:math> is 3” verkort deur te sê “<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math>”. Gewoonlik as ons dink aan reële getalle, dink ons aan 'n oneindige lang lyn en 'n getal as 'n punt op die lyn. Indien ons <emphasis effect="italics">twee</emphasis> getalle op dieselfde tyd kies, kan ons iets soortgelyks doen, maar nou gebruik ons twee dimensies. Ons gebruik nou twee lyne, een vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>  en een vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math>, met die lyn vir  <m:math overflow="scroll"><m:mi>y</m:mi></m:math>, geroteer, soos in <link target-id="uid12"/>.Ons noem dit die <emphasis effect="italics">Cartesiese vlak</emphasis>.</para>
+        <figure id="uid12"><media id="uid12_media" alt="">
+
+            <image mime-type="image/png" src="../../media/MG10C11_001.png" id="uid12_onlineimage" width="563"><!-- NOTE: attribute width changes image size online (pixels). original width is 563. --></image>
+
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_001.eps" id="uid12_printimage"/>
+
+          </media>
+        <caption>Die Cartesiese vlak bestaan uit 'n <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo></m:mrow></m:math>as (horisontaal) en 'n <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>-</m:mo></m:mrow></m:math>as (vertikaal).</caption></figure>
+      </section>
+      <section id="uid13">
+        <title>Teken van Grafieke</title>
+        <para id="id233311">Om 'n grafiek van 'n funksie te teken, moet ons 'n paar punte bereken en stip op die Cartesiese vlak. Die punte word dan in volgorde verbind om 'n gladde lyn te vorm. </para>
+        <para id="id233318">Kom ons kyk na die funksie, <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math>. Ons kan dan al die punte <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:math> beskou wat so is dat <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>, in hierdie geval <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math>. Byvoorbeeld <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>,</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo>,</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>)</m:mo></m:mrow></m:math>  stel sulke punte voor en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:math> stel nie so 'n punt voor nie, aangesien <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>≠</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>3</m:mn></m:mrow></m:math>.  Indien ons 'n kol op al die punte sit, asook al die soortgelyke punte vir alle moontlike waardes van <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, sal ons die grafiek soos in <link target-id="uid14"/> kry.</para>
+        <figure id="uid14"><media id="uid14_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C11_002.png" id="uid14_onlineimage" width="337"><!-- NOTE: attribute width changes image size online (pixels). original width is 337. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_002.eps" id="uid14_printimage"/>
+          </media>
+          
+        <caption>Grafiek van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math></caption></figure>
+        <para id="id233532">Die vorm van die grafiek is baie eenvoudig, dit is bloot ’n reguitlyn deur die middel van die vlak. Hierdie "stippingstegniek" is die sleutel tot die verstaan van funksies.</para>
+<section id="secfhsst_id298"><title>Ondersoek: Teken van Grafieke en die Cartesiese vlak </title>
+        <para id="id233553">Stip die volgende punte en trek 'n gladde lyn deur hulle:
+
+(-6; -8), (-2; 0), (2; 8), (6; 16).</para>
+</section>
+      </section>
+      <section id="uid15">
+        <title>Notasie vir Funksies</title>
+        <para id="id233575">Tot dus ver het ons gesien jy kan <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math> gebruik om 'n funksie voor te stel. Hierdie notasie raak verwarrend as jy met meer as een funksie werk. 'n Meer algemene manier om funksies neer te skryf, is deur die notasie <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>, te gebruik, waar <m:math overflow="scroll"><m:mi>f</m:mi></m:math><space/>die funksienaam en <m:math overflow="scroll"><m:mi>x</m:mi></m:math> die onafhanklike veranderlike is. Byvoorbeeld, <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> is twee verskillende funksies. Met <m:math overflow="scroll"><m:mi>f</m:mi></m:math> en <m:math overflow="scroll"><m:mi>g</m:mi></m:math> die name en <m:math overflow="scroll"><m:mi>x</m:mi></m:math> en <m:math overflow="scroll"><m:mi>t</m:mi></m:math> die veranderlikes. As mens van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> praat, sê mens “f van x”.</para>
+        <para id="id233683">Ons gaan albei notasies in hierdie boek gebruik.</para>
+<exercise id="secfhsst_id308"><title>Funksienotasie </title><problem id="probfhsst_id309">
+
+        <para id="id233701">Indien <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math>, vind <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>k</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> in terme van <m:math overflow="scroll"><m:mi>k</m:mi></m:math>. </para>
+
+        </problem>
+
+        <solution id="solfhsst_id312"> <list id="listfhsst_id312" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Vervang <m:math overflow="scroll"><m:mi>n</m:mi></m:math> met <m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> </label>
+
+        <equation id="id233816">
+
+          <m:math overflow="scroll" mode="display">
+
+            <m:mtable displaystyle="true">
+
+              <m:mtr>
+
+                <m:mtd columnalign="right">
+
+                  <m:mrow>
+
+                    <m:mi>f</m:mi>
+
+                    <m:mo>(</m:mo>
+
+                    <m:mi>n</m:mi>
+
+                    <m:mo>)</m:mo>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mrow>
+
+                    <m:msup>
+
+                      <m:mi>n</m:mi>
+
+                      <m:mn>2</m:mn>
+
+                    </m:msup>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>6</m:mn>
+
+                    <m:mi>n</m:mi>
+
+                    <m:mo>+</m:mo>
+
+                    <m:mn>9</m:mn>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+              </m:mtr>
+
+              <m:mtr>
+
+                <m:mtd columnalign="right">
+
+                  <m:mrow>
+
+                    <m:mi>f</m:mi>
+
+                    <m:mo>(</m:mo>
+
+                    <m:mi>k</m:mi>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>1</m:mn>
+
+                    <m:mo>)</m:mo>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mrow>
+
+                    <m:msup>
+
+                      <m:mrow>
+
+                        <m:mo>(</m:mo>
+
+                        <m:mi>k</m:mi>
+
+                        <m:mo>-</m:mo>
+
+                        <m:mn>1</m:mn>
+
+                        <m:mo>)</m:mo>
+
+                      </m:mrow>
+
+                      <m:mn>2</m:mn>
+
+                    </m:msup>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>6</m:mn>
+
+                    <m:mrow>
+
+                      <m:mo>(</m:mo>
+
+                      <m:mi>k</m:mi>
+
+                      <m:mo>-</m:mo>
+
+                      <m:mn>1</m:mn>
+
+                      <m:mo>)</m:mo>
+
+                    </m:mrow>
+
+                    <m:mo>+</m:mo>
+
+                    <m:mn>9</m:mn>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+              </m:mtr>
+
+            </m:mtable>
+
+          </m:math>
+
+        </equation>
+
+        </item> <item> <label>  Verwyder hakies aan die regterkant en vereenvoudig </label>
+
+        <equation id="id233936">
+
+          <m:math overflow="scroll" mode="display">
+
+            <m:mtable displaystyle="true">
+
+              <m:mtr>
+
+                <m:mtd/>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mrow>
+
+                    <m:msup>
+
+                      <m:mi>k</m:mi>
+
+                      <m:mn>2</m:mn>
+
+                    </m:msup>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>2</m:mn>
+
+                    <m:mi>k</m:mi>
+
+                    <m:mo>+</m:mo>
+
+                    <m:mn>1</m:mn>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>6</m:mn>
+
+                    <m:mi>k</m:mi>
+
+                    <m:mo>+</m:mo>
+
+                    <m:mn>6</m:mn>
+
+                    <m:mo>+</m:mo>
+
+                    <m:mn>9</m:mn>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+              </m:mtr>
+
+              <m:mtr>
+
+                <m:mtd/>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mrow>
+
+                    <m:msup>
+
+                      <m:mi>k</m:mi>
+
+                      <m:mn>2</m:mn>
+
+                    </m:msup>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>8</m:mn>
+
+                    <m:mi>k</m:mi>
+
+                    <m:mo>+</m:mo>
+
+                    <m:mn>16</m:mn>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+              </m:mtr>
+
+            </m:mtable>
+
+          </m:math>
+
+        </equation>
+
+        <para id="id234019">Ons het nou die funksie vereenvoudig interme van <m:math overflow="scroll"><m:mi>k</m:mi></m:math>.
+
+ </para>
+
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id442"><title>Funksienotasie </title><problem id="probfhsst_id443">
+
+        <para id="id234058">As <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math>, bereken <m:math overflow="scroll"><m:mi>b</m:mi></m:math> as <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>45</m:mn></m:mrow></m:math>. </para>
+
+        </problem>
+
+        <solution id="solfhsst_id446"> <list id="listfhsst_id446" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Vervang <m:math overflow="scroll"><m:mi>x</m:mi></m:math> met <m:math overflow="scroll"><m:mi>b</m:mi></m:math> </label>
+
+        <equation id="id234160"><m:math overflow="scroll" mode="display">
+
+            <m:mtable displaystyle="true">
+
+              <m:mtr>
+
+                <m:mtd columnalign="right">
+
+                  <m:mrow>
+
+                    <m:mi>f</m:mi>
+
+                    <m:mo>(</m:mo>
+
+                    <m:mi>b</m:mi>
+
+                    <m:mo>)</m:mo>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mrow>
+
+                    <m:msup>
+
+                      <m:mi>b</m:mi>
+
+                      <m:mn>2</m:mn>
+
+                    </m:msup>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>4</m:mn>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+              </m:mtr>
+
+              <m:mtr>
+
+                <m:mtd columnalign="right">
+
+                  <m:mrow>
+
+                    <m:mi mathvariant="double-struck">maar</m:mi>
+
+                    <m:mi>f</m:mi>
+
+                    <m:mo>(</m:mo>
+
+                    <m:mi>b</m:mi>
+
+                    <m:mo>)</m:mo>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mn>45</m:mn>
+
+                </m:mtd>
+
+              </m:mtr>
+
+            </m:mtable>
+
+          </m:math>
+
+        </equation>
+
+        </item> <item> <label> f(b) = f(b) </label>
+
+        <equation id="id234238">
+
+          <m:math overflow="scroll" mode="display">
+
+            <m:mtable displaystyle="true">
+
+              <m:mtr>
+
+                <m:mtd columnalign="right">
+
+                  <m:mrow>
+
+                    <m:msup>
+
+                      <m:mi>b</m:mi>
+
+                      <m:mn>2</m:mn>
+
+                    </m:msup>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>4</m:mn>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mn>45</m:mn>
+
+                </m:mtd>
+
+              </m:mtr>
+
+              <m:mtr>
+
+                <m:mtd columnalign="right">
+
+                  <m:mrow>
+
+                    <m:msup>
+
+                      <m:mi>b</m:mi>
+
+                      <m:mn>2</m:mn>
+
+                    </m:msup>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>49</m:mn>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mn>0</m:mn>
+
+                </m:mtd>
+
+              </m:mtr>
+
+              <m:mtr>
+
+                <m:mtd columnalign="right">
+
+                  <m:mi>b</m:mi>
+
+                </m:mtd>
+
+                <m:mtd>
+
+                  <m:mo>=</m:mo>
+
+                </m:mtd>
+
+                <m:mtd columnalign="left">
+
+                  <m:mrow>
+
+                    <m:mo>+</m:mo>
+
+                    <m:mn>7</m:mn>
+
+                    <m:mspace width="1.em"/>
+
+                    <m:mi mathvariant="double-struck">or</m:mi>
+
+                    <m:mspace width="1.em"/>
+
+                    <m:mo>-</m:mo>
+
+                    <m:mn>7</m:mn>
+
+                  </m:mrow>
+
+                </m:mtd>
+
+              </m:mtr>
+
+            </m:mtable>
+
+          </m:math>
+
+        </equation>
+
+        
+
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id559"><title>Hersiening</title><!--empty paragraphs get left behind.-->
+        <list id="id234365" display="block" list-type="enumerated"><item id="uid16">
+
+Raai watter funksie, in die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>...</m:mo></m:mrow></m:math>, word voorgestel deur die waardes in die tabel.
+
+<table id="id234396" summary=""><tgroup cols="11"><tbody><row><entry><m:math overflow="scroll"><m:mi>x</m:mi></m:math></entry><entry>1</entry><entry>2</entry><entry>3</entry><entry>40</entry><entry>50</entry><entry>600</entry><entry>700</entry><entry>800</entry><entry>900</entry><entry>1000</entry></row><row><entry><m:math overflow="scroll"><m:mi>y</m:mi></m:math></entry><entry>1</entry><entry>2</entry><entry>3</entry><entry>40</entry><entry>50</entry><entry>600</entry><entry>700</entry><entry>800</entry><entry>900</entry><entry>1000</entry></row></tbody></tgroup></table><link window="new" class="fullmarks" resource="http://www.fhsst.org/lxO">Kliek hier vir die oplossing</link></item>
+
+          <item id="uid17">
+
+Raai watter funksie, in die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>...</m:mo></m:mrow></m:math> , word voorgestel deur die waardes in die tabel.
+
+<table id="id234628" summary=""><tgroup cols="11"><tbody><row><entry><m:math overflow="scroll"><m:mi>x</m:mi></m:math></entry><entry>1</entry><entry>2</entry><entry>3</entry><entry>40</entry><entry>50</entry><entry>600</entry><entry>700</entry><entry>800</entry><entry>900</entry><entry>1000</entry></row><row><entry><m:math overflow="scroll"><m:mi>y</m:mi></m:math></entry><entry>2</entry><entry>4</entry><entry>6</entry><entry>80</entry><entry>100</entry><entry>1200</entry><entry>1400</entry><entry>1600</entry><entry>1800</entry><entry>2000</entry></row></tbody></tgroup></table><link window="new" class="fullmarks" resource="http://www.fhsst.org/lxc">Kliek hier vir die oplossing</link></item>
+
+          <item id="uid18">
+
+Raai watter funksie, in die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>...</m:mo></m:mrow></m:math> , word voorgestel deur die waardes in die tabel.
+
+<table id="id234860" summary=""><tgroup cols="11"><tbody><row><entry><m:math overflow="scroll"><m:mi>x</m:mi></m:math></entry><entry>1</entry><entry>2</entry><entry>3</entry><entry>40</entry><entry>50</entry><entry>600</entry><entry>700</entry><entry>800</entry><entry>900</entry><entry>1000</entry></row><row><entry><m:math overflow="scroll"><m:mi>y</m:mi></m:math></entry><entry>10</entry><entry>20</entry><entry>30</entry><entry>400</entry><entry>500</entry><entry>6000</entry><entry>7000</entry><entry>8000</entry><entry>9000</entry><entry>10000</entry></row></tbody></tgroup></table><link window="new" class="fullmarks" resource="http://www.fhsst.org/lxx">Kliek hier vir die oplossing</link></item>
+
+          <item id="uid19">Stip die volgende punte (1;2), (2;4), (3;6), (4;8), (5;10) op 'n Cartesiese vlak. Verbind die punte. Kry jy 'n reguitlyn?
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lxa">Kliek hier vir die oplossing</link></item>
+
+          <item id="uid20">Indien <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, skryf neer:
+
+<list id="id235122" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid21"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid22"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid23"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid24"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math></item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lxC">Kliek hier vir die oplossing</link></item>
+
+          <item id="uid25">Indien <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math>, skryf neer:
+
+<list id="id235285" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid26"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid27"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid28"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid29"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>s</m:mi><m:mo>)</m:mo></m:mrow></m:math></item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lx1">Kliek hier vir die oplossing</link></item>
+
+          <item id="uid30">Jy staan langs 'n reguit snelweg, 'n motor ry by jou verby en beweeg 10m elke sekonde. Voltooi die tabel hieronder, deur in te vul hoe ver die motor van jou af wegbeweeg het na 5,10 en na 20 sekondes.
+
+<table id="id235448" summary="time,distance table">
+<tgroup cols="7"><tbody><row><entry>Tyd (s)</entry><entry>0</entry><entry>1</entry><entry>2</entry><entry>5</entry><entry>10</entry><entry>20</entry></row><row><entry>Afstand (m)</entry><entry>0</entry><entry>10</entry><entry>20</entry><entry/><entry/><entry/></row></tbody>
+
+</tgroup>
+</table>
+
+Gebruik die waardes in die tabel en teken 'n grafiek met die afstand op die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as en tyd op die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as.
+
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lxr">
+Kliek hier vir die oplossing</link></item>
+
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid5">
+      <title>Kenmerke van alle Funksies</title>
+      <para id="id235621">Daar is baie verskillende kenmerke van grafieke wat die eienskappe van ’n spesifieke funksie se grafiek beskryf. Hierdie eienskappe gaan behandel word in hierdie hoofstuk en is die volgende:</para>
+      <list id="id235628" display="block" list-type="enumerated"><item id="uid31">Afhanklike en onafhanklike veranderlikes
+
+</item>
+
+        <item id="uid32">Definisie- en waardeversameling
+
+</item>
+
+        <item id="uid33">Afsnitte met die asse
+
+</item>
+
+        <item id="uid34">Draaipunte
+
+</item>
+
+        <item id="uid35">Asimptote
+
+</item>
+
+        <item id="uid36">Lyne/asse van simmetrie
+
+</item>
+
+        <item id="uid37">Intervalle waar die funksie toeneem/afneem
+
+</item>
+
+        <item id="uid38">Kontinue gedrag van funksies
+
+</item>
+
+      </list>
+      <para id="id235730">Sommige van die woorde mag onbekend wees vir jou, maar elke begrip sal duidelik beskryf word. Voorbeelde van sommige van die eienskappe word gewys in <link target-id="uid39"/>.</para>
+      <figure id="uid39"><media id="uid39_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C11_034.png" id="uid39_onlineimage" width="653"><!-- NOTE: attribute width changes image size online (pixels). original width is 653. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_034.eps" id="uid39_printimage"/>
+        </media>
+        
+      <caption>(a) Voorbeeld van grafiek wat die eienskappe van 'n funksie illustreer (b) Voorbeeld van grafiek wat die asimptote van ’n funksie illustreer. Die asimptote is die stippellyne.</caption></figure>
+      <section id="uid40">
+        <title>Afhanklike en Onafhanklike Veranderlikes</title>
+        <para id="id235764">Tot dusver het al die grafieke wat ons gesien het twee veranderlikes, ’n <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-waarde en ’n <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-waarde. Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-waarde word gewoonlik bepaal deur een of ander verband gebaseer op ’n gegewe of gekose <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-waarde. Ons noem die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-waarde die <emphasis effect="italics">onafhanklike</emphasis> veranderlike, omdat die waarde vrylik gekies kan word. Die berekende <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-waarde is bekend as die <emphasis effect="italics">afhanklike</emphasis> veranderlike, omdat die waarde afhanklik is van die gekose <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-waarde.</para>
+      </section>
+      <section id="uid41">
+        <title>Definisieversameling  en Waardeversameling</title>
+        <para id="id235855">Die <emphasis effect="italics">definisieversameling</emphasis> (ook bekend as die gebied) van ’n verband is die stel  <m:math overflow="scroll"><m:mi>x</m:mi></m:math> waardes waarvoor daar te minste een <m:math overflow="scroll"><m:mi>y</m:mi></m:math> waarde bestaan. Die <emphasis effect="italics">waardeversameling</emphasis> (ook bekend as die terrein) is die stel <m:math overflow="scroll"><m:mi>y</m:mi></m:math> waardes wat bepaal kan word deur te minste een <m:math overflow="scroll"><m:mi>x</m:mi></m:math> waarde. Anders gestel, die definisieversameling is alle moontlike insette en die waardeversameling is die alle moontlike uitsette.  </para>
+        <para id="id235908">Die <emphasis effect="italics">definisieversameling</emphasis> (ook bekend as die gebied) van ’n relasie is die stel  <m:math overflow="scroll"><m:mi>x</m:mi></m:math> waardes waarvoor daar te minste een <m:math overflow="scroll"><m:mi>y</m:mi></m:math> waarde bestaan. Die <emphasis effect="italics">waardeversameling</emphasis> (ook bekend as die terrein) is die stel <m:math overflow="scroll"><m:mi>y</m:mi></m:math> waardes wat bepaal kan word deur ten minste een <m:math overflow="scroll"><m:mi>x</m:mi></m:math> waarde. Anders gestel, die definisieversameling is alle moontlike insette en die waardeversameling is alle moontlike uitsette.  </para>
+        <para id="id235939">’n Ander voorbeeld is <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>. Vir enige waarde van <m:math overflow="scroll"><m:mi>x</m:mi></m:math> is daar ’n waarde vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math>; die definisieversameling is dus alle reële getalle. Maar ons weet die waarde van  <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> kan nooit kleiner of gelyk aan 0 wees nie. Gevolglik is die waardeversameling alle reële getalle groter of gelyk aan 0.</para>
+        <para id="id236030">Daar is twee maniere om definisie- en waardeversameling van ’n funksie te beskryf, <emphasis effect="italics">versamelingkeurdernotasie</emphasis> en <emphasis effect="italics">intervalnotasie</emphasis>. Albei word gebruik in wiskunde en jy sal bekend moet wees met altwee.</para>
+        <section id="uid42">
+          <title>Versamelkeurdernotasie</title>
+          <para id="id236056">’n Versameling van sekere <m:math overflow="scroll"><m:mi>x</m:mi></m:math> waardes het die volgende vorm:</para>
+          <equation id="uid43"><m:math overflow="scroll" mode="display">
+
+              <m:mrow>
+
+                <m:mi>x</m:mi>
+
+                <m:mo>:</m:mo>
+
+                <m:mrow>
+
+                  <m:mi> voorwaardes, nog voorwaardes</m:mi>
+
+                </m:mrow>
+
+              </m:mrow>
+
+            </m:math>
+
+          </equation>
+          <para id="id236100">Ons lees hierdie notasie as “die stel van alle <m:math overflow="scroll"><m:mi>x</m:mi></m:math> waarvoor die voorwaardes waar is”. Byvoorbeeld, die stel van alle positiewe reële getalle kan geskryf word as <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>x</m:mi><m:mo>:</m:mo><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>}</m:mo></m:mrow></m:math> en dit word gelees as “die stel van alle <m:math overflow="scroll"><m:mi>x</m:mi></m:math> waardes, waar <m:math overflow="scroll"><m:mi>x</m:mi></m:math> ’n reële getal groter as nul is.” </para>
+        </section>
+        <section id="uid44">
+          <title>Intervalnotasie</title>
+          <para id="id236181">Hier skryf ons ’n interval in die vorm '<emphasis effect="italics">laer hakie, laer getal, kommapunt, hoër getal, hoër hakie</emphasis>'. Ons gebruik twee tipes hakies, reghoekige hakies <m:math overflow="scroll"><m:mrow><m:mo>[</m:mo><m:mo>;</m:mo><m:mo>]</m:mo></m:mrow></m:math> of ronde hakies <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>;</m:mo><m:mo>)</m:mo></m:mrow></m:math>.  ’n Reghoekige hakie beteken die getal word ingesluit by die interval en ’n ronde hakie beteken die getal word uitgesluit uit die interval. Hierdie notasie kan nie gebruik word om heelgetalle in ’n interval te beskryf nie. </para>
+          <para id="id236225">Indien <m:math overflow="scroll"><m:mi>x</m:mi></m:math> ’n reële getal is groter as 2 en kleiner of gelyk aan 8, is <m:math overflow="scroll"><m:mi>x</m:mi></m:math> enige getal in die interval. </para>
+          <equation id="uid45"><m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>]</m:mo>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id236274">Dit is duidelik dat 2 die laer getal is en 8 die hoër getal is. Die ronde hakie sluit 2 uit, omdat <m:math overflow="scroll"><m:mi>x</m:mi></m:math> groter as 2 is; die reghoekige hakie sluit 8 in, omdat <m:math overflow="scroll"><m:mi>x</m:mi></m:math> kleiner of gelyk aan 8 is.</para>
+        </section>
+      </section>
+      <section id="uid46">
+        <title>Afsnitte met die Asse</title>
+        <para id="id236308">Die <emphasis effect="italics">afsnitte</emphasis> is die punte waar die grafiek die asse sny. Die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnitte is die punte waar die grafiek die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as sny en die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit is die punt waar die grafiek die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as sny. </para>
+        <para id="id236356">In <link target-id="uid39"/>(a), is A die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit en B, C en F is <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnitte.</para>
+        <para id="id236384">Jy <emphasis effect="bold">sal</emphasis> die afsnitte moet uitwerk. Die heel belangrikste ding om te onhou, is dat die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnit by <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> lê en die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit by <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+        <para id="id236442">Byvoorbeeld, bereken die afsnitte van <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>. Vir die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Dan is die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit <m:math overflow="scroll"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>. Vir die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnit <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Dan word die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnit bereken deur <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:msub><m:mi>x</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math> op te los, met die antwoord <m:math overflow="scroll"><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mn>5</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>.</para>
+      </section>
+      <section id="uid47">
+        <title>Draaipunte</title>
+        <para id="id236645">Draaipunte kom net voor in grafieke van funksies waar die hoogste mag groter as 1 is. Byvoorbeeld, grafieke van die volgende funksies sal draaipunte hê:</para>
+        <equation id="id236652">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>g</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id236788">Daar is twee tipes draaipunte: ’n minimum en ’n maksimum. ’n Minimum is ’n punt op ’n grafiek waar die grafiek ophou verminder en begin vermeerder. ’n Maksimum is ’n punt op ’n grafiek waar die grafiek ophou vermeerder en begin verminder. Hierdie word geïllustreer in <link target-id="uid48"/>.</para>
+        <figure id="uid48"><media id="uid48_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C11_035.png" id="uid48_onlineimage" width="824"><!-- NOTE: attribute width changes image size online (pixels). original width is 824. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_035.eps" id="uid48_printimage"/>
+          </media>
+          
+        <caption>(a) Minimum (b) Maksimum</caption></figure>
+        <para id="id236816">In <link target-id="uid39"/>(a) is E ’n maksimum draaipunt en D ’n minimum draaipunt.</para>
+      </section>
+      <section id="uid49">
+        <title>Asimptote</title>
+        <para id="id236837">’n Asimptoot is ’n reguit of krom lyn, wat die grafiek sal benader, maar nooit raak nie.</para>
+        <para id="id236844">In <link target-id="uid39"/>(b), die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as en die lyn <m:math overflow="scroll"><m:mi>h</m:mi></m:math> is albei asimptote, omdat die grafiek die lyne benader, maar nooit raak nie.</para>
+      </section>
+      <section id="uid50">
+        <title>Lyne van Simmetrie</title>
+        <para id="id236883">’n Grafiek weerspieël homself in ’n simmetrielyn. Hierdie lyne mag die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>- en <m:math overflow="scroll"><m:mi>y</m:mi></m:math>- asse insluit. Byvoorbeeld, in <link target-id="uid51"/>  is die simmetrie om die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as. Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as is ’n simmetrie-as, omdat die grafiek gereflekteer word in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as. Nie elke grafiek het ’n simmetrielyn nie.</para>
+        <figure id="uid51"><media id="uid51_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C11_036.png" id="uid51_onlineimage" width="199"><!-- NOTE: attribute width changes image size online (pixels). original width is 199. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_036.eps" id="uid51_printimage"/>
+          </media>
+          
+        <caption>Demonstrasie van ’n simmetrie as. Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as is ’n simmetrie as, omdat die grafiek weerspieël is in die is <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as.</caption></figure>
+      </section>
+      <section id="uid52">
+        <title>Intervalle waar Funksies vermeerder of verminder</title>
+        <para id="id236961">Toe ons na draaipunte gekyk het, het ons gesien dat grafieke van ’n funksie kan begin of ophou vermeerder of verminder by ’n draaipunt. As ons na die grafiek van <link target-id="uid39"/>(a) kyk, kan ons sien dat die grafiek vermeerder en verminder oor verskillende intervalle. Ons kan sien die grafiek se waarde neem af (die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-waardes verminder) van punt E tot punt D en dan vermeerder dit van punt D tot  <m:math overflow="scroll"><m:mo>+</m:mo><m:mi>∞</m:mi></m:math>.</para>
+      </section>
+      <section id="uid53">
+        <title>Diskrete en Kontinue Gedrag van ’n Grafiek</title>
+        <para id="id237022">’n Grafiek is kontinu as daar geen spronge in die grafiek is nie. Byvoorbeeld, die grafiek in <link target-id="uid39"/>(a) word beskryf as kontinu, terwyl die grafiek in <link target-id="uid39"/>(b) ’n breek het by die asimptoot, wat beteken dit is diskontinu (diskreet).
+
+</para>
+<section id="secfhsst_id796"><title>Waardeversameling en Definisieversameling </title>
+        <!--empty paragraphs get left behind.-->
+        <list id="id237058" display="block" list-type="enumerated"><item id="uid54">Indien die waardeversameling van die funksie <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math> (-3; 0) is. Bepaal die definisieversameling van <m:math overflow="scroll"><m:mi>f</m:mi></m:math>.
+
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lxY">
+Kliek hier vir die oplossing</link></item>
+
+          <item id="uid55">As <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mi>x</m:mi></m:math> is tussen - 3 and 3, bepaal:
+
+<list id="id237164" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid56">die waardeversameling van <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math></item><item id="uid57">die definisieversameling van <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math></item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lxg">
+Kliek hier vir die oplossing</link></item>
+
+          <item id="uid58">Dui op die onderstaande grafiek die volgende aan:
+
+<list id="id237234" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid59">die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnit(te)
+
+</item><item id="uid60">die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit(te)
+
+</item><item id="uid61">die deel waar die grafiek vermeerder
+
+</item><item id="uid62">die deel waar die grafiek verminder
+
+</item></list><figure id="id237308"><media id="id237308_media" alt=""><image mime-type="image/png" src="../../media/MG10C11_003.png" id="id237308_onlineimage" width="385"><!-- NOTE: attribute width changes image size online (pixels). original width is 385. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_003.eps" id="id237308_printimage"/></media></figure><link window="new" class="fullmarks" resource="http://www.fhsst.org/lx4">Kliek hier vir die oplossing</link></item>
+
+          <item id="uid63">Dui op die onderstaande grafiek die volgende aan:
+
+<list id="id237327" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid64">die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-afsnit(te)
+
+</item><item id="uid65">die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit(te)
+
+</item><item id="uid66">die deel waar die grafiek vermeerder
+
+</item><item id="uid67">die deel waar die grafiek verminder
+
+</item></list><figure id="id237401"><media id="id237401_media" alt=""><image mime-type="image/png" src="../../media/MG10C11_004.png" id="id237401_onlineimage" width="285"><!-- NOTE: attribute width changes image size online (pixels). original width is 285. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C11_004.eps" id="id237401_printimage"/></media></figure><link window="new" class="fullmarks" resource="http://www.fhsst.org/lx2">Kliek hier vir die oplossing</link></item>
+
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

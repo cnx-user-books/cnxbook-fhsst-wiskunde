@@ -1,0 +1,538 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Transformasies</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39683</md:content-id>
+  <md:title>Transformasies</md:title>
+  <md:abstract/>
+  <md:uuid>8ec567f7-00ad-44e5-ab83-8b211f198a13</md:uuid>
+</metadata>
+
+<content> 
+  <section id="cid6"><title>Transformasies: nie in CAPS</title><para id="id70076">In hierdie afdeling gaan jy leer oor die verandering wat die koördinate van ŉ punt ondergaan wanneer die punt horisontaal of vertikaal op die Cartesiese vlak skuif. Jy gaan ook leer wat met die koördinate van ŉ punt gebeur wanneer dit reflekteer word in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as, <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as en die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+      <section id="uid569">
+        <title>Translasie van ŉ Punt</title>
+        <para id="id70123">Waneer ŉ voorwerp langs ŉ reguitlyn beweeg word, sê ons dit word <emphasis effect="italics">getransleer</emphasis>. Wat gebeur met die koördinate van ŉ punt wat horisontaal of vertikaal getransleer word?</para>
+<section id="secfhsst_id2414"><title>Bespreking : Vertikale Translasie van ŉ Punt</title>
+        <para id="id70140">Voltooi die tabel deur die koördinate van die punte soos op die figuur in te vul.</para>
+        <para id="id70146">
+          <figure id="id70150">
+            <media id="id70150_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_022.png" id="id70150_onlineimage" width="181"><!-- NOTE: attribute width changes image size online (pixels). original width is 181. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_022.eps" id="id70150_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <table id="id70156" summary="translasie tabel">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Punt</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>A</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>C</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>D</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>E</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>F</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>G</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          
+
+
+</tgroup>
+</table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id70410">Wat let jy op omtrent die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinate? Wat let jy op omtrent die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinate?
+Wat sal gebeur met die koördinate van punt A indien dit verskuif word na die posisie van punt G?</para>
+</section>
+        <para id="id70438">Wanneer ŉ punt vertikaal op- of afgeskuif word op die Cartesiese vlak, bly die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat van die punt dieselfde, maar die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat verander met die aantal eenhede wat die punt op- of afgeskuif is.</para>
+        <para id="id70461">Byvoorbeeld: in <link target-id="uid70"/> word punt A 4 eenhede opwaarts geskuif na die posisie gemerk deur G. Die nuwe <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat van punt A is dieselfde (<m:math overflow="scroll"><m:mi>x</m:mi></m:math>=1), maar die nuwe <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat het 4 eenhede geskuif in die positiewe <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-rigting en word <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=-2<emphasis effect="bold">+4</emphasis>=2. Die nuwe koördinate van punt A is gevolglik G(1;2). Soortgelyk, vir punt B wat 5 eenhede afgeskuif word, bly die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat dieselfde (<m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>), maar die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat het 5 eenhede in die negatiewe <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-rigting geskuif. Die nuwe <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat is dus <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=2,5 <emphasis effect="bold">-5</emphasis>=-2,5.</para>
+        <figure id="uid7650"><media id="uid70_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_023.png" id="uid70_onlineimage" width="172"><!-- NOTE: attribute width changes image size online (pixels). original width is 172. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_023.eps" id="uid70_printimage"/>
+          </media>
+          
+        <caption>Punt A het 4 eenhede opgeskuif tot by G. Punt B het 5 eenhede afgeskuif tot by H.</caption></figure>
+<note id="notfhsst_id2490" type="tip">Wanneer ŉ punt opgeskuif word, word die nuwe <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat verkry deur die translasie eenhede by die ou <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat by te tel. Wanneer ŉ punt afgeskuif word, word die nuwe <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat verkry deur die translasie eenhede van die ou <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat af te trek.</note>
+<section id="secfhsst_id2491"><title>Bespreking: Horisontale Translasie van ŉ Punt</title>
+        <para id="id70654">Voltooi die tabel deur al die koördinate wat in die figuur aangedui word, in te vul.</para>
+        <para id="id70660">
+          <figure id="id70663">
+            <media id="id70663_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_024.png" id="id70663_onlineimage" width="370"><!-- NOTE: attribute width changes image size online (pixels). original width is 370. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_024.eps" id="id70663_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <table id="id70670" summary="transformasie tabel">
+<tgroup cols="3"><tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Punt</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>y</m:mi></m:math>--koördinaat </emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>A</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>C</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>D</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>E</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>F</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>G</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id70923">Wat let jy op omtrent die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinate? Wat let jy op omtrent die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinate?</para>
+        <para id="id70945">Wat sal gebeur met die koördinate van punt A, as dit geskuif word na posisie G?
+ 
+ </para>
+</section>
+        <para id="id70955">Wanneer ŉ punt horisontaal links of regs op die Cartesiese vlak verskuif word, bly die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat van die punt dieselfde, maar die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat verander met die aantal eenhede wat die punt links of regs geskuif word.</para>
+        <para id="id70977">Byvoorbeeld, in <link target-id="uid71"/> word punt A 4 eenhede regs geskuif na G. Die nuwe <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat van punt A is dieselfde (<m:math overflow="scroll"><m:mi>y</m:mi></m:math>=1), maar die nuwe <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat is 4 eenhede in die positiewe <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-rigting geskuif en word <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=-2<emphasis effect="bold">+4</emphasis>=2. Die nuwe koördinaat van punt A by G is dus (2;1). Soortgelyk, vir punt B wat 5 eenhede links geskuif word, bly die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat dieselfde (<m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>), maar die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat word 5 eenhede in die negatiewe <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-rigting geskuif. Die nuwe <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat is dus <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=2,5 <emphasis effect="bold">-5</emphasis>=-2,5. Die nuwe koördinate van punt B by H is dus (-2,5;1).</para>
+        <figure id="uid7134"><media id="uid7134_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_025.png" id="uid7134_onlineimage" width="371"><!-- NOTE: attribute width changes image size online (pixels). original width is 371. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_025.eps" id="uid71_printimage"/>
+          </media>
+          
+        <caption>Punt A skuif 4 eenhede regs na posisie G. Punt B skuif 5 eenhede links na posisie H.</caption></figure>
+<note id="notfhsst_id2567" type="tip">Wanneer ŉ punt regs geskuif word, word die nuwe <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat verkry deur die translasie-eenhede by die oorspronklike <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat by te tel. Wanneer ŉ punt na links geskuif word, word die nuwe <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat verkry deur die translasie-eenhede van die oorspronklike <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat af te trek.</note>
+      </section>
+      <section id="uid7542">
+        <title>Refleksie van ŉ Punt</title>
+        <para id="id71174">Wanneer jy voor ŉ spieël staan, is die afstand tussen jou en die spieël gelyk aan die afstand tussen jou refleksie en die spieël.(<m:math overflow="scroll"><m:mi>d</m:mi></m:math>) </para>
+        <para id="id71188">
+          <figure id="id71191">
+            <media id="id71191_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_026.png" id="id71191_onlineimage" width="244"><!-- NOTE: attribute width changes image size online (pixels). original width is 244. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_026.eps" id="id71191_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id71197">Ons kan dieselfde idee toepas op ŉ punt wat reflekteer word in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as, die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as en die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+        <section id="uid7354">
+          <title>Refleksie in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as</title>
+          <para id="id71251">Wanneer ŉ punt reflekteer word in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as, moet die refleksie dieselfde afstand onder die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as wees as wat die punt bo die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as is en vice-versa, asof dit ŉ spieelbeeld is.</para>
+          <figure id="uid7432"><media id="uid7432_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_027.png" id="uid7432_onlineimage" width="373"><!-- NOTE: attribute width changes image size online (pixels). original width is 373. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_027.eps" id="uid74_printimage"/>
+            </media>
+            
+          <caption>Punte A en B word reflekteer in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as. Die oorspronklike punte word aangedui deur <m:math overflow="scroll"><m:mo>•</m:mo></m:math> en die gereflekteerde punte word aangedui deur <m:math overflow="scroll"><m:mo>∘</m:mo></m:math>.</caption></figure>
+<note id="notfhsst_id2591" type="tip">Wanneer ŉ punt reflekteer word in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as, verander slegs die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat van die punt.</note>
+<exercise id="secfhsst_id2592"><title>Refleksie in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as </title><problem id="probfhsst_id2593">
+          <para id="id71366">Bepaal die koördinate van die refleksie van punt P in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as. Die koördinate van P is (5;10). </para>
+          </problem>
+          <solution id="solfhsst_id2596"> <list id="listfhsst_id2596" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Bepaal wat gegee is en wat gevra word </label>
+          <para id="id71399">Ons het die koördinate (5;10) van punt P en moet die koördinate van die refleksie van die punt in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as kry.</para>
+          </item> <item> <label> Bepaal hoe jy die probleem gaan benader </label>
+          <para id="id71417">Die punt P is bo die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as, daarom sal sy refleksie dieselfde afstand onder die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as wees. Daarom is <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=-10.</para>
+          <para id="id71457">Vir ŉ refleksie in die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as, bly die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat onveranderd. Daarom is <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=5.</para>
+          </item> <item> <label> Skryf die finale antwoord </label>
+          <para id="id71490">Die koördinate van die gereflekteerde punt is (5;-10).
+ </para>
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid765">
+          <title>Refleksie in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as</title>
+          <para id="id71525">As ŉ punt reflekteer word in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as, moet die refleksie dieselfde afstand links en regs van die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as wees.</para>
+          <figure id="uid7645"><media id="uid7645_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_028.png" id="uid7645_onlineimage" width="368"><!-- NOTE: attribute width changes image size online (pixels). original width is 368. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_028.eps" id="uid76_printimage"/>
+            </media>
+            
+          <caption>Punte A en B word reflekteer in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as. Die oorspronklike punte word aangedui deur <m:math overflow="scroll"><m:mo>•</m:mo></m:math> en die gereflekteerde punte word aangedui met <m:math overflow="scroll"><m:mo>∘</m:mo></m:math>.</caption></figure>
+<note id="notfhsst_id2618" type="tip">Wanneer ŉ punt reflekteer word in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as, verander net die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat van die punt. Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat bly dieselfde.</note>
+<exercise id="secfhsst_id2619"><title>Refleksie in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as </title><problem id="probfhsst_id2620">
+          <para id="id71649">Bepaal die koördinate van die refleksie van punt Q (15;5) in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as. </para>
+          </problem>
+          <solution id="solfhsst_id2623"> <list id="listfhsst_id2623" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Bepaal wat gegee en wat gevra is </label>
+          <para id="id71682">Ons het punt Q (15;5) en moet die koördinate van die refleksie daarvan in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as kry.</para>
+          </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+          <para id="id71700">Die punt Q regs van die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as, daarom sal sy refleksie dieselfde afstand links van die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as wees as wat dit regs van die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as is. Daarom is <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=-15.</para>
+          <para id="id71740">Vir ŉ refleksie in die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as, bly die <m:math overflow="scroll"><m:mi>y</m:mi></m:math> koördinaat onveranderd. Daarom is <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=5.</para>
+          </item> <item> <label> Skryf die finale antwoord </label>
+          <para id="id71774">Die koördinate van die gereflekteerde punt is (-15;5).
+ </para>
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid77754">
+          <title>Refleksie in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math></title>
+          <para id="id71812">Die laaste tipe refleksie wat ons gaan behandel, is refleksie in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+<section id="secfhsst_id2638"><title>Gevallestudie : Refleksie van ŉ punt in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> </title>
+          <para id="id71852">
+            <figure id="id71857"><media id="id71857_media" alt="">
+                <image mime-type="image/png" src="../../media/MG10C14_029.png" id="id71857_onlineimage" width="354"><!-- NOTE: attribute width changes image size online (pixels). original width is 194. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_029.eps" id="id71857_printimage"/>
+              </media>
+            </figure>
+          </para>
+          <para id="id71863">Bestudeer die gegewe inligting en voltooi die volgende tabel:</para>
+          <table id="id71867" summary="refleksietabel">
+<tgroup cols="3"><tbody>
+                <row>
+                  <entry/>
+                  <entry>
+                    <emphasis effect="bold">Punt</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Refleksie</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>A</entry>
+                  <entry>(2;1)</entry>
+                  <entry>(1;2)</entry>
+                </row>
+                <row>
+                  <entry>B</entry>
+                  <entry>(-<m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>;-2)</entry>
+                  <entry>(-2;-1<m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math>)</entry>
+                </row>
+                <row>
+                  <entry>C</entry>
+                  <entry>(-1;1)</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>D</entry>
+                  <entry>(2;-3)</entry>
+                  <entry/>
+                </row>
+              </tbody>
+            
+</tgroup>
+</table>
+          <!--empty paragraphs get left behind.-->
+          <para id="id72055">Wat kan jy aflei omtrent die koördinate van die punte wat reflekteer word in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>? </para>
+</section>
+          <para id="id72080">Die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>- en <m:math overflow="scroll"><m:mi>y</m:mi></m:math>- koördinate van punte wat in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> reflekteer word, ruil net om. Dit beteken dat die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat van die oorspronklike punt, die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat van die nuwe punt word. Soortgelyk word die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat van die oorspronklike punt, die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat van die nuwe punt word.</para>
+          <figure id="uid7568"><media id="uid7568_media" alt="">
+       <image mime-type="image/png" src="../../media/MG10C14_030.png" id="uid7568_onlineimage" width="297"><!-- NOTE: attribute width changes image size online (pixels). original width is 197. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_030.eps" id="uid7568_printimage"/>
+            </media>
+            
+          <caption>Punte A en B word reflekteer in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>. Die oorspronklike punte word aangedui met <m:math overflow="scroll"><m:mo>•</m:mo></m:math> en die reflekteerde punte word aangedui met <m:math overflow="scroll"><m:mo>∘</m:mo></m:math>.</caption></figure>
+<note id="notfhsst_id2694" type="tip">Die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>- en <m:math overflow="scroll"><m:mi>y</m:mi></m:math>- koördinate van die gereflekteerde punte in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> word dus omgeruil.</note>
+<exercise id="secfhsst_id2695"><title>Refleksie in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> </title><problem id="probfhsst_id2696">
+          <para id="id72261">Bepaal die koördinate van die refleksie van punt R (-5;5) in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>. </para>
+          </problem>
+          <solution id="solfhsst_id2699"> <list id="listfhsst_id2699" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra  </label>
+          <para id="id72300">Ons het punt R (-5;5) en moet die refleksie daarvan in die lyn <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> bepaal.</para>
+          </item> <item> <label> Besluit hoe jy die probleem gaan benader </label>
+          <para id="id72323">Die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat van die gereflekteerde punt is die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat van die oorspronklike punt. Daarom is <m:math overflow="scroll"><m:mi>x</m:mi></m:math>=5.</para>
+          <para id="id72353">Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-koördinaat van die gereflekteerde punt is die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-koördinaat van die oorspronklike punt. Daarom is <m:math overflow="scroll"><m:mi>y</m:mi></m:math>=-5.</para>
+          </item> <item> <label> Skryf die finale antwoord neer</label>
+          <para id="id72387">Die koördinate van die reflekteerde punt is (5;-5). </para>
+          </item> </list> </solution>
+</exercise>
+          <para id="id72402"><emphasis effect="underline">Reëls vir Translasie</emphasis></para>
+          <para id="id72409">ŉ Vinnige manier om ŉ translasie te skryf is deur die 'translasiereël' te gebruik. Byvoorbeeld <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow></m:math> beteken: transleer punt (x;y) deur dit a eenhede horisontaal en b eenhede vertikaal te skuif.</para>
+          <para id="id72456">As ons dus die punt (1;2) volgens die reël <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> transleer, word dit (4;1). Ons het 3 eenhede regs en 1 eenheid af geskuif.</para>
+          <para id="id72503"><emphasis effect="underline">Translasie van ŉ Gebied</emphasis></para>
+          <para id="id72511">Om ŉ gebied te transleer, moet ons elke punt in die gebied transleer.</para>
+          <para id="id72517"><emphasis effect="underline">Voorbeeld</emphasis>
+          </para>
+          <para id="id72526">Gebied A is getransleer na gebied B deur die reël: <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math></para>
+          <para id="id72572">
+            <figure id="id72575"><media id="id72575_media" alt="">
+                <image mime-type="image/png" src="../../media/MG10C14_031.png" id="id72575_onlineimage" width="279"><!-- NOTE: attribute width changes image size online (pixels). original width is 229. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_031.eps" id="id72575_printimage"/>
+              </media>
+            </figure>
+          </para>
+<section id="secfhsst_id2730"><title>Bespreking : Transformasiereëls</title>
+          <para id="id72588">Werk in pare en besluit watter item in kolom 1 pas by die beskrywing in kolom 2.</para>
+          <table id="id72595" summary="match the description in column 1 with the correct option in column 2">
+<tgroup cols="2"><tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">Kolom 1</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">Kolom 2</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>1. <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math>       </entry>
+                  <entry>a) refleksie in die x=y lyn</entry>
+                </row>
+                <row>
+                  <entry>2. 
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                        <m:mo>→</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                  <entry>b) refleksie in die x-as</entry>
+                </row>
+                <row>
+                  <entry>3. 
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                        <m:mo>→</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                  <entry>c) verskuiwing van 3 eenhede na links</entry>
+                </row>
+                <row>
+                  <entry>4. 
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                        <m:mo>→</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                  <entry>d) verskuiwing van 3 eenhede afwaarts</entry>
+                </row>
+                <row>
+                  <entry>5. 
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                       
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>)</m:mo>
+                        <m:mo>→</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>y</m:mi>
+                        <m:mo>;</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
+                  <entry>e) refleksie in die y-as</entry>
+                </row>
+              </tbody>
+            
+
+
+
+
+</tgroup>
+</table>
+          <!--empty paragraphs get left behind.-->
+          
+</section>
+<section id="secfhsst_id2841"><title>Transformasies </title>
+          <list id="id72872" display="block" list-type="enumerated"><item id="uid76349">Beskryf die translasies in elk van die volgende deur gebruik te maak van die reël (x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math> (...;...)
+<figure id="id72951"><media id="id72951_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_4.png" id="id72951_onlineimage" width="391"><!-- NOTE: attribute width changes image size online (pixels). original width is 391. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_4.eps" id="id72951_printimage"/></media></figure>
+<list id="id72888" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid890">Van A to B
+</item><item id="uid891">Van C to J
+</item><item id="uid892">Van F to H
+</item><item id="uid893">Van I to J
+</item><item id="uid8931">Van K to L
+</item><item id="uid8932">Van J to E
+</item><item id="uid8933">Van G to H
+</item></list><link class="fullmarks" url="http://www.fhsst.org/laC">Kliek hier vir die oplossing</link></item>
+            <item id="uid874">A is die punt (4;1).  Stip elk van die volgende punte onder die gegewe transformasies. Gee die koördinate van die punte wat jy neergestip het.
+<list id="id72970" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid875">B is die refleksie van A in die x-as.
+</item><item id="uid876">C is die refleksie van A in die y-as.
+</item><item id="uid877">D is die refleksie van B in die lyn x=0.
+</item><item id="uid878">E is die refleksie van C in die lyn y=0.
+</item><item id="uid879">F is die refleksie van A in die lyn y= x.
+</item></list><link url="http://www.fhsst.org/la1" window="new" class="fullmarks">Kliek hier vir die oplossing </link></item>
+            <item id="uid970">
+              In die diagram is B, C en D beelde van poligoon A. In elke geval is die transformasie wat toegepas is om die beeld te verkry, ŉ refleksie en ŉ translasie van A. Skryf die letter neer van elke beeld en beskryf die transformasie toegepas op A ten einde die beeld te verkry.
+<figure id="id7327723"><media id="id7327723_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_5.png" id="id7327723_onlineimage" width="181"><!-- NOTE: attribute width changes image size online (pixels). original width is 181. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_5.eps" id="id7327723_printimage"/></media></figure>
+<link url="http://www.fhsst.org/lar" window="new" class="fullmarks">Kliek hier vir die oplossing</link>
+            </item>
+          </list>
+          
+</section>
+<section id="secfhsst_id2877"><title>Ondersoek : Berekening van Volume, Oppervlakte en Skaalfaktore van voorwerpe </title>
+          <list id="id73612" display="block" list-type="enumerated"><item id="uid106">Kyk rond by die skool en/of huis en kyk of jy enige blikkie in die hande kan kry (bv. boontjie, sop, koeldrank, ens.)
+</item>
+            <item id="uid107">Meet die hoogte van die blikkie sowel as die deursnee daarvan.
+</item>
+            <item id="uid108">Vul die waardes wat jy gemeet het op die diagram hier onder in:
+<figure id="id73656"><media id="id73656_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_034.png" id="id73656_onlineimage" width="248"><!-- NOTE: attribute width changes image size online (pixels). original width is 248. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_034.eps" id="id73656_printimage"/></media></figure></item>
+            <item id="uid109">Gebruik jou afmetings en bepaal die volgende (in cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>, afgerond tot 2 desimale):
+<list id="id73690" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid110">die oppervlak van die syvlak van die blikkie (d.i. die reghoek)
+</item><item id="uid111">die oppervlak van die bo- en onderkante van die blikkie (d.i. die sirkels)
+</item><item id="uid112"> die totale oppervlakarea (buite-oppervlakte) van die blikkie
+</item></list></item>
+            <item id="uid113">As die metaal 0,17 sent/cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>kos, hoeveel kos dit om die blikkie te maak?
+</item>
+            <item id="uid114">Bereken die volume van jou blikkie (in cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>3</m:mn></m:msup></m:math>, afgerond tot 2 desimale plekke).
+</item>
+            <item id="uid115">Wat is die volume van die blikkie volgens die etiket?
+</item>
+            <item id="uid116">Vergelyk jou volume met die waarde op die etiket. Hoeveel lug is in die blikkie wanneer die inhoud (koeldrank, sop, ens.) verpak is?
+</item>
+            <item id="uid117">Hoekom dink jy is daar lug oor in die blikkie?
+</item>
+            <item id="uid118">As jy die volume van ŉ blikkie wil verdubbel, maar die radius dieselfde hou, met hoeveel moet die hoogte toeneem?
+</item>
+            <item id="uid119">As die hoogte van die blikkie dieselfde gehou word, maar die radius word verdubbel, met watter faktor sal die:
+<list id="id73845" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid120">oppervlak van die sykant van die blikkie toeneem?
+</item><item id="uid121">oppervlak van die bo/onderkante van die blikkie toeneem?
+</item></list></item>
+          </list>
+          
+</section>
+        </section>
+      </section>
+    </section>
+    
+    <section id="eip-803"><title>Opsomming</title><list id="eip-241"><item>Die eienskappe van vlieërs, rombusse, parallelogamme, vierkante, reghoeke en trapesiums is ondersoek. Al hierdie vorme word vierhoeke genoem.</item>
+<item>Jy behoort die formules te ken vir die oppervlakarea van reghoekige en driehoekige prismas sowel as silinders.</item><item>
+Die volume van ŉ regte prisma is bereken deur area van die basis te vermenigvuldig met die loodregte hoogte. Dus vir ŉ vierkantige prisma met sylengte <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en hoogte <m:math overflow="scroll"><m:mi>h</m:mi></m:math> is die volume <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math>.</item>
+<item>
+<label>Gelykvormigheid van poligone</label> Twee poligone is gelykvormig as:<list id="id938472"><item>hulle ooreenkomstige hoeke gelyk is</item><item>die lengtes van die sye eweredig is</item></list> Alle vierkante is gelykvormig.</item>
+</list></section><section id="cid7">
+      <title>Finale oefeninge</title>
+      <list id="id73895" display="block" list-type="enumerated"><item id="uid125">Deur die reëls te gebruik wat verskaf is, identifiseer elke tipe transformasie en teken die vorms.
+<list id="id73963" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid126"> (x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(x+3;y-3)
+<figure id="id73991"><media id="id73991_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_037.png" id="id73991_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_037.eps" id="id73991_printimage"/></media></figure></item><item id="uid127"> (x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(x-4;y)
+<figure id="id74022"><media id="id74022_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_038.png" id="id74022_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_038.eps" id="id74022_printimage"/></media></figure></item><item id="uid128">(x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(y;x)
+<figure id="id74053"><media id="id74053_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_039.png" id="id74053_onlineimage" width="347"><!-- NOTE: attribute width changes image size online (pixels). original width is 347. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_039.eps" id="id74053_printimage"/></media></figure></item><item id="uid129">(x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(-x;-y)
+<figure id="id74084"><media id="id74084_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_040.png" id="id74084_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_040.eps" id="id74084_printimage"/></media></figure></item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/la7">Kliek hier vir die oplossing</link></item>
+<item> 
+PQRS is ŉ veelhoek met hoekpunte P(0; −3) ; Q(−2;5) ; R(3;2) en S(3;–2) in die Cartesiese-vlak.
+<list id="id0812312" display="block" list-type="enumerated" number-style="lower-alpha"><item id="id08123">Bepaal die lengte van QR.</item>                        
+<item id="id981221">Bepaal die helling van PS.</item>                          
+<item id="id08213">Bepaal die middelpunt van PR.</item>                               
+<item id="id9871293">Is PQRS ŉ parallelogram?  Gee redes vir jou antwoord. </item>
+</list><link class="fullmarks" window="new" url="http://www.fhsst.org/laY">Kliek hier vir die oplossing</link></item>
+<item>A(–2;3) en B(2;6) is punte in die Cartesiese-vlak.  C(a;b) is die middelpunt van AB. Bereken die waardes van a en b.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laq">Kliek hier vir die oplossing</link>
+</item>      
+<item>
+Beskou driehoek ABC met hoekpunte A (1; 3), B (4; 1) en C (6; 4):
+<list id="id9173123" display="block" list-type="enumerated" number-style="lower-alpha"><item>Skets driehoek ABC in die Cartesiese vlak. </item>
+<item>Wys dat ABC ŉ gelykbenige driehoek is.</item>
+<item>Bepaal die koordinate van M, die middelpunt van AC.</item>
+<item>Bepaal die helling van AB.</item>
+<item>Wys dat die volgende punte saamlynig is: A, B en D(7;-1).</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/la4">Kliek hier vir die oplossing</link>
+</item>
+<item>In die diagram is A die punt (-6;1) en B is die punt (0;3).
+<figure id="id740344"><media id="id740344_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_5.png" id="id740344_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_5-d962.eps" id="id740344_printimage"/></media></figure><list id="id982373" display="block" list-type="enumerated" number-style="lower-alpha"><item>Wat is die vergelyking van die lyn AB? </item>
+<item>Bereken die lengte van AB.</item>
+<item> A’ is die beeld van A en B’ is die beeld van B. Beide hierdie beelde is verkry uit die transformasie: (x;y)<m:math overflow="scroll"><m:mo>→</m:mo></m:math>(x-4;y-1). Gee die koördinate van beide A’ en B’.</item>
+<item>Bepaal die vergelyking van A’B’.</item>
+<item>Bereken die lengte van A’B’.</item>
+<item>Kan jy met sekerheid bevestig dat AA'B'B ŉ parallelogram is? Regverdig jou antwoord.</item></list> <link class="fullmarks" window="new" url="http://www.fhsst.org/laf">Kliek hier vir die oplossing</link></item>
+<item>Die hoekpunte van driehoek PQR het koordinate soos in die diagram.
+<figure id="id743344"><media id="id743344_media" alt=""><image mime-type="image/png" src="../../media/mg10c14_6.png" id="id743344_onlineimage" width="346"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/mg10c14_6.eps" id="id743344_printimage"/></media></figure>
+<list id="id982372432" display="block" list-type="enumerated" number-style="lower-alpha"><item>Gee die koordinate van P', Q' en R', die beelde van P, Q en R wanneer P, Q en R reflekteer word in die lyn  y=x.</item>
+<item>Bepaal die area van driehoek PQR.</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laG">Kliek hier vir die oplossing</link>
+</item></list>
+    </section>
+
+  </content>
+</document>

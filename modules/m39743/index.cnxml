@@ -1,0 +1,986 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Eksponensiële vergelykings</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39743</md:content-id>
+  <md:title>Eksponensiële vergelykings</md:title>
+  <md:abstract/>
+  <md:uuid>9df022ad-092c-4caa-83f8-d9d14b7265e9</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid5"><title>Ekponensiële Vergelykings van die vorm <m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:msup><m:mi>a</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:mi>m</m:mi></m:mrow></m:math></title><para id="id154446">Eksponensiële vergelykings het in die algemeen die veranderlike in die mag. Die volgende is voorbeelde van eksponensiële vergelykings:
+
+</para>
+      <equation id="id154451"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:msup>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>2</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>7</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id154556">Jy behoort reeds vertroud te wees met eksponensiële notasie. Oplos van eksponensiële vergelykings is eenvoudig, solank ons onthou hoe om die eksponentwette toe te pas.
+
+</para>
+<section id="secfhsst_id3051"><title>Ondersoek: Oplos van Eksponensiële Vergelykings </title>
+      <para id="id154568">Los die volgende vergelykings op deur die tabel te voltooi:
+
+</para>
+      <table id="id154574" summary="">
+        <tgroup cols="8">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <tbody>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry namest="c2" nameend="c8">
+                <m:math overflow="scroll">
+                  <m:mi>x</m:mi>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>-3</entry>
+              <entry>-2</entry>
+              <entry>-1</entry>
+              <entry>0</entry>
+              <entry>1</entry>
+              <entry>2</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <table id="id154772" summary="">
+        <tgroup cols="8">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <tbody>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry namest="c2" nameend="c8">
+                <m:math overflow="scroll">
+                  <m:mi>x</m:mi>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>-3</entry>
+              <entry>-2</entry>
+              <entry>-1</entry>
+              <entry>0</entry>
+              <entry>1</entry>
+              <entry>2</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <table id="id154969" summary="">
+        <tgroup cols="8">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <tbody>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry namest="c2" nameend="c8">
+                <m:math overflow="scroll">
+                  <m:mi>x</m:mi>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>-3</entry>
+              <entry>-2</entry>
+              <entry>-1</entry>
+              <entry>0</entry>
+              <entry>1</entry>
+              <entry>2</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:math>
+              </entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      
+</section>
+      <section id="uid64"><title>Algebraïese Oplossing</title><definition id="fhsst_id3249"><term id="termfhsst_id3249"> Gelykheid van Eksponensiële Funksies </term> <meaning id="meaningfhsst_id3249">
+        <para id="id155201">As <m:math overflow="scroll"><m:mi>a</m:mi></m:math> 'n positiewe getal is so dat
+<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, (behalwe wanneer <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>1</m:mi></m:math><space/>) dan:</para>
+        <equation id="id155230">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mi>y</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id155257">as en slegs as:</para>
+        <equation id="id155263">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>
+        </equation>
+        (As <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, dan kan <m:math><m:mi>x</m:mi></m:math> en <m:math><m:mi>y</m:mi></m:math> verskil.)
+        </meaning></definition>
+        <para id="id155290">Dit beteken dat indien ons al die terme met dieselfde grondtal kan skryf, kan ons die eksponensiële vergelykings oplos deur die eksponente gelyk te stel. Neem byvoorbeeld die vergelyking
+ <m:math overflow="scroll"><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math>. Dit kan geskryf word as:</para>
+        <equation id="id155321"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mn>3</m:mn>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mn>3</m:mn>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo/>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id155355">Aangesien die grondtalle gelyk is (aan 3), weet ons dat die eksponente gelyk moet wees.
+Daarom kan ons skryf:</para>
+        <equation id="id155361"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo/>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id155384">Dit gee:</para>
+        <equation id="id155389"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo/>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <section id="uid65">
+          <title>Metode: Oplos van Eksponensiële Vergelykings</title>
+          <list id="eip-925" list-type="enumerated" number-style="arabic"><item>Probeer om al die terme met dieselfde grondtal te skryf.</item>
+<item>Stel die eksponente van die grondtalle van die LK en RK gelyk.</item>
+<item>Los die vergelyking wat in die vorige stap verkry is, op.</item>
+<item>Bevestig die antwoorde.</item>
+</list>
+<section id="secfhsst_id3331"><title>Ondersoek : Eksponensiële Getalle</title>
+          <para id="id155428">Skryf die volgende met dieselfde grondtal. Die grondtal is eerste in die lys. Byvoorbeeld in die lys 2, 4, 8, is die grondtal twee(2) en ons kan 4 skryf as <m:math overflow="scroll"><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup></m:math>.</para>
+          <list id="id155449" display="block" list-type="enumerated">
+            <item id="uid66">2,4,8,16,32,64,128,512,1024
+</item>
+            <item id="uid67">3,9,27,81,243
+</item>
+            <item id="uid68">5,25,125,625
+</item>
+            <item id="uid69">13,169
+</item>
+            <item id="uid70"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mn>49</m:mn><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:math></item>
+          </list>
+          
+</section>
+<exercise id="secfhsst_id3348"><title>Oplos van Eksponensiële Vergelykings</title><problem id="probfhsst_id3349">
+          <para id="id155596">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> </para>
+          </problem>
+          <solution id="solfhsst_id3352"> <list id="listfhsst_id3352" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Probeer al die terme skryf met dieselfde grondtal </label>
+          <para id="id155648">Al die terme word geskryf met dieselfde grondtal:</para>
+          <equation id="id155652">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mn>1</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+          </equation>
+          </item> <item> <label> Stel die eksponente gelyk </label>
+          <equation id="id155682">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>
+          </equation>
+          </item> <item> <label> Toets jou antwoord </label>
+          <equation id="id155703"><m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi> LK </m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                      <m:mn>2</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi> RK </m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                      <m:mn>2</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi> LK </m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+
+
+          </equation>
+          <para id="id155766">Aangesien beide kante van die vergelyking dieselfde is, is die antwoord korrek.</para>
+          </item> <item> <label> Skryf die finale antwoord </label>
+          <equation id="id155776">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id155793">is die oplossing van <m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.
+ </para>
+          </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id3440"><title>Oplos van Eksponensiële Vergelykings</title><problem id="probfhsst_id3441">
+          <para id="id155842">Los op:</para>
+          <equation id="id155848">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+          </equation>
+          
+          </problem>
+          <solution id="solfhsst_id3467"> <list id="listfhsst_id3467" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Probeer om al die terme met dieselfde grondtal te skryf </label>
+          <equation id="id155907">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mo>(</m:mo>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          </item> <item> <label> Stel die eksponenete gelyk </label>
+          <equation id="id156032">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>
+          </equation>
+          </item> <item> <label> Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math> </label>
+          <equation id="id156068">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>x</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>x</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mfrac>
+                      <m:mn>4</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          </item> <item> <label> Toets jou antwoord </label>
+          <equation id="id156202"><m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi> LK </m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mfrac>
+                          <m:mn>4</m:mn>
+                          <m:mn>3</m:mn>
+                        </m:mfrac>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mfrac>
+                        <m:mn>16</m:mn>
+                        <m:mn>3</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msup>
+                          <m:mn>2</m:mn>
+                          <m:mn>16</m:mn>
+                        </m:msup>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>3</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi> RK </m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mo>(</m:mo>
+                        <m:mfrac>
+                          <m:mn>4</m:mn>
+                          <m:mn>3</m:mn>
+                        </m:mfrac>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mfrac>
+                        <m:mn>8</m:mn>
+                        <m:mn>3</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msup>
+                          <m:mn>4</m:mn>
+                          <m:mn>8</m:mn>
+                        </m:msup>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>3</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msup>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:msup>
+                              <m:mn>2</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:msup>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>3</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msup>
+                          <m:mn>2</m:mn>
+                          <m:mn>16</m:mn>
+                        </m:msup>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>3</m:mn>
+                      </m:mfrac>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi> LK </m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id156509">Aangesien beide kante dieselfde is, is die oplossing korrek.</para>
+          </item> <item> <label> Skryf die finale antwoord </label>
+          <equation id="id156519">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mn>4</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id156540">is die oplossing van <m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math>.
+ </para>
+          </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id3894"><title>Oplos van Eksponensiële Vergelykings </title>
+          <list id="id156597" display="block" list-type="enumerated"><item id="uid71">Los die volgende eksponensiële vergelykings op:
+<list id="id7342" list-type="enumerated" number-style="lower-alpha">
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mn>5</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mn>5</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mn>6</m:mn><m:mrow><m:mn>5</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>6</m:mn><m:mn>12</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mn>64</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>16</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mn>125</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lce">Kliek hier vir die oplossing</link>
+</item>
+            <item id="uid72">Los op <m:math overflow="scroll"><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math><newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/lct">Kliek hier vir die oplossing</link>
+</item>
+            <item id="uid73">Los op vir <m:math overflow="scroll"><m:mi>k</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mn>81</m:mn><m:mrow><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>27</m:mn><m:mrow><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:math><newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/lct">Kliek hier vir die oplossing</link>
+</item>
+            <item id="uid74">Die groei van alge in 'n poel kan gemodelleer word met die funksie <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>t</m:mi></m:msup></m:mrow></m:math>. Vind die waarde van <m:math overflow="scroll"><m:mi>t</m:mi></m:math> sodat <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>128</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcz">Kliek hier vir die oplossing</link>
+</item>
+            <item id="uid75">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mn>25</m:mn><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mn>4</m:mn></m:msup></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcu">Kliek hier vir die oplossing</link>
+</item>
+            <item id="uid76">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mn>27</m:mn><m:mi>x</m:mi></m:msup><m:mo>×</m:mo><m:msup><m:mn>9</m:mn><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcu">Kliek hier vir die oplossing</link>
+</item>
+          </list>
+          
+</section>
+        </section>
+      </section>
+    </section>
+
+  </content>
+</document>

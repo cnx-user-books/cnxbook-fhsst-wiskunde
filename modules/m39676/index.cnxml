@@ -1,0 +1,313 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Inleiding</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39676</md:content-id>
+  <md:title>Inleiding</md:title>
+  <md:abstract/>
+  <md:uuid>0fe00654-e9ba-4642-9496-3d9f5206e338</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1">
+      <title>Getalpatrone</title>
+      <para id="id62175">In vorige jare het jy patrone gesien in die vorm van prentjies en getalle. In hierde hoofstuk sal ons meer leer van die wiskunde van patrone. Patrone is herkenbaar as herhalende reekse wat gevind kan word in die natuur, vorms, gebeure, groepe van getalle en op baie ander plekke in ons daaglikse lewe. Byvoorbeeld, patrone kan gevind word in die sade van sonneblomme, sneeuvlokkies, geometriese  patrone op lappieskomberse en teëls en reekse getalle soos 0; 4; 8; 12; 16; ...
+
+</para>
+<section id="secfhsst_id64"><title>Ondersoek : Patrone </title>
+      <para id="id62189">Kan jy die patrone herken in die volgende reekse van getalle?</para>
+      <list id="id62194" display="block" list-type="enumerated"><item id="uid1">2; 4; 6; 8; 10; <m:math overflow="scroll"><m:mo>...</m:mo></m:math></item>
+        <item id="uid2">1; 2; 4; 7; 11; <m:math overflow="scroll"><m:mo>...</m:mo></m:math></item>
+        <item id="uid3">1; 4; 9; 16; 25; <m:math overflow="scroll"><m:mo>...</m:mo></m:math></item>
+        <item id="uid4">5; 10; 20; 40; 80; <m:math overflow="scroll"><m:mo>...</m:mo></m:math></item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid2"><title>Algemene Getalpatrone</title><para id="id62635">Reekse van getalle kan interessante patrone bevat. Die volgende is  ŉ lys van die mees algemene patrone en hoe hulle gevorm word. </para>
+      <para id="id62640">Voorbeelde:</para>
+      <list id="id62643" display="block" list-type="enumerated"><item id="uid5"><m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>7</m:mn><m:mo>;</m:mo><m:mn>10</m:mn><m:mo>;</m:mo><m:mn>13</m:mn><m:mo>;</m:mo><m:mn>16</m:mn><m:mo>;</m:mo><m:mn>19</m:mn><m:mo>;</m:mo><m:mn>22</m:mn><m:mo>;</m:mo><m:mn>25</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+Hierdie reeks het  ŉ verskil van 3 tussen al die getalle.
+Die patroon word gevorm deur elke keer 3 by te tel by die vorige getal.
+</item>
+        <item id="uid6"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mn>13</m:mn><m:mo>;</m:mo><m:mn>18</m:mn><m:mo>;</m:mo><m:mn>23</m:mn><m:mo>;</m:mo><m:mn>28</m:mn><m:mo>;</m:mo><m:mn>33</m:mn><m:mo>;</m:mo><m:mn>38</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+Hierdie reeks het  ŉ verskil van 5 tussen al die getalle.
+Die patroon word gevorm deur elke keer 5 by te tel by die vorige getal.
+</item>
+        <item id="uid7"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mn>16</m:mn><m:mo>;</m:mo><m:mn>32</m:mn><m:mo>;</m:mo><m:mn>64</m:mn><m:mo>;</m:mo><m:mn>128</m:mn><m:mo>;</m:mo><m:mn>256</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+Hierdie reeks het  ŉ faktor van 2 tussen al die getalle.
+Die volgende getal in die reeks word gevorm deur die vorige een met 2 te vermenigvuldig.
+</item>
+        <item id="uid8"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>9</m:mn><m:mo>;</m:mo><m:mn>27</m:mn><m:mo>;</m:mo><m:mn>81</m:mn><m:mo>;</m:mo><m:mn>243</m:mn><m:mo>;</m:mo><m:mn>729</m:mn><m:mo>;</m:mo><m:mn>2187</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math>
+Hierdie reeks het  ŉ faktor van 3 tussen al die getalle.
+Die volgende getal in die reeks word gevorm deur die vorige een met 3 te vermenigvuldig.
+</item>
+</list>
+      <section id="uid9">
+        <title>Spesiale Reekse</title>
+        <section id="uid10">
+          <title>Driehoeksgetalle</title>
+          <para id="id62915"><m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>15</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>28</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>36</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>45</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          <para id="id62968">Hierdie reekse word gevorm deur ŉ patroon van kolletjies wat ŉ driehoek vorm.
+Deur nog ŉ ry kolletjies aan te heg (waar die elke nuwe ry een meer kolletjie bevat as die vorige een) en die kolletjies te tel, is dit moontlik om die volgende getal in die reeks te vind.
+</para>
+        </section>
+        <section id="uid11">
+          <title>Vierkantsgetalle</title>
+          <para id="id62984"><m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>9</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>16</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>25</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>36</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>49</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>64</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>81</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          <para id="id63037">Die waarde van ŉ term in die reeks word gevind deur die posisie (pleknommer in die ry) te kwadreer.
+Die tweede getal in die reeks is 2 kwadraat (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:mspace width="3.33333pt"/><m:mi>o</m:mi><m:mi>f</m:mi><m:mspace width="3.33333pt"/><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn></m:mrow></m:math> <space/>). 
+Die sewende getal is 7 kwadraat (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>7</m:mn><m:mn>2</m:mn></m:msup><m:mspace width="3.33333pt"/><m:mi>o</m:mi><m:mi>f</m:mi><m:mspace width="3.33333pt"/><m:mn>7</m:mn><m:mo>×</m:mo><m:mn>7</m:mn></m:mrow></m:math>  <space/> ) ens.
+</para>
+        </section>
+        <section id="uid12">
+          <title>Derdemagsgetalle</title>
+          <para id="id63115"><m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>27</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>64</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>125</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>216</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>343</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>512</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>729</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          <para id="id63168">Die waarde van ŉ term in die reeks word gevind deur die posisie tot die derde mag te verhef.
+Die tweede getal in die reeks is 2 tot die mag 3 (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="3.33333pt"/><m:mi>o</m:mi><m:mi>f</m:mi><m:mspace width="3.33333pt"/><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>2</m:mn></m:mrow></m:math> <space/>).
+Die sewende getal in die reeks is 7 tot die mag 3 (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>7</m:mn><m:mn>3</m:mn></m:msup><m:mspace width="3.33333pt"/><m:mi>o</m:mi><m:mi>f</m:mi><m:mspace width="3.33333pt"/><m:mn>7</m:mn><m:mo>×</m:mo><m:mn>7</m:mn><m:mo>×</m:mo><m:mn>7</m:mn></m:mrow></m:math><space count="2"/>) ens.
+</para>
+        </section>
+        <section id="uid13">
+          <title>Fibonacci Getalle</title>
+          <para id="id63254"><m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>13</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>34</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          <para id="id63490">Die waarde van ŉ term in die reeks word gevind deur die vorige twee getalle in die reeks bymekaar te tel.
+Die 2 word gevind deur die vorige twee getalle in die reeks bymekaar te tel (<m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>).
+Die 21 word gevind deur die twee getalle voor die 2 in die reeks bymekaar te tel  (<m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>13</m:mn></m:mrow></m:math>).
+Die volgende getal in die reeks sal 55 wees (<m:math overflow="scroll"><m:mrow><m:mn>21</m:mn><m:mo>+</m:mo><m:mn>34</m:mn></m:mrow></m:math>).</para>
+          <para id="id63538">Kan jy die volgende paar getalle vind?</para>
+        </section>
+
+      </section>
+<para id="eip-450"><figure id="numberpatterns-1" class="khanacademy"><title>Khan Academy video oor getalpatrone - 1</title><media id="yt-media1" display="block" alt="video on number patterns 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/Zj-a_9cd5jc&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="secfhsst_id280"><title>Studeertafels</title><problem id="probfhsst_id281">
+      <para id="id63645">Gestel jy en 3 vriende besluit om te studeer vir wiskunde, en dat julle om ŉ vierkantige tafel sit. ŉ Paar minute later sluit 2 ander vriende by julle aan en hulle wil kom sit. Om sitplek te kry vir hulle, besluit julle om ŉ tafel te skuif en dit langs julle tafel te sit sodat daar genoeg sitplek is vir die 6 van julle. Daarna besluit nog 2 van jou vriende om by julle aan te sluit en julle skuif ŉ derde tafel sodat daar genoeg plek is vir 8 van julle.</para>
+      <figure id="uid14"><media id="uid14_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C7_002.png" id="uid14_onlineimage" width="273"><!-- NOTE: attribute width changes image size online (pixels). original width is 273. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C7_002.eps" id="uid14_printimage"/>
+        </media>
+        
+      <caption>Twee ekstra mense kan sit vir elke tafel wat hulle bysit.</caption></figure>
+      <para id="id63666">Ondersoek hoe die aantal mense om die tafels verband hou met die aantal tafels.</para>
+      </problem>
+      <solution id="solfhsst_id292"> <list id="listfhsst_id292" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Tabelleer ŉ paar terme om te sien of daar ŉ patroon is </label>
+      <table id="id63686" summary="summary table">
+<tgroup cols="2"><tbody>
+            <row>
+              <entry><emphasis effect="bold">Aantal tafels</emphasis>, <m:math overflow="scroll"><m:mi>n</m:mi></m:math></entry>
+              <entry>
+                <emphasis effect="bold"> Aantal mense wat sitplek het </emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mo>⋮</m:mo>
+                </m:math>
+              </entry>
+              <entry>               <m:math overflow="scroll"><m:mo>⋮</m:mo></m:math></entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mi>n</m:mi>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Beskryf die patroon </label>
+      <para id="id63966">Ons kan sien dat met 3 tafels is daar plek vir 8 mense, met 4 tafels is daar plek vir 10 mense ens. Ons begin met 4 mense en voeg elke keer 2 mense by. So, vir elke tafel wat bygevoeg word, is daar sitplek vir nog 2 mense. </para>
+      </item>
+</list> </solution>
+</exercise>
+    </section>
+
+  </content>
+</document>

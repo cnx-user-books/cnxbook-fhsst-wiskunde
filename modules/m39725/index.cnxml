@@ -1,0 +1,926 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Die trig funksies vir enige hoek en toepassings</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39725</md:content-id>
+  <md:title>Die trig funksies vir enige hoek en toepassings</md:title>
+  <md:abstract/>
+  <md:uuid>db1bde08-2cc5-40f2-a634-d704d9e1149c</md:uuid>
+</metadata>
+
+<content>
+<section id="eip-571"><title>Die Trigonometriese Funksies vir Enige Hoek</title><para id="eip-999">Tot dusver het ons die trigonometriese funksies gedefinieer deur gebruik te maak van reghoekige driehoeke. Ons kan nou hierdie definisies uitbrei na alle hoeke. Ons kry dit reg deur daarop te let dat die definisies nie afhanklik is van die lengtes van die sye van die driehoek nie, maar slegs bepaal word deur die hoekgootte. So, as ons enige punt op die Cartesiese vlak merk en 'n lyn trek vanaf daardie punt na die oorsprong, kan ons werk met die hoek tussen daardie lyn en die x-as. In <link target-id="id63458"/> is punte P en Q gemerk. 'n Lyn is getrek vanaf die oorsprong na elk van die punte. Die stippellyne toon hoe ons reghoekige driehoeke kan konstureer vir elke punt. Nou kan ons hoeke A en B vind. 
+</para><para id="eip-970"><figure id="id63458"><media id="id63458_media" alt="">
+            <image mime-type="image/png" src="../../media/trigfunc1.png" id="id63458_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="trigfunc1.eps" id="id63458_printimage"/>
+            </media>
+            </figure></para><para id="eip-9">Jy sal vind hoek A is <m:math overflow="scroll"><m:mrow><m:mn>63</m:mn><m:mo>,</m:mo><m:msup><m:mn>43</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Vir hoek B, moet jy eers vir x = <m:math overflow="scroll"><m:mrow><m:mn>33</m:mn><m:mo>,</m:mo><m:msup><m:mn>69</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> bereken en dan is B = <m:math overflow="scroll"><m:mrow><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mrow><m:mn>33</m:mn><m:mo>,</m:mo><m:msup><m:mn>69</m:mn><m:mo>∘</m:mo></m:msup></m:mrow><m:mo>=</m:mo><m:mrow><m:mn>146</m:mn><m:mo>,</m:mo><m:msup><m:mn>31</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mrow></m:math>. Maar, gestel ons dit wil doen sonder om hierdie hoeke uit te werk en vas te stel of ons 180 grade of 90 grade moet bytel of aftrek? Kan ons trigonometriese funksies gebruik om dit te doen? Beskou punt P in <link target-id="id63458"/>. Om die hoek te vind, sou jy een van die trigonometriese funksies gebruik het, naamlik <m:math overflow="scroll"><m:mi>tan</m:mi><m:mspace width="1pt"/><m:mi>θ</m:mi></m:math>. Let op, die sy wat aangrensend is aan die hoek, is die x-koördinaat en die sy teenoor die hoek is die y-koördinaat. Maar wat van die skuinssy? Ons kan dit vind deur die Stelling van Pythagoras te gebruik aangesien ons die twee reghoeksye van 'n reghoekige driehoek het. As ons 'n sirkel trek met die oorsprong as middelpunt, dan is die lengte vanaf die oorsprong na punt P die radius van die sirkel, wat ons aandui met r. Nou kan ons al ons trigonometriese verhoudings herskryf in terme van x, y en r. Maar hoe help dit ons om B te kry? Vanaf punt Q na die oorsprong is r en ons het die koördinate van Q. Ons gebruik nou eenvoudig ons nuut-gedefinieërde trigonometriese funksies om B te bereken! (Probeer dit self en bevestig dat jy dieselfde antwoord kry as vantevore). Wanneer ons anti-kloksgewys om die oorsprong beweeg, is die hoeke positief en wanneer ons kloksgewys draai in die Cartesiese vlak, is die hoeke negatief. 
+  </para><para id="eip-634">Ons kry dus die volgende definisies vir die trigonometriese funksies:
+</para><equation id="eip-169"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">tan</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math></equation><para id="eip-102">Gestel die x-koördinaat of die y-koördinaat is negatief. Ignoreer ons dit, of is daar 'n manier om dit in berekening te bring? Die antwoord is dat ons dit nie ignoreer nie: Die teken voor die x- of y-koördinaat bepaal of sin, cos en tan positief of negatief is. Die Cartesiese vlak is verdeel in kwadrante en ons gebruik dan <link target-id="id63358"/> om vir ons aan te dui of die trigonometriese funksie positief of negatief is. Die diagram staan bekend as die CAST diagram.</para><para id="eip-216"><figure id="id63358"><media id="id63358_media" alt="">
+            <image mime-type="image/png" src="../../media/CAST.png" id="id63358_onlineimage" width="250"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/CAST.eps" id="id63358_printimage"/>
+            </media>
+            </figure></para><para id="eip-927">Op dieselfde wyse kan ons die definisies uitbrei na die resiprookfunksies:
+<equation id="id89342">
+<m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">cosec</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">sec</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo form="prefix">cot</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+</equation></para><exercise id="eip-986"><title>Die Berekening van hoeke</title><problem id="probfhsst_id182">
+        <para id="id8189">Punt R(-1;-3) en punt S(3;-3) is aangedui op die diagram hieronder. Vind die hoeke <m:math overflow="scroll"><m:mi>α</m:mi></m:math> en <m:math overflow="scroll"><m:mi>β</m:mi></m:math>. </para>
+        <para id="id8128">
+          <figure id="id8199"><media id="id8199_media" alt="">
+              <image mime-type="image/png" src="../../media/qtrig.png" id="id8199_onlineimage" width="203"><!-- NOTE: attribute width changes image size online (pixels). original width is 303. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/qtrig.eps" id="id8199_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id194"> <list id="listfhsst_id194" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Skryf neer wat gegee is en wat gevra word</label>
+        <para id="id81936">Ons het die koördinate van punte R en S en ons moet die groottes van die twee hoeke vind. Hoek <m:math overflow="scroll"><m:mi>β</m:mi></m:math> is positief en hoek <m:math overflow="scroll"><m:mi>α</m:mi></m:math> is negatief.</para>
+        </item> <item> <label> Bereken <m:math overflow="scroll"><m:mi>β</m:mi></m:math></label>
+        <para id="id8267">Ons gebruik tan om <m:math overflow="scroll"><m:mi>β</m:mi></m:math> te vind, aangesien ons slegs x en y het. Ons sien die hoek lê in die derde kwadrant, waar tan positief is.</para>
+        <equation id="id82128"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>β</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                      <m:mi>y</m:mi>
+                      <m:mi>x</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>β</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow>
+</m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd><m:mi>β</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup>
+<m:mo form="prefix">tan</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup>
+                    <m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd><m:mi>β</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:mn>71</m:mn><m:mo>,</m:mo><m:msup><m:mn>57</m:mn><m:mo>∘</m:mo></m:msup></m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Bereken <m:math overflow="scroll"><m:mi>α</m:mi></m:math></label>
+<para id="id9732">Ons gebruik tan om <m:math overflow="scroll"><m:mi>α</m:mi></m:math> te bereken aangesien ons x en y het. Die hoek is in die vierde kwadrant, waar tan negatief is.
+</para>
+        <equation id="id8254"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>α</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                      <m:mi>y</m:mi>
+                      <m:mi>x</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>α</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow>
+</m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd><m:mi>α</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup>
+<m:mo form="prefix">tan</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup>
+                    <m:mo>(</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd><m:mi>α</m:mi>
+
+</m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow><m:msup><m:mrow><m:mo>-</m:mo><m:mn>45</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer</label>
+        <para id="id827"> Hoek <m:math overflow="scroll"><m:mi>α</m:mi></m:math> is <m:math><m:mrow><m:msup><m:mrow><m:mo>-</m:mo><m:mn>45</m:mn></m:mrow><m:mo>∘</m:mo></m:msup></m:mrow></m:math> en hoek <m:math overflow="scroll"><m:mi>β</m:mi></m:math> is <m:math><m:mrow><m:mn>71</m:mn><m:mo>,</m:mo><m:msup><m:mn>57</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>
+ </para>
+        </item> </list> </solution>
+</exercise><note id="eip-94">Let op dat in die uitgewerkte voorbeeld hierbo, hoek <m:math overflow="scroll"><m:mi>α</m:mi></m:math> eenvoudig die hoek is wat lyn OS maak met die x-as. Dus kan ons trigonometrie gebruik om te bereken watter hoek 'n lyn maak met die x- of y-as.</note></section><section id="eip-524"><title>Die Oplossing van Eenvoudige Trigonometriese Vergelykings</title><para id="eip-286">Deur te gebruik wat ons geleer het omtrent trigonometriese funksies, kan ons nou eenvoudige trigonometriese vergelykings oplos. Ons gebruik ook die beginsels van <link document="m38372" window="new">Equations and Inequalities</link> om ons te help om trigonometriese vergelykings op te los. 
+</para><note id="eip-301">Die is belangrik om daarop te let dat <m:math><m:mn>2</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>≠</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo>)</m:mo></m:math>. Met ander woorde, om die verhouding te verdubbel (met 2 te vermenigvuldig) het 'n ander betekenis as om die hoek te verdubbel.</note><exercise id="eip-618"><problem id="eip-440">
+  <para id="eip-811">Los die volgende trigonometriese vergeyking op: <m:math><m:mn>3</m:mn><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>2</m:mn></m:math>
+  </para>
+</problem>
+
+<solution id="eip-616">
+ <list id="id987324" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Herrangskik die vergelyking</label>
+<equation id="id0832"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>3</m:mn><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn><m:mo>-</m:mo><m:mn>3</m:mn></m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>107</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>2</m:mn><m:mi>x</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>107</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:msup><m:mn>38</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>2</m:mn><m:mi>x</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>69</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd columnalign="right">
+                 <m:mi>x</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>34</m:mn><m:mo>,</m:mo><m:msup><m:mn>73</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math></equation>
+</item>
+<item><label>Skryf die finale antwoord neer</label>
+<m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mrow><m:mn>34</m:mn><m:mo>,</m:mo><m:msup><m:mn>73</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>
+</item>
+
+</list>
+</solution>
+</exercise><note id="eip-858" type="aside">In grade 11 en 12, sal jy meer leer oor die oplos van trigonometriese vergelykings. </note></section><section id="cid6"><title>Eenvoudige Toepassings van Trigonometriese Funksies</title><para id="id81626">Trigonometrie is waarskynlik in antieke beskawings uitgevind om praktiese probleme, byvoorbeeld in die bou- en konstruksiebedryf, asook navigasie met behulp van sterre, op te los. In hierdie afdeling sal ons wys hoe trigonometrie gebruik kan word om 'n paar ander praktiese probleme op te los.</para>
+              <section id="uid25">
+                <title>Hoogte en Diepte</title>
+                <figure id="uid26"><media id="uid26_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_012.png" id="uid26_onlineimage" width="201"><!-- NOTE: attribute width changes image size online (pixels). original width is 201. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_012.eps" id="uid26_printimage"/>
+                  </media>
+                  
+                <caption>Bepaling van die hoogte van 'n gebou deur trigonometrie te gebruik</caption></figure>
+                <para id="id81653">'n Eenvoudige taak is om die hoogte van 'n gebou te vind met behulp van trigonometrie. Ons sou net 'n maatband van die dak kon laat sak, maar dit is onprakties (en gevaarlik) by hoë geboue. Dit is baie meer sinvol om 'n afstand op die grond te meet en trigonometrie te gebruik om die hoogte van die gebou te vind.</para>
+                <para id="id81658"><link target-id="uid26"/> toon 'n gebou waarvan ons nie die hoogte weet nie.  Ons het 100 m weg van die gebou gestap en die hoek van die grond tot by die top van die gebou gemeet . Hierdie hoek is <m:math overflow="scroll"><m:mrow><m:mn>38</m:mn><m:mo>,</m:mo><m:msup><m:mn>7</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Ons noem hierdie hoek die <emphasis effect="italics">hoogtehoek</emphasis>. Soos jy kan sien van <link target-id="uid26"/>, het ons nou 'n reghoekige driehoek. Omdat ons weet wat die lengte van een sy en 'n hoek is, kan ons die hoogte van die driehoek bereken, wat die hoogte van die gebou is wat ons probeer vind.</para>
+                <para id="id81702">As ons kyk na die figuur, sien ons dat ons met die <emphasis effect="italics">teenoorstaande</emphasis> en die <emphasis effect="italics">aangrensende sy</emphasis> van die hoogtehoek werk en ons kan skryf:</para>
+                <equation id="id81717"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mn>38</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi> teenoorstaande </m:mi>
+                    <m:mi> aangrensend </m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi> hoogte </m:mi>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mspace width="0.166667em"/>
+                      <m:mi mathvariant="normal">m</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> hoogte </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mrow>
+                      <m:mn>38</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>7</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>80</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <exercise id="secfhsst_id1381"><title> Hoogte van die toring </title>
+                <problem id="probfhsst_id1382">
+                <para id="id81869">'n Blok woonstelle is 100m weg van 'n selfoontoring.  Iemand staan by <m:math overflow="scroll"><m:mi>B</m:mi></m:math>. 
+                        Hulle meet die hoek van <m:math overflow="scroll"><m:mi>B</m:mi></m:math> na die bopunt van die toring <m:math overflow="scroll"><m:mi> E</m:mi></m:math> en dit is 62 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. Dit is die hoogtehoek. Dan meet hulle die hoek van <m:math overflow="scroll"><m:mi>B</m:mi></m:math> af na die basis van die toring <m:math overflow="scroll"><m:mi>C</m:mi></m:math> en dit is 34<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. Dit is die dieptehoek. Wat is die hoogte van die selfoontoring korrek tot 1 desimale plek?</para>        <para id="id81948">
+                  <figure id="id81949">
+                    <media id="id81949_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_013.png" id="id81949_onlineimage" width="303"><!-- NOTE: attribute width changes image size online (pixels). original width is 303. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_013.eps" id="id81949_printimage"/>
+                    </media>
+                  </figure>
+                </para>
+                
+                </problem>
+                <solution id="solfhsst_id1394"> <list id="listfhsst_id1394" list-type="enumerated" number-style="arabic" class="stepwise">
+                <item> <label> Identifiseer 'n strategie </label>
+                <para id="id81976">Om die hoogte van 'n toring te vind, hoef ons net die lengte van <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> te vind. Ons sien dat <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>B</m:mi><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>B</m:mi><m:mi>D</m:mi><m:mi>C</m:mi></m:mrow></m:math> beide reghoekige driehoeke is. Vir elkeen van die driehoeke het ons 'n hoek en ons het die lengte  <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math>. Dus kan ons die sye van die driehoeke bereken.</para>
+                </item> <item> <label> Bereken <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> </label>
+                <para id="id82067">Dit word vir ons gegee dat die lengte van <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> 100m is. <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math> is 'n reghoek, dus <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi><m:mspace width="4pt"/><m:mo>=</m:mo><m:mspace width="4pt"/><m:mi>A</m:mi><m:mi>C</m:mi><m:mspace width="4pt"/><m:mo>=</m:mo><m:mspace width="4pt"/><m:mn>100</m:mn><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.</para>
+                <equation id="id82138"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>D</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>C</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mi>C</m:mi>
+                    <m:mi>D</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>C</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>D</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:msup>
+                      <m:mn>34</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+                <para id="id82283">Gebruik jou sakrekenaar om te vind dat <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:msup><m:mn>34</m:mn><m:mo>∘</m:mo></m:msup><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>6745</m:mn></m:mrow></m:math>. Deur dit te gebruik, vind ons dat <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>45</m:mn></m:mrow></m:math>m.</para>
+                </item> <item> <label> Bereken <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow></m:math> </label>
+                <equation id="id82354"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>D</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>D</m:mi>
+                      <m:mi>E</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>D</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mi>D</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>D</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>D</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>E</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:msup>
+                      <m:mn>62</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>188</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>07</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+                </item> <item> <label> Kombineer die vorige antwoorde </label>
+                <para id="id82527">Ons het die hoogte van die toring
+        <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>C</m:mi><m:mi>D</m:mi><m:mo>+</m:mo><m:mi>D</m:mi><m:mi>E</m:mi><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>45</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>+</m:mo><m:mn>188</m:mn><m:mo>,</m:mo><m:mn>07</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>=</m:mo><m:mn>255</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+         </para>
+                </item> </list> </solution>
+        </exercise>
+              </section>
+              <section id="uid27">
+                <title>Kaarte en planne</title>
+                <para id="id82626">Kaarte en planne is gewoonlik skaaltekeninge. Dit beteken hulle is 'n presiese kopie van die regte ding, maar gewoonlik kleiner. Dus word net lengtes verander, maar al die hoeke is dieselfde.  Ons kan dus hierdie idee gebruik om kaarte en planne te gebruik deur inligting van die werklike wêreld by te voeg.</para>
+        <exercise id="secfhsst_id1596"><title>Skaaltekeninge</title><problem id="probfhsst_id1597">
+                <para id="id82645">'n Skip op pad na die Kaapstadhawe bereik punt A op die kaart, reg suid van Pretoria en reg oos van Kaapstad.
+                        As die afstand vanaf Kaapstad na Pretoria 1000km is, gebruik trigonometrie om uit te vind hoe ver oos die skip van Kaapstad is, en vind op hierdie manier die skaal van die kaart.</para>
+                <para id="id82652">
+                  <figure id="id82657">
+                    <media id="id82657_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_014.png" id="id82657_onlineimage" width="301"><!-- NOTE: attribute width changes image size online (pixels). original width is 301. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_014.eps" id="id82657_printimage" print-width="1">
+                        <!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)-->
+                      </image>
+                    </media>
+                  </figure>
+                </para>
+                
+                </problem>
+                <solution id="solfhsst_id1611"> <list id="listfhsst_id1611" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Identifiseer wat gebeur in die vraag </label>
+                <para id="id82688">Ons weet reeds die afstand tussen Kaapstad en <m:math overflow="scroll"><m:mi>A</m:mi></m:math> in blokke van die gegewe kaart, is 5 blokke. 
+                        Dus, as ons bereken hoeveel kilometers hierdie afstand is, kan ons bereken hoeveel kilometers elke blok verteenwoordig, en dan het ons die skaal van die kaart.</para>
+                </item> <item> <label> Identifiseer die beskikbare inligting </label>
+                <para id="id82707">Laat ons Kaapstad aandui met <m:math overflow="scroll"><m:mi>C</m:mi></m:math> en Pretoria met <m:math overflow="scroll"><m:mi>P</m:mi></m:math>. Ons kan sien dat die driehoek <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>P</m:mi><m:mi>C</m:mi></m:mrow></m:math> reghoekig is. Verder sien ons <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> en afstand <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>P</m:mi></m:mrow></m:math> is beide 5 blokke. Dit is dus 'n gelykbenige driehoek en <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mi>P</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mover accent="true"><m:mi>P</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>45</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.</para>
+                </item> <item> <label> Doen die berekening </label>
+                <equation id="id82816"><m:math overflow="scroll" mode="display">
+                    <m:mtable displaystyle="true">
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mrow>
+                            <m:mi>C</m:mi>
+                            <m:mi>A</m:mi>
+                            <m:mo>=</m:mo>
+                          </m:mrow>
+                        </m:mtd>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mi>C</m:mi>
+                            <m:mi>P</m:mi>
+                            <m:mo>×</m:mo>
+                            <m:mo form="prefix">cos</m:mo>
+                            <m:mo>(</m:mo>
+                            <m:mi>A</m:mi>
+                            <m:mover accent="true">
+                              <m:mi>C</m:mi>
+                              <m:mo>^</m:mo>
+                            </m:mover>
+                            <m:mi>P</m:mi>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mn>1000</m:mn>
+                            <m:mo>×</m:mo>
+                            <m:mo form="prefix">cos</m:mo>
+                            <m:mo>(</m:mo>
+                            <m:msup>
+                              <m:mn>45</m:mn>
+                              <m:mo>∘</m:mo>
+                            </m:msup>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mn>1000</m:mn>
+                              <m:msqrt>
+                                <m:mn>2</m:mn>
+                              </m:msqrt>
+                            </m:mfrac>
+                            <m:mspace width="0.166667em"/>
+                            <m:mi> km </m:mi>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                  </m:math>
+                </equation>
+                <para id="id82923">Om die skaal uit te werk, sien ons dat</para>
+                <equation id="id82929"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mtext>blokke</m:mtext>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1000</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mtext>km</m:mtext>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mspace width="4pt"/>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mtext>blok</m:mtext>
+                    <m:mo>=</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>200</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                    <m:mspace width="0.166667em"/>
+                    <m:mtext>km</m:mtext>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+                
+                </item> </list> </solution>
+        </exercise>
+        <exercise id="secfhsst_id1745"><title> Bouplan </title>
+                <problem id="probfhsst_id1746">
+                <para id="id83053">Mnr Nkosi het 'n motorhuis by sy huis, en hy besluit hy wil 'n sinkdak aan die kant van sy motorhuis aanlas.
+                        Die motorhuis is 4m hoog, en die plaat vir die dak is 5m lank.  As hy die dak teen 'n hoek van <m:math overflow="scroll"><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:math> wil hê, hoe hoog moet hy die muur, <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D</m:mi></m:mrow></m:math>, wat die dak ophou, bou? Gee die antwoord tot 2 desimale plekke.</para>
+                <para id="id83089">
+                  <figure id="id83090">
+                    <media id="id83090_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_015.png" id="id83090_onlineimage" width="222"><!-- NOTE: attribute width changes image size online (pixels). original width is 222. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_015.eps" id="id83090_printimage"/>
+                    </media>
+                  </figure>
+                </para>
+                
+                </problem>
+                <solution id="solfhsst_id1758"> <list id="listfhsst_id1758" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal die strategie </label>
+                <para id="id83116">Ons sien dat die driehoek <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> 'n reghoekige driehoek is. Aangesien ons een sy en 'n hoek van die driehoek het, kan ons <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> bereken. Die hoogte van die muur is die hoogte van die motorhuis minus <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math>.</para>
+                </item> <item> <label> Voer die strategie uit </label>
+                <para id="id83164">As <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>=5m, en hoek <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi><m:mo>=</m:mo><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, dan</para>
+                <equation id="id83209"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>A</m:mi>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                    <m:mi>C</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0871</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mn>4358</m:mn>
+                    <m:mspace width="0.166667em"/>
+                    <m:mi mathvariant="normal">m</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+                <para id="id83338">Dus het ons dat die hoogte van die muur<m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>D </m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>4358</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>56</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+         </para>
+                </item> </list> </solution>
+        </exercise>
+        <section id="secfhsst_id1847"><title>Toepassings van Trigonometriese Funksies </title>
+                <list id="id83420" display="block" list-type="enumerated"><item id="uid28">'n Seun vlieg 'n vlieër en staan 30 m van 'n punt direk onder die vlieër.  As die tou van die vlieër 50 m lank is, bepaal die hoogtehoek van die vlieër.
+                        <newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lcY">Kliek hier vir die oplossing.</link>
+        </item>
+                  <item id="uid29">Wat is die hoogtehoek van die son as 'n boom van 7,15 m hoog 'n skadu van 10,1 m lank gooi?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lcr">Kliek hier vir die oplossing.</link>
+        </item>
+                </list>
+                
+        </section>
+              </section>
+            </section>
+
+          </content>
+</document>

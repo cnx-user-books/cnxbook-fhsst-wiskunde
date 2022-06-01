@@ -1,0 +1,1595 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Grafieke van die trig funksies</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39729</md:content-id>
+  <md:title>Grafieke van die trig funksies</md:title>
+  <md:abstract/>
+  <md:uuid>2f0aa1f4-2efa-47ca-a5ee-8282a2ddd0de</md:uuid>
+</metadata>
+
+<content>
+            <section id="cid7">
+              <title>Grafieke van Trigonometriese Funksies</title>
+              <para id="id83471">Hierdie afdeling beskryf die grafieke van trigonometriese funksies.</para>
+              <section id="uid30">
+                <title>Grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title>
+        <section id="secfhsst_id1866"><title>Grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title> <para id="uid0983">Volgooi die volgende tabel en gebruik jou sakrekenaar om die waardes te bereken.  Stip dan die waardes met<m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> op die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as en <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> op die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as. Rond die antwoorde af tot 1 desimale plek.</para>
+                <table id="id83562" summary=""><tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>0<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>30<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>60<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>120<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>150<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>210<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>240<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>270<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>300<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>330<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>360<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8"/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8">
+                  <figure id="id84030">
+                    <media id="id84030_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_016.png" id="id84030_onlineimage" width="256"><!-- NOTE: attribute width changes image size online (pixels). original width is 256. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_016.eps" id="id84030_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+                <!--empty paragraphs get left behind.-->
+                
+                
+        </section>
+                <para id="id84056">Laat ons terugkyk na ons waardes vir <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ .</m:mi></m:mrow></m:math></para>
+                <table id="id84073" summary="table">
+<tgroup cols="7"><tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>30</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>0</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>1</entry>
+                <entry>0</entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+                <!--empty paragraphs get left behind.-->
+                <para id="id84327">Soos jy kan sien, die funksie <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> het 'n waarde van 0 by <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Sy waarde neem egalig toe tot by <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> wanneer sy waarde 1 is. Ons weet ook dat dit later afneem na 0 as <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Deur dit alles bymekaar te sit, kan ons 'n idee kry van die volle omvang van die sinuskurwe. Die sinuskurwe word gewys in <link target-id="uid31"/>. Let op die kurwe se vorm, waar elke kurwe die lengte het van <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math>. Ons sê die grafiek het 'n <emphasis effect="italics">periode</emphasis> van <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math>. Die hoogte van die kurwe bo (of onder) die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as word die kurwe se <emphasis effect="italics">amplitude </emphasis> genoem. Dus is die amplitude van die sinuskurwe is 1.</para>
+                <figure id="uid31"><media id="uid31_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_017.png" id="uid31_onlineimage" width="290"><!-- NOTE: attribute width changes image size online (pixels). original width is 290. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_017.eps" id="uid31_printimage"/>
+                  </media>
+                  
+                <caption>Die grafiek van y = <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></caption></figure>
+              </section>
+              <section id="uid32">
+                <title>Funksies in die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+                <para id="id84527">In die vergelyking, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, <m:math overflow="scroll"> <m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>q</m:mi></m:math> is konstantes en het verskillende invloede op die grafiek van die funksie. Die algemene vorm van hierdie grafiek word gewys in <link target-id="uid33"/> vir die funksie<m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+                <figure id="uid33"><media id="uid33_media" alt="">
+                    <image mime-type="image/png" src="../../media/trigrep.png" id="uid33_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 202. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/trigrep.eps" id="uid33_printimage"/>
+                  </media>
+                  
+                <caption>Grafiek van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></caption></figure>
+        <section id="secfhsst_id2083"><title>Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> :</title>
+                <list id="id84695" display="block" list-type="enumerated"><item id="uid34">Op dieselfde stel asse, trek die volgende grafieke:
+        <list id="id84710" display="block" list-type="enumerated"><item id="uid35"><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid36"><m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid37"><m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid38"><m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid39"><m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list>
+        Gebruik jou resultate om die invloed van <m:math overflow="scroll"><m:mi>q</m:mi></m:math> af te lei.
+        </item>
+                  <item id="uid40">Op dieselfde stel asse, trek die volgende grafieke:
+        <list id="id84931" display="block" list-type="enumerated"><item id="uid41"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid42"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid43"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid44"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid45"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item></list>
+        Gebruik jou resultate om die invloed van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> af te lei.
+        </item>
+                </list>
+                
+                
+        
+                <para id="id85188">Dis duidelik dat <m:math overflow="scroll"><m:mi>q</m:mi></m:math> 'n <emphasis effect="italics">vertikale verskuiwing</emphasis> teweegbring. As <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, sal die hele sinusgrafiek 2 eenhede opskuif. As <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>, suif die hele grafiek 1 eenheid af. </para>
+                <para id="id85237">Hierdie eienskappe word opgesom in <link target-id="uid46"/>.</para>
+        
+                <para id="id85165">Jy behoort te vind dat die waarde van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> die hoogte van die pieke van die grafiek beïnvloed.  As die grootte van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> toeneem, word die pieke hoër. As dit afneem, word die pieke laer.</para>
+                <table id="uid46" summary="trig grafieke">
+<tgroup cols="3"><tbody>
+                      <row>
+                        <entry/>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo>&gt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo>&lt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>q</m:mi>
+                              <m:mo>&gt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <figure id="id85372">
+                            <media id="id85372_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_019.png" id="id85372_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_019.eps" id="id85372_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                        <entry>
+                          <figure id="id85384">
+                            <media id="id85384_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_020.png" id="id85384_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_020.eps" id="id85384_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>q</m:mi>
+                              <m:mo>&lt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <figure id="id85421">
+                            <media id="id85421_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_021.png" id="id85421_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_021.eps" id="id85421_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                        <entry>
+                          <figure id="id85433">
+                            <media id="id85433_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_022.png" id="id85433_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_022.eps" id="id85433_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                      </row>
+                    </tbody>
+                  
+</tgroup><caption>Tabel wat die algemene vorms en posisies van grafieke en funksies in die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> opsom</caption>
+</table>
+        </section>
+                <section id="uid47">
+                  <title>Gebied en Terrein</title>
+                  <para id="id85450">Vir <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, is die gebied <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> omdat daar geen waarde is van <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math> waarvoor <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> ongedefinieerd is nie.
+</para>
+                  <para id="id85550">Die terrein van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> hang daarvan af of die waarde vir <m:math overflow="scroll"><m:mi>a</m:mi></m:math> positief of negatief is. Ons sal die twee gevalle afsonderlik oorweeg.</para>
+                  <para id="id85596">As <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> we have:</para>
+                  <equation id="id85612"><m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>≤</m:mo>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>1</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>≤</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mspace width="1.em"/>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi mathvariant="normal"> Vermenigvuldiging </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> met </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal">'n </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> positiewe </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> getal </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> handhaaf </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> die </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> aard </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> van </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> die </m:mi><m:mspace width="2.pt"/>
+                        <m:mi mathvariant="normal"> ongelykheid </m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                      <m:mo>≤</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                      <m:mo>≤</m:mo>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>θ</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>≤</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+                  <para id="id85804">Dit vertel ons dat vir alle waardes van <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> altyd tussen <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is. Daarom as <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, is die terrein van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> dus <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>.
+
+</para>
+                  <para id="id85967">Insgelyks, daar kan getoon word dat as <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, dan is die terrein van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>,</m:mo><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>q</m:mi><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>. Dit word as 'n oefening gelaat.</para>
+        <note id="notfhsst_id2299" type="tip">Die maklikste manier om die terrein te bepaal is om bloot vir die "bokant" en die "onderkant" van die grafiek te soek.</note>
+                </section>
+                <section id="uid48">
+                  <title>Snypunte</title>
+                  <para id="id86090">Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-snypunt, <m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub></m:math>, van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is eenvoudig die waarde van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> by <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo/></m:msup></m:mrow></m:math>.</para>
+                  <equation id="id86195"><m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mi>q</m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+                </section>
+              </section>
+              <section id="uid49">
+                <title>Grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title>
+        <section id="secfhsst_id2385"><title>Grafiek van  <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> :</title>
+        <para id="uid8032">Voltooi die volgende tabel, gebruik jou sakrekenaar om die waardes korrek tot 1 desimale plek te bereken.  Stip dan die waardes met <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> op die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as en <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> op die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as.</para>
+                <table id="id86399" summary=""><tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>0<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>30<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>60<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>120<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>150<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>210<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>240<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>270<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>300<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>330<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                <entry>360<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8"/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c8">
+                  <figure id="id86866">
+                    <media id="id86866_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG10C15_023.png" id="id86866_onlineimage" width="256"><!-- NOTE: attribute width changes image size online (pixels). original width is 256. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_023.eps" id="id86866_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+                <!--empty paragraphs get left behind.-->
+                
+                
+        </section>
+                <para id="id86892">Laat ons terugkyk na ons waardes vir <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.</para>
+                <table id="id86909" summary="table">
+<tgroup cols="7"><tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>30</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>1</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msqrt>
+                        <m:mn>2</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>0</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+                <!--empty paragraphs get left behind.-->
+                <para id="id87173">As jy noukeurig kyk, sal jy oplet dat die cosinus van 'n hoek <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> dieselfde is as die sinus van die hoek (<m:math overflow="scroll"><m:mrow><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>θ</m:mi></m:mrow></m:math>). Neem byvoorbeeld,
+
+
+</para>
+                <equation id="id87206"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo form="prefix">cos</m:mo>
+              <m:msup>
+                <m:mn>60</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mo form="prefix">sin</m:mo>
+              <m:msup>
+                <m:mn>30</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mo form="prefix">sin</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:msup>
+                  <m:mn>90</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:msup>
+                  <m:mn>60</m:mn>
+                  <m:mo>∘</m:mo>
+                </m:msup>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
+        </equation>
+                <para id="id87280">Dit wys ons dat ten einde 'n cosinusgrafiek te skep, al wat ons hoef te doen is om die sinusgrafiek <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math> na links te skuif. die grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> word gewys in  <link target-id="uid50"/>. As die cosinusgrafiek eenvoudig 'n geskuifde sinusgrafiek is, sal dit dieselfde periode en amplitude as die sinuskurwe hê. 
+</para>
+                <figure id="uid50"><media id="uid50_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_024.png" id="uid50_onlineimage" width="290"><!-- NOTE: attribute width changes image size online (pixels). original width is 290. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_024.eps" id="uid50_printimage"/>
+                  </media>
+                  
+                <caption>Grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></caption></figure>
+              </section>
+              <section id="uid51">
+                <title>Funksies in die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+                <para id="id87386">In die vergelyking, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and <m:math overflow="scroll"><m:mi>q</m:mi></m:math> is konstantes en het verskillende invloede op die grafiek van die funksie. Die algemene vorm van die grafieke van hierdie soort funksies word getoon in <link target-id="uid52"/> vir die funksie <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+                <figure id="uid52"><media id="uid52_media" alt="">
+                    <image mime-type="image/png" src="../../media/trigrep1.png" id="uid52_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 202. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/trigrep1.eps" id="uid52_printimage"/>
+                  </media>
+                  
+                <caption>Grafiek van  <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></caption></figure>
+        <section id="secfhsst_id2647"><title>Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> :</title>
+                <list id="id87553" display="block" list-type="enumerated"><item id="uid53">Op dieselfde stel asse, trek die volgende grafieke:
+        <list id="id87568" display="block" list-type="enumerated"><item id="uid54"><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid55"><m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid56"><m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid57"><m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid58"><m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list>
+        Gebruik jou resultate om die invloed van <m:math overflow="scroll"><m:mi>q</m:mi></m:math> af te lei.
+        </item>
+                  <item id="uid59">Op dieselfde stel asse, trek die volgende grafieke:
+        <list id="id87790" display="block" list-type="enumerated"><item id="uid60"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid61"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid62"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid63"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid64"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item></list>
+        Gebruik jou resultate om die invloed van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> af te lei.
+        </item>
+                </list>
+                
+                
+        </section>
+                <para id="id88024">Ons vind dat die waarde van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> die amplitude van die cosinusgrafiek op dieselfde manier beïnvloed as wat dit vir die sinusgrafiek gedoen het.</para>
+                <para id="id88038">Verandering in die waarde van <m:math overflow="scroll"><m:mi>q</m:mi></m:math> sal die die cosinusgrafiek op dieselfde manier skuif as wat dit vir die sinusgrafiek gedoen het.</para>
+                <para id="id88050">Die verskillende eienskappe word opgesom in <link target-id="uid65"/>.</para>
+                <table id="uid65" summary="trig grafieke">
+<tgroup cols="3"><tbody>
+                      <row>
+                        <entry/>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo>&gt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo>&lt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>q</m:mi>
+                              <m:mo>&gt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <figure id="id88184">
+                            <media id="id88184_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_026.png" id="id88184_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_026.eps" id="id88184_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                        <entry>
+                          <figure id="id88196">
+                            <media id="id88196_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_027.png" id="id88196_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_027.eps" id="id88196_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>q</m:mi>
+                              <m:mo>&lt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <figure id="id88234">
+                            <media id="id88234_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_028.png" id="id88234_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_028.eps" id="id88234_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                        <entry>
+                          <figure id="id88246">
+                            <media id="id88246_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_029.png" id="id88246_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_029.eps" id="id88246_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                      </row>
+                    </tbody>
+                  
+</tgroup><caption>Tabel wat die algemene vorms en posisies van grafieke en funksies in die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> opsom</caption>
+</table>
+                <section id="uid66">
+                  <title>Gebied en Terrein</title>
+                  <para id="id88263">Vir <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, is die gebied <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> want daar is geen waarde van <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math> waarvoor <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> ongedefinieërd is nie.
+
+
+</para>
+                  <para id="id88363">Dit is maklik om te sien dat die terrein van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> dieselfde sal wees as die terrein van <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. Dit is omdat die maksimum en minimumwaardes van <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> dieselfde is as die maksimum en minimumwaardes van <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</para>
+                </section>
+                <section id="uid67">
+                  <title>Snypunte</title>
+                  <para id="id88468">Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-afsnit van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> word bereken op dieselfde wyse as vir sinus.</para>
+                  <equation id="id88517"><m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>q</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+                </section>
+              </section>
+              <section id="uid68">
+                <title>Vergelyking van die Grafieke van  <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title>
+                <figure id="uid69"><media id="uid69_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG10C15_030.png" id="uid69_onlineimage" width="290"><!-- NOTE: attribute width changes image size online (pixels). original width is 290. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_030.eps" id="uid69_printimage"/>
+                  </media>
+                  
+                <caption>Die grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> (soliede lyn) en die grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> (stippellyn)</caption></figure>
+                <para id="id88718">Let daarop dat die twee grafieke baie eenders lyk. Beide ossilleer op en af rondom die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as soos wat jy beweeg langs die as. Die afstande tussen die pieke van die twee grafieke is dieselfde en is konstant vir elke grafiek. Die hoogte van elke piek en die diepte van elke trog is dieselfde. </para>
+                <para id="id88733">Die enigste verskil is dat die <m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math>grafiek skuif 'n bietjie na regs ten opsigte van die <m:math overflow="scroll"><m:mo form="prefix">cos</m:mo></m:math> grafiek, met 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>. Dit beteken dat as ons die hele <m:math overflow="scroll"><m:mo form="prefix">cos</m:mo></m:math>grafiek 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> na regs skuif, sal dit perfek oorvleul met die <m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math> grafiek. Jy kan ook die <m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math> grafiek 90 <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> na links skuif en dan sal dit perfek oorvleul met die  <m:math overflow="scroll"><m:mo form="prefix">cos</m:mo></m:math> grafiek. Dit beteken dat:</para>
+                <equation id="id88844"><m:math overflow="scroll" mode="display">
+                    <m:mtable displaystyle="true">
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mrow>
+                            <m:mo form="prefix">sin</m:mo>
+                            <m:mi>θ</m:mi>
+                          </m:mrow>
+                        </m:mtd>
+                        <m:mtd>
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mrow>
+                            <m:mo form="prefix">cos</m:mo>
+                            <m:mo>(</m:mo>
+                            <m:mi>θ</m:mi>
+                            <m:mo>-</m:mo>
+                            <m:mn>90</m:mn>
+                            <m:mo>)</m:mo>
+                            <m:mspace width="1.em"/>
+                            <m:mrow>
+                              <m:mo>(</m:mo>
+                              <m:mi> skuif </m:mi><m:mspace width="2.pt"/>
+                              <m:mi> die </m:mi>
+                            </m:mrow>
+                            <m:mo form="prefix">cos</m:mo>
+                            <m:mrow>
+                              <m:mi> grafiek </m:mi><m:mspace width="2.pt"/>
+                              <m:mi> na </m:mi><m:mspace width="2.pt"/>
+                              <m:mi> die </m:mi><m:mspace width="2.pt"/>
+                              <m:mi> regterkant </m:mi>
+                              <m:mo>)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd/>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mi mathvariant="bold"/>
+                            <m:mi> en </m:mi>
+                          </m:mrow>
+                        </m:mtd>
+                        <m:mtd/>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mrow>
+                            <m:mo form="prefix">cos</m:mo>
+                            <m:mi>θ</m:mi>
+                          </m:mrow>
+                        </m:mtd>
+                        <m:mtd>
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mrow>
+                            <m:mo form="prefix">sin</m:mo>
+                            <m:mo>(</m:mo>
+                            <m:mi>θ</m:mi>
+                            <m:mo>+</m:mo>
+                            <m:mn>90</m:mn>
+                            <m:mo>)</m:mo>
+                            <m:mspace width="1.em"/>
+                            <m:mrow>
+                              <m:mo>(</m:mo>
+                              <m:mi> skuif </m:mi><m:mspace width="2.pt"/>
+                              <m:mi> die </m:mi>
+                            </m:mrow>
+                            <m:mo form="prefix">sin</m:mo>
+                            <m:mrow>
+                              <m:mi> grafiek </m:mi><m:mspace width="2.pt"/>
+                              <m:mi> na </m:mi><m:mspace width="2.pt"/>
+                              <m:mi> die </m:mi><m:mspace width="2.pt"/>
+                              <m:mi> linkerkant </m:mi>
+                              <m:mo>)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                  </m:math>
+                </equation>
+              </section>
+              <section id="uid70">
+                <title>Grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></title>
+        <section id="secfhsst_id2937"><title>Grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> </title> <para id="uid982734">Voltooi die volgende tabel, gebruik jou sakrekenaar en bereken die waardes korrek tot 1 desimale plek. Stip dan die waardes met <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> op die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-as en <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> op die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-as.</para>
+                <table id="id89083" summary=""><tgroup cols="8">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <colspec colnum="3" colname="c3"/>
+                    <colspec colnum="4" colname="c4"/>
+                    <colspec colnum="5" colname="c5"/>
+                    <colspec colnum="6" colname="c6"/>
+                    <colspec colnum="7" colname="c7"/>
+                    <colspec colnum="8" colname="c8"/>
+                    <tbody>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mi>θ</m:mi>
+                          </m:math>
+                        </entry>
+                        <entry>0<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>30<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>60<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>120<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>150<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mo form="prefix">tan</m:mo>
+                              <m:mi>θ</m:mi>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mi>θ</m:mi>
+                          </m:math>
+                        </entry>
+                        <entry>180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>210<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>240<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>270<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>300<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>330<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                        <entry>360<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math></entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mo form="prefix">tan</m:mo>
+                              <m:mi>θ</m:mi>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                      </row>
+                      <row>
+                        <entry namest="c1" nameend="c8"/>
+                      </row>
+                      <row>
+                        <entry namest="c1" nameend="c8">
+                          <figure id="id89550">
+                            <media id="id89550_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_031.png" id="id89550_onlineimage" width="256"><!-- NOTE: attribute width changes image size online (pixels). original width is 256. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_031.eps" id="id89550_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+                <!--empty paragraphs get left behind.-->
+                
+                
+        </section>
+                <para id="id89576">Kom ons kyk weer na ons waardes vir <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.</para>
+                <table id="id89593" summary="Table">
+<tgroup cols="7"><tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>θ</m:mi>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>30</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>45</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>0</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+                <entry>1</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>∞</m:mi>
+                  </m:math>
+                </entry>
+                <entry>0</entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+                <!--empty paragraphs get left behind.-->
+                <para id="id89839">Nou dat ons die grafieke het vir <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, is daar 'n maklike manier om die tan-grafiek te visualiseer. Kom ons kyk weer na ons definisies van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> vir 'n reghoekige driehoek.</para>
+                <equation id="id89902"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mfrac>
+                  <m:mi> teenoorstaande </m:mi>
+                  <m:mi> skuinssy </m:mi>
+                </m:mfrac>
+                <m:mfrac>
+                  <m:mi> aangrensend </m:mi>
+                  <m:mi> skuinssy </m:mi>
+                </m:mfrac>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi> teenoorstaande </m:mi>
+                <m:mi> aangrensend </m:mi>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mo form="prefix">tan</m:mo>
+              <m:mi>θ</m:mi>
+            </m:mrow>
+          </m:math>
+        </equation>
+                <para id="id89965">Dit is die eerste van 'n stel belangrike verbande wat ons <emphasis effect="italics">trigonometriese identiteite</emphasis> noem. 'n Identiteit is waar vir enige waarde van die onbekende(s) wat daarin ingestel word. In hierdie geval het ons aangetoon dat</para>
+                <equation id="id89978"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo form="prefix">tan</m:mo>
+              <m:mi>θ</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+                <para id="id90014">vir enige waarde van <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>.</para>
+                <para id="id90030">Dus weet ons dat vir die waardes van <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> waarvoor <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, moet ook <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Soortgelyk, as <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> is die waarde van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> ongedefiniëerd omdat ons nie mag deel met 0 nie. Die grafiek word getoon in <link target-id="uid71"/>. Die vertikale stippellyne is die waardes van <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> waarvoor <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> nie gedefiniëerd is nie.</para>
+                <figure id="uid71"><media id="uid71_media" alt="">
+                    <image mime-type="image/png" src="../../media/trgirep2.png" id="uid71_onlineimage" width="253"><!-- NOTE: attribute width changes image size online (pixels). original width is 253. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/trgirep2.eps" id="uid71_printimage"/>
+                  </media>
+                  
+                <caption>Die grafiek van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></caption></figure>
+              </section>
+              <section id="uid72">
+                <title>Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+                <para id="id90209">Die figuur hieronder is 'n voorbeeld van 'n funksie van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</para>
+                <figure id="uid73"><media id="uid73_media" alt="">
+                    <image mime-type="image/png" src="../../media/trigrep3.png" id="uid73_onlineimage" width="259"><!-- NOTE: attribute width changes image size online (pixels). original width is 259. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/trigrep3.eps" id="uid73_printimage"/>
+                  </media>
+                  
+                <caption>Die grafiek van <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></caption></figure>
+        <section id="secfhsst_id3205"><title>Funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> :</title>
+                <list id="id90310" display="block" list-type="enumerated"><item id="uid74">Op dieselfde assestelsel, trek die volgende grafieke:
+        <list id="id90326" display="block" list-type="enumerated"><item id="uid75"><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid76"><m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid77"><m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid78"><m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid79"><m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list>
+        Gebruik jou resultate om die invloed van <m:math overflow="scroll"><m:mi>q</m:mi></m:math> af te lei.
+        </item>
+                  <item id="uid80">Op dieselfde assestelsel, trek die volgende grafieke:
+        <list id="id90547" display="block" list-type="enumerated"><item id="uid81"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid82"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid83"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid84"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid85"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item></list>
+        Gebruik jou resultate om die invloed van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> af te lei.
+        </item>
+                </list>
+                
+                
+        </section>
+                <para id="id90781">Ons vind dat die waarde van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> die steilheid van die bene van die grafiek beinvloed. Hoe groter die absolute waarde van <emphasis effect="italics">a</emphasis>, hoe vinniger nader die bene die waardes van hulle asimptote, die waardes waar hulle nie gedefinieërd is nie. Negatiwe <m:math overflow="scroll"><m:mi mathvariant="italic">a</m:mi></m:math> waardes keer die rigting waarin die bene van die grafiek loop, om.
+        Ons vind verder dat die waarde van <m:math overflow="scroll"><m:mi>q</m:mi></m:math> beïnvloed die vertikale verskuiwing net soos by <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math>.
+        Hierdie verskillende eienskappe word opgesom in <link target-id="uid86"/>.</para>
+                <table id="uid86" summary="trig grafieke">
+<tgroup cols="3"><tbody>
+                      <row>
+                        <entry/>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo>&gt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo>&lt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>q</m:mi>
+                              <m:mo>&gt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <figure id="id90981">
+                            <media id="id90981_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_034.png" id="id90981_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_034.eps" id="id90981_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                        <entry>
+                          <figure id="id90993">
+                            <media id="id90993_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_035.png" id="id90993_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_035.eps" id="id90993_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                      </row>
+                      <row>
+                        <entry>
+                          <m:math overflow="scroll">
+                            <m:mrow>
+                              <m:mi>q</m:mi>
+                              <m:mo>&lt;</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:math>
+                        </entry>
+                        <entry>
+                          <figure id="id91030">
+                            <media id="id91030_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_036.png" id="id91030_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_036.eps" id="id91030_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                        <entry>
+                          <figure id="id91042">
+                            <media id="id91042_media" alt="">
+                              <image mime-type="image/png" src="../../media/MG10C15_037.png" id="id91042_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_037.eps" id="id91042_printimage"/>
+                            </media>
+                          </figure>
+                        </entry>
+                      </row>
+                    </tbody>
+                  
+
+
+</tgroup><caption>Tabel van die algemene vorms en posisies van grafieke en funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></caption>
+</table>
+                <section id="uid87">
+                  <title>Domein en Omvang</title>
+                  <para id="id91059">Die domein van<m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is al die waardes van <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> sodat <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> nie gelyk is aan 0 nie. Ons het reeds gesien dat as <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:mfrac></m:mrow></m:math> ongedefinieerd is, want ons het deling deur nul. Ons weet dat <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> vir alle<m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>+</m:mo><m:msup><m:mn>180</m:mn><m:mo>θ</m:mo></m:msup><m:mi>n</m:mi></m:mrow></m:math>, waar <m:math overflow="scroll"><m:mi>n</m:mi></m:math> 'n heelgetal is. Dus die gebied van<m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is alle waardes van <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>, behalwe die waardes <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>+</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mi>n</m:mi></m:mrow></m:math>.</para>
+                  <para id="id91313">Die omvang van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>θ</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+                </section>
+                <section id="uid88">
+                  <title>Snypunte</title>
+                  <para id="id91406">Die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-snypunt, <m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub></m:math>, of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is slegs die waarde van <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> by <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.</para>
+                  <equation id="id91511"><m:math overflow="scroll" mode="display">
+                      <m:mtable displaystyle="true">
+                        <m:mtr>
+                          <m:mtd columnalign="right">
+                            <m:msub>
+                              <m:mi>y</m:mi>
+                              <m:mrow>
+                                <m:mi>i</m:mi>
+                                <m:mi>n</m:mi>
+                                <m:mi>t</m:mi>
+                              </m:mrow>
+                            </m:msub>
+                          </m:mtd>
+                          <m:mtd>
+                            <m:mo>=</m:mo>
+                          </m:mtd>
+                          <m:mtd columnalign="left">
+                            <m:mrow>
+                              <m:mi>f</m:mi>
+                              <m:mo>(</m:mo>
+                              <m:msup>
+                                <m:mn>0</m:mn>
+                                <m:mo>∘</m:mo>
+                              </m:msup>
+                              <m:mo>)</m:mo>
+                            </m:mrow>
+                          </m:mtd>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mtd/>
+                          <m:mtd>
+                            <m:mo>=</m:mo>
+                          </m:mtd>
+                          <m:mtd columnalign="left">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo form="prefix">tan</m:mo>
+                              <m:mo>(</m:mo>
+                              <m:msup>
+                                <m:mn>0</m:mn>
+                                <m:mo>∘</m:mo>
+                              </m:msup>
+                              <m:mo>)</m:mo>
+                              <m:mo>+</m:mo>
+                              <m:mi>q</m:mi>
+                            </m:mrow>
+                          </m:mtd>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mtd/>
+                          <m:mtd>
+                            <m:mo>=</m:mo>
+                          </m:mtd>
+                          <m:mtd columnalign="left">
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                              <m:mo>(</m:mo>
+                              <m:mn>0</m:mn>
+                              <m:mo>)</m:mo>
+                              <m:mo>+</m:mo>
+                              <m:mi>q</m:mi>
+                            </m:mrow>
+                          </m:mtd>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mtd/>
+                          <m:mtd>
+                            <m:mo>=</m:mo>
+                          </m:mtd>
+                          <m:mtd columnalign="left">
+                            <m:mi>q</m:mi>
+                          </m:mtd>
+                        </m:mtr>
+                      </m:mtable>
+                    </m:math>
+                  </equation>
+                </section>
+                <section id="uid89">
+                  <title>Asimptote</title>
+                  <para id="id91637">Soos <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> geleidelik naderkom aan <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>, sal <m:math overflow="scroll"> <m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> nader kom aan oneindig. Maar omdat <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> ongedefinieërd is by <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>, kan <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> slegs al nader kom aan <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>, maar nooit daarby uitkom nie. So, die <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> grafiek kom nader en nader aan die lyn <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, sonder om dit ooit te ontmoet. Dus die lyn <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> is 'n asimptoot van <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math>. <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi></m:mrow></m:math> het ook asimptote by <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>+</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mi>n</m:mi></m:mrow></m:math>, waar <m:math overflow="scroll"><m:mi>n</m:mi></m:math> 'n heelgetal is.
+
+
+</para>
+        <section id="secfhsst_id3393"><title>Grafieke van Trigonometriese Funksies</title>
+                  <list id="id91858" display="block" list-type="enumerated"><item id="uid90">Deur you kennis van die invloed van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>q</m:mi></m:math> te gebruik, skets elk van die volgende grafieke, sonder om 'n tabel van waardes te gebruik, vir <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math><list id="id91924" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid91"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid92"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math></item><item id="uid93"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid94"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math></item><item id="uid95"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid96"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/la8">Kliek hier vir die oplossing. </link></item>
+                    <item id="uid97">Gee die vergelykings van elk van die volgende grafieke:
+        
+        <figure id="id92152"><media id="id92152_media" alt=""><image mime-type="image/png" src="../../media/trigrep4.png" id="id92152_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 96. --></image><image mime-type="application/postscript" for="pdf" src="../../media/trigrep4.eps" id="id92152_printimage"/></media></figure><figure id="id92162"><media id="id92162_media" alt=""><image mime-type="image/png" src="../../media/trigrep5.png" id="id92162_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 202. --></image><image mime-type="application/postscript" for="pdf" src="../../media/trigrep5.eps" id="id92162_printimage"/></media></figure><figure id="id92174"><media id="id92174_media" alt=""><image mime-type="image/png" src="../../media/trigrep6.png" id="id92174_onlineimage" width="202"><!-- NOTE: attribute width changes image size online (pixels). original width is 83. --></image><image mime-type="application/postscript" for="pdf" src="../../media/trigrep6.eps" id="id92174_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/la0">Kliek hier vir die oplossing.</link></item>
+                  </list>
+                  
+        </section>
+                </section>
+              </section><para id="eip-749">Die volgende aanbieding som op wat jy tot dusver in die hoofstuk geleer het. Ignoreer die laaste skyfie.
+        <figure id="slidesharefigure" class="slideshare">
+                <media id="slidesharemedia" alt="Powerpoint presentation on electric circuits">
+                <flash id="slideshareflash" height="355" width="425" mime-type="application/x-shockwave- flash" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=p0008-wynberggirlshigh-louisekeegan-maths-grade10-trigonometry-100930084905-phpapp01&amp;stripped_title=wynberg-girls-highlouise-keeganmathsgrade10trigonometry">
+                <param name="allowScriptAccess" value="always"/>
+                <param name="allowFullScreen" value="true"/>
+                </flash>
+                </media>
+                </figure></para>
+            </section>
+            <section id="cid8">
+              <title>Einde van Hoofstuk Oefeninge</title>
+              <list id="id92202" display="block" list-type="enumerated"><item id="uid98">Bereken die onbekende lengtes
+        
+        <figure id="id92222"><media id="id92222_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_041.png" id="id92222_onlineimage" width="211"><!-- NOTE: attribute width changes image size online (pixels). original width is 211. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_041.eps" id="id92222_printimage" print-width="1"><!--NOTE: attribute width changes image size in printed PDF (if specified in .tex file)--></image></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/la9">Kliek hier vir die oplossing.</link></item>
+                <item id="uid99">In die driehoek <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> cm, <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>22</m:mn></m:mrow></m:math> cm en <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mover accent="true"><m:mi>R</m:mi><m:mo>^</m:mo></m:mover><m:mi>Q</m:mi><m:mo>=</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Die loodregte lyn van <m:math overflow="scroll"><m:mi>P</m:mi></m:math> to <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> sny <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> by <m:math overflow="scroll"><m:mi>X</m:mi></m:math>. Bereken
+        <list id="id92364" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid100">die lengte <m:math overflow="scroll"><m:mrow><m:mi>X</m:mi><m:mi>R</m:mi></m:mrow></m:math>,
+        </item><item id="uid101">die lengte <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>X</m:mi></m:mrow></m:math>, en
+        </item><item id="uid102">die hoek <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mover accent="true"><m:mi>P</m:mi><m:mo>^</m:mo></m:mover><m:mi>X</m:mi></m:mrow></m:math></item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laX">Kliek hier vir die oplossing.</link></item>
+                <item id="uid103">'n Leer van 15 m lank rus teen 'n muur, die basis van die leer is 5 m van die muur.  Vind die hoek tussen die muur en die leer.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lal">Kliek hier vir die oplossing.</link>
+        </item>
+                <item id="uid104">'n Leer van 25 m rus teen 'n muur, die leer maak 'n hoek <m:math overflow="scroll"><m:msup><m:mn>37</m:mn><m:mo>∘</m:mo></m:msup></m:math> met die muur. Vind die afstand tussen die muur en die basis van die leer.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/la5">Kliek hier vir die oplossing.</link>
+        </item>
+                <item id="uid105">In die volgende driehoek vind die hoek <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mi>C</m:mi></m:mrow></m:math><figure id="id92525"><media id="id92525_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_042.png" id="id92525_onlineimage" width="156"><!-- NOTE: attribute width changes image size online (pixels). original width is 156. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_042.eps" id="id92525_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/laN">Kliek hier vir die oplossing.</link></item>
+                <item id="uid106">In die volgende driehoek vind die lengte van sy <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math><figure id="id92559"><media id="id92559_media" alt=""><image mime-type="image/png" src="../../media/MG10C15_043.png" id="id92559_onlineimage" width="156"><!-- NOTE: attribute width changes image size online (pixels). original width is 156. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C15_043.eps" id="id92559_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/laR">Kliek hier vir die oplossing.</link></item>
+                <item id="uid107"><m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>(</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mo>(</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math>. Vind die hoek tussen die lyn deur A en B en die x-as.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lan">Kliek hier vir die oplossing.</link>
+        </item>
+                <item id="uid108"><m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>13</m:mn><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>D</m:mi><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>12</m:mn><m:mo>;</m:mo><m:mn>14</m:mn><m:mo>)</m:mo></m:mrow></m:math>. Vind die hoek tussen die lyn deur C en D en die y-as.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laQ">Kliek hier vir die oplossing.</link>
+        </item>
+                <item id="uid110">'n <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math> Leer word geplaas <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math> van die muur. Wat is die hoek wat die leer met die muur maak?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laU">Kliek hier vir die oplossing.</link>
+        </item>
+        <item id="uid981203">Gegewe die punte: E(5;0), F(6;2) and G(8;-2), vind 'n hoek <m:math overflow="scroll"><m:mrow><m:mi>F</m:mi><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover><m:mi>G</m:mi></m:mrow></m:math>.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lap">Kliek hier vir die oplossing.</link></item>
+                <item id="uid111">'n Gelykbenige driehoek het sye <m:math overflow="scroll"><m:mrow><m:mn>9</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi><m:mo>,</m:mo><m:mspace width="0.166667em"/><m:mn>9</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi></m:mrow></m:math>. Vind die grootste en kleinste hoeke van die driehoek.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laV">Kliek hier vir die oplossing.</link>
+        </item>
+                <item id="uid112">'n Reghoekige driehoek het 'n skuissy <m:math overflow="scroll"><m:mrow><m:mn>13</m:mn><m:mspace width="0.166667em"/><m:mi> mm </m:mi></m:mrow></m:math>. Vind die lengte van die ander twee sye as een van die hoeke van die driehoek <m:math overflow="scroll"><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup></m:math>is.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/laP">Kliek hier vir die oplossing.</link>
+        </item>
+                <item id="uid113">Een van die hoeke van 'n ruit (<emphasis effect="bold">ruit</emphasis> - 'n Viersydige veelhoek, waarvan elkeen van die sye van gelyke lengte is) met 'n omtrek <m:math overflow="scroll"><m:mrow><m:mn>20</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+        <list id="id92966" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid114">Vind die sye van die ruit.
+        </item><item id="uid115">Vind die lengte van beide diagonale.
+        </item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/laE">Kliek hier vir die oplossing.</link></item>
+                <item id="uid116">Kaptein Hook seil na 'n lighuis met 'n hoogte van <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math>.
+        <list id="id93025" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid117">As die bopunt van die lighuis <m:math overflow="scroll"><m:mrow><m:mn>30</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math> weg is, wat is die hoogtehoek van die boot tot die naaste heelgetal?
+        </item><item id="uid118">As die boot nog <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mspace width="0.166667em"/><m:mi mathvariant="normal">m</m:mi></m:mrow></m:math> nader aan die lighuis beweeg, wat is die nuwe hoogtehoek van die boot tot die naaste heelgetal?
+        </item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lam">Kliek hier vir die oplossing.</link></item>
+                <item id="uid119">(Kopkrapper) 'n Driehoek met hoeke <m:math overflow="scroll"><m:mrow><m:msup><m:mn>40</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:mspace width="0.166667em"/><m:msup><m:mn>40</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> en <m:math overflow="scroll"><m:msup><m:mn>100</m:mn><m:mo>∘</m:mo></m:msup></m:math> het 'n omtrek van <m:math overflow="scroll"><m:mrow><m:mn>20</m:mn><m:mspace width="0.166667em"/><m:mi> cm </m:mi></m:mrow></m:math>. Vind die lengte van elke sy van die driehoek.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lay">Kliek hier vir die oplossing.</link>
+        </item>
+              </list>
+            </section>
+          </content>
+</document>

@@ -1,0 +1,90 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Opsomming en oefininge</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39621</md:content-id>
+  <md:title>Opsomming en oefininge</md:title>
+  <md:abstract/>
+  <md:uuid>e456bda8-8644-4623-ba35-a9f3998c2674</md:uuid>
+</metadata>
+
+<content>
+<section id="eip-380"><title>Opsomming</title><list id="eip-966"><item>Figure kan voorgestel word op die Cartesiese vlak</item>
+<item>Die formule om die afstand tussen twee punte te vind: <equation id="eid9734"><m:math overflow="scroll"><m:mi>Afstand</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:math></equation></item>
+<item>Die formule om die gradiënt van 'n lyn te vind: <equation id="edi6342"><m:math overflow="scroll"><m:mrow><m:mi>Gradiënt</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:mrow></m:math></equation></item>
+<item>Die formule om die middelpunt van die lyn tussen twee punte te vind: <equation id="eid6743"><m:math>
+                  <m:mrow>
+                    <m:mi>S</m:mi>
+                    <m:mfenced separators="" open="(" close=")">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>+</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mo>;</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>+</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                  </m:mrow>
+          </m:math></equation>
+</item>
+<item>As twee lyne parallel is, sal hulle dieselfde gradiënt hê:  <m:math><m:msub><m:mi>m</m:mi><m:mi>AB</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>CD</m:mi></m:msub></m:math>. As twee lyne loodreg is op mekaar, dan het ons: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mi>AB</m:mi></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:msub><m:mi>m</m:mi><m:mi>CD</m:mi></m:msub></m:mrow></m:math></item></list></section><section id="secfhsst_id2370"><title>Koördinaatmeetkunde </title>
+        <list id="id69671" display="block" list-type="enumerated"><item id="uid46">
+In die gegewe diagram is die hoekpunte van 'n veelhoek F(2;0), G(1;5), H(3;7) en I(7;2).
+<figure id="id69688"><media id="id69688_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_021-10a5.png" id="id69688_onlineimage" width="251"><!-- NOTE: attribute width changes image size online (pixels). original width is 251. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_021-68c7.eps" id="id69688_printimage"/></media></figure><list id="id69695" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid47">
+Wat is die lengtes van die sye van FGHI?
+</item><item id="uid48"> Is die teenoorstaande sye van FGHI parallel?
+</item><item id="uid49"> Halveer die hoeklyne van FGHI mekaar?
+</item><item id="uid50"> Watter tipe veelhoek is FGHI? Gee redes vir jou antwoord.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/liZ">Kliek hier vir die oplossing</link></item>
+          <item id="uid51">
+'n Veelhoek ABCD met hoekpunte A(3;2), B(1;7), C(4;5) en D(1;3) word gegee.
+<list id="id69770" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid52"> Teken die veelhoek.
+</item><item id="uid53"> Bepaal die sylengtes van die veelhoek.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/liB">Kliek hier vir die oplossing</link></item>
+          <item id="uid54">ABCD is 'n veelhoek met hoekpunte A(0;3), B(4;3), C(5;-1) en D(-1;-1).
+<list id="id69816" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid55">Wys dat:
+<list id="id69834" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid56">AD = BC
+</item><item id="uid57">AB <m:math overflow="scroll"><m:mo>∥</m:mo></m:math> DC
+</item></list></item><item id="uid58">Benoem ABCD.
+</item><item id="uid59">Wys dat die hoeklyne AC en BD mekaar nie halveer nie.
+</item></list><link class="fullmarks" window="new" url="http://www.fhsst.org/lac">Kliek hier vir die oplossing</link></item>
+          <item id="uid60">P, Q, R en S is die punte (-2;0), (2;3), (5;3) en (-3;-3) onderskeidelik.
+<list id="id69919" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid61">Wys dat:
+<list id="id69937" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid62">SR = 2PQ
+</item><item id="uid63">SR <m:math overflow="scroll"><m:mo>∥</m:mo></m:math> PQ
+</item></list></item><item id="uid64">Bereken:
+<list id="id69993" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid65">PS
+</item><item id="uid66">QR
+</item></list></item><item id="uid67">Watter tipe veelhoek is PQRS? Gee redes vir jou antwoord.
+</item></list></item>
+          <item id="uid68">EFGH is 'n parallelogram met hoekpunte E(-1;2), F(-2;-1) en G(2;0). Vind die koördinate van H deur gebruik te maak van die feit dat die hoeklyne van 'n parallelogram mekaar halveer.<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/lax">Kliek hier vir die oplossing</link>
+</item>
+        </list>
+        
+</section>
+      
+</content>
+
+</document>

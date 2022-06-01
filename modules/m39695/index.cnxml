@@ -1,0 +1,629 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Bewyse en vermoedens</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39695</md:content-id>
+  <md:title>Bewyse en vermoedens</md:title>
+  <md:abstract/>
+  <md:uuid>5556e910-eac0-40b0-b36a-2f2b61895029</md:uuid>
+</metadata>
+
+<content>
+<section id="secfhsst_id933"><title>Bewyse en Vermoedens in Meetkunde</title><para id="id0723">Jy het gesien hoe om meetkunde en die eienskappe van poligone te gebruik om die onbekende lengtes van sye en die groottes van hoeke van verskeie vierhoeke en poligone te vind. Ons gaan nou hierdie werk uitbrei om sommige van die eienskappe te bewys en probleme op te los. ŉ Vermoede is ŉ wiskundige se manier om te se: "Ek glo dit is waar, maar ek het geen bewys nie". Die volgende uitgewerkte voorbeelde sal help om dit duideliker te maak.
+
+</para>
+<exercise id="probfhsst_id072"><title>Bewyse - 1</title><problem id="id97832"><para id="id943">Gegee vierhoek ABCD, met <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mo>∥</m:mo><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mo>∥</m:mo><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>, bewys dat <m:math><m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>D</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow>
+                  </m:mrow></m:math> en <m:math>
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow></m:mrow>
+              </m:math>.</para>
+</problem>
+<solution id="solfhsst_id083"><list id="id08324" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Trek ŉ diagram</label>Ons maak die volgende skets en trek die diagonale.
+<figure id="uid310">
+        <media id="id897" alt="">
+          <image mime-type="image/png" src="../../media/geomproof1.png" id="uid310_onlineimage" width="260"><!-- NOTE: attribute width changes image size online (pixels). original width is 260. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/geomproof1.eps" id="uid310_printimage"/>
+        </media>
+      </figure>
+</item>
+<item><label>Skryf neer wat is gegee en wat word gevra</label>Gegee: <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi><m:mo>∥</m:mo><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>D</m:mi><m:mo>∥</m:mo><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>. Ons moet bewys <m:math><m:mi>A</m:mi><m:mo>=</m:mo><m:mi>C</m:mi></m:math> en <m:math><m:mi>B</m:mi><m:mo>=</m:mo><m:mi>D</m:mi></m:math>. In formele wiskundetaal sê ons dat ons gevra word om te bewys (RTP='requested to prove'): <m:math><m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>D</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow>
+                  </m:mrow></m:math> en <m:math>
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow></m:mrow>
+              </m:math>. </item>
+<item><label>Los die probleem op</label><equation id="id3468"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>D</m:mi></m:mrow></m:mrow></m:mtd><m:mtd><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>verwisselende binnehoeke</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow></m:mrow></m:mtd><m:mtd><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>verwisselende binnehoeke</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>D</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow>
+                  </m:mrow>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+Net so vind ons dat: 
+<equation id="id97"><m:math>
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                  <m:mo>=</m:mo>
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow></m:mrow>
+              </m:math>
+</equation></item>
+</list>
+</solution>
+</exercise>
+
+<exercise id="probfhsst_id073"><label>Proofs - 2</label>
+<problem id="id973452"><para id="id95433">In parallelogram ABCD, is die halveerlyne van die hoeke (AW, BX, CY en DZ) gekonstrueer:
+<figure id="uid4140">
+        <media id="uid4140_media" alt="">
+          <image mime-type="image/png" src="../../media/geomproof2.png" id="uid410_onlineimage" width="260"><!-- NOTE: attribute width changes image size online (pixels). original width is 260. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/geomproof2.eps" id="uid4140_printimage"/>
+        </media>
+      </figure>
+Dit word ook gegee dat <m:math><m:mi>AB</m:mi><m:mo>=</m:mo><m:mi>CD</m:mi></m:math>, <m:math><m:mi>AD</m:mi><m:mo>=</m:mo><m:mi>BC</m:mi></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>AB</m:mi><m:mo>∥</m:mo><m:mi>CD</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>AD</m:mi><m:mo>∥</m:mo><m:mi>BC</m:mi></m:mrow></m:math>,  <m:math><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mo>=</m:mo> <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover></m:math>, en <m:math><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mo>=</m:mo> <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover></m:math>. 
+Bewys dat MNOP parallelogram is.</para>
+</problem>
+<solution id="solfhsst_id023"><list id="id085424" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Skryf neer wat gegee is en wat jy gevra word om te bewys</label>Gegee: <m:math><m:mi>AB</m:mi><m:mo>=</m:mo><m:mi>CD</m:mi></m:math>, <m:math><m:mi>AD</m:mi><m:mo>=</m:mo><m:mi>BC</m:mi></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>AB</m:mi><m:mo>∥</m:mo><m:mi>CD</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>AD</m:mi><m:mo>∥</m:mo><m:mi>BC</m:mi></m:mrow></m:math>,  <m:math><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mo>=</m:mo> <m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover></m:math>, and <m:math><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mo>=</m:mo> <m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover></m:math>. Bewys MNOP is ŉ parallelogram.</item>
+<item><label>Los die probleem op</label>
+
+
+
+
+<equation id="id368"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>In</m:mi><m:mspace width="2pt"/> 
+                  <m:mi>▵</m:mi><m:mspace width="2pt"/><m:mi>ADW </m:mi><m:mspace width="2pt"/><m:mi>and</m:mi>
+                  <m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>CBY</m:mi><m:mspace width="2pt"/></m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>W</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Y</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>gegee</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>gegee</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>AD</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>BC</m:mi><m:mspace width="2pt"/><m:mi>(gegee)</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>ADW</m:mi>
+</m:mtd>
+<m:mtd><m:mi>=</m:mi>
+</m:mtd>
+<m:mtd columnalign="left"><m:mi>▵</m:mi>
+<m:mi>CBY</m:mi><m:mspace width="2pt"/><m:mi>(HHS)</m:mi></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>DW</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>BY</m:mi></m:mtd></m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<equation id="id378"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>In</m:mi><m:mspace width="2pt"/> 
+                  <m:mi>▵</m:mi><m:mspace width="2pt"/><m:mi>ABX </m:mi><m:mspace width="2pt"/><m:mi>and</m:mi>
+                  <m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>CDZ</m:mi><m:mspace width="2pt"/></m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Z</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>X</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>gegee</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>Z</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>X</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>A</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>gegee</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>DC</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>AB</m:mi><m:mspace width="2pt"/><m:mi>(gegee)</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>ABX</m:mi>
+</m:mtd>
+<m:mtd><m:mi>≡</m:mi>
+</m:mtd>
+<m:mtd columnalign="left"><m:mi>▵</m:mi>
+<m:mi>CDZ</m:mi><m:mspace width="2pt"/><m:mi>(HHS)</m:mi></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>AX</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>CZ</m:mi></m:mtd></m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+
+<equation id="id38868"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>In</m:mi><m:mspace width="2pt"/> 
+                  <m:mi>▵</m:mi><m:mspace width="2pt"/><m:mi>XAM </m:mi><m:mspace width="2pt"/><m:mi>and</m:mi>
+                  <m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>ZCO</m:mi><m:mspace width="2pt"/></m:mrow>
+                </m:mtd>
+              </m:mtr>              
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>X</m:mi><m:mover accent="true">
+                    <m:mi>A</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>M</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>Z</m:mi><m:mover accent="true">
+                    <m:mi>C</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>O</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>gegee</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>X</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>M</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>C</m:mi><m:mover accent="true">
+                    <m:mi>Z</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>O</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>reeds bewys</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>AX</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>CZ</m:mi><m:mspace width="2pt"/><m:mi>(reeds bewys)</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>XAM</m:mi>
+</m:mtd>
+<m:mtd><m:mi>≡</m:mi>
+</m:mtd>
+<m:mtd columnalign="left"><m:mi>▵</m:mi>
+<m:mi>COZ</m:mi><m:mspace width="2pt"/><m:mi>(HHS)</m:mi></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/> <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>O</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>C</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>M</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>X</m:mi></m:mrow></m:mtd></m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+
+<equation id="eip-914"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"> <m:mrow><m:mi>A</m:mi><m:mover accent="true">
+                    <m:mi>M</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>X</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>P</m:mi><m:mover accent="true">
+                    <m:mi>M</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>N</m:mi><m:mspace width="2pt"/><m:mi>(regoorstaande hoeke)</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"> <m:mrow><m:mi>C</m:mi><m:mover accent="true">
+                    <m:mi>O</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Z</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>N</m:mi><m:mover accent="true">
+                    <m:mi>O</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>P</m:mi><m:mspace width="2pt"/><m:mi>(regoorstaande hoeke)</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right">
+<m:mo>∴</m:mo><m:mspace width="2pt"/> <m:mrow><m:mi>P</m:mi><m:mover accent="true">
+                    <m:mi>M</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>N</m:mi></m:mrow></m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+               </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow><m:mi>N</m:mi><m:mover accent="true">
+                    <m:mi>O</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>P</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><equation id="id3838"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>In</m:mi><m:mspace width="2pt"/> 
+                  <m:mi>▵</m:mi><m:mspace width="2pt"/><m:mi>BYN </m:mi><m:mspace width="2pt"/><m:mi>and</m:mi>
+                  <m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>DWP</m:mi><m:mspace width="2pt"/></m:mrow>
+                </m:mtd>
+              </m:mtr>  
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>Y</m:mi><m:mover accent="true">
+                    <m:mi>B</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>N</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>W</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>P</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>gegee</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>Y</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>N</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mrow><m:mi>W</m:mi><m:mover accent="true">
+                    <m:mi>D</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>P</m:mi></m:mrow>
+                    <m:mrow><m:mspace width="2pt"/>
+                      <m:mo>(</m:mo>
+                      <m:mi>reeds bewys</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+                  <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>DW</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>BY</m:mi><m:mspace width="2pt"/><m:mi>(reeds bewys)</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/><m:mi>▵</m:mi><m:mi>YBN</m:mi>
+</m:mtd>
+<m:mtd><m:mi>≡</m:mi>
+</m:mtd>
+<m:mtd columnalign="left"><m:mi>▵</m:mi>
+<m:mi>WDP</m:mi><m:mspace width="2pt"/><m:mi>(AAS)</m:mi></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mo>∴</m:mo><m:mspace width="2pt"/> <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>N</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Y</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>P</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>W</m:mi></m:mrow></m:mtd></m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><equation id="eip-557"><m:math><m:mtable><m:mtr><m:mtd columnalign="right"> <m:mrow><m:mi>D</m:mi><m:mover accent="true">
+                    <m:mi>P</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>W</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>M</m:mi><m:mover accent="true">
+                    <m:mi>P</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>O</m:mi><m:mspace width="2pt"/><m:mi>(regoorstaande hoeke)</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"> <m:mrow><m:mi>B</m:mi><m:mover accent="true">
+                    <m:mi>N</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>Y</m:mi></m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  
+                    <m:mrow><m:mi>O</m:mi><m:mover accent="true">
+                    <m:mi>N</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>M</m:mi><m:mspace width="2pt"/><m:mi>(regoorstaande hoeke)</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right">
+<m:mo>∴</m:mo><m:mspace width="2pt"/> <m:mrow><m:mi>M</m:mi><m:mover accent="true">
+                    <m:mi>P</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>O</m:mi></m:mrow></m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+               </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow><m:mi>O</m:mi><m:mover accent="true">
+                    <m:mi>N</m:mi>
+                    <m:mo>^</m:mo>
+                  </m:mover><m:mi>M</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation><para id="eip-519"><m:math><m:mo>∴</m:mo></m:math> MNOP is ŉ parallelogram (beide pare teenoorstaande <m:math><m:mi>∠</m:mi></m:math>'e <m:math><m:mo>=</m:mo></m:math>, daarom is beide pare teenoorstaande sye ook parallel)</para>
+
+</item></list>
+</solution>
+</exercise>
+<note id="id97342" type="warning">Dit is baie belangrik om daarop te let dat ŉ enkele teen-voorbeeld genoeg is om ŉ vermoede verkeerd te bewys. Selfs ŉ menigte ondersteunende voorbeelde is nog steeds geen bewys nie!
+</note>
+</section>  
+
+  </content>
+</document>

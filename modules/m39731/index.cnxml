@@ -1,0 +1,1093 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Oplos van kwadratiese vergelykings</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39731</md:content-id>
+  <md:title>Oplos van kwadratiese vergelykings</md:title>
+  <md:abstract/>
+  <md:uuid>1497a8d6-bd2b-4a6b-b6de-c0c6fc4ddc06</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid4">
+      <title>Oplos van Kwadratiese Vergelykings</title>
+      <para id="id149356">'n Kwadratiese vergelyking, is 'n vergelyking waar die mag van die veranderlike hoogstens 2 is. Die volgende is voorbeelde van kwadratiese vergelykings.
+
+</para>
+      <equation id="id149360">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id149478">Kwadratiese vergelykings verskil van lineêre vergelykings daarin dat 'n lineêre vergelyking slegs een oplossing het, terwyl ‘n kwadratiese vergelyking hoogstens 2 oplossings het.  Daar is spesiale gevalle waar 'n kwadratiese vergelyking slegs een oplossing het.
+
+
+
+
+</para>
+      <para id="id149489">Om 'n kwadratiese vergelyking op te los, herskryf ons dit met 'n 0 aan die een kant van die gelykaanteken en die produk van twee lineêre uitdrukkings, in hakies, aan die anderkant. Ons weet byvoorbeeld dat:
+
+
+</para>
+      <equation id="id149493"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo/>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id149552">Om op te los:</para>
+      <equation id="id149557">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id149590">moet ons in staat wees om  <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> te herskryf as <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math>, en ons weet reeds hoe om dit te doen.</para>
+<section id="secfhsst_id2031"><title>Ondersoek: Faktorisering van 'n Kwadratiese Uitdrukking</title><para id="id149660">Faktoriseer die volgende kwadratiese uitdrukkings:</para>
+      <list id="id149666" display="block" list-type="enumerated">
+        <item id="uid31">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid32">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid33">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid34">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mn>16</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>9</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid35">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>
+        </item>
+      </list>
+      
+</section>
+      <para id="id149848">As jy 'n kwadratiese uitdrukking kan faktoriseer, is jy een stap weg daarvan om 'n kwadratiese vergelyking op te los. Byvoorbeeld, <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> kan geskryf word as
+<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Dit beteken dat <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, wat <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> en
+<m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> gee as die 2 oplossings van die kwadratiese vergelyking <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+      <section id="uid36">
+        <title>Metode: Oplos van Kwadratiese Vergelykings</title>
+        <list id="id150020" display="block" list-type="enumerated"><item id="uid37">Deel heel eerste die hele vergelyking deur enige gemene faktore van die koëffisiënte, ten einde 'n vergelyking te kry van die vorm <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> waar <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> en
+<m:math overflow="scroll"><m:mi>c</m:mi></m:math> geen gemeenskaplike faktore het nie. Byvoorbeeld, <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/> kan geskryf word as
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/> deur te deel met 2.
+</item>
+          <item id="uid38">Skryf <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> in terme van sy faktore <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>s</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>v</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+Dit beteken <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>s</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>v</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.
+</item>
+          <item id="uid39">Wanneer ons die vergelyking geskryf het in die vorm <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>r</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>s</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>u</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>v</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, volg dit dat die oplossing sal wees
+ <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mi>s</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:math> of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>u</m:mi></m:mfrac></m:mrow></m:math>.
+</item>
+ <item>Vervang elke moontlike waarde van die oplossing in die oorspronklike vergelyking in om te toets of dit 'n geldige oplossing is.</item>       
+
+</list>
+<section id="secfhsst_id2128"><title>Oplossing (wortels) van Kwadratiese Vergelykings</title>
+        <para id="id150373">'n Kwadratiese vergelyking het 2 wortels omdat enige <emphasis effect="bold">een</emphasis> van die 2 waardes die vergelyking kan bevredig. </para>
+</section>
+<para id="eip-388"><figure id="equations-3" class="khanacademy"><title>Khan Akademie video oor vergelykings - 3</title><media id="yt-media3" display="block" alt="video on equations 3">
+	  <flash id="yt-video3" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/y19jYxzY8Y8&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="secfhsst_id2133"><title>Oplos van Kwadratiese Vergelykings</title><problem id="probfhsst_id2134">
+        <para id="id150403">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+        </problem>
+        <solution id="solfhsst_id2137"> <list id="listfhsst_id2137" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Kry die faktore van <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> </label>
+        <para id="id150496">Ons het gesien die faktore van <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        </item> <item> <label> Skryf die vergelyking in gefaktoriseerde vorm </label>
+        <equation id="id150570">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>(</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Bepaal die 2 wortels </label>
+        <para id="id150611">Ons het</para>
+        <equation id="id150615">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id150636">of</para>
+        <equation id="id150641">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id150664">Dus, <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>.</para>
+        </item>
+<item><label>Toets die antwoorde</label>As ons die antwoorde instel in die oorspronklike vergelyking in, vind ons die vergelyking is waar vir beide antwoorde.</item>
+ <item> <label> Skryf die finale oplossing </label>
+        <para id="id150708"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/> vir <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+        <para id="id150788">Dit mag gebeur dat die vergelyking met die eerste oogopslag nie soos 'n kwadratiese vergelyking lyk nie, maar deur 'n paar bewerkings in een verander kan word. Onthou dat dieselfde bewerking aan elke kant gedoen moet word om die vergelyking geldig (waar) te hou.
+
+</para>
+        <para id="id150793">Dit mag nodig wees om een of meer van die volgende te doen:</para>
+        <list id="id150797" display="block" list-type="bulleted"><item id="uid40"><label>Vermenigvuldig weerskante</label>Byvoorbeeld,
+<equation id="id150815"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mi>c</m:mi><m:mi>x</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>x</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mi>x</m:mi><m:mo>(</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>x</m:mi></m:mfrac><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>c</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+          <item id="uid41"><label>Kry weerskante die resiproke</label>Dit beteken om beide kante te verhef tot die mag <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Byvoorbeeld,
+<equation id="id150952"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mrow><m:mo>(</m:mo><m:mi>c</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow><m:mn>1</m:mn></m:mfrac></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mi>c</m:mi></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mi>c</m:mi></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+          <item id="uid42"><label>Kwadreer weerskante</label>Dit beteken om weerskante te verhef tot die mag 2.
+Byvoorbeeld,
+<equation id="id151148"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:msqrt><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:msqrt></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mo>(</m:mo><m:msqrt><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+        </list>
+        <para id="id151275">Hierdie strategieë kan op verskillende wyses gekombineer word en die sekerste manier om jou intuïsie te ontwikkel oor wat die beste ding is om te doen, is om te oefen. 'n Gekombineerde stel bewerkings kan byvoorbeeld wees: 
+
+</para>
+        <equation id="id151280"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>b</m:mi>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mi>c</m:mi>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo>+</m:mo>
+                          <m:mi>b</m:mi>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>c</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> kry weerskante die resiprook</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>b</m:mi>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:msqrt>
+                    <m:mn>1</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mi>c</m:mi>
+                  </m:mfrac>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mi>c</m:mi>
+                  </m:mfrac>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo>+</m:mo>
+                          <m:mi>b</m:mi>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:msqrt>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mi>c</m:mi>
+                        </m:mfrac>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> kwadreer weerskante</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mfrac>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<exercise id="secfhsst_id2417"><title>Oplos van Kwadratiese Vergelykings</title><problem id="probfhsst_id2418">
+        <para id="id151608">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+        </problem>
+        <solution id="solfhsst_id2421"> <list id="listfhsst_id2421" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Kwadreer beide kante van die vergelyking </label>
+        <para id="id151660">Beide kante van die vergelyking behoort gekwadreer te word om die vierkantswortelteken te verwyder.</para>
+        <equation id="id151664">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label>Skryf die vergelyking in die vorm <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> </label>
+        <equation id="id151727"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> trek </m:mi><m:mspace width="2pt"/>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mi mathvariant="normal">x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                      <m:mi> af van beide kante </m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> deel weerskante deur </m:mi><m:mspace width="2pt"/>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Faktoriseer die kwadratiese drieterm </label>
+        <equation id="id151918"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id151944">Die faktore van <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        </item> <item> <label> Skryf die vergelyking met die faktore </label>
+        <equation id="id152006">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Bepaal die 2 oplossings </label>
+        <para id="id152046">Ons het</para>
+        <equation id="id152049">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id152070">of</para>
+        <equation id="id152075">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id152096">Dus, <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+        </item> <item> <label> Kontroleer of die oplossings geldig is </label>
+        <para id="id152138">Vervang <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math><space/>in die oorspronklike vergelyking <m:math overflow="scroll"><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>:</para>
+        <equation id="id152178"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>LK</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mn>1</m:mn>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>maar</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>RK</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id152286">Daarom LK <m:math overflow="scroll"><m:mo>≠</m:mo></m:math> RK. Die twee kante van 'n vergelyking moet altyd balanseer; 'n moontlike oplossing wat NIE die vergelyking bevredig nie, is nie geldig nie. In hierdie geval balanseer die twee kante van die vergelyking nie.
+
+</para>
+        <para id="id152303">Dus <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+        <para id="id152325">Stel nou <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> in die oorspronklike vergelyking in <m:math overflow="scroll"><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>:</para>
+        <equation id="id152365"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>LK</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mn>4</m:mn>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>en</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>RK</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id152458">Dus, LK = RK</para>
+        <para id="id152464">Dus <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> is die enigste geldige oplossing.</para>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id152489"><m:math overflow="scroll"><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> vir <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> alleenlik.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id2778"><title>Oplos van Kwadratiese Vergelykings </title><problem id="probfhsst_id2779">
+        <para id="id152550">Los die vergelyking op: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+        </problem>
+        <solution id="solfhsst_id2782"> <list id="listfhsst_id2782" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Kontroleer of die vergelyking in die vorm <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> </label>
+        <para id="id152636">Die vergelyking is in die verlangde vorm, met <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+        </item> <item> <label> Faktoriseer die kwadratiese drieterm </label>
+        <para id="id152658">Jy benodig die faktore van 1 en 4 sodat die middelterm <m:math overflow="scroll"><m:mrow><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> is.
+So, die faktore is:</para>
+        <para id="id152673">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </para>
+        </item> <item> <label> Los die kwadratiese vergelyking op </label>
+        <equation id="uid43">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id152772">Dus <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math>.</para>
+        </item>
+<item><label>Toets die oplossings</label><equation id="eip-602"><m:math><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></equation><equation id="eip-364"><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:math></equation><para id="id09732">Beide oplossings is geldig.</para>
+</item>
+ <item> <label>Gee die finale oplossing </label>
+        <para id="id152812">Dus, die oplossing is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math>.
+</para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id2843"><title>Oplos van Kwadratiese Vergelykings </title><problem id="probfhsst_id2844">
+        <para id="id152870">Vind die wortels van die kwadratiese vergelyking <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+        </problem>
+        <solution id="solfhsst_id2848"> <list id="listfhsst_id2848" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal of die vergelyking in die vorm <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> is met geen gemeenskaplike faktore </label>
+        <para id="id152962">Daar is 'n gemeenskaplike faktor: -2.
+Dus, deel weerskante van die vergelyking deur -2.</para>
+        <equation id="id152966">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Faktoriseer <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> </label>
+        <para id="id153076">Die middelterm is negatief. Dus, die faktore is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <para id="id153108">As ons uitvermenigvuldig <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>, kry ons <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+        </item> <item> <label> Los die kwadratiese vergelyking op </label>
+        <equation id="id153172">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id153229">In hierdie geval is die kwadratiese uitdrukking 'n volkome vierkant, so daar is net een oplossing vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+        </item> 
+<item> <label> Toets die oplossing</label>
+        <para id="id1532632"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+ </para>
+        </item> 
+<item> <label> Skryf die finale oplossing neer </label>
+        <para id="id153262">Die wortel van <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id2946"><title>Oplos van Kwadratiese Vergelykings</title>
+        <list id="id153332" display="block" list-type="enumerated"><item id="uid44">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcP">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid45">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcP">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid46">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcP">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid47">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcP">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid48">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcP">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid49">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>20</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcE">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid50">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>17</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>77</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcE">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid51">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>  <space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcE">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid52">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>75</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>290</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>240</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcE">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid53">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcE">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid54">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcE">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid55">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid56">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid57">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid58">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math><space/><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid59">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link></item>
+          <item id="uid60">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid61">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>14</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid62">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid63">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcm">Kliek hier vir die oplossing</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

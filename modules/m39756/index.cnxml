@@ -1,0 +1,1312 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Lineaire gelyktydige vergelykings</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39756</md:content-id>
+  <md:title>Lineaire gelyktydige vergelykings</md:title>
+  <md:abstract/>
+  <md:uuid>ad58d499-86a5-460c-883e-21a02f72e918</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid7">
+      <title>Gelyktydige Lineêre Vergelykings</title>
+      <para id="id158940">Tot dusver het alle vergelykings slegs een onbekende veranderlike gehad wat ons moes vind. Wanneer 2 onbekendes bepaal moet word, het ons 2 vergelykings nodig. Hierdie vergelykings word gelyktydige vergelykings genoem.  Die oplossing vir die stelsel van gelyktydige vergelykings is die waardes van die veranderlikes wat die stelsel van  vergelykings gelyktydig sal bevredig. In die algemeen beteken dit indien daar <m:math overflow="scroll"><m:mi>n</m:mi></m:math> onbekende veranderlikes is, benodig ons <m:math overflow="scroll"><m:mi>n</m:mi></m:math>  vergelykings om 'n oplossing vir elk van die <m:math overflow="scroll"><m:mi>n</m:mi></m:math> veranderlikes te vind.
+
+</para>
+      <para id="id158974">’n Voorbeeld van stel gelyktydige vergelykings is:
+
+</para>
+      <equation id="uid92">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>y</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <section id="uid93">
+        <title>Oplos van Gelyktydige Vergelykings</title>
+        <para id="id159052">Om 'n numeriese waarde vir onbekende veranderlikes te vind, moet ons ten minste soveel onafhanklike vergelykings as veranderlikes hê. Ons kan gelyktydige vergelykings algebraïes of grafies oplos.
+
+</para><para id="eip-487"><figure id="simultaneous-equations" class="khanacademy"><title>Khan Akademie video oor gelyktydige vergelykings - 1</title><media id="yt-media7" display="block" alt="video on simultaneous equations 1">
+	  <flash id="yt-video7" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/nok99JOhcjo&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para>
+      </section>
+      <section id="uid94">
+        <title>Grafiese Oplossing</title>
+        <para id="id159067">Gelyktydige vergelykings kan grafies opgelos word. Die oplossing van die gelyktydige vergelykings word gegee deur die koördinate van die punt waar die twee grafieke mekaar sny. 
+
+
+</para>
+        <equation id="uid95">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id159120">Trek die grafieke van die 2 vergelykings in <link target-id="uid95"/>.</para>
+        <figure id="uid96">
+          <media id="uid96_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C10_006.png" id="uid96_onlineimage" width="456"><!-- NOTE: attribute width changes image size online (pixels). original width is 456. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_006.eps" id="uid96_printimage"/>
+          </media>
+        </figure>
+        <para id="id159137">Die snypunt van die 2 grafieke is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>. Dus, die oplossing van die stel gelyktydige vergelykings in <link target-id="uid95"/> is <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+        <para id="id159194">Dit kan algebraïes getoon word as:</para>
+        <equation id="id159197"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> Stel in die eerste vergelyking in: </m:mi>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi mathvariant="normal">x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<exercise id="secfhsst_id4743"><title>Gelyktydige Vergelykings </title><problem id="probfhsst_id4744">
+        <para id="id159395">Los die volgende stel gelyktydige vergelykings grafies op.
+
+</para>
+        <equation id="id159402">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>100</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>19</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </problem>
+        <solution id="solfhsst_id4788"> <list id="listfhsst_id4788" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Teken die grafiek wat ooreenstem met elke vergelyking. </label>
+        <para id="id159487">Vir die eerste vergelyking:</para>
+        <equation id="id159491">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>100</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>25</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id159580">en vir die tweede vergelyking:</para>
+        <equation id="id159586">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>19</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>19</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>12</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>19</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id159676">
+          <figure id="id159679">
+            <media id="id159679_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C10_007.png" id="id159679_onlineimage" width="644"><!-- NOTE: attribute width changes image size online (pixels). original width is 644. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C10_007.eps" id="id159679_printimage"/>
+            </media>
+          </figure>
+        </para>
+        </item> <item> <label> Vind die snypunt van die grafieke. </label>
+        <para id="id159690">Die grafieke sny by <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>22</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        </item> <item> <label> Skryf die oplossing neer van die stel gelyktydige vergelykings soos gegee deur die koördinate van die snypunt van die grafieke. </label>
+        <equation id="id159717">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>22</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+      </section>
+      <section id="uid97">
+        <title>Oplossing deur Vervanging</title>
+        <para id="id159786">’n Algemene algebraïese metode is vervanging: probeer een van die vergelykings op te los vir een van die veranderlikes en vervang die resultaat in die ander vergelykings. Deur dit te doen verminder die hoeveelheid vergelykings en ook die hoeveelheid onbekende veranderlikes met 1. Hierdie proses word herhaal tot ‘n enkele vergelyking met 1 veranderlike oorbly, wat (hopelik) opgelos kan word. Terugvervanging kan dan gebruik word om die waardes van die ander veranderlikes te bevestig. 
+
+</para>
+        <para id="id159793">In die voobeeld <link target-id="uid92"/>, los ons die eerste vergelyking op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>:</para>
+        <equation id="id159811">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+              <m:mo>-</m:mo>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id159835">en stel hierdie resultaat in die tweede vergelyking in:</para>
+        <equation id="id159838">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>y</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mo>-</m:mo>
+                      <m:mi>y</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>y</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mi>y</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>10</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <equation id="id160097">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>10</m:mn>
+                      </m:mfrac>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>6</m:mn>
+                    <m:mn>10</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>3</m:mn>
+                    <m:mn>5</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id160203">Die oplossing vir die stelsel gelyktydige vergelykings <link target-id="uid92"/> is:</para>
+        <equation id="id160214">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>3</m:mn>
+                    <m:mn>5</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>10</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<exercise id="secfhsst_id5265"><title>Gelyktydige Vergelykings </title><problem id="probfhsst_id5266">
+        <para id="id160281">Los die volgende stelsel gelyktydige vergelykings op:</para>
+        <equation id="id160287">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>100</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>19</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </problem>
+        <solution id="solfhsst_id5310"> <list id="listfhsst_id5310" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Indien die vraag nie eksplisiet vra vir 'n grafiese oplossing nie, behoort die gelyktydige vergelykings algebraïes opgelos te word. </label>
+        </item> <item> <label> Maak <m:math overflow="scroll"><m:mi>x</m:mi></m:math> die onderwerp van die eerste vergelyking. </label>
+        <equation id="id160386">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>100</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Stel die waarde wat bereken is vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math> in die tweede vergelyking in. </label>
+        <equation id="id160489">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>19</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>100</m:mn>
+                        <m:mo>-</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:mi>y</m:mi>
+                      </m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>12</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>19</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>100</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>36</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>12</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1900</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>76</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>36</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>88</m:mn>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1936</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>22</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Vervang <m:math overflow="scroll"><m:mi>x</m:mi></m:math> in die vergelyking. </label>
+        <equation id="id160653">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mn>22</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>88</m:mn>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>12</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Stel die waardes van <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and <m:math overflow="scroll"><m:mi>y</m:mi></m:math> in beide vergelykings in om die oplossing te toets. </label>
+        <equation id="id160765">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>22</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>88</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>12</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>100</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>22</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>19</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>88</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>76</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id5599"><title>Tweewielfietse en Driewiele </title><problem id="probfhsst_id5600">
+        <para id="id160890">’n Winkel verkoop tweewielfietse en driewiele. In totaal is daar 7 fietse (fietse sluit tweewielfietse en driewiele in) en  19 wiele. Bepaal hoeveel van elke soort fiets is daar.
+
+</para>
+        </problem>
+        <solution id="solfhsst_id5603"> <list id="listfhsst_id5603" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Identifiseer wat is gegee en wat word gevra </label>
+        <para id="id160915">Die aantal fietse en die aantal driewiele word verlang.</para>
+        </item> <item> <label> Stel die nodige vergelykings op </label>
+        <para id="id160923">As <m:math overflow="scroll"><m:mi>b</m:mi></m:math> die aantal tweewielfietse en <m:math overflow="scroll"><m:mi>t</m:mi></m:math> die aantal driewiele is, dan:</para>
+        <equation id="id160945">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>t</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>7</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>t</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>19</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die stelsel gelyktydige vergelykings op deur vervanging </label>
+        <equation id="id161006"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>b</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>t</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> In die tweede vergelyking: </m:mi>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi mathvariant="normal">t</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi mathvariant="normal">t</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>19</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>14</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>t</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>t</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>19</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>t</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>5</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> In die eerste vergelyking: </m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi mathvariant="normal">b</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Toets die oplossing deur vervanging in die oorspronklike stel vergelykings. </label>
+        <equation id="id161187">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>7</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>15</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>19</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id5809"><title>Gelyktydige vergelykings </title>
+        <list id="id161286" display="block" list-type="enumerated"><item id="uid98">Los grafies op en bevestig jou antwoord algebraïes:
+<m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> , <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lxq">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid99">Los algebraïes op: <m:math overflow="scroll"><m:mrow><m:mn>15</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>d</m:mi><m:mo>-</m:mo><m:mn>132</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>d</m:mi><m:mo>-</m:mo><m:mn>59</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lxl">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid100">Los algebraïes op: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>18</m:mn><m:mi>e</m:mi><m:mo>-</m:mo><m:mn>18</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>f</m:mi><m:mo>+</m:mo><m:mn>47</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lxi">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid101">Los grafies op: <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lx3">Kliek hier vir die oplossing</link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

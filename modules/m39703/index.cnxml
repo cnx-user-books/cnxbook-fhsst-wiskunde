@@ -1,0 +1,143 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Vooroordele, foute en misbruik</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39703</md:content-id>
+  <md:title>Vooroordele, foute en misbruik</md:title>
+  <md:abstract/>
+  <md:uuid>fa6c1353-131a-41bb-a451-918e2c3a69ed</md:uuid>
+</metadata>
+
+<content>  
+    <section id="eip-576"><title>Vooroordele en Foute</title><para id="eip-948">Foute kan insluip by enige data-opnames. Onwillekeurige foute kom voor in alle datastelle en staan soms bekend as nie-sistematiese foute. Onwillekeurige foute kan ontstaan as gevolg van die skatting van datawaardes, onakkuraatheid van instrumente, ens. As jy byvoorbeeld lengtes aflees van 'n liniaal, kan onwillekeurige foute insluip in elke meting as gevolg van die skatting tussen watter twee lyntjies die lengte lê. Wanvoorstellings (vals voorstellings) staan ook soms bekend as sistematiese foute. Wanvoorstellings in 'n datastel kom voor wanneer die datawaardes deurlopend oor- of onderskat word. Wanvoorstellings kan ook ontstaan wanneer korreksiefaktore nie in aanmerking geneem word nie of wanneer instrumente nie behoorlik gekalibreer is nie (kalibrering is die proses waarin instrumente gemerk word volgens vooraf gedefinieërde mate). Wanvoorstellings lei tot die berekening van 'n foutiewe steekproefgemiddelde wat groter of kleiner kan wees as die ware gemiddelde.
+
+</para></section><section id="eip-994"><title>Data Interpretasie</title><para id="eip-402">Baie mense aanvaar statistieke goedsmoeds en pas dit blindweg toe of haal dit aan. Dit is egter nie wys nie want die data wat aanleiding gee tot die statistieke moet noukeurig oorweeg word.  'n Welbekende voorbeeld van verskeie datastelle wat lei na dieselfde statistiese analise (die proses waarin data ondersoek word en maatstawe van sentrale neiging bereken word, ens.) terwyl hulle in der waarheid baie van mekaar verskil, is Anscombe se kwartet. Dit word getoon in <link target-id="id7323"/>.
+In Graad 11 sal jy metodes bestudeer wat gebruik word om data grafies voor te stel. Op die oomblik egter, hoef jy slegs te verstaan dat ons datawaardes op die Cartesiese vlak kan voorstel op soortgelyke wyse as waarmee ons grafieke geteken het. As elk van die datastelle in Anscombe se kwartet statisties geanaliseer word, vind ons dat die gemiddelde, variansie, korrelasie en lyne van beste passing (hierdie terme sal in latere grade verduidelik word) identies is. Wanneer ons egter die data, in plaas van om dit statisties te analiseer, eenvoudig stip, kan ons sien dat die datastelle baie van mekaar verskil. Hierdie voorbeeld wys vir ons dat dit baie belangrik is om sowel die onderliggende datastel as die statistiese afleidings in aanmerking te neem. Ons kan nie aanneem dat omdat ons oor die statistieke van 'n datastel beskik, ons noodwendig weet wat die datastel ons vertel nie. Ter wille van interessantheid, word sommige van die wyses waarop statistieke en data verkeerd geïnterpreteer en wanvoorgestel word, in die volgende uitbreiding van die afdeling gegee.
+  
+<figure id="uid3453"><media id="uid3453_media" alt="">
+              <image mime-type="image/png" src="../../media/anscombe.png" id="uid3453_onlineimage" width="528"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/anscombe.eps" id="uid3453_printimage"/>
+            </media>
+            
+          <caption>Anscombe's quartet</caption></figure></para></section><section id="cid8"><title>Misbruik van Statistiek - slegs vir verryking</title><para id="id215969">In baie omstandigheide kan groepe voordeel trek daaruit om mense te mislei met die misbruik of wanvoorstelling van statistieke.</para>
+      <para id="id215973">Algemene tegnieke wat gebruik word sluit in:</para>
+      <list id="id215979" display="block" list-type="bulleted"><item id="uid105">Driedimensionele grafieke
+</item>
+        <item id="uid106">As wat nie by nul begin nie
+</item>
+        <item id="uid107">As sonder skaal
+</item>
+        <item id="uid108">Grafiese beelde wat ‘n negatiewe of positiewe neiging suggereer
+</item>
+        <item id="uid109">Veronderstelling dat ‘n korrelasie noodwendig ‘n verband uitwys
+</item>
+        <item id="uid110">Die gebruik van statistiek wat nie werklik ‘n aanduiding is van die algehele bevolking nie
+</item>
+        <item id="uid111">Die gebruik van wanbegripe van wiskundige konsepte
+</item>
+      </list>
+      <para id="id216070">Byvoorbeeld, die volgende paar grafieke toon identiese inligting, maar dit lyk baie verskillend.  Verduidelik hoekom.
+
+</para>
+      <para id="id216074">
+        <figure id="id216077">
+          <media id="id216077_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C16_010.png" id="id216077_onlineimage" width="473"><!-- NOTE: attribute width changes image size online (pixels). original width is 473. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_010.eps" id="id216077_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <section id="uid112">
+        <title>Oefeninge – Misbruik van Statistiek </title>
+        <list id="id216093" display="block" list-type="enumerated"><item id="uid113">’n Maatskappy probeer om ‘n visuele voorstelling te gee van die toename van hul verdienste van een jaar na die ander. Oortuig die grafiek hieronder jou? Analiseer die grafiek.
+<figure id="id216113"><media id="id216113_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_011.png" id="id216113_onlineimage" width="228"><!-- NOTE: attribute width changes image size online (pixels). original width is 228. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_011.eps" id="id216113_printimage"/></media></figure><link window="new" class="fullmarks" url=" http://www.fhsst.org/la5"> Kliek hier vir die oplossing </link></item>
+          <item id="uid114">In ‘n studie wat gedoen is op ‘n besige grootpad, het ons data versamel van bestuurders wat die snelheidsperk oortree het en ons het die kleur van hul motors ook bygevoeg. Die data is versamel oor ‘n 20 minuut periode gedurende die middag, en word vertoon op ‘n tabel hieronder.
+<!--Table that contain tables are not converted.--><list id="id216251" display="block" list-type="bulleted"><item id="uid115"><label/>Gevolgtrekkings, gemaak deur 'n onervare persoon en gebaseer op die data, is soos volg opgesom:
+</item><item id="uid116"><label/>“As iemand ‘n wit motor bestuur, is dit meer waarskynlik dat hy/sy die snelheidsperk sal oortree.”
+</item><item id="uid117"><label/>“ As iemand ‘n blou of rooi motor bestuur is dit meer waarskynlik dat hy/sy by die snelheidsperk sal hou.”
+</item><item id="uid118"><label/>Stem jy saam met hierdie gevolgtrekkings? Verduidelik.
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/laN"> Kliek hier vir die oplossing </link></item>
+          <item id="uid119">’n Maatskappy produseer ‘n grafiek wat hulle voordeel in verkope teenoor hul kompetisie wys. Identifiseer ten minste drie strategieë wat hulle gebruik het om die leser se persepsie te verander.
+<figure id="id216327"><media id="id216327_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_013.png" id="id216327_onlineimage" width="295"><!-- NOTE: attribute width changes image size online (pixels). original width is 295. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_013.eps" id="id216327_printimage"/></media></figure><link window="new" class="fullmarks" url=" http://www.fhsst.org/laR"> Kliek hier vir die oplossing </link></item>
+          <item id="uid120">In ‘n poging om hul kompetisie in 'n swak lig te stel, het ‘n maatskappy die volgende grafiek getoon. Hulle beweer dat hulle kompetisie besigheid verloor. Kan jy aan ‘n beter verduideliking dink?
+<figure id="id216351"><media id="id216351_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_014.png" id="id216351_onlineimage" width="316"><!-- NOTE: attribute width changes image size online (pixels). original width is 316. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_014.eps" id="id216351_printimage"/></media></figure><link window="new" class="fullmarks" url=" http://www.fhsst.org/lan"> Kliek hier vir die oplossing </link></item>
+          <item id="uid121">Om ‘n teorie te toets, is agt verskillende kantore gemonitor vir hulle geraasvlakke en werkers se produktiwiteit.  Die grafiek hieronder toon die resultate.
+<figure id="id216374"><media id="id216374_media" alt=""><image mime-type="image/png" src="../../media/MG10C16_015.png" id="id216374_onlineimage" width="189"><!-- NOTE: attribute width changes image size online (pixels). original width is 189. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C16_015.eps" id="id216374_printimage"/></media></figure>
+Die volgende afleiding is toe gemaak:
+“As ‘n kantoor baie geraas het, lei dit na swak produktiwiteit.”
+Verduidelik die fout in hierdie denke.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/laQ"> Kliek hier vir die oplossing </link>
+</item>
+        </list>
+      </section>
+    </section>
+    <section id="cid9"><title>Opsomming</title><list id="id216407" display="block" list-type="bulleted" bullet-style="bullet"><item>Datatipes kan verdeel word in primêre en sekondêre data. Primêre data kan verder verdeel word in kwalitatiewe en kwantitatiewe data.</item>
+<item id="id97322">Ons gebruik die volgende as maatstawe van sentrale neiging:<list id="id67453"><item id="uid122"><label>Gemiddelde</label>Die gemiddelde van 'n datastel, <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, aangedui deur <m:math overflow="scroll"><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>, is die rekenkundige gemiddelde van al die datawaardes en word as volg bereken:
+<equation id="id216451"><m:math overflow="scroll" mode="display"><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>som van waardes</m:mi></m:mrow><m:mrow><m:mi>aantal waardes</m:mi></m:mrow></m:mfrac></m:mrow></m:math></equation></item>
+        <item id="uid123"><label>Mediaan</label>Die mediaan is die sentrale datawaarde in 'n datastel wat georden is van die laagste na die hoogste waarde.
+</item>
+        <item id="uid12454"><label>Modus</label>Die modus is die datawaarde wat die meeste voorkom in die datastel.
+</item></list></item>
+<item id="id973243222">Die volgende is maatstawe van verspreiding:<list id="id6743453453"><item id="uid12542"><label>Variasiewydte</label>Die variasiewydte van 'n datastel is die verskil tussen die laagste en die hoogste waarde in die stel. </item>
+        <item id="uid123543"><label>Kwartiele</label>Kwartiele is die drie datawaardes wat 'n geordende datastel in vier groepe opdeel wat elk 'n gelyke aantal datapunte bevat. Die mediaan is die tweede kwartiel.
+</item>
+        <item id="uid124"><label>Persentiele</label>Persentiele is die 99 datawaardes wat die datastel in 100 gelyke groepe verdeel. 
+</item>
+<item id="uid124342"><label>Interkwartielvariasiewydte</label>Die interkwartielvariasiewydte is 'n maatstaf wat inligting verskaf oor die verspreiding van data in 'n datastel en word bereken deur die eerste kwartiel af te trek van die derde kwartiel. Dit gee die variasiewydte van die middelste helfte van die datastel, terwyl dit die laagste en hoogste kwartiele uitsluit, nl. <m:math overflow="scroll"><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. Helfte van hierdie waarde is die semi-interkwartielvariasiewydte. </item>
+</list></item>
+      <item>Die vyfgetalopsomming is 'n manier om data op te som. 'n Houerstipping is 'n grafiese voorstelling van die vyfgetalopsomming.</item>
+<item>Onwillekeurige foute kom voor in alle datastelle en ontstaan vanweë die skatting van datawaardes. Vals veronderstellings of sistematiese foute kom voor wanneer jy konsekwent datawaardes onder- of oorskat. </item>
+<item>Neem altyd die data sowel as die statistieke wat die data opsom in aanmerking voor jy tot gevolgtrekkings kom.</item></list>
+    </section>
+    <section id="cid10">
+      <title>Oefeninge</title>
+      <list id="id216570" display="block" list-type="enumerated"><item id="uid125">Bereken die gemiddeld, mediaan en modus van die datastel 3.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/laU"> Kliek hier vir die oplossing </link>
+</item>
+        <item id="uid126">Die hoogste 7 bome in 'n park het hoogtes (in meters) van 41, 60, 47, 42, 44, 42, and 47. Vind die mediaan van hulle hoogtes.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/laP"> Kliek hier vir die oplossing </link>
+</item>
+        <item id="uid127">Die student in Bjorn se klas het die volgende ouderdome: 5, 9, 1, 3, 4, 6, 6, 6, 7, 3. Vind die modus van hul ouderdome.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/laE"> Kliek hier vir die oplossing </link>
+</item>
+
+<item id="uid132">'n Ingenieursfirma het twee verskillende tipes enjins vir motorfietse ontwerp. Die twee verskillende motorfietse word getoets vir die tyd wat dit hulle vat om te versnel van 0 km/h tot 60 km/h.
+<table id="id217268" summary=""><tgroup cols="12"><tbody><row><entry/><entry>Toets 1</entry><entry>Toets 2</entry><entry>Toets 3</entry><entry>Toets 4</entry><entry>Toets 5</entry><entry>Toets 6</entry><entry>Toets 7</entry><entry>Toets 8</entry><entry>Toets 9</entry><entry>Toets 10</entry><entry>Gemiddelde</entry></row><row><entry>Bike 1</entry><entry>1.55</entry><entry>1.00</entry><entry>0.92</entry><entry>0.80</entry><entry>1.49</entry><entry>0.71</entry><entry>1.06</entry><entry>0.68</entry><entry>0.87</entry><entry>1.09</entry><entry/></row><row><entry>Bike 2</entry><entry>0.9</entry><entry>1.0</entry><entry>1.1</entry><entry>1.0</entry><entry>1.0</entry><entry>0.9</entry><entry>0.9</entry><entry>1.0</entry><entry>0.9</entry><entry>1.1</entry><entry/></row></tbody></tgroup></table><list id="id217423" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid133">Watter maatstaf van sentrale neiging is die beste om te gebruik om hierdie data op te som?
+</item><item id="uid134">Bereken die maatstaf, waarop jy besluit het in die vorige vraag, vir elke motorfiets.
+</item><item id="uid135">Watter motorfiets sal jy kies, gebaseer op hierdie inligting? Neem kennis van die akkuraatheid van die datawaardes in elk van die datastelle.
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/l4p">Click here for the solution</link></item>
+
+        <item id="uid136">Die hoogte (lengte) van 40 leerders is gegee hieronder.
+<table id="id217478" summary=""><tgroup cols="10"><tbody><row><entry>154</entry><entry>140</entry><entry>145</entry><entry>159</entry><entry>150</entry><entry>132</entry><entry>149</entry><entry>150</entry><entry>138</entry><entry>152</entry></row><row><entry>141</entry><entry>132</entry><entry>169</entry><entry>173</entry><entry>139</entry><entry>161</entry><entry>163</entry><entry>156</entry><entry>157</entry><entry>171</entry></row><row><entry>168</entry><entry>166</entry><entry>151</entry><entry>152</entry><entry>132</entry><entry>142</entry><entry>170</entry><entry>162</entry><entry>146</entry><entry>152</entry></row><row><entry>142</entry><entry>150</entry><entry>161</entry><entry>138</entry><entry>170</entry><entry>131</entry><entry>145</entry><entry>146</entry><entry>147</entry><entry>160</entry></row></tbody></tgroup></table><list id="id217711" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid137">Stel 'n frekwensietabel op vir 6 intervalle.
+</item><item id="uid138">Bereken die benaderde gemiddelde.
+</item><item id="uid139">Bereken die modus.
+</item><item id="uid140">Hoeveel leerders is groter as jou benaderde gemiddelde in (b)?
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/laV"> Kliek hier vir die oplossing </link></item>
+        <item id="uid141">In ‘n verkeersondersoek was 50 ewekansig gekose motorbestuurders gevra watter afstand hulle werk toe ry elke dag. Hierdie inligting word gewys in die tabel hieronder.
+<table id="id217778" summary=""><tgroup cols="10"><tbody><row><entry>Afstand in km</entry><entry>1-5</entry><entry>6-10</entry><entry>11-15</entry><entry>16-20</entry><entry>21-25</entry><entry>26-30</entry><entry>31-35</entry><entry>36-40</entry><entry>41-45</entry></row><row><entry>Frequency</entry><entry>4</entry><entry>5</entry><entry>9</entry><entry>10</entry><entry>7</entry><entry>8</entry><entry>3</entry><entry>2</entry><entry>2</entry></row></tbody></tgroup></table><list id="id217956" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid142">Vind die benaderde gemiddelde.
+</item><item id="uid143">Watter persentasie van mense het
+<list id="id217984" display="block" list-type="enumerated" number-style="lower-roman"><item id="uid144">minder as 16 km gery?
+</item><item id="uid145">meer as 30 km?
+</item><item id="uid146">tuseen 16 km en 30 km daagliks?
+</item></list></item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/lap"> Kliek hier vir die oplossing </link></item>
+        <item id="uid147">’n Maatskappy wil die opleidingsprogram in sy fabriek evalueer. Hulle het dieselfde opdrag vir beide opgeleide en onopgeleide werkers gegee en dan hulle tyd gemeet in sekondes.
+<table id="id218040" summary="Fabriekswerkers">
+<tgroup cols="6"><tbody><row><entry><emphasis effect="bold">Opgeleide</emphasis></entry><entry>121</entry><entry>137</entry><entry>131</entry><entry>135</entry><entry>130</entry></row><row><entry/><entry>128</entry><entry>130</entry><entry>126</entry><entry>132</entry><entry>127</entry></row><row><entry/><entry>129</entry><entry>120</entry><entry>118</entry><entry>125</entry><entry>134</entry></row><row><entry><emphasis effect="bold">Onopgeleide</emphasis></entry><entry>135</entry><entry>142</entry><entry>126</entry><entry>148</entry><entry>145</entry></row><row><entry/><entry>156</entry><entry>152</entry><entry>153</entry><entry>149</entry><entry>145</entry></row><row><entry/><entry>144</entry><entry>134</entry><entry>139</entry><entry>140</entry><entry>142</entry></row></tbody>
+</tgroup>
+</table><list id="id218292" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid148">Vind die mediaan en kwartiele vir albei datastelsels.
+</item><item id="uid149">Vind die interkwartielvariasiewydte vir albei datastelsels.
+</item><item id="uid150">Lewer kommentaar op die resultate.
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/lad"> Kliek hier vir die oplossing </link></item>
+        <item id="uid151">’n Klein maatskappy huur 9 mense. Die jaarlikse salarisse van die werkers is:
+<table id="id218346" summary=""><tgroup cols="3"><tbody><row><entry>R600 000</entry><entry>R250 000</entry><entry>R200 000</entry></row><row><entry>R120 000</entry><entry>R100 000</entry><entry>R100 000</entry></row><row><entry>R100 000</entry><entry>R90 000</entry><entry>R80 000</entry></row></tbody></tgroup></table><list id="id218444" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid152">Vind die gemiddeld van die salarisse.
+</item><item id="uid153">Vind die modus.
+</item><item id="uid154">Vind die mediaan.
+</item><item id="uid155">Van die drie berekeninge, watter een sal jy gebruik om te onderhandel vir 'n salaris verhoging? Hoekom?
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/lav"> Kliek hier vir die oplossing </link></item>
+        <item id="uid156">Die punte vir ‘n spesifieke klas is hier gelys:
+<table id="id218511" summary=""><tgroup cols="10"><tbody><row><entry>67</entry><entry>58</entry><entry>91</entry><entry>67</entry><entry>58</entry><entry>82</entry><entry>71</entry><entry>51</entry><entry>60</entry><entry>84</entry></row><row><entry>31</entry><entry>67</entry><entry>96</entry><entry>64</entry><entry>78</entry><entry>71</entry><entry>87</entry><entry>78</entry><entry>89</entry><entry>38</entry></row><row><entry>69</entry><entry>62</entry><entry>60</entry><entry>73</entry><entry>60</entry><entry>87</entry><entry>71</entry><entry>49</entry><entry/><entry/></row></tbody></tgroup></table><para id="eip-id1167180050127">Voltooi die frekwensietabel deur gebruik te maak van die gegewe klasintervalle.
+<table id="id218699" summary="klaspunte">
+<tgroup cols="5"><tbody><row><entry>Klas</entry><entry>Optelling</entry><entry>Frekwensie</entry><entry>Middelpunt</entry><entry>Frekw<m:math overflow="scroll"><m:mo>×</m:mo></m:math> Midpt</entry></row><row><entry>30-39</entry><entry/><entry>34,5</entry><entry/><entry/></row><row><entry>40-49</entry><entry/><entry>44,5</entry><entry/><entry/></row><row><entry>50-59</entry><entry/><entry/><entry/><entry/></row><row><entry>60-69</entry><entry/><entry/><entry/><entry/></row><row><entry>70-79</entry><entry/><entry/><entry/><entry/></row><row><entry>80-89</entry><entry/><entry/><entry/><entry/></row><row><entry>90-99</entry><entry/><entry/><entry/><entry/></row><row><entry/><entry/><entry>Som =</entry><entry/><entry>Som =</entry></row></tbody>
+
+
+</tgroup>
+</table></para><link window="new" class="fullmarks" url=" http://www.fhsst.org/law"> Kliek hier vir die oplossing </link></item>
+      </list>
+    </section>
+  </content>
+</document>

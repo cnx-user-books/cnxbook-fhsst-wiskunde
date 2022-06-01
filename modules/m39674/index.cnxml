@@ -1,0 +1,1205 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Notasie</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39674</md:content-id>
+  <md:title>Notasie</md:title>
+  <md:abstract/>
+  <md:uuid>3115ba72-ad43-4f1c-a212-f85833dcf088</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid4"><title>Notasie</title><figure id="numberpatterns-3" class="khanacademy"><title>Khan Academy video oor getalpatrone</title><media id="yt-media3" display="block" alt="video on number patterns">
+	  <flash id="yt-video3" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/_3BnyEr5fG4&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure>
+      <para id="id63992">Die <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>d</m:mi><m:mi>e</m:mi></m:mrow></m:msup></m:math>-term van 'n reeks word geskryf as <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math>. So byvoorbeeld, is die eerste term van 'n reeks <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>1</m:mi></m:msub></m:math> en die tiende term van 'n reeks is <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>10</m:mi></m:msub></m:math>. ŉ Reeks hoef nie ŉ patroon te volg nie, maar wanneer dit wel 'n patroon het, kan ons dit gewoonlik as ŉ formule skryf om die <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>d</m:mi><m:mi>e</m:mi></m:mrow></m:msup></m:math>-term, <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math>, te bereken. In die reeks
+
+
+</para>
+      <equation id="id64025">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>;</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>;</m:mo>
+            <m:mn>9</m:mn>
+            <m:mo>;</m:mo>
+            <m:mn>16</m:mn>
+            <m:mo>;</m:mo>
+            <m:mn>25</m:mn>
+            <m:mo>;</m:mo>
+            <m:mo>...</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id64058">waar die reeks bestaan uit die vierkante van heelgetalle, is die formule vir die <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>de</m:mi></m:mrow></m:msup></m:math>-term:</para>
+      <equation id="uid15">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msub>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mi>n</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id64117">Jy kan sien dat dit reg is deur te kyk na:</para>
+      <equation id="id64122">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>4</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>4</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>16</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>5</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>5</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mspace width="0.277778em"/>
+                  <m:mo>=</m:mo>
+                  <m:mspace width="0.277778em"/>
+                  <m:mn>25</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mo>...</m:mo>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id64323">Dus, deur <link target-id="uid15"/> te gebruik, kan ons ŉ patroon van die vierkante van heelgetalle vorm.
+</para>
+<para id="eip-508">Ons kan ook 'n konstante verskil tussen die terme bepaal vir sekere patrone.</para>
+<definition id="id242"><term id="id56234">Konstante verskil</term>
+<meaning id="id2323">Die konstante verskil is die verskil tussen opeenvolgende terme en word aagedui met die letter d.</meaning>
+</definition>
+<para id="id5623">Byvoorbeeld, beskou die reeks: <m:math><m:mn>10</m:mn><m:mi>;</m:mi><m:mn>7</m:mn><m:mi>;</m:mi><m:mn>4</m:mn><m:mi>;</m:mi><m:mn>1</m:mn><m:mi>;</m:mi><m:mi>...</m:mi></m:math>. Om die gemeenskaplike verskil te vind, trek ons die betrokke term af van die volgende term.
+<equation id="id6342"><m:math><m:mtable>
+<m:mtr>
+<m:mtd columnalign="right"><m:mn>7</m:mn><m:mo>-</m:mo><m:mn>10</m:mn></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>3</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>7</m:mn></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>3</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>4</m:mn></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mn>3</m:mn></m:mtd></m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<exercise id="secfhsst_id574"><title>Studeertafel voortgesit .... </title><problem id="probfhsst_id575">
+      <para id="id64346">Soos voorheen, studeer jy en 3 vriende wiskunde, en julle sit rondom ŉ vierkantige tafel. ŉ Paar minute later besluit 2 ander vriende om by julle aan te sluit en wil kom sit en julle sit ŉ ekstra tafel by sodat al 6 van julle kan sit. Weereens besluit nog 2 van jou vriende om by julle aan te sluit en julle skuif ŉ derde tafel sodat daar genoeg plek is vir 8 van julle soos in die prentjie: </para>
+      <figure id="uid16"><media id="uid16_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C7_003.png" id="uid16_onlineimage" width="273"><!-- NOTE: attribute width changes image size online (pixels). original width is 273. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C7_003.eps" id="uid16_printimage"/>
+        </media>
+        
+      <caption>Twee ekstra mense kan sit vir elke tafel wat hulle bysit.</caption></figure>
+      <para id="id64366">Vind ŉ wiskundige uitdrukking vir die getal mense wat om <m:math overflow="scroll"><m:mi>n</m:mi></m:math> tafels kan sit. Gebruik dan die algemene formule om te bepaal hoeveel mense om 12 tafels kan sit en hoeveel tafels is nodig sodat 20 mense kan sit.</para>
+      </problem>
+      <solution id="solfhsst_id586"> <list id="listfhsst_id586" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Tabelleer ŉ paar terme om te sien of daar ŉ patroon is </label>
+      <table id="id64395" summary="Getal Tafels">
+<tgroup cols="3"><tbody>
+            <row>
+              <entry><emphasis effect="bold">Aantal tafels</emphasis>, <m:math overflow="scroll"><m:mi>n</m:mi></m:math></entry>
+              <entry>
+                <emphasis effect="bold">Aantal mense wat kan sit</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Formule</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mo>⋮</m:mo>
+                </m:math>
+              </entry>
+              <entry>               <m:math overflow="scroll"><m:mo>⋮</m:mo></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mo>⋮</m:mo>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mi>n</m:mi>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup>
+</table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Beskryf die patroon </label>
+      <para id="id64900">Die aantal mense wat rondom <m:math overflow="scroll"><m:mi>n</m:mi></m:math> tafels kan sit, is:</para>
+      <equation id="id64913">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mi>a</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>·</m:mo>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bereken die <m:math overflow="scroll"><m:msup><m:mn>12</m:mn><m:mi> de </m:mi></m:msup></m:math> term </label>
+      <para id="id64970">Deur te kyk na die voorbeeld van die vorige gedeelte, bereken hoeveel mense kan rondom 12 tafels sit. Ons soek vir <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mn>12</m:mn></m:msub></m:math>, dit is, waar <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>:</para>
+      <equation id="id65003">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>12</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mn>12</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>11</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>22</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>26</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bereken die aantal terme as <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> </label>
+      <equation id="id65172">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mn>20</m:mn>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>20</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>16</m:mn>
+                  <m:mo>÷</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>8</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mi>n</m:mi>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>n</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>9</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Finale antwoord </label>
+      <para id="id65362">26 mense kan rondom 12 tafels sit en 9 tafels is nodig sodat 20 mense kan sit. </para>
+      </item> </list> </solution>
+</exercise>
+      <para id="id65378">Dit is ook belangrik om te let op die verskil tussen <m:math overflow="scroll"><m:mi>n</m:mi></m:math> en <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math>: <m:math overflow="scroll"><m:mi>n</m:mi></m:math> kan gesien word as 'n plekhouer, terwyl <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math> die waarde is by die plek wat "gehou" word deur <m:math overflow="scroll"><m:mi>n</m:mi></m:math>. Soos in ons "Studeertafel" voorbeeld, kan 4 mense rondom die eerste tafel (Tabel 1) sit. Dus, by plek <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, is die waarde van <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> ensovoorts:</para>
+      <table id="id65473" summary="">
+        <tgroup cols="6">
+          <tbody>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mi>n</m:mi>
+                </m:math>
+              </entry>
+              <entry>1</entry>
+              <entry>2</entry>
+              <entry>3</entry>
+              <entry>4</entry>
+              <entry>...</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>4</entry>
+              <entry>6</entry>
+              <entry>8</entry>
+              <entry>10</entry>
+              <entry>...</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+<section id="secfhsst_id1060"><title>Ondersoek : Algemene Formule </title>
+      <list id="id65612" display="block" list-type="enumerated"><item id="uid17">Vind die algemene formule vir die volgende reekse en vind dan <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mn>10</m:mn></m:msub></m:math>, <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mn>50</m:mn></m:msub></m:math> en <m:math overflow="scroll"><m:msub><m:mi>a</m:mi><m:mn>100</m:mn></m:msub></m:math>:
+<list id="id65671" display="block" list-type="enumerated"><item id="uid18"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>5</m:mn><m:mo>;</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mn>14</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid19"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>8</m:mn><m:mo>;</m:mo><m:mn>12</m:mn><m:mo>;</m:mo><m:mn>16</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid20"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>10</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:mrow></m:math></item></list></item>
+        <item id="uid21"> Hieronder is die algemene formules gegee vir 'n paar reekse. Bereken die terme wat weggelaat is.
+<list id="id65820" display="block" list-type="enumerated"><item id="uid22"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>;</m:mo><m:mn>3</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>;</m:mo><m:mn>15</m:mn><m:mo>;</m:mo><m:mn>24</m:mn></m:mrow></m:math>       <m:math overflow="scroll"><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid23"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>       <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></item><item id="uid24"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>       <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>13</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>n</m:mi></m:mrow></m:math></item></list></item>
+      </list>
+      
+</section>
+      <section id="uid25">
+        <title>Patrone en Bewerings </title>
+        <para id="eip-362"><figure id="numberpatterns-2" class="khanacademy"><title>Khan Academy video oor getalpatrone - 2</title><media id="yt-media2" display="block" alt="video on number patterns 2">
+	  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/zIcxrhyJs6M&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><para id="id66036">In wiskunde is 'n bewering 'n wiskundige stelling wat lyk of dit waar is, maar wat nog nie formeel as waar bewys is nie. 'n Bewering kan gesien word as 'n intelligente raaiskoot of idee wat moontlik 'n patroon kan wees. </para>
+        <para id="id66042">Byvoorbeeld: Maak 'n <emphasis effect="bold">bewering</emphasis> oor die getal wat sal volg, gebaseer op die patroon <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>6</m:mn><m:mo>;</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mn>17</m:mn><m:mo>:</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+        <para id="id66085">Die getalle vermeerder met 4, dan 5, dan 6.</para>
+        <para id="id66090"><emphasis effect="bold">Bewering:</emphasis> Die volgende getal sal vermeerder met 7. So ons verwag dat die volgende getal <m:math overflow="scroll"><m:mrow><m:mn>17</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math> sal wees.</para>
+<exercise id="secfhsst_id1075"><title>Getalpatrone</title><problem id="probfhsst_id1076">
+        <para id="id66127">Beskou die volgende patroon:</para>
+        <equation id="id66133">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <list id="id66291" display="block" list-type="enumerated"><item id="uid26">Voeg nog twee rye by aan die die einde van die patroon.
+</item>
+          <item id="uid27">Maak 'n bewering oor die patroon en druk die bewering uit in woorde.
+</item>
+          <item id="uid28">Veralgemeen die bewering vir die patroon (met ander woorde, beskryf die bewering algebraïes).
+</item>
+          <item id="uid29">Bewys dat die bewering waar is.
+</item>
+        </list>
+        
+        </problem>
+        <solution id="solfhsst_id1196"> <list id="listfhsst_id1196" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Die volgende twee rye </label>
+        <equation id="id66367">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>6</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>6</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>7</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Bewering </label>
+        <para id="id66445">As 'n getal gekwadreer word en die getal dan weer by sy kwadraat getel word, is die resultaat dieselfde as om die volgende getal te kwadreer en dan die getal af te trek van die kwadraat.</para>
+        </item> <item> <label> Veralgemeen </label>
+        <para id="id66453">Ons het besluit om <m:math overflow="scroll"><m:mi>x</m:mi></m:math> hier te gebruik. Jy kan enige letter kies om die patroon te veralgemeen.</para>
+        <equation id="id66467">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Bewys </label>
+        <equation id="id66525"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>Linkerkant</m:mi>
+              
+              <m:mspace width="3.33333pt"/>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id66572"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>Regterkant</m:mi>
+              <m:mo>:</m:mo>
+              <m:mspace width="3.33333pt"/>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id66641"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Regterkant</m:mi>
+                    
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>Linkerkant</m:mi>
+                    
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Dus</m:mi>
+                    
+                    <m:mspace width="3.33333pt"/>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+      </section>
+    </section>
+    <section id="eip-817"><title>Opsomming</title><list id="uid08213123"><item>Daar is 'n hele paar spesiale reekse van getalle: <list id="uid8271312"><item>Driehoeksgetalle <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>15</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>28</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>36</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>45</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math></item>
+<item>Vierkantsgetalle <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>9</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>16</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>25</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>36</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>49</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>64</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>81</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math></item>
+<item>Derdemagsgetalle <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>27</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>64</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>125</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>216</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>343</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>512</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>729</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math></item>
+<item>Fibonacci Getalle <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>13</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>;</m:mo>
+                <m:mn>34</m:mn>
+                <m:mo>;</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:math></item>
+</list></item>
+<item>Die algemene formule is <m:math> <m:msub><m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+<m:mo>=</m:mo>
+ <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mo>·</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow></m:math> waar <m:math><m:mi>d</m:mi></m:math> die konstante verskil is tussen die verskillende terme en <m:math><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub></m:math> is die <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>de</m:mi></m:mrow></m:msup></m:math>-term. Ons kan 'n algemene formule uitwerk vir elke getalpatroon en dit gebruik om te voorspel wat enige getal in die patroon sal wees. </item>
+</list></section><section id="cid5">
+      <title>Oefeninge</title>
+      <list id="id66867" display="block" list-type="enumerated"><item id="uid30">Vind die <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>de</m:mi></m:mrow></m:msup></m:math>-term vir: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>;</m:mo><m:mn>7</m:mn><m:mo>;</m:mo><m:mn>11</m:mn><m:mo>;</m:mo><m:mn>15</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:mrow></m:math>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcl">Kliek hier vir die oplossing</link></item>
+        <item id="uid31">Vind die algemene term vir die volgende reekse:
+<list id="id66935" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid32"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mn>7</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid33"><m:math overflow="scroll"><m:mrow><m:mn>11</m:mn><m:mo>;</m:mo><m:mn>15</m:mn><m:mo>;</m:mo><m:mn>19</m:mn><m:mo>;</m:mo><m:mn>23</m:mn><m:mo>;</m:mo><m:mo>...</m:mo></m:mrow></m:math></item><item id="uid34">reeks met <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>8</m:mn></m:msub><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math></item><item id="uid35">reeks met <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>8</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>10</m:mn></m:msub><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math></item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcq">Kliek hier vir die oplossing</link></item>
+        <item id="uid36">Die sitplekke in 'n gedeelte van 'n sportstadion kan so gerangskik word dat die eerste ry 15 sitplekke het, die tweede ry 19 sitplekke, die derde ry 23 sitplekke, ens. Bereken hoeveel sitpleke is daar in ry 25.
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lqi">
+Kliek hier vir die oplossing</link></item>
+        <item id="uid43">'n Enkele vierkant kan gemaak word van 4 vuurhoutjies. Om twee vierkante langs mekaar te maak het jy 7 vuurhoutjies nodig, om drie vierkante langs mekaar in 'n ry te maak het jy 10 vuurhoutjies nodig. Bepaal:
+<list id="id67360" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid44">die eerste term
+</item><item id="uid45">die konstante verskil
+</item><item id="uid46">die algemene formule
+</item><item id="uid47">hoeveel vuurhoutjies benodig word om 25 vierkante langs mekaar te maak
+</item></list><figure id="id67417"><media id="id67417_media" alt=""><image mime-type="image/png" src="../../media/MG10C7_004.png" id="id67417_onlineimage" width="233"><!-- NOTE: attribute width changes image size online (pixels). original width is 233. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C7_004.eps" id="id67417_printimage"/></media></figure>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lc3">Kliek hier vir die oplossing</link></item>
+        <item id="uid48">Jy wil begin om geld te spaar, maar omdat jy dit nog nooit gedoen het nie, besluit jy om stadig te begin. Aan die einde van die eerste week sit jy R5 in jou bankrekening, aan die einde van die tweede week R10, en aan die einde van die derde week R15. Na hoeveel weke sit jy R50 in jou bankrekening?
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcO">Kliek hier vir die oplossing</link></item>
+        <item id="uid49">'n Horisontale lyn kruis 'n tou op vier punte en deel die tou op in 5 dele, soos hieronder gewys word.
+<figure id="id67455"><media id="id67455_media" alt=""><image mime-type="image/png" src="../../media/MG10C7_005.png" id="id67455_onlineimage" width="228"><!-- NOTE: attribute width changes image size online (pixels). original width is 198. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C7_005.eps" id="id67455_printimage"/></media></figure>
+As die tou 19 keer gekruis word deur ewewydige lyne en elke lyn kruis die tou vier keer op verskillende plekke, bereken in hoeveel dele die tou opgedeel word.
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcc">Kliek hier vir die oplossing</link></item>
+      </list>
+    </section>
+  </content>
+</document>

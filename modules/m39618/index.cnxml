@@ -1,0 +1,464 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Cartesiese vlak en die afstand tussen twee punte</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39618</md:content-id>
+  <md:title>Cartesiese vlak en die afstand tussen twee punte</md:title>
+  <md:abstract/>
+  <md:uuid>9b49d130-880b-4a01-bbe5-1a8b691c5551</md:uuid>
+</metadata>
+
+<content>
+      <section id="uid36">
+        <title>Inleiding</title>
+        <para id="id66769">Analitiese meetkunde, ook bekend as
+        koördinaatmeetkunde en vroëer bekend as Cartesiese meetkunde,
+        is die studie van meetkunde op grond van die beginsels van
+        algebra en die Cartesiese koördinaatstelsel. Dit is gemoeid met
+        die definisie van meetkundige figure op 'n numeriese wyse en
+        onttrek numeriese inlligting uit die voorstelling. Sommige beskou
+        die ontwikkeling van analitiese meetkunde as die begin van moderne
+        wiskunde.</para>
+      </section>
+      <section id="eip-448"><title>Afstand tussen Twee Punte</title><para id="eip-728">As ons die koördinate van die hoekpunte van 'n figuur het, dan kan ons die figuur op die Cartesiese vlak teken. Byvoorbeeld, neem die vierhoek ABCD met koördinate A(1,1), B(1,3), C(3,3) en D(1,3) en stel dit voor op die Cartesiese vlak. Dit word getoon in <link target-id="id63458"/>.   
+</para><para id="eip-199"><figure id="id63458"><media id="id63458_media" alt="">
+            <image mime-type="image/png" src="../../media/square.png" id="id63458_onlineimage" width="200"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/square.eps" id="id63458_printimage"/>
+            </media>
+            <caption>Vierhoek ABCD voorgestel op die Cartesiese vlak</caption></figure>
+</para></section><para id="eip-645">Om enige figuur voor te stel op die Cartesiese vlak, plaas ons 'n punt by elke gegewe koördinaat en verbind dan hierdie punte met reguitlyne. Een belangrike saak om op te let, is in die benoeming van die figuur. In bostaande voorbeeld, het ons die vierhoek ABCD genoem. Dit dui vir ons aan dat ons beweeg van punt A, na punt B, na punt C, na punt D en dan weer terug na punt A. Dus, wanneer jy gevra word om 'n figuur op die Cartesiese vlak te teken, moet jy hierdie benamingswyse gebruik.  Soms word net sekere punte gegee en dan moet ons die ander punte vind deur gebruik te maak van die metodes wat ons verder in die hierdie hoofstuk gaan bespreek.
+
+
+</para><section id="uid37"><title>Afstand tussen Twee Punte</title><para id="id66786">Een van die eenvoudigste dinge wat met analitiese meetkunde bereken kan word, is die afstand tussen twee punte.<emphasis effect="italics"> Afstand</emphasis> is a getal wat beskryf hoe ver twee punte van mekaar is. Byvoorbeeld, punt <m:math><m:mi>P</m:mi></m:math> het <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> as koördinate en punt <m:math><m:mi>Q</m:mi></m:math> het <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math> as koördinate. Hoe ver is die punte <m:math><m:mi>P</m:mi></m:math> en <m:math><m:mi>Q</m:mi></m:math> van mekaar? In die figuur beteken dit, hoe lank is die stippellyn?</para>
+        <figure id="uid38"><media id="uid38_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_015-46f3.png" id="uid38_onlineimage" width="223"><!-- NOTE: attribute width changes image size online (pixels). original width is 323. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_015-c56b.eps" id="uid38_printimage"/>
+          </media>
+        </figure>
+        <para id="id66883">In die figuur kan gesien word dat lyn <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>R</m:mi></m:mrow></m:math>  3 eenhede lank is en lyn <m:math overflow="scroll"><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> 4 eenhede. <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>P</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> het 'n regte hoek <m:math overflow="scroll"><m:mi>R</m:mi></m:math>. Dus kan die lengte van sy <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math> bereken word deur Stelling van Pythagoras te gebruik:</para>
+        <equation id="id66950">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>Q</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>R</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>Q</m:mi>
+                    <m:msup>
+                      <m:mi>R</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mi>Q</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>P</m:mi>
+                    <m:mi>Q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mn>3</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:msup>
+                          <m:mn>4</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    </m:msqrt>
+                    <m:mo>=</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67090">Die lengte van <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math> is gelyk aan die afstand tussen punte <m:math overflow="scroll"><m:mi>P</m:mi></m:math> en <m:math overflow="scroll"><m:mi>Q</m:mi></m:math>.</para>
+        <para id="id67126">As 'n veralgemening van die idee, neem aan dat <m:math overflow="scroll"><m:mi>A</m:mi></m:math> enige punt is met <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> as koördinate en <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is enige ander punt met <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> as koördinate.</para>
+        <figure id="uid39"><media id="uid39_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C14_016-d6d3.png" id="uid39_onlineimage" width="258"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_016-8eff.eps" id="uid39_printimage"/>
+          </media>
+        </figure>
+        <para id="id67214">Die formule vir die berekening van die afstand tussen twee punte word as volg afgelei. Die afstand tussen twee punte <m:math overflow="scroll"><m:mi>A</m:mi></m:math> en <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is die lengte van die lyn <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math>. Volgens die Stelling van Pythagoras, word die lengte van <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math> gegee deur:</para>
+        <equation id="id67261">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+              <m:mo>=</m:mo>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:msup>
+                    <m:mi>C</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:msup>
+                    <m:mi>C</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:msqrt>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id67300">Ons sien</para>
+        <equation id="id67306">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67375">Dan is</para>
+        <equation id="id67379">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:msup>
+                        <m:mi>C</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mi>B</m:mi>
+                      <m:msup>
+                        <m:mi>C</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id67499">Gevolglik, vir enige twee punte,<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, is die formule:</para>
+        <para id="id67561">Afstand=<m:math overflow="scroll"><m:msqrt><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:math></para>
+        <para id="id67630">Deur die formule te gebruik, word die afstand tussen twee punte <m:math overflow="scroll"><m:mi>P</m:mi></m:math> en <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> met koördinate (2;1) en (-2;-2) as volg bereken. Gestel die koördinate van punt <m:math overflow="scroll"><m:mi>P</m:mi></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en die koördinate van punt <m:math overflow="scroll"><m:mi>Q</m:mi></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>. Dan is die afstand:</para>
+        <equation id="id67728"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>Afstand</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>1</m:mn>
+                          </m:msub>
+                          <m:mo>-</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msub>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mo>-</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>+</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>16</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>9</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msqrt>
+                    <m:mn>25</m:mn>
+                  </m:msqrt>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>5</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation><para id="eip-130"><title>Khan Akademie video oor die afstandformule</title><figure id="uid99" class="khanacademy"><title>Khan Akademie video oor die afstandformule</title><media id="yt-media" display="block" alt="video on distance formula">
+  <flash id="yt-video" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/nyZuite17Pc&amp;rel=0" width="425" height="344">
+   <param name="allowscriptaccess" value="always"/>
+   <param name="allowsfullscreen" value="true"/>
+  </flash>
+ </media>
+</figure></para>
+      </section>
+
+</content>
+
+</document>

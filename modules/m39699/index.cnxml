@@ -1,0 +1,1692 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Faktorisering en breke</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39699</md:content-id>
+  <md:title>Faktorisering en breke</md:title>
+  <md:abstract/>
+  <md:uuid>3d36bbcd-9944-424a-884d-24481522bd0a</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid5">
+      <title>Faktorisering van Kwadratiese Uitdrukkings</title>
+      <para id="eip-218"><figure id="factorisingquadratic" class="khanacademy"><title>Khan Akademie video oor die faktorisering van kwadratiese uitdrukkings</title><media id="yt-media2" display="block" alt="video on circuits 1">
+<flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/eF6zYNzlZKQ&amp;rel=0" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para><para id="eip-411">Faktorisering kan gesien word as die omgekeerde proses van die berekening van die produk van faktore. Om 'n kwadratiese uitdrukking te faktoriseer, is dit dus nodig om die faktore te vind wat, wanneer hulle met mekaar vermenigvuldig word, gelyk sal wees aan die oorspronklike kwadratiese uitdrukking.
+
+</para>
+      <para id="id275057">Beskou 'n kwadratiese uitdrukking van die vorm: <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:math><space/>. Ons kan sien hier is <m:math overflow="scroll"><m:mi>x</m:mi></m:math> is 'n gemeenskaplike faktor in beide terme. Dus,<space/><m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:math><space/>faktoriseer tot <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow></m:math>. Byvoorbeeld, <m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi></m:mrow></m:math><space/>faktoriseer tot<space/><m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+      <para id="id275188">'n Ander tipe kwadratiese uitdrukking bestaan uit die verskil tussen kwadrate. Ons weet dat:</para>
+      <equation id="id275192"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>a</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>a</m:mi>
+              <m:mo>-</m:mo>
+              <m:mi>b</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo/>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id275245">Dit is waar vir enige waardes van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>b</m:mi></m:math>, en, nog belangriker, aangesien die twee uitdrukkings aan mekaar gelyk (ekwivalent) is, kan ons skryf:
+
+</para>
+      <equation id="id275270"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>a</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>a</m:mi>
+              <m:mo>-</m:mo>
+              <m:mi>b</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo/>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id275324">Dit beteken dat wanneer ons enige kwadratiese uitdrukking wat bestaan uit die verskil tussen twee kwadrate teëkom, ons onmiddellik die faktore kan neerskryf. 
+</para>
+<exercise id="secfhsst_id2008"><title>Verskil van Kwadrate </title><problem id="probfhsst_id2009">
+      <para id="id275343">Vind die faktore van <m:math overflow="scroll"><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>25</m:mn></m:mrow></m:math>.</para>
+      </problem>
+      <solution id="solfhsst_id2012"> <list id="listfhsst_id2012" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Ondersoek die kwadratiese uitdrukking </label>
+      <para id="id275388">Ons sien die kwadratiese uitdrukking is die verskil tussen twee vierkante omdat:</para>
+      <equation id="id275392">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mn>9</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id275430">en</para>
+      <equation id="id275435"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mn>5</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mn>25</m:mn>
+            <m:mo/>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Skryf die uitdrukking as die verskil tussen twee kwadrate </label>
+      <equation id="id275463">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>9</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mn>25</m:mn>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mn>5</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Skryf die faktore neer </label>
+      <equation id="id275517">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mn>5</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Skryf die finale antwoord neer </label>
+      <para id="id275585">Die faktore van <m:math overflow="scroll"><m:mrow><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>25</m:mn></m:mrow></m:math><space/> is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+      <para id="id275654">Hierdie soort kwadratiese uitdrukking is eenvoudig om te faktoriseer. Nie baie kwadratiese uitdrukkings val egter in hierdie kategorie nie, en gevolglik het ons 'n meer algemene metode nodig vir kwadrate soos <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math><space/>.
+
+</para>
+      <para id="id275684">Ons kan leer hoe om kwadrate te faktoriseer deur twee binomiale met mekaar te vermenigvuldig en so 'n kwadratiese uitdrukking te kry. Byvoorbeeld, <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math> vermenigvuldig uit as:
+
+</para>
+      <equation id="id275716">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo>.</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id275871">Ons kan sien dat die <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math><space/>term in die kwadratiese uitdrukking die produk is van die <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-terme in elke hakie. Soortgelyk, die 6 in die kwadratiese uitdrukking is die produk van 2 en 3 in die hakies. Gevolglik is die middelterm die som van die twee terme.
+
+</para>
+      <para id="id275901">Dus, hoe gebruik ons hierdie inligting om die kwadratiese uitdrukking te faktoriseer?</para>
+      <para id="id275905">Kom ons begin faktoriseer <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math> <space/>en sien of ons kan besluit op sekere algemene reëls. Eerstens, skryf twee hakies neer met 'n <m:math overflow="scroll"><m:mi>x</m:mi></m:math> in elke hakie en los spasie vir die oorblywende terme.
+
+</para>
+      <equation id="id275944">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mspace width="1.em"/>
+            <m:mi>x</m:mi>
+            <m:mspace width="2.em"/>
+            <m:mo>)</m:mo>
+            <m:mo>(</m:mo>
+            <m:mspace width="1.em"/>
+            <m:mi>x</m:mi>
+            <m:mspace width="2.em"/>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id275980">Besluit nou op die faktore van 6. Aangesien 6 'n positiewe getal is, sal dit wees:</para>
+      <table id="id275986" summary=""><tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry namest="c1" nameend="c2">Faktore van 6</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>6</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry>-1</entry>
+              <entry>-6</entry>
+            </row>
+            <row>
+              <entry>-2</entry>
+              <entry>-3</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <para id="id276096">Vervolgens het ons nou vier moontlikhede:</para>
+      <table id="id276099" summary="Options for factorising">
+<tgroup cols="4"><tbody>
+            <row>
+              <entry>Opsie 1</entry>
+              <entry>Opsie 2</entry>
+              <entry>Opsie 3</entry>
+              <entry>Opsie 4</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        
+
+</tgroup>
+</table>
+      <!--empty paragraphs get left behind.-->
+      <para id="id276261">Vervolgens vermenigvuldig ons elke stel hakies uit om te sien watter stel gee vir die regte middelterm.</para>
+      <table id="id276265" summary="Options for factorising">
+<tgroup cols="4"><tbody>
+            <row>
+              <entry>Opsie 1</entry>
+              <entry>Opsie 2</entry>
+              <entry>Opsie 3</entry>
+              <entry>Opsie 4</entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <emphasis effect="underline">
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>6</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </emphasis>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        
+</tgroup>
+</table>
+      <!--empty paragraphs get left behind.-->
+      <para id="id276547">Ons kan sien dat Opsie 3, (x+2)(x+3), die korrekte oplossing is. Die proses van faktorisering is hoofsaaklik 'n proses van opsies identifiseer en evalueer, maar daar is inligting wat die proses kan vergemaklik.
+
+</para>
+      <section id="uid20">
+        <title>Metode: Faktorisering van Kwadratiese Uitdrukkings</title>
+        <list id="id276561" display="block" list-type="enumerated"><item id="uid21">Eerstens, haal enige gemeenskaplike faktore van die koëffisïente uit om 'n uitdrukking te kry van die vorm <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/>waar <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> en <m:math overflow="scroll"><m:mi>c</m:mi></m:math> geen gemene faktore het nie en <m:math overflow="scroll"><m:mi>a</m:mi></m:math> positief is.
+</item>
+          <item id="uid22">Skryf twee hakies neer met 'n <m:math overflow="scroll"><m:mi>x</m:mi></m:math> in elke hakie en plek vir die oorblywende terme.
+<equation id="uid23"><m:math overflow="scroll" mode="display"><m:mrow><m:mo>(</m:mo><m:mspace width="1.em"/><m:mi>x</m:mi><m:mspace width="2.em"/><m:mo>)</m:mo><m:mo>(</m:mo><m:mspace width="1.em"/><m:mi>x</m:mi><m:mspace width="2.em"/><m:mo>)</m:mo></m:mrow></m:math></equation></item>
+          <item id="uid24">Skryf 'n stel faktore neer vir <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>c</m:mi></m:math>.
+</item>
+          <item id="uid25">Skryf 'n stel opsies neer vir die moontlike faktore is van die kwadratiese term deur die faktore van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>c</m:mi></m:math> te gebruik.
+</item>
+          <item id="uid26">Brei al die opsies uit om te sien watter stel vir jou die korrekte antwoord gee. 
+</item>
+        </list>
+        <para id="id276779"><emphasis effect="bold">Daar is sekere wenke wat jy in gedagte kan hou:</emphasis>
+        </para>
+        <list id="id276789" display="block" list-type="bulleted"><item id="uid27">As <m:math overflow="scroll"><m:mi>c</m:mi></m:math> positief is, moet albei die faktore van <m:math overflow="scroll"><m:mi>c</m:mi></m:math> positief of albei negatief wees. Die faktore is beide negatief indien <m:math overflow="scroll"><m:mi>b</m:mi></m:math> negatief is, en beide positief indien <m:math overflow="scroll"><m:mi>b</m:mi></m:math> positief is. As <m:math overflow="scroll"><m:mi>c</m:mi></m:math> negatief is, beteken dit slegs een van die faktore van <m:math overflow="scroll"><m:mi>c</m:mi></m:math> is negatief, en die ander een is positief.
+</item>
+          <item id="uid28">Wanneer jy 'n antwoord gekry het, brei weer jou hakies uit net om te toets of dit reg uitwerk.
+</item>
+        </list>
+<exercise id="secfhsst_id2510"><title>Faktorisering van 'n Kwadratiese Uitdrukking</title><problem id="probfhsst_id2511">
+        <para id="id276886">Vind die faktore van <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>. </para>
+        </problem>
+        <solution id="solfhsst_id2514"> <list id="listfhsst_id2514" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Kontroleer of die kwadratiese uitdrukking in die vorm <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math><space/> is met <m:math overflow="scroll"><m:mi>a</m:mi></m:math> positief. </label>
+        <para id="id276979">Die kwadraat is in die regte vorm.</para>
+        </item> <item> <label> Skryf twee hakies neer met 'n <m:math overflow="scroll"><m:mi>x</m:mi></m:math><space/> in elke hakie en spasie vir die oorblywende terme. </label>
+        <equation id="uid29">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mspace width="1.em"/>
+              <m:mi>x</m:mi>
+              <m:mspace width="2.em"/>
+              <m:mo>)</m:mo>
+              <m:mo>(</m:mo>
+              <m:mspace width="1.em"/>
+              <m:mi>x</m:mi>
+              <m:mspace width="2.em"/>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id277035">Skryf die stel faktore neer van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>c</m:mi></m:math>.
+Die moontlike faktore van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is: (1,3).
+The moontlike faktore van <m:math overflow="scroll"><m:mi>c</m:mi></m:math> is: (-1,1) of (1,-1).
+
+    </para>
+        <para id="id277075">Skryf die groep opsies neer van die moontlike faktore van die kwadratiese uitdrukking  
+ <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en <m:math overflow="scroll"><m:mi>c</m:mi></m:math>.
+Daar is twee moontlike oplossings.</para>
+        <table id="id277097" summary="Options for factorising">
+<tgroup cols="2"><tbody>
+              <row>
+                <entry>Opsie 1</entry>
+                <entry>Opsie 2</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <emphasis effect="underline">
+                    <m:math overflow="scroll">
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:math>
+                  </emphasis>
+                </entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+        <!--empty paragraphs get left behind.-->
+        </item> <item> <label> Kontroleer jou antwoord </label>
+        <equation id="id277257">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id277481">Die faktore van <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math><space/>is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id2756"><title>Faktorisering van 'n Kwadratiese Drieterm</title>
+        <list id="id277570" display="block" list-type="enumerated"><item id="uid30">Faktoriseer die volgende:
+<table id="id277586" summary="uid865">
+<tgroup cols="3"><tbody><row><entry>(a) <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:math><space/></entry><entry>(b) <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow></m:math><space/></entry><entry>(c) <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math><space/></entry></row><row><entry>(d) <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>14</m:mn></m:mrow></m:math><space/></entry><entry>(e) <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>36</m:mn></m:mrow></m:math><space/></entry><entry>(f) <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>36</m:mn></m:mrow></m:math><space/></entry></row></tbody>
+
+</tgroup>
+</table><link window="new" class="fullmarks" url="http://www.fhsst.org/liY">Kliek hier vir die oplossing</link></item>
+          <item id="uid31">Ontbind die volgende in faktore:
+<list id="id277790" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid32"><m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>15</m:mn></m:mrow></m:math></item><item id="uid33"><m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math></item><item id="uid34"><m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>8</m:mn></m:mrow></m:math></item><item id="uid35"><m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>20</m:mn></m:mrow></m:math></item><item id="uid36"><m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>20</m:mn></m:mrow></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lir">Kliek hier vir die oplossing</link>
+</item></list></item>
+          <item id="uid37">Vind die faktore van die volgende drieterme:
+<list id="id277980" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid38"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math></item><item id="uid39"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>19</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></item><item id="uid40"><m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid41"><m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid42"><m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/li1">Kliek hier vir die oplossing</link>
+</item></list></item>
+          <item id="uid43">Faktoriseer die volgende drieterme:
+<list id="id278184" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid44"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>17</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:math></item><item id="uid45"><m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid46"><m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid47"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/liC">Kliek hier vir die oplossing</link>
+</item></list></item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid6">
+      <title>Faktorisering deur Groepering</title>
+      <para id="id278358">'n Verdere metode van faktorisering gebruik gemeenskaplike faktore. Ons weet dat die faktore van <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math><space/>, 3 en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> is. Soortelyk is die faktore van <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math><space/> , <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math><space/>en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math>. Gevolglik het ons 'n uitdrukking:
+
+</para>
+      <equation id="id278452">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id278488">wat ons kan faktoriseer as:</para>
+      <equation id="id278494"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo/>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id278536">Nou kan ons sien daar is 'n ander gemene faktor: <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Gevolglik kan ons nou skryf:</para>
+      <equation id="id278556"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>(</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo/>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id278591">Ons kry dit deur die <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> 'uit te haal' (uit te deel) en te sien wat oorbly. Ons het <m:math overflow="scroll"><m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math><space/>uit die eerste term en <m:math overflow="scroll"><m:mrow><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math> uit die tweede term. Dit word genoem <emphasis effect="italics">faktorisering deur  groepering</emphasis>.</para>
+<exercise id="secfhsst_id2835"><title>Faktorisering deur Groepering </title><problem id="probfhsst_id2836">
+      <para id="id278656">Vind die faktore van <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>y</m:mi></m:mrow></m:math><space/> deur groepering </para>
+      </problem>
+      <solution id="solfhsst_id2839"> <list id="listfhsst_id2839" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Bepaal of daar faktore is wat gemeenskaplik is aan al die terme </label>
+      <para id="id278713">Daar is geen algemene gemeenskaplike faktore nie.</para>
+      </item> <item> <label> Bepaal of daar faktore is wat gemeenskaplik is in sommige van die terme </label>
+      <para id="id278721">7 is 'n gemene faktor van die eerste twee terme en <m:math overflow="scroll"><m:mi>b</m:mi></m:math> is 'n gemene faktor van die tweede twee terme.</para>
+      </item> <item> <label> Herskryf die uitdrukking met inagneming van die faktore </label>
+      <equation id="id278739">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>7</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>14</m:mn>
+            <m:mi>y</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>b</m:mi>
+            <m:mi>y</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>7</m:mn>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>y</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>y</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bepaal of daar verdere gemeenskaplike faktore is </label>
+      <para id="id278811"><m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:math><space/>is 'n gemeenskaplike faktor.</para>
+      </item> <item> <label> Herskryf die uitdrukking in faktorvorm </label>
+      <equation id="id278835">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>7</m:mn>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>y</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>y</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>y</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>(</m:mo>
+            <m:mn>7</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Skryf die finale antwoord neer </label>
+      <para id="id278906">Die faktore van <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>y</m:mi></m:mrow></m:math><space/>is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:math>
+ </para>
+      </item> </list> </solution>
+</exercise>
+<para id="eip-280"><figure id="factorisingtrinomial" class="khanacademy"><title>Khan Akademie video oor faktorisering van 'n drieterm deur groepering</title><media id="yt-media32" display="block" alt="video on factorising">
+<flash id="yt-video32" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/HXIj16mjfgk&amp;rel=0" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para><section id="secfhsst_id2920"><title>Faktorisering deur Groepering </title>
+      <list id="id279000" display="block" list-type="enumerated"><item id="uid48">Faktoriseer deur groepering: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>a</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lih">Kliek hier vir die oplossing</link></item>
+        <item id="uid49">Faktoriseer deur groepering: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>30</m:mn></m:mrow></m:math><newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/liS">Kliek hier vir die oplossing</link></item>
+        <item id="uid50">Faktoriseer deur groepering: <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>y</m:mi></m:mrow></m:math><newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/liJ">Kliek hier vir die oplossing</link></item>
+        <item id="uid51">Faktoriseer deur groepering: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math><newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/liu">Kliek hier vir die oplossing</link></item>
+        <item id="uid52">Faktoriseer deur groepering: <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:math><newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/liz">Kliek hier vir die oplossing</link></item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid7">
+      <title>Vereenvoudiging van Breuke</title>
+      <para id="id279238">In sommige gevalle van die vereenvoudiging van 'n algebraïese uitdrukking, sal die uitdrukking 'n breuk wees. Byvoorbeeld,
+
+</para>
+      <equation id="id279242">
+        <m:math overflow="scroll" mode="display">
+          <m:mfrac>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:mfrac>
+        </m:math>
+      </equation>
+      <para id="id279276">het 'n kwadraat in die teller en 'n binomiaal (kwadratiese tweeterm) in die noemer. Jy kan die verskillende metodes van faktorisering gebruik om die uitdrukking te vereenvoudig.</para>
+      <equation id="id279282"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mspace width="4pt"/>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mspace width="1.em"/>
+                  <m:mi> solank</m:mi><m:mspace width="2pt"/><m:mi>x</m:mi>
+                  <m:mo>≠</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id279389">As <m:math overflow="scroll"><m:mi>x</m:mi></m:math> 3 is, sal die noemer, <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>, 0 wees en die breuk ongedefinieer.</para>
+<exercise id="secfhsst_id3026"><title>Vereenvoudiging van Breukuitdrukkings </title><problem id="probfhsst_id3027">
+      <para id="id279431">Vereenvoudig: <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id3030"> <list id="listfhsst_id3030" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Faktoriseer die teller en die noemer </label>
+      <para id="id279503">Gebruik <emphasis effect="italics">groepering</emphasis> vir die teller en <emphasis effect="italics">uithaal van 'n gemene faktor</emphasis> vir die noemer in hierdie voorbeeld.</para>
+      <equation id="id279518">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mi>b</m:mi>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Deel ('kanselleer') eenderse faktore uit </label>
+      <para id="id279695">Die vereenvoudigde antwoord is:</para>
+      <equation id="id279699">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mspace width="1.em"/>
+                  <m:mspace width="1.em"/>
+                  <m:mspace width="1.em"/>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id3174"><title>Vereenvoudiging van Breukuitdrukkings</title><problem id="probfhsst_id3175">
+      <para id="id279776">Vereenvoudig:<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id3178"> <list id="listfhsst_id3178" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Faktoriseer tellers en noemers </label>
+      <equation id="id279872">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>÷</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Vermenigvuldig met die gefaktoriseerde resiprook </label>
+      <equation id="id279977">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>×</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Deel eenderse faktore uit </label>
+      <para id="id280081">Die vereenvoudigde antwoord is</para>
+      <equation id="id280085">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id3323"><title>Vereenvoudiging van Breuke</title>
+      <list id="id280133" display="block" list-type="enumerated"><item id="uid53">Vereenvoudig:
+<table id="id280148" summary="uid657">
+<tgroup cols="2"><tbody><row><entry>(a) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi></m:mrow><m:mn>15</m:mn></m:mfrac></m:math><space/></entry><entry>(b) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow><m:mn>4</m:mn></m:mfrac></m:math><space/></entry></row><row><entry>(c) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:math><space/></entry><entry>(d) <m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:math><space/></entry></row><row><entry>(e) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>9</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:math><space/></entry><entry>(f) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>27</m:mn></m:mrow><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:mfrac></m:math><space/></entry></row><row><entry>(g) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>6</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi></m:mrow></m:mfrac></m:math><space/></entry><entry>(h) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac></m:math><space/></entry></row><row><entry>(i) <m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mi>p</m:mi><m:mo>-</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mi>p</m:mi></m:mrow><m:mrow><m:mn>12</m:mn><m:mi>x</m:mi><m:mi>y</m:mi></m:mrow></m:mfrac></m:math><space/></entry><entry>(j) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow><m:mn>14</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>21</m:mn></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:math><space/></entry></row><row><entry>(k) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>a</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math><space/></entry><entry>(l) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>p</m:mi></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math><space/></entry></row><row><entry>(m) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>16</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mrow><m:mn>12</m:mn></m:mfrac></m:mrow></m:math><space/></entry><entry>(n) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>24</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>8</m:mn></m:mrow><m:mn>12</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mn>6</m:mn></m:mfrac></m:mrow></m:math><space/></entry></row><row><entry>(o) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mn>20</m:mn></m:mfrac></m:mrow></m:math><space/></entry><entry>(p) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>p</m:mi><m:mi>q</m:mi></m:mrow><m:mrow><m:mn>7</m:mn><m:mi>p</m:mi></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>q</m:mi></m:mrow><m:mrow><m:mn>21</m:mn><m:mi>q</m:mi></m:mrow></m:mfrac></m:mrow></m:math><space/></entry></row><row><entry>(q) <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>15</m:mn><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>12</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:mfrac></m:mrow></m:math><space/></entry><entry>(r) <m:math overflow="scroll"><m:mfrac><m:mrow><m:msup><m:mi>f</m:mi><m:mn>2</m:mn></m:msup><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>f</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>f</m:mi><m:mo>-</m:mo><m:mi>a</m:mi></m:mrow></m:mfrac></m:math></entry></row></tbody>
+
+</tgroup>
+</table><link window="new" class="fullmarks" url="http://www.fhsst.org/lit">Kliek hier vir die oplossing </link></item>
+        <item id="uid54">Vereenvoudig: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>×</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lie">Kliek hier vir die oplossing</link>
+</item>
+      </list>
+      
+</section>
+    </section>
+    <section id="eip-770"><title>Optel en Aftrek van Breuke</title><para id="eip-107">Deur gebruik te maak van die konsepte wat ons geleer het in die vereenvoudiging van breuke, kan ons nou eenvoudige breuke optel en aftrek. Om breuke op te tel of af te trek, moet ons daarop let dat ons slegs breuke kan optel of aftrek wat dieselfde noemer het. Dus moet ons eers al die noemers herlei na dieselfde noemer en dan die bewerkings van optelling of aftrekking doen. Dit word genoem die vind van die kleinste gemeenskaplike noemer of veelvoud. 
+
+
+
+</para><para id="eip-997">Byvoorbeeld, om <m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:math> en <m:math><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:math> op te tel, let ons op dat die kleinste gemene noemer 10 is. Dus moet ons die eerste breuk se noemer vermenigvuldig met 5 en die tweede breuk met 2 om beide se noemers te herlei na breuke met dieselfde noemer. Dit gee: <m:math><m:mfrac><m:mn>5</m:mn><m:mn>10</m:mn></m:mfrac></m:math> en <m:math><m:mfrac><m:mn>6</m:mn><m:mn>10</m:mn></m:mfrac></m:math>. Nou kan ons die breuke optel. As ons dit doen, kry ons <m:math><m:mfrac><m:mn>11</m:mn><m:mn>10</m:mn></m:mfrac></m:math>.</para><exercise id="eip-337"><problem id="probfhsst_id317245">
+      <para id="id2793436776">Vereenvoudig die volgende uitdrukking: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id3132478"> <list id="listfhsst_id343178" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Faktoriseer al die tellers en al die noemers </label>
+      <equation id="id279353872"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
+<m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow>
+</m:mfrac>
+<m:mo>-</m:mo>
+<m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+      </item> <item> <label> Maak die noemers dieselfde </label><para id="id79242">Ons maak al die noemers dieselfde sodat ons die breuke kan optel of aftrek. Die kleinste gemeenskaplike noemer is <m:math><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:math>.</para>
+      <equation id="id27943653977"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+</m:mfrac>
+<m:mo>+</m:mo>
+<m:mfrac><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>
+(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow>
+</m:mfrac>
+<m:mo>-</m:mo>
+<m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+      </item> <item> <label>Skryf al die breuke as een</label><para id="id639247">Aangesien al die breuke dieselfde noemer het, kan ons hulle almal skryf as een breuk met die toepaslike bewerkingstekens. </para>
+     <equation id="id653977"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn>
+<m:mo>+</m:mo>
+<m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>
+(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo>
+<m:mo>-</m:mo>
+<m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+      
+      </item> 
+<item><label>Vereenvoudig die teller</label><equation id="id9657"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>
++</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+</item>
+<item><label>Skryf die finale antwoord</label>
+<equation id="id65677"><m:math overflow="scroll"><m:mrow>
+<m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>
++</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow>
+<m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>
+      </equation>
+</item></list> </solution>
+</exercise></section><section id="eip-755"><title>Twee interessante Wiskundige Bewyse</title><para id="id76534">Ons kan die konsepte wat ons in hierdie hoofstuk geleer het, gebruik om twee interessante wiskundige bewyse te illustreer. Die eerste bewering is dat <m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:math> ewe is vir alle <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>. Die tweede is 'n bewys dat <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> deelbaar is deur 6 vir alle <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>. Voor ons kan toon dat hierdie twee bewerings waar is, moet ons eers kennis neem van sekere ander wiskundige reëls.
+
+ </para>
+<para id="id736">As ons 'n ewe getal vermenigvuldig met 'n onewe getal, kry ons 'n ewe getal. Net so, as ons 'n onewe getal vermenigvuldig met 'n ewe getal, kry ons 'n ewe getal. Verder is 'n ewe getal vermenigvuldig met 'n ewe getal altyd ewe, en 'n onewe getal vermenigvuldig met 'n onewe getal, onewe. Hierdie resultaat word gewys in die volgende tabel:
+
+
+
+</para>
+<table id="eip-556" summary="multiplying numbers">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis effect="bold">Ewe getal</emphasis></entry>
+    <entry><emphasis effect="bold">Onewe getal</emphasis></entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Onewe getal</emphasis></entry>
+    <entry>Ewe</entry>
+    <entry>Onewe</entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Ewe getal</emphasis></entry>
+    <entry>Ewe</entry>
+    <entry>Ewe</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="id697">As ons 3 opeenvolgende getalle met mekaar vermenigvuldig, sal die antwoord altyd deelbaar wees deur 3. Dit behoort voor die handliggend te wees want as ons enige 3 opeenvolgende getalle het, sal een van hulle altyd deelbaar wees deur 3.
+
+</para>
+<para id="id67354">Nou is ons gereed om te bewys dat <m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:math> ewe is vir alle <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>. As ons hierdie uitdrukking faktoriseer, kry ons
+ <m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:math>. As <m:math><m:mi>n</m:mi></m:math> ewe is, dan is <m:math><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:math> onewe. As <m:math><m:mi>n</m:mi></m:math> onewe is, dan is <m:math><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:math> ewe. Aangesien ons weet dat as ons 'n ewe getal met 'n onewe getal vermenigvuldig, of 'n onewe getal met 'n ewe getal, kry ons 'n ewe getal, het ons gedemonstreer dat <m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:math> altyd ewe is. Probeer dit met 'n paar waardes van <m:math><m:mi>n</m:mi></m:math> en jy sal vind dat dit waar is.
+
+</para>
+<para id="id67744">Om te demonstreer dat <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> deelbaar is deur 6 vir alle <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>, let ons eerstens op dat die faktore van 6, 3 en 2 is. Dus, as ons wys dat <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> deelbaar is deur beide 3 en 2, dan het ons aangetoon dat dit ook deelbaar is deur 6! As ons die uitdrukking faktoriseer, kry ons 
+ <m:math><m:mi>n</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:math>. Nou sien ons dat as ons drie opeenvolgende getalle met mekaar vermenigvuldig, dan neem ons <m:math><m:mi>n</m:mi></m:math> en tel dan 1 by of trek 1 af. Dit gee ons die twee getalle weerskante van <m:math><m:mi>n</m:mi></m:math>. Byvoorbeeld, as <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:math>, dan <m:math><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>5</m:mn></m:math> en <m:math><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>3</m:mn></m:math>. Maar ons weet dat as ons drie opeenvolgende getalle met mekaar vermenigvuldig, is die antwoord altyd deelbaar deur 3. Dus het ons gedemonstreer dat <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> altyd deelbaar is deur  3. Deur aan te toon dat dit deelbaar is deur 2, kan ons ook bewys dat dit ewe is. Ons het gewys dat <m:math><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>n</m:mi></m:math> altyd ewe is. Nou moet ons herroep wat ons gesê het oor die vermenigvuldiging van ewe en onewe getalle. Aangesien die een getal altyd ewe is en die ander een ewe of onewe kan wees, sal die resultaat van die vermenigvuldiging van hierdie getalle, altyd ewe wees. Dus het ons gedemonstreer dat <m:math><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mi>n</m:mi></m:math> deelbaar is deur 6 vir alle <m:math><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="doublestruck">Z</m:mi></m:math>.
+
+</para>
+</section><section id="eip-735"><title>Opsomming</title><list id="uid0812"><item>'n Binomiaal is 'n wiskundige uitdrukking met twee terme. Die produk van twee identiese binomiale staan bekend as die vierkant of kwadraat van die binomiaal. Die verskil tussen twee kwadrate kry ons wanneer ons vermenigvuldig
+                <m:math> <m:mrow><m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow></m:math></item>
+<item>Faktorisering is die teenoorgestelde van die uitbreiding van hakies. Ons kan gemeenskaplike faktore of die verskil tussen twee kwadrate gebruik om ons te help om uitdrukkings te faktoriseer.</item>
+<item>Die distributiewe wet (<m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>C</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>D</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>E</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>C</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>D</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>E</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>C</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>D</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>E</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>) help ons om 'n binomiaal en 'n trinomiaal te vermenigvuldig.</item>
+<item>Die som van derdemagte is: <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>y</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mi>x</m:mi>
+              <m:mi>y</m:mi>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math> en die verskil van derdemagte is: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup></m:mrow><m:mo>=</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:math></item>
+<item>Om 'n kwadratiese drieterm te faktoriseer, moet ons die twee binomiale vind wat met mekaar vermenigvuldig is om die kwadratiese drieterm te gee.</item>
+<item>Ons kan ook 'n drieterm faktoriseer deur groepering. Dit is wanneer ons 'n gemene faktor vind in elke term van die drieterm, dit uithaal en sien wat oorbly.</item>
+<item>Ons kan breuke vereenvoudig deur gebruik te maak van die metodes wat ons gebruik het om uitdrukkings mee te faktoriseer.</item>
+<item>Breuke kan bymekaargetel of van mekaar afgetrek word. Om dit te kan doen, moet al die breuke dieselfde noemers hê.</item></list></section><section id="cid8">
+      <title>Einde van die Hoofstuk Oefeninge</title>
+      <list id="id281011" display="block" list-type="enumerated"><item id="uid55">Faktoriseer:
+<list id="id281026" list-type="enumerated" number-style="lower-alpha">
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>9</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>36</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>9</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>81</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup><m:mo>-</m:mo><m:mn>25</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>9</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo>-</m:mo><m:mn>5</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:mi>b</m:mi><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:mo>-</m:mo><m:mn>81</m:mn><m:mi>b</m:mi></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>10</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>25</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>56</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>49</m:mn></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>12</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>144</m:mn><m:msup><m:mi>b</m:mi><m:mn>8</m:mn></m:msup><m:mo>+</m:mo><m:mn>48</m:mn><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow></m:math></item>
+</list><link window="new" class="fullmarks" url="http://www.fhsst.org/liM">Kliek hier vir die oplossing</link></item>
+<item id="id632">Faktoriseer volkome: <list id="id6423" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>16</m:mn><m:mi>−</m:mi><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow></m:math></item>
+<item><m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mn>7x</m:mn><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>14x</m:mn></m:mrow><m:mo>+</m:mo><m:mn>7xy</m:mn></m:mrow><m:mo>−</m:mo><m:mn>14y</m:mn></m:mrow></m:math>
+</item>
+<item><m:math><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>7y</m:mn></m:mrow><m:mo>−</m:mo><m:mn>30</m:mn></m:mrow></m:math>
+</item>
+<item><m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math>
+</item>
+<item><m:math><m:mrow><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>p</m:mi></m:mrow><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:math></item>
+</list><link class="fullmarks" window="new" url="http://www.fhsst.org/lTY">Kliek hier vir die oplossing</link>
+</item>
+<item>Vereenvoudig die volgende:
+<list id="eip-id1166762435067" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msup><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>a</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:math></item>
+<item><m:math><m:mo>(</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>25</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>20</m:mn><m:mi>ab</m:mi><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:math></item>
+<item><m:math><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>4</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:math></item>
+<item><m:math><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mi>c</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>)</m:mo></m:math></item>
+</list><link window="new" class="fullmarks" url="http://www.fhsst.org/lTg">Kliek hier vir die oplossing</link>
+</item>
+<item>Vereenvoudig die volgende:
+<list id="eip-id1153" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:mfrac><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>p</m:mi></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow><m:mrow><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>pq</m:mi></m:mrow></m:mfrac></m:math></item>
+<item><m:math><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>-</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mn>3</m:mn></m:mfrac></m:math></item>
+</list><link window="new" class="fullmarks" url="http://www.fhsst.org/lT4">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid56">Wys dat <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> vereenvoudig kan word tot <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/lib">Kliek hier vir die oplossing</link>
+</item>
+        <item id="uid57">Bepaal wat moet by <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math><space/>getel word sodat dit gelyk is aan <m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:math>
+<newline/>
+<newline/>
+<link window="new" class="fullmarks" url="http://www.fhsst.org/liT">Kliek hier vir die oplossing</link>
+</item>
+      </list>
+    </section>
+  </content>
+</document>

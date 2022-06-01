@@ -1,0 +1,837 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Opsomming van data</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39709</md:content-id>
+  <md:title>Opsomming van data</md:title>
+  <md:abstract/>
+  <md:uuid>e2a86589-f36d-4a0e-9317-267eb613af24</md:uuid>
+</metadata>
+
+<content>  
+    <section id="cid7">
+      <title>Opsomming van Data</title>
+      <para id="id211153">Indien 'n datastel baie groot is, is dit nuttig om 'n aantal waardes te bereken wat 'n aanduiding gee van hoe die data versprei is en wat die middelwaarde van die datastel is.</para>
+      <section id="uid59">
+        <title>Maatstawe van Sentrale Neiging</title>
+        <section id="uid60">
+          <title>Gemiddeld</title>
+          <para id="id211176">Die gemiddeld (ook bekend as die rekenkundige gemiddeld) is eenvoudig net die gemiddeld van 'n groep getalle (of 'n datastel) en word aangetoon deur van die strepie-simbool <m:math overflow="scroll"><m:mover accent="true"><m:mrow/><m:mo>  ¯</m:mo></m:mover></m:math> gebruik te maak. So, die rekenkundige gemiddeld van al die waardes van die veranderlike <m:math overflow="scroll"><m:mi>x</m:mi></m:math> is <m:math overflow="scroll"><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>. Die gemiddelde waarde van 'n stel waardes word bereken deur al die getalle by mekaar te tel en dan die som deur die aantal items in die stel te deel. Die gemiddeld word bereken deur die rou, ongegroepeerde, onverwerkte data te gebruik.</para>
+<definition id="fhsst_id1287"><term id="termfhsst_id1287"> Gemiddeld</term> <meaning id="meaningfhsst_id1287">
+          <para id="id211228">Die gemiddeld van die datastel <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, aangetoon as <m:math overflow="scroll"><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>, is die gemiddeld van die datawaardes en word bereken as:</para>
+          <equation id="uid61"><m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mover accent="true">
+                  <m:mi>x</m:mi>
+                  <m:mo>¯</m:mo>
+                </m:mover>
+                <m:mspace width="4pt"/>
+                <m:mo>=</m:mo>
+                <m:mspace width="4pt"/>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>som van alle waardes</m:mi>
+                   
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi> aantal waardes</m:mi>
+                    
+                  </m:mrow>
+                </m:mfrac>
+                <m:mspace width="4pt"/>
+                <m:mo>=</m:mo>
+                <m:mspace width="4pt"/>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                    <m:mo>...</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+          </equation>
+          
+          </meaning></definition>
+          <para id="id211421"><emphasis effect="bold">Metode: Berekening van die gemiddeld</emphasis>
+          </para>
+          <list id="id211428" display="block" list-type="enumerated"><item id="uid62">Vind die totaal van die datawaardes in die datastel.
+</item>
+            <item id="uid63">Tel hoeveel datawaardes daar in die datastel is.
+</item>
+            <item id="uid64">Deel die totaal deur die totale aantal datawaardes.
+</item>
+          </list>
+<exercise id="secfhsst_id1378"><title>Gemiddeld</title><problem id="probfhsst_id1379">
+          <para id="id211482">Wat is die gemiddeld van <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>30</m:mn><m:mo>,</m:mo><m:mn>40</m:mn><m:mo>,</m:mo><m:mn>50</m:mn><m:mo>}</m:mo></m:mrow></m:math>? </para>
+          </problem>
+          <solution id="solfhsst_id1382"> <list id="listfhsst_id1382" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Vind die totaal van die datawaardes</label>
+          <equation id="id211542">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mn>10</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn>20</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn>30</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn>40</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn>50</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>150</m:mn>
+              </m:mrow>
+            </m:math>
+          </equation>
+          </item> <item> <label> Tel hoeveel datawaardes daar in die datastel is</label>
+          <para id="id211580">Daar is 5 waardes in die datastel.</para>
+          </item> <item> <label> Deel die totaal deur die totale aantal datawaardes</label>
+          <equation id="id211588">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mn>150</m:mn>
+                <m:mo>÷</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>30</m:mn>
+              </m:mrow>
+            </m:math>
+          </equation>
+          </item> <item> <label> Antwoord</label>
+          <para id="id211612"><m:math overflow="scroll"><m:mo>∴</m:mo></m:math> Die gemiddeld van die datastel <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>30</m:mn><m:mo>,</m:mo><m:mn>40</m:mn><m:mo>,</m:mo><m:mn>50</m:mn><m:mo>}</m:mo></m:mrow></m:math> is 30. </para>
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid65">
+          <title>Mediaan</title>
+<definition id="fhsst_id1422"><term id="termfhsst_id1422"> Mediaan </term> <meaning id="meaningfhsst_id1422">
+          <para id="id211687">Die mediaan van 'n datastel is die datawaarde in die sentrale posisie nadat die datastel gesorteer is van grootste tot kleinste of kleinste tot grootste waarde. Daar is 'n gelyke hoeveelheid datawaardes voor en na die mediaan in die gesorteerde stel.</para>
+          </meaning></definition>
+          <para id="id211700">Die mediaan word vanaf die rou, ongegroepeerde data bereken.</para>
+          <para id="id211704"><emphasis effect="bold">Metode: Berekening van die mediaan</emphasis>
+          </para>
+          <list id="id211711" display="block" list-type="enumerated"><item id="uid66">Sorteer die data van kleinste tot grootste of van grootste tot kleinste.
+</item>
+            <item id="uid67">Tel hoeveel datawaardes daar in die datastel is.
+</item>
+            <item id="uid68">Vind die datawaarde in die sentrale posisie in die gesorteerde stel.
+</item>
+          </list>
+<exercise id="secfhsst_id1437"><title>Mediaan </title><problem id="probfhsst_id1438">
+          <para id="id211766">Wat is die mediaan van <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>86</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>68</m:mn><m:mo>,</m:mo><m:mn>99</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>}</m:mo></m:mrow></m:math>? </para>
+          </problem>
+          <solution id="solfhsst_id1441"> <list id="listfhsst_id1441" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Sorteer die data van kleinste tot grootste</label>
+          <para id="id211830">1,2,10,14,68,86,99</para>
+          </item> <item> <label> Tel hoeveel datawaardes daar in die datastel is</label>
+          <para id="id211837">Daar is 7 waardes in die datastel.</para>
+          </item> <item> <label> Vind die sentrale posisie van die datastel</label>
+          <para id="id211845">Die sentrale posisie van die datastel is 4.</para>
+          </item> <item> <label> Vind die datawaarde in die sentrale posisie van die gesorteerde datastel</label>
+          <para id="id211853">14 is in die sentrale posisie van die datastel.</para>
+          </item> <item> <label> Antwoord</label>
+          <para id="id211860"><m:math overflow="scroll"><m:mo>∴</m:mo></m:math> 14 is die mediaan van die datastel <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>68</m:mn><m:mo>,</m:mo><m:mn>86</m:mn><m:mo>,</m:mo><m:mn>99</m:mn><m:mo>}</m:mo></m:mrow></m:math>.
+ </para>
+          </item> </list> </solution>
+</exercise>
+          <para id="id211924">Hierdie voorbeeld het 'n moontlike probleem met die bepaling van die mediaan geïllustreer. Dit is baie maklik om die mediaan van 'n datastel met 'n onewe aantal datawaardes te bepaal, maar wat gebeur as daar 'n ewe aantal datawaardes in die datastel is?</para>
+          <para id="id211929">Indien daar 'n onewe hoeveelheid datawaardes is, dan is die mediaan die gemiddeld van die middelste twee datawaardes in die gesorteerde datastel.</para>
+<note id="notfhsst_id1457" type="tip">Hoe om die sentrale posisie van die datastel te vind</note>
+          <para id="id211939">'n Maklike manier om die sentrale posisie of posisies van 'n gesorteerde datastel te vind is om die totale aantal datawaardes te neem, 1 by te tel, en dan met 2 te deel. As die getal wat jy kry 'n heelgetal is, dan is dit die sentrale posisie. As die getal 'n breuk is, neem die twee heelgetalle aan weerskante van die breuk as die posisies van die datawaardes waarvan die gemiddeld bereken moet word om die mediaan te bepaal.</para>
+<exercise id="secfhsst_id1459"><title>Mediaan </title><problem id="probfhsst_id1460">
+          <para id="id211959">Wat is die mediaan van<m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>86</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>68</m:mn><m:mo>,</m:mo><m:mn>99</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>}</m:mo></m:mrow></m:math>? </para>
+          </problem>
+          <solution id="solfhsst_id1463"> <list id="listfhsst_id1463" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Sorteer die data van kleinste tot grootste</label>
+          <para id="id212027">1,2,10,11,14,68,85,99</para>
+          </item> <item> <label> Tel hoeveel datawaardes daar in die datastel is</label>
+          <para id="id212035">Daar is 8 punte in die datastel.</para>
+          </item> <item> <label> Vind die sentrale posisie van die datastel</label>
+          <para id="id212043">Die sentrale posisies van die datastel is tussen 4 en 5.</para>
+          </item> <item> <label> Vind die datawaardes rondom die sentrale posisie van die gesorteerde datastel</label>
+          <para id="id212051">11 is in posisie 4 en14 is in posisie 5.</para>
+          </item> <item> <label> Antwoord</label>
+          <para id="id212058"><m:math overflow="scroll"><m:mo>∴</m:mo></m:math> die mediaan van die datastel <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>68</m:mn><m:mo>,</m:mo><m:mn>85</m:mn><m:mo>,</m:mo><m:mn>99</m:mn><m:mo>}</m:mo></m:mrow></m:math> is</para>
+          <equation id="id212114">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>11</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn>14</m:mn>
+                <m:mo>)</m:mo>
+                <m:mo>÷</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>12</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math>
+          </equation>
+          
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid69">
+          <title>Modus</title>
+<definition id="fhsst_id1497"><term id="termfhsst_id1497"> Modus </term> <meaning id="meaningfhsst_id1497">
+          <para id="id212182">Die modus is die datawaarde wat die meeste voorkom.  Dit beteken dit is die mees herhaalde waarde in 'n stel data. </para>
+          </meaning></definition>
+          <para id="id212194"><emphasis effect="bold">Metode vir die berekening van die modus: </emphasis>
+Tel die hoeveelheid kere wat elke getal voorkom. Die modus is die datawaarde wat die meeste verskyn het.</para>
+          <para id="id212203">Die modus word bereken in 'n gegroepeerde stel data, of vanaf enkele data items.</para>
+<exercise id="secfhsst_id1503"><title> Modus </title>
+          <problem id="probfhsst_id1504">
+          <para id="id212220">Vind die modus van die datastel <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>}</m:mo></m:mrow></m:math> </para>
+          </problem>
+          <solution id="solfhsst_id1507"> <list id="listfhsst_id1507" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Tel die hoeveelheid kere wat elke datawaarde voorkom. </label>
+          <table id="id212318" summary="datawaardes">
+<tgroup cols="4"><tbody>
+                <row>
+                  <entry><emphasis effect="bold">Datawaarde</emphasis> </entry>
+                  <entry><emphasis effect="bold">Frekwensie</emphasis></entry>
+                  <entry><emphasis effect="bold">Datawaarde</emphasis></entry>
+                  <entry><emphasis effect="bold">Frekwensie</emphasis></entry>
+                </row>
+                <row>
+                  <entry>1</entry>
+                  <entry>1</entry>
+                  <entry>6</entry>
+                  <entry>1</entry>
+                </row>
+                <row>
+                  <entry>2</entry>
+                  <entry>1</entry>
+                  <entry>7</entry>
+                  <entry>1</entry>
+                </row>
+                <row>
+                  <entry>3</entry>
+                  <entry>1</entry>
+                  <entry>8</entry>
+                  <entry>2</entry>
+                </row>
+                <row>
+                  <entry>4</entry>
+                  <entry>3</entry>
+                  <entry>9</entry>
+                  <entry>1</entry>
+                </row>
+                <row>
+                  <entry>5</entry>
+                  <entry>1</entry>
+                  <entry>10</entry>
+                  <entry>2</entry>
+                </row>
+              </tbody>
+            
+
+
+
+
+</tgroup>
+</table>
+          <!--empty paragraphs get left behind.-->
+          </item> <item> <label> Vind die datawaarde wat die meeste voorkom. </label>
+          <para id="id212553">Die getal 4 kom die meeste voor.</para>
+          </item> <item> <label> Antwoord </label>
+          <para id="id212560">Die modus van die datastel <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>}</m:mo></m:mrow></m:math> is 4 want die getal 4 kom die meeste voor. </para>
+          </item> </list> </solution>
+</exercise>
+          <para id="id212650">'n Datastel kan meer as een modus hê.  Byvoorbeeld, beide 2 en 3 is modusse in die stel 1, 2, 2, 3, 3. As alle getale in die datastel 'n gelyke aantal kere verskyn, dan is dit korrek om te sê die stel het meer as een modus of geen modus.</para>
+        </section><para id="eip-977"><figure id="statistics-1" class="khanacademy"><title>Khan Akademie video oor statistiek</title><media id="yt-media1" display="block" alt="video on statistics">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/uhxtUt_-GyM&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para>
+      </section>
+      <section id="uid70">
+        <title>Maatstawe van Verspreiding </title>
+        <para id="id212665">Die gemiddeld, mediaan en modus is maatstawe van sentrale neiging - dit beteken hulle gee inligting van die sentrale datawaardes in 'n stel. Waneer 'n mens data beskryf, is dit soms nodig om die verspreiding van die datawaardes te bereken. Maatstawe van verspreiding gee inligting van hoe die datawaardes in 'n stel versprei is rondom die gemiddelde waarde. Sommige maatstawe van verspreiding is variasiewydte, persentiele en kwartiele.</para>
+        <section id="uid71">
+          <title>Variasiewydte</title>
+<definition id="fhsst_id1566"><term id="termfhsst_id1566"> Variasiewydte </term> <meaning id="meaningfhsst_id1566">
+          <para id="id212688">Die variasiewydte van 'n datastel is die verskil tussen die laagste waarde en die hoogste waarde in die stel. </para>
+          </meaning></definition>
+          <para id="id212700"><emphasis effect="bold">Metode: Berekening van die variasiewydte </emphasis>
+          </para>
+          <list id="id212707" display="block" list-type="enumerated"><item id="uid72">Vind die hoogste waarde in die datastel.
+</item>
+            <item id="uid73">Vind die laagste waarde in die datastel.
+</item>
+            <item id="uid74">Trek die laagste waarde van die hoogste waarde af. Die verskil is die variasiewydte.
+</item>
+          </list>
+<exercise id="secfhsst_id1580"><title>Variasiewydte</title><problem id="probfhsst_id1581">
+          <para id="id212761">Vind die variasiewydte van die datastel <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>}</m:mo></m:mrow></m:math> </para>
+          </problem>
+          <solution id="solfhsst_id1584"> <list id="listfhsst_id1584" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Vind die hoogste en die laagste waardes</label>
+          <para id="id212859">10 is die hoogste waarde en 1 is die laagste waarde.</para>
+          </item> <item> <label> Trek die laagste waarde van die hoogste waarde af om die variasiewydte te bereken</label>
+          <equation id="id212868">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mn>10</m:mn>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>9</m:mn>
+              </m:mrow>
+            </m:math>
+          </equation>
+          </item> <item> <label> Antwoord </label>
+          <para id="id212892">Vir die datastel <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo>}</m:mo></m:mrow></m:math>, is die variasiewydte 9. </para>
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid75"><title>Kwartiele</title><definition id="fhsst_id1606"><term id="termfhsst_id1606"> Kwartiele </term> <meaning id="meaningfhsst_id1606">
+          <para id="id212998">Kwartiele is die drie datawaardes wat 'n geordende datastel in vier groepe met gelyke hoeveelhede datawaardes verdeel. Die mediaan is die tweede kwartiel. </para>
+          </meaning></definition>
+          <para id="id213011">Die kwartiele van 'n stel word gevorm deur die twee grense, weerskante van die mediaan, wat die stel verdeel in vier gelyke dele. Die laagste 25% van die data word gevind onder die eerste kwartiel, dit word ook genoem die “onderste kwartiel”. Die mediaan, of tweede kwartiel deel die stel in twee gelyke dele. Die laagste 75% van die datastel is onder die derde kwartiel, ook genoem die "boonste kwartiel". Byvoorbeeld:</para>
+          <table id="id213018" summary="" frame="none" colsep="0" rowsep="0">
+            <tgroup cols="11" align="center">
+              <tbody>
+                <row>
+                  <entry>22</entry>
+                  <entry>24</entry>
+                  <entry>48
+</entry>
+                  <entry>51</entry>
+                  <entry>60</entry>
+                  <entry>72
+</entry>
+                  <entry>73</entry>
+                  <entry>75</entry>
+                  <entry>80
+</entry>
+                  <entry>88</entry>
+                  <entry>90</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>↓</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>↓</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>↓</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry>Onderste kwartiel </entry>
+                  <entry/>
+                  <entry/>
+                  <entry>Mediaan</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>Boonste kwartiel</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry>(<m:math overflow="scroll"><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:math>)</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>(<m:math overflow="scroll"><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:math>)</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>(<m:math overflow="scroll"><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub></m:math>)</entry>
+                  <entry/>
+                  <entry/>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--empty paragraphs get left behind.-->
+          <para id="id213452">
+            <emphasis effect="bold">Metode:  Berekening van kwartiele </emphasis>
+          </para>
+          <list id="id213459" display="block" list-type="enumerated"><item id="uid76">Rangskik die data van kleinste na grootste, of van grootste na kleinste.
+</item>
+            <item id="uid77">Tel die hoeveelheid datawaardes in die datastel.
+</item>
+            <item id="uid78">Deel die hoeveelheid datawaardes deur vier. Die resultaat is dan die hoeveelheid datawaardes per groep.
+</item>
+            <item id="uid79">Bepaal die datawaardes wat ooreenstem met die eerste, tweede en derde kwartiele deur die hoeveelheid datawaardes per kwartiel te gebruik.
+</item>
+          </list>
+<exercise id="secfhsst_id1723"><title> Kwartiele </title>
+          <problem id="probfhsst_id1724">
+          <para id="id213527">Wat is die kwartiele van  <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>25</m:mn><m:mo>,</m:mo><m:mn>28</m:mn><m:mo>,</m:mo><m:mn>24</m:mn><m:mo>,</m:mo><m:mn>30</m:mn><m:mo>,</m:mo><m:mn>41</m:mn><m:mo>,</m:mo><m:mn>50</m:mn><m:mo>}</m:mo></m:mrow></m:math>? </para>
+          </problem>
+          <solution id="solfhsst_id1727"> <list id="listfhsst_id1727" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Rangskik die datastel van laagste na hoogste </label>
+          <para id="id213613">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mo>{</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>9</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>12</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>24</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>25</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>28</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>30</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>41</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>50</m:mn>
+                <m:mo>}</m:mo>
+              </m:mrow>
+            </m:math>
+          </para>
+          </item> <item> <label> Tel die hoeveelheid datawaardes in die stel </label>
+          <para id="id213680">Daar is 12 waardes in die datastel.</para>
+          </item> <item> <label>Deel die hoeveelheid datawaardes deur 4 om die aantal datawaardes per kwartiel te bepaal. </label>
+          <equation id="id213688">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mn>12</m:mn>
+                <m:mo>÷</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>
+          </equation>
+          </item> <item> <label> Vind die datawaardes wat met die kwartiele ooreenstem. </label>
+          <table id="id213712" summary="" colsep="0" rowsep="0" frame="none">
+            <tgroup cols="15">
+              <tbody>
+                <row>
+                  <entry>1</entry>
+                  <entry>3</entry>
+                  <entry>5</entry>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>∥</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry>8</entry>
+                  <entry>9</entry>
+                  <entry>12</entry>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>∥</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry>24</entry>
+                  <entry>25</entry>
+                  <entry>28</entry>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>∥</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry>30</entry>
+                  <entry>41</entry>
+                  <entry>50</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:msub>
+                        <m:mi>Q</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:msub>
+                        <m:mi>Q</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:msub>
+                        <m:mi>Q</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msub>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--empty paragraphs get left behind.-->
+          <para id="id213928">Die eerste kwartiel verskyn tussen dataposisies 3 en 4 en dit is die gemiddeld van datawaardes 5 en 8.  Die tweede kwartiel verskyn tussen posisies 6 en 7 en dit is die gemiddeld van datawaardes 12 en 24. Die derde kwartiel verskyn tussen posisies 9 en 10 en dit is die gemiddeld van die datawaardes 28 en 30.</para>
+          </item> <item> <label> Antwoord </label>
+          <para id="id213938">Die eerste kwartiel = 6,5. (<m:math overflow="scroll"><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:math>)</para>
+          <para id="id213955">Die tweede kwartiel = 18. (<m:math overflow="scroll"><m:msub><m:mi>Q</m:mi><m:mn>2</m:mn></m:msub></m:math>)</para>
+          <para id="id213974">Die derde kwartiel = 29. (<m:math overflow="scroll"><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub></m:math>) </para>
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid80">
+          <title>Interkwartielvariasiewydte</title>
+<definition id="fhsst_id1859"><term id="termfhsst_id1859"> Interkwartielvariasiewydte </term> <meaning id="meaningfhsst_id1859">
+          <para id="id214019">Die interkwartielvariasiewydte is 'n maatstaf wat inligting verskaf aangaande die verspreiding van 'n datastel.  Dit word bereken deur die eerste kwartiel van die derde kwartiel af te trek en dit gee die variasiewydte van die middelste helfte van die datastel. Dit sny dan basies die laagste en hoogste kwartiele af, naamlik <m:math overflow="scroll"><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>. </para>
+          </meaning></definition>
+          <para id="id214058">Die half-interkwartielvariasiewydte is helfte van die interkwartielvariasiewydte, naamlik <m:math overflow="scroll"><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mn>2</m:mn></m:mfrac></m:math></para>
+<exercise id="secfhsst_id1863"><title>Mediane, kwartiele en interkwartielvariasiewydte</title><problem id="probfhsst_id1864">
+          <para id="id214102">'n Klas van 12 studente skryf 'n toets en na die toets lyk die punte soos volg: 20, 39, 40, 43, 43, 46, 53, 58, 63, 70, 75, 91. Vind die variasiewydte, kwartiele en die interkwartielvariasiewydte. </para>
+          </problem>
+          <solution id="solfhsst_id1867"> <list id="listfhsst_id1867" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label>  </label>
+          <table id="id214142" summary="" frame="none" rowsep="0" colsep="0">
+            <tgroup cols="15">
+              <tbody>
+                <row>
+                  <entry>20</entry>
+                  <entry>39</entry>
+                  <entry>40</entry>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>∥</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry>43</entry>
+                  <entry>43</entry>
+                  <entry>46</entry>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>∥</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry>53</entry>
+                  <entry>58</entry>
+                  <entry>63</entry>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mo>∥</m:mo>
+                    </m:math>
+                  </entry>
+                  <entry>70</entry>
+                  <entry>75</entry>
+                  <entry>91</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:msub>
+                        <m:mi>Q</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:mi>M</m:mi>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>
+                    <m:math overflow="scroll">
+                      <m:msub>
+                        <m:mi>Q</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msub>
+                    </m:math>
+                  </entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--empty paragraphs get left behind.-->
+          </item> <item> <label> Die variasiewydte </label>
+          <para id="id214357">Die variasiewydte = 91 - 20 = 71. Dit sê vir ons dat die punte redelik wyd versprei is.</para>
+          </item> <item> <label> Die mediaan lê tussen die 6de en 7de datapunte </label>
+          <para id="id214365">naamlik <m:math overflow="scroll"><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>46</m:mn><m:mo>+</m:mo><m:mn>53</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>99</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>49</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+          </item> <item> <label> Die laagste kwartiel lê tussen die 3de en 4de datapunte </label>
+          <para id="id214413"> naamlik <m:math overflow="scroll"><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>40</m:mn><m:mo>+</m:mo><m:mn>43</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>83</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>41</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+          </item> <item> <label> Die boonste kwartiel lê tussen die 9de en 10de datapunte </label>
+          <para id="id214466">naamlik <m:math overflow="scroll"><m:mrow><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>63</m:mn><m:mo>+</m:mo><m:mn>70</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>133</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>66</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
+          </item> <item> <label> Ontleding van die kwartiele </label>
+          <para id="id214518">Die kwartiele is 41,5, 49,5 en 66,5. Hierdie kwartiele sê vir ons dat 25<m:math overflow="scroll"><m:mo>%</m:mo></m:math> van die punte is minder as 41,5; 50<m:math overflow="scroll"><m:mo>%</m:mo></m:math> van die punte is minder as 49,5 en 75<m:math overflow="scroll"><m:mo>%</m:mo></m:math> van die punte is minder as 66,5. Hulle sê ook vir ons dat 50<m:math overflow="scroll"><m:mo>%</m:mo></m:math> van die punte lê tussen 41,5 en 66,5.</para>
+          </item> <item> <label> Die interkwartielvariasiewydte </label>
+          <para id="id214562"> Die interkwartielvariasiewydte = 66,5 - 41,5 = 25. Dit sê vir ons dat die wydte van die middelste 50<m:math overflow="scroll"><m:mo>%</m:mo></m:math> van die datawaardes is 25.</para>
+          </item> <item> <label> Die half-interkwartielvariasiewydte </label>
+          <para id="id214579"> Die half-interkwartielvariasiewydte = <m:math overflow="scroll"><m:mfrac><m:mn>25</m:mn><m:mn>2</m:mn></m:mfrac></m:math> = 12,5</para>
+</item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid81">
+          <title>Persentiele</title>
+<definition id="fhsst_id1960"><term id="termfhsst_id1960"> Persentiele </term> <meaning id="meaningfhsst_id1960">
+          <para id="id214611">Persentiele is die 99 datawaardes wat 'n datastel in 100 groepe deel. </para>
+          </meaning></definition>
+          <para id="id214623">Die berekening van persentiele is identies met die berekening van kwartiele, behalwe dat die doel is om die datastel in 100 groepe te deel in plaas van 4 groepe soos by kwartiele.</para>
+          <para id="id214628">
+            <emphasis effect="bold">Metode:  Berekening van die persentiele </emphasis>
+          </para>
+          <list id="id214635" display="block" list-type="enumerated"><item id="uid82">Rangskik die data vanaf kleinste na grootste of vanaf grootste na kleinste.
+</item>
+            <item id="uid83">Tel die hoeveelheid datawaardes wat voorkom in die datastel.
+</item>
+            <item id="uid84">Deel die hoeveelheid datawaardes deur 100. Die resultaat is die hoeveelheid datawaardes per groep.
+</item>
+            <item id="uid85">Bereken die datawaardes wat ooreenstem met die eerste, tweede en derde kwartiele deur die gebruik van die aantal datawaardes per kwartiel.
+</item>
+          </list>
+        </section>
+      </section>
+      <section id="eip-258"><title>Vyfgetalopsomming</title><para id="eip-17">Ons kan 'n datastel opsom deur die vyfgetalopsomming te gebruik. Hierdie opsomming gee die laagste datawaarde, die hoogste datawaarde, die mediaan, die eerste (laagste) kwartiel en die derde (hoogste) kwartiel. Beskou die volgende stel data:
+5, 3, 4, 6, 2, 8, 5, 4, 6, 7, 3, 6, 9, 4, 5. Ons orden die data as volg: 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 8, 9. Die laagste datawaarde is 2, die hoogste datawaarde is 9, die mediaan is 5, die eerste kwartiel is 4 en die derde kwartiel is 6. So, die vyfgetalopsomming is: 2, 4, 5, 6, 9.
+
+</para></section><section id="eip-670"><title>Houerstipping</title><para id="eip-357">Die vyfgetalopsomming kan grafies voorgestel word met 'n houer-en-punt-stipping (box and whisker plot). Die hoofeienskappe van 'n houerstipping word gegee in <link target-id="id63458"/>. Die 'houer' kan horisontaal of vertikaal geplaas word. Vir 'n horisontale diagram is die linkerkant van die houer ('box') by die eerste kwartiel en die regterkant van die houer by die derde kwartiel. Die hoogte van die houer is arbitrêr want daar is geen y-as nie. Binne-in die houer word 'n maatstaf van sentrale neiging aangedui deurdat die mediaan gemerk word met 'n vertikale lyn wat die houer in twee dele opdeel. Die gemiddelde word aangedui met 'n ster of asterisk wat in die houer geplaas is, gesentreer in die vertikale rigting. Lyne vanaf die kante van die houer strek na links tot by die mimimumwaarde en na regs tot by die maksimumwaarde. Dit word getoon vir die datastel 5, 3, 4, 6, 2, 8, 5, 4, 6, 7, 3, 6, 9, 4, 5.
+
+</para><para id="eip-427"><figure id="id63458"><media id="id63458_media" alt="boxwhisker">
+            <image mime-type="image/png" src="../../media/boxwhisker.png" id="id63458_onlineimage" width="350"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/boxwhisker.eps" id="id63458_printimage"/>
+            </media>
+
+            <caption>Hoofeienskappe van 'n houerstipping</caption></figure></para><exercise id="eip-742"><problem id="eip-570">
+  <para id="eip-327">Trek 'n houerstipping vir die datastel:
+
+<m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>{</m:mo><m:mn>1,25</m:mn><m:mo>;</m:mo><m:mn>1,5</m:mn><m:mo>;</m:mo><m:mn>2,5</m:mn><m:mo>;</m:mo><m:mn>2,5</m:mn><m:mo>;</m:mo><m:mn>3,1</m:mn><m:mo>;</m:mo> <m:mn>3,2</m:mn><m:mo>;</m:mo><m:mn>4,1</m:mn><m:mo>;</m:mo><m:mn>4,25</m:mn><m:mo>;</m:mo><m:mn>4,75</m:mn><m:mo>;</m:mo><m:mn>4,8</m:mn><m:mo>;</m:mo><m:mn>4,95</m:mn><m:mo>;</m:mo><m:mn>5,1</m:mn><m:mo>}</m:mo></m:math>.
+  </para>
+</problem>
+
+<solution id="eip-430">
+  <list id="eip-701" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Vind die vyfgetalopsomming</label><m:math><m:mi>Minimum</m:mi><m:mo>=</m:mo><m:mn>1,25</m:mn></m:math><newline/>
+<m:math><m:mi>Maximum</m:mi><m:mo>=</m:mo><m:mn>5,10</m:mn></m:math><newline/>
+Die posisie van die eerste kwartiel is tussen 3 en 4. <newline/>
+Die posisie van die tweede kwartiel is tussen 6 en 7. <newline/>
+Die posisie van die derde kwartiel is tussen 9 en 10. <newline/>
+Die datawaarde tussen 3 en 4 is:
+<m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mn>2,5</m:mn><m:mo>+</m:mo><m:mn>2,5</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2,5</m:mn></m:math><newline/>
+Die datawaarde tussen 6 en 7 is:
+<m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mn>3,2</m:mn><m:mo>+</m:mo><m:mn>4,1</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>3,65</m:mn></m:math><newline/>
+Die datawaarde tussen 9 en 10 is: 
+<m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>(</m:mo><m:mn>4,75</m:mn><m:mo>+</m:mo><m:mn>4,8</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>4,775</m:mn></m:math></item>
+ <item><label>Trek 'n houerstipping en merk die posisies van die minimum, die  maksimum en die kwartiele</label><figure id="uid34553"><media id="uid34553_media" alt="">
+              <image mime-type="image/png" src="../../media/boxwhisker1.png" id="uid34553_onlineimage" width="228"><!-- NOTE: attribute width changes image size online (pixels). original width is 128. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/boxwhisker1.eps" id="uid34553_printimage"/>
+            </media>
+</figure></item>
+  </list>
+</solution>
+</exercise></section><section id="uid86">
+        <title>Oefeninge – Opsomming van Data </title>
+        <list id="id214700" display="block" list-type="enumerated"><item id="uid87">Drie stelle data is gegee:
+<list id="id214716" display="block" list-type="enumerated"><item id="uid88"><emphasis effect="bold">Datastel 1:</emphasis> 9 12 12 14 16 22 24
+</item><item id="uid89"><emphasis effect="bold">Datastel 2:</emphasis> 7 7 8 11 13 15 16 16
+</item><item id="uid90"><emphasis effect="bold">Datastel 3:</emphasis> 11 15 16 17 19 19 22 24 27. 
+Vir elkeen vind:
+<list id="id214775" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid91">die reeks
+</item><item id="uid92">die laagste kwartiel
+</item><item id="uid93">die interkwartielvariasiewydte
+</item><item id="uid94">die half-interkwartielvariasiewydte
+</item><item id="uid95">die mediaan
+</item><item id="uid96">die boonste kwartiel
+</item></list></item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/laD">Kliek hier vir die oplossing </link></item>
+          <item id="uid97">Daar is 1 lekker in een houer en daar is 3 in die tweede houer. Die gemiddelde aantal lekkers in die eerste twee houers is 2.
+<list id="id214868" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid98">As die gemiddelde aantal in die eerste drie houers 3 is, hoeveel lekkers is daar in die derde houer?
+</item><item id="uid99">As die gemiddelde aantal in die eerste vier houers 4 is, hoeveel lekkers is daar in die vierde houer?
+</item></list><link window="new" class="fullmarks" url=" http://www.fhsst.org/la0">Kliek hier vir die oplossing </link></item>
+          <item id="uid101">Vind 'n stel van vyf ouderdomme, waar die gemiddelde ouderdom 5 is, die modale ouderdom 2 is en die mediaan ouderdom 3 is.<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/la8"> Kliek hier vir die oplossing </link>
+</item>
+          <item id="uid102">Vier vriende het elk 'n paar albasters. Hulle bereken dat die gemiddelde aantal albasters wat hulle het 10 is. Een van die vriende gaan weg. Sy het 4 albasters. Hoeveel albasters het die vriende wat oorbly altesaam?<newline/><link window="new" class="fullmarks" url=" http://www.fhsst.org/la9"> Kliek hier vir die oplossing </link>
+</item>
+<item>Jason werk in 'n rekenaarwinkel. Sy maandelikse rekenaarverkope oor 'n aantal maande word gegee in die onderstaande datastel:
+27; 39; 3; 15; 43; 27; 19; 54; 65; 23; 45; 16
+Stel sy verkope voor met 'n vyfpuntopsomming en 'n houerstipping.<newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/l2Q">Kliek hier vir die oplossing</link>
+</item>    
+<item>Lisa werk as 'n telefoonverkope operateur. Sy teken die aantal verkope wat sy in 'n maand maak aan. Die data toon hoeveel sy elke maand verkoop:
+49; 12; 22; 35; 2; 45; 60; 48; 19; 1; 43; 12
+Gee 'n vyfgetalopsomming en 'n houerstipping van haar verkope.<newline/><link window="new" class="fullmarks" url="http://www.fhsst.org/l2U">Kliek hier vir die oplossing</link>
+</item>
+<item>Rose het in  'n bloemistewinkel gewerk vir nege maande. Sy het volgende aantal trouruikers verkoop:
+16; 14; 8; 12; 6; 5; 3; 5; 7
+<list id="id63452" list-type="enumerated" number-style="lower-alpha">
+<item>Wat is die vyfgetalopsomming van die data?</item>
+<item>Aangesien daar 'n onewe aantal datapunte is, wat merk jy op wanneer jy die vyf punte bereken?</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/l2P">Kliek hier vir die oplossing</link>
+</item>
+        </list>
+<para id="eip-630">Ons kan die konsepte van gemiddelde, mediaan en modus toepas op gegroepeerde data. Gegroepeerde data het nie individuele datapunte nie, maar die data is georganiseer in groepe of klasse. Om die gemiddelde te bereken moet ons al die frekwensies optel en verdeel deur die totaal. Ons weet nie wat die werklike datawaardes is nie, maar ons kry die benaderde waarde deur die middelpunte van elke groep te gebruik. Ons vermenigvuldig dan die middelpuntwaardes met die frekwensie. Ons tel hierdie getalle bymekaar om die benaderde totaal van die datawaardes te kry. Die modale groep/klas is die groep/klas met die hoogste frekwensie. Die mediaangroep is die groep wat die middelwaardes bevat. 
+
+</para><para id="eip-363">Maatstawe van verspreiding kan ook gevind word vir gegroepeerde data. Die variasiewydte word verkry deur die kleinste getal in die laagste klas af te trek van die grootste getal in die hoogste klas. Die kwartiele word op dieselfde wyse bereken as die mediaan.
+
+</para><exercise id="secfhsst_id2004"><title> Gemiddeld, Mediaan en Modus vir Groepeerde Data </title>
+        <problem id="probfhsst_id2005">
+        <para id="id214977">Beskou die volgende groepeerde data en bereken die gemiddeld, die modale klas en die mediaanklas.</para>
+        <table id="id214984" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>Massa (kg)</entry>
+                <entry>Frekwensie</entry>
+              </row>
+              <row>
+                <entry>41 - 45</entry>
+                <entry>7</entry>
+              </row>
+              <row>
+                <entry>46 - 50</entry>
+                <entry>10</entry>
+              </row>
+              <row>
+                <entry>51 - 55</entry>
+                <entry>15</entry>
+              </row>
+              <row>
+                <entry>56 - 60</entry>
+                <entry>12</entry>
+              </row>
+              <row>
+                <entry>61 - 65</entry>
+                <entry>6</entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>Totaal = 50</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        
+        </problem>
+        <solution id="solfhsst_id2044"> <list id="listfhsst_id2044" list-type="enumerated" number-style="arabic" class="stepwise">
+        
+        
+        <item> <label> Berekening van die gemiddeld </label>
+        <para id="id215169">Om die gemiddelde waarde te bereken, moet ons al die massas optel en deur 50 deel. Ons weet nie wat die werklike massas is nie, dus neem ons die benaderde getal deur die middelpunt van elke klas te kies. Ons vermenigvuldig daardie middelpuntwaarde met die frekwensie. Gevolglik tel ons daardie waardes op om die benaderde totaal van die massas te kry. Dit word getoon in die tabel hieronder.</para>
+        <table id="id215176" summary="">
+          <tgroup cols="4">
+            <tbody>
+              <row>
+                <entry>Massa (kg)</entry>
+                <entry>Middelpunt</entry>
+                <entry>Frekwensie</entry>
+                <entry>Midpt <m:math overflow="scroll"><m:mo>×</m:mo></m:math> Frek</entry>
+              </row>
+              <row>
+                <entry>41 - 45</entry>
+                <entry>(41+45)/2 = 43</entry>
+                <entry>7</entry>
+                <entry>43 <m:math overflow="scroll"><m:mo>×</m:mo></m:math> 7 = 301</entry>
+              </row>
+              <row>
+                <entry>46 - 50</entry>
+                <entry>48</entry>
+                <entry>10</entry>
+                <entry>480</entry>
+              </row>
+              <row>
+                <entry>51 - 55</entry>
+                <entry>53</entry>
+                <entry>15</entry>
+                <entry>795</entry>
+              </row>
+              <row>
+                <entry>56 - 60</entry>
+                <entry>58</entry>
+                <entry>12</entry>
+                <entry>696</entry>
+              </row>
+              <row>
+                <entry>61 - 65</entry>
+                <entry>63</entry>
+                <entry>6</entry>
+                <entry>378</entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry>Totaal = 50</entry>
+                <entry>Totaal = 2650</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        </item> <item> <label> Antwoord </label>
+        <para id="id215455">Die gemiddeld = <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>2650</m:mn><m:mn>50</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>53</m:mn></m:mrow></m:math>.</para>
+        <para id="id215478">Die modale klas is die klas 51 - 53 want dit het die hoogste frekwensie.</para>
+        <para id="id215484">Die mediaangroep is die groep 51 - 53, want die 25ste en 26ste terme val in hierdie groep.</para>
+</item> </list> </solution>
+</exercise>
+<section id="secfhsst_id2103"><title>Meer oor gemiddeld, modus en mediaan van gegroepeerde data </title><para id="id215497">In elke datastel, vind die gemiddeld, die modalde klas en die mediaanklas.</para>
+        <list id="id215504" display="block" list-type="enumerated"><item id="uid103">Tye neergeskryf terwyl leerders ‘n speletjie gespeel het.
+<table id="id215519" summary=""><tgroup cols="2"><tbody><row><entry>Tyd in sekondes </entry><entry>Frekwensie</entry></row><row><entry/><entry/></row><row><entry>36 - 45</entry><entry>5</entry></row><row><entry>46 - 55</entry><entry>11</entry></row><row><entry>56 - 65</entry><entry>15</entry></row><row><entry>66 - 75</entry><entry>26</entry></row><row><entry>76 - 85</entry><entry>19</entry></row><row><entry>86 - 95</entry><entry>13</entry></row><row><entry>96 - 105</entry><entry>6</entry></row></tbody></tgroup></table><link window="new" class="fullmarks" url=" http://www.fhsst.org/laX"> Kliek hier vir die oplossing </link></item>
+          <item id="uid104">Die volgende data het ons gekry by ‘n groep leerders.
+<table id="id215730" summary=""><tgroup cols="2"><tbody><row><entry>Massa in kilogram</entry><entry>Frekwensie</entry></row><row><entry/><entry/></row><row><entry>41 - 45</entry><entry>3</entry></row><row><entry>46 - 50</entry><entry>5</entry></row><row><entry>51 - 55</entry><entry>8</entry></row><row><entry>56 - 60</entry><entry>12</entry></row><row><entry>61 - 65</entry><entry>14</entry></row><row><entry>66 - 70</entry><entry>9</entry></row><row><entry>71 - 75</entry><entry>7</entry></row><row><entry>76 - 80</entry><entry>2</entry></row></tbody></tgroup></table><link window="new" class="fullmarks" url=" http://www.fhsst.org/lal"> Kliek hier vir die oplossing </link></item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

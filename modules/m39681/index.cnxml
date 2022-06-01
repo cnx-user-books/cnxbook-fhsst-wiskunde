@@ -1,0 +1,1149 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Meting</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39681</md:content-id>
+  <md:title>Meting</md:title>
+  <md:abstract/>
+  <md:uuid>f9354385-b7cb-4d6e-84d6-3f6b9f65811f</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid3">
+      <title>Meting</title>
+ <section id="uid97">
+          <title>Area (Oppervlakte) van Poligone</title>
+          <list id="id319719" display="block" list-type="enumerated"><item id="uid98">Area van driehoek: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo></m:mrow></m:math> basis <m:math overflow="scroll"><m:mo>×</m:mo></m:math> loodregte hoogte
+<figure id="id319762"><media id="id319762_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_047.png" id="id319762_onlineimage" width="153"><!-- NOTE: attribute width changes image size online (pixels). original width is 53. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_047-dc51.eps" id="id319762_printimage"/></media></figure></item>
+            <item id="uid99">Area van trapesium: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo></m:mrow></m:math> (som van <m:math overflow="scroll"><m:mo>∥</m:mo></m:math> (parallelle) sye) <m:math overflow="scroll"><m:mo>×</m:mo></m:math> loodregte hoogte
+<figure id="id319816"><media id="id319816_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_048.png" id="id319816_onlineimage" width="163"><!-- NOTE: attribute width changes image size online (pixels). original width is 63. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_048-9f39.eps" id="id319816_printimage"/></media></figure></item>
+            <item id="uid100">Area van parallelogram en rombus: basis <m:math overflow="scroll"><m:mo>×</m:mo></m:math> loodregte hoogte
+<figure id="id319845"><media id="id319845_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_049.png" id="id319845_onlineimage" width="160"><!-- NOTE: attribute width changes image size online (pixels). original width is 60. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_049-9712.eps" id="id319845_printimage"/></media></figure></item>
+            <item id="uid101">Area van reghoek: lengte <m:math overflow="scroll"><m:mo>×</m:mo></m:math> breedte
+<figure id="id319874"><media id="id319874_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_050.png" id="id319874_onlineimage" width="153"><!-- NOTE: attribute width changes image size online (pixels). original width is 53. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_050-8e20.eps" id="id319874_printimage"/></media></figure></item>
+            <item id="uid102">Area van vierkant: sylengte <m:math overflow="scroll"><m:mo>×</m:mo></m:math> sylengte <figure id="id319903"><media id="id319903_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_051.png" id="id319903_onlineimage" width="136"><!-- NOTE: attribute width changes image size online (pixels). original width is 36. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_051-2428.eps" id="id319903_printimage"/></media></figure></item>
+            <item id="uid103">Area van sirkel: <m:math overflow="scroll"><m:mi>π</m:mi></m:math> x radius<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math><figure id="id319945"><media id="id319945_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_052.png" id="id319945_onlineimage" width="141"><!-- NOTE: attribute width changes image size online (pixels). original width is 41. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_052-cac3.eps" id="id319945_printimage"/></media></figure></item>
+          </list>
+<para id="eip-964"><figure id="area1" class="khanacademy"><title>Khan Akademie video oor area en omtrek</title><media id="yt-media5" display="block" alt="video on area and perimeter">
+	  <flash id="yt-video5" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/kqqmJiJez6o&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><para id="eip-199"><figure id="area-2" class="khanacademy"><title>Khan Akademie video oor area van ŉ sirkel</title><media id="yt-media6" display="block" alt="video on circuits 1">
+	  <flash id="yt-video6" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/tCrDyJsSFok&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="eip-468"><title>Berekening van area</title><problem id="eip-373">
+  <para id="eip-83">
+    Vind die area van die volgende figure:
+<figure id="id8732"><media id="id8732_media" alt="">
+            <image mime-type="image/png" src="../../media/area1.png" id="id8732_onlineimage" width="150"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/area1.eps" id="id8732_printimage"/>
+            </media>
+            </figure>
+  </para>
+</problem>
+
+<solution id="eip-208">
+  <list id="eip-995" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Vind die hoogte</label> Ons moet eers vir BE, die loodregte hoogte van die parallelogram vind. Ons kan Pythagoras gebruik om dit te doen: 
+<equation id="eip-id1165701596266"><m:math><m:mtable><m:mtr><m:mtd columnalign="left"><m:msup><m:mtext>BE</m:mtext><m:mn>2</m:mn></m:msup></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo>
+</m:mtd><m:mtd columnalign="left"><m:msup><m:mtext>AB</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mtext>AE</m:mtext><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msup><m:mtext>BE</m:mtext><m:mn>2</m:mn></m:msup></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:msup><m:mn>5</m:mn><m:mn>2</m:mn></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:msup><m:mtext>BE</m:mtext><m:mn>2</m:mn></m:msup></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>16</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mtext>BE</m:mtext></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+<item><label> Pas die formule toe</label>Ons pas die formule vir die area van ŉ parallelogram toe om die berekening te doen:
+      <equation id="id1166232495800">
+        <m:math><m:mtable><m:mtr><m:mtd columnalign="right">
+                        <m:mtext>Area</m:mtext></m:mtd>
+                        <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mi>h</m:mi>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mi>b</m:mi></m:mtd>
+                        </m:mtr>
+<m:mtr><m:mtd/>
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mn>4</m:mn>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:mn>7</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+<m:mtr><m:mtd/>
+                    <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                    <m:mtd columnalign="left"><m:mn>28</m:mn>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+        </m:math>
+      </equation></item>
+  </list>
+</solution>
+</exercise><section id="secfhsst_id1097"><title>Poligone </title>
+          <list id="id319959" display="block" list-type="enumerated"><item id="uid104">Sê of die bewering WAAR of VALS is in elk van die gevalle hieronder. Indien die bewering vals is, gee ŉ teen-voorbeeld om dit te staaf:
+<list id="id319975" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid10566">Alle vierkante is reghoeke.
+</item><item id="uid10666">Alle reghoeke is vierkante.
+</item><item id="uid10766">Alle pentagone is gelykvormig.
+</item><item id="uid10866">Alle gelyksydige driehoeke is gelykvormig.
+</item><item id="uid10966">Alle pentagone is kongruent.
+</item><item id="uid11066">Alle gelyksydige driehoeke is kongruent.
+</item></list><link window="new" class="fullmarks" url="http://www.fhsst.org/lxJ">Kliek hier vir die oplossing</link></item>
+            <item id="uid111666">Vind die areas vir elk van die gegewe figure. Onthou area word gemeet in vierkante eenhede (cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>, m<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>, mm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>).
+<figure id="id320109"><media id="id320109_media" alt=""><image mime-type="image/png" src="../../media/MG10C13_053.png" id="id320109_onlineimage" width="423"><!-- NOTE: attribute width changes image size online (pixels). original width is 423. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C13_053.eps" id="id320109_printimage"/></media></figure><link window="new" class="fullmarks" url="http://www.fhsst.org/lxS">Kliek hier vir die oplossing</link></item>
+          </list>
+          
+</section>
+        </section>
+      </section>
+
+<section id="id73452"><title>Reghoekige Prismas en Silinders</title>
+      <para id="id62680">In hierdie afdeling leer ons hoe om die oppervlakarea (buite-oppervlakte) en volume van reghoekige prismas en silinders te bereken. ŉ Reghoekige prisma is ŉ veelhoek wat uitgerek word in ŉ kolom sodat die hoogte van die kolom reghoekig tot sy basis is. ŉ Vierkantige prisma het ŉ vierkantige basis en ŉ driehoekige prisma het ŉ driehoekige basis.</para>
+      <figure id="uid10"><media id="uid10_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C14_001.png" id="uid10_onlineimage" width="260"><!-- NOTE: attribute width changes image size online (pixels). original width is 260. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_001.eps" id="uid10_printimage"/>
+        </media>
+        
+      <caption>Voorbeelde van ŉ vierkantige prisma, ŉ driehoekige prisma en ŉ silinder</caption></figure>
+      <para id="id62698">Dit is eenvoudig om die oppervlakarea en volume van prismas te bereken.</para>
+      <section id="uid11">
+        <title>Oppervlakarea</title>
+        <para id="id62710">Die term <emphasis effect="italics">oppervlakarea</emphasis> verwys na die totale area van die oppervlak aan die buitekant van die prisma. Dit is makliker om te verstaan as ŉ mens aan die prisma dink as ŉ soliede voorwerp.</para>
+        <para id="id62720">As jy die prismas in <link target-id="uid10"/> bestudeer, sal jy sien dat die boonste syvlak van die prisma ŉ eenvoudige veelhoek is. Die driehoekige prisma het twee syvlakke wat driehoekig is en drie syvlakke wat reghoekig is. Om die oppervlakarea van ŉ prisma te bereken moet die oppervlak van elke syvlak bereken word en bymekaar getel word. ŉ Silinder bestaan uit twee sirkelvormige syvlakke en ŉ reghoekige kolom.</para>
+        <para id="id62732"><emphasis effect="bold">Oppervlakarea van Prismas</emphasis>
+        </para>
+        <para id="id62738">Bereken die area van elke syvlak en tel die areas bymekaar om die oppervlakarea van die prisma te bereken. Bepaal eers wat die regte vorm is van elke syvlak en bereken dan die area van daardie syvlak. Die oppervlakarea van die prisma is gelyk aan die som van die oppervlakareas van al die syvlakke.</para>
+<section id="secfhsst_id107"><title>Bespreking: Oppervlakareas</title>
+        <para id="id62753">In pare, bestudeer die volgende prismas saam met die diagram wat langs elke prisma vertoon word en verduidelik watter oppervlakareas elke prisma het. Verduidelik vir jou maat hoe elke diagram verband hou met die gepaardgaande prisma.</para>
+        <!--empty paragraphs get left behind.-->
+        <para id="id6274366"><figure id="id62767"><media id="id62767_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_002.png" id="id62767_onlineimage" width="646"><!-- NOTE: attribute width changes image size online (pixels). original width is 346. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_002.eps" id="id62767_printimage"/></media></figure>
+ </para>
+</section>
+<section id="eip-630"><title>Aktiwiteit: Oppervlakarea</title><para id="eip-802">Soek ŉ prentjie of neem ŉ foto van ŉ gebou wat nie ŉ eenvoudig gedefinieërde vorm het nie (byvoorbeeld een wat nie net ŉ reghoek is nie). Soek vir ŉ kasteel met torings of ŉ huis met gewels of ŉ stoep. Veronderstel jy moet die buitekant van die gebou verf. Hoeveel verf sal jy benodig? Dink aan dit wat jy geleer het omtrent oppervlakarea van poligone. Kan jy reëlmatige poligone in jou prent/foto vind en hulle gebruik om die oppervlakarea te bereken?
+
+</para></section><section id="secfhsst_id113"><title>Oppervlakareas </title>
+        <list id="id62786" display="block" list-type="enumerated"><item id="uid12">Bereken die oppervlakarea van elk van die volgende:
+<figure id="id62804"><media id="id62804_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_003.png" id="id62804_onlineimage" width="355"><!-- NOTE: attribute width changes image size online (pixels). original width is 355. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_003.eps" id="id62804_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqH">Kliek hier vir die oplossing</link></item>
+
+<item id="uid13">As ŉ liter verf nodig is vir ŉ area van <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, bereken hoeveel verf die verwer nodig het om die volgende areas te verf:
+
+<list id="id62841" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid14">ŉ Reghoekige swembad met binnewande en bodem met die volgende afmetings: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>×</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>×</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math>
+</item>
+
+<item id="uid15">ŉ Sirkelvormige opgaardam waarvan die bodem ŉ middellyn het van <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>m</m:mi></m:mrow></m:math> en met ŉ diepte van <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>m</m:mi></m:mrow></m:math></item></list><figure id="id62926"><media id="id62926_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_004.png" id="id62926_onlineimage" width="97"><!-- NOTE: attribute width changes image size online (pixels). original width is 97. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_004.eps" id="id62926_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lq6">Kliek hier vir die oplossing</link></item></list>
+        
+</section>
+      </section>
+      <section id="uid16"><title>Volume</title><para id="id62951">Die volume van ŉ reghoekige prisma word bereken deur
+die area van die basis met die hoogte te vermenigvuldig. Vir ŉ vierkantige
+prisma met ŉ sylengte van <m:math overflow="scroll"><m:mi>a</m:mi></m:math> en ŉ hoogte van <m:math overflow="scroll"><m:mi>h</m:mi></m:math> is die volume <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>a</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mi>h</m:mi></m:mrow></m:math>.</para>
+        <para id="id63000"><emphasis effect="bold">Volume van ŉ Prisma</emphasis>
+        </para>
+        <para id="id63006">Bereken die volume van ŉ prisma deur eers die area van die basis te bereken en dan te vermenigvuldig met die hoogte van die prisma.</para>
+<exercise id="eip-491"><problem id="eip-115">
+  <para id="eip-540">Vind die oppervlakarea en volume van ŉ vierkantige prisma met hoogte <m:math><m:mn>4</m:mn><m:mspace width="2pt"/><m:mi>cm</m:mi></m:math> and basislengte <m:math><m:mn>3</m:mn><m:mspace width="2pt"/><m:mi>cm</m:mi></m:math>.
+<figure id="id6348"><media id="id6348_media" alt="">
+            <image mime-type="image/png" src="../../media/squareprism.png" id="id6348_onlineimage" width="150"><!-- NOTE: attribute width changes image size online (pixels). original width is 	350. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/squareprism.eps" id="id6348_printimage"/>
+            </media>
+            </figure>
+  </para>
+</problem>
+
+<solution id="eip-51">
+  <list id="eip-226" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Vind die oppervlakarea</label>Ons gebruik die formule vir die oppervlakarea van ŉ prisma:
+      <equation id="id1166229703568"><m:math><m:mtable>
+                    <m:mtr><m:mtd columnalign="right"><m:mi>S.A.</m:mi></m:mtd>
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left"><m:mn>2</m:mn>
+                    <m:mfenced open="[" close="]">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mi>L</m:mi>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mi>h</m:mi>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mfenced></m:mtd></m:mtr>
+<m:mtr><m:mtd/>  
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left"><m:mn>2</m:mn>
+                    <m:mfenced open="[" close="]">
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mfenced></m:mtd></m:mtr>
+                    <m:mtr><m:mtd/>  
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left"><m:msup>
+                        <m:mrow><m:mn>72</m:mn><m:mspace width="2pt"/><m:mi>cm</m:mi></m:mrow>
+                            <m:mn>2</m:mn></m:msup>
+</m:mtd></m:mtr>
+ </m:mtable>
+        </m:math>
+      </equation></item>
+<item><label>Vind die volume</label>Om die volume van die prisma te bereken, vermenigvuldig ons die area van die basis met die hoogte:
+      <equation id="id1166232868439">
+        <m:math><m:mtable><m:mtr>
+                        <m:mtd columnalign="left"><m:mi>V</m:mi></m:mtd>
+                        <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                        <m:mtd>
+                          <m:msup>
+                            <m:mi>l</m:mi>
+                                <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:mi>h</m:mi></m:mtd>
+                        </m:mtr>
+<m:mtr><m:mtd/>
+                      <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mfenced open="(" close=")">
+                          <m:msup>
+                            <m:mn>3</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfenced>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+<m:mtr><m:mtd/>
+                    <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                    <m:mtd columnalign="left"><m:msup>
+                      <m:mrow><m:mn>36</m:mn><m:mspace width="2pt"/><m:mi>cm</m:mi></m:mrow>
+                          <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mtd>
+                </m:mtr>
+</m:mtable>
+        </m:math>
+      </equation></item>
+  </list>
+</solution>
+</exercise><section id="secfhsst_id132"><title> Volume </title>
+        <list id="id63019" display="block" list-type="enumerated"><item id="uid17">Skryf die formule vir die berekening van elk van die volgende prismas se volumes neer:
+<figure id="id63037"><media id="id63037_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_005.png" id="id63037_onlineimage" width="328"><!-- NOTE: attribute width changes image size online (pixels). original width is 328. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_005.eps" id="id63037_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqF">Kliek hier vir die oplossing</link></item>
+          <item id="uid18">Bereken die volgende volumes:
+<figure id="id63058"><media id="id63058_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_006.png" id="id63058_onlineimage" width="328"><!-- NOTE: attribute width changes image size online (pixels). original width is 328. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_006.eps" id="id63058_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqL">Kliek hier vir die oplossing</link></item>
+          <item id="uid19">ŉ Kubus is ŉ spesiale prisma waarvan al die
+          sye gelyk is. Dit beteken dat elke syvlak ŉ vierkant is. ŉ
+          Dobbelsteen is ŉ voorbeeld van ŉ kubus. Bewys dat ŉ kubus
+          met ŉ sylengte van <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, ŉ oppervlakte het van <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> en ŉ volume van <m:math overflow="scroll"><m:msup><m:mi>a</m:mi><m:mn>3</m:mn></m:msup></m:math>.
+<figure id="id63117"><media id="id63117_media" alt=""><image mime-type="image/png" src="../../media/MG10C14_007.png" id="id63117_onlineimage" width="77"><!-- NOTE: attribute width changes image size online (pixels). original width is 77. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_007.eps" id="id63117_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/lqM">Kliek hier vir die oplossing</link></item>
+        </list>
+        
+</section>
+        <para id="id63133">Hoe verander die oppervlakarea as een van die afmetings vermenigvuldig word met ŉ konstante. Byvoorbeeld, hoe verander die oppervlakarea van ŉ reghoekige prisma as die hoogte deur 2 gedeel word?</para>
+ <para id="is08324">       <figure id="id63644234"><media id="id63644234_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_008.png" id="id63644234_onlineimage" width="390"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_008.eps" id="id63644234_printimage"/>
+            </media>
+
+          <caption>Reghoekige prismas</caption></figure></para>
+ <para id="id9879372"><figure id="id237912873"><media id="id237912873_media" alt="">
+              <image mime-type="image/png" src="../../media/CG10C14_1.png" id="id237912873_onlineimage" width="650"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/CG10C14_1.eps" id="id237912873_printimage"/>
+            </media>
+
+          <caption>Reghoekige prismas 2</caption></figure></para>
+<exercise id="secfhsst_id147"><title>Verander die afmetings van ŉ prisma</title><problem id="probfhsst_id148">
+        <para id="id63614">Die grootte van die prisma word beskryf deur die lengte van sy sye. Die prisma in die diagram het sye met lengtes <m:math overflow="scroll"><m:mi>L</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> en <m:math overflow="scroll"><m:mi>h</m:mi></m:math>.</para>
+        <para id="id63643">
+          <figure id="id63644">
+            <media id="id63644_media" alt="">
+              <image mime-type="image/png" src="../../media/MG10C14_009.png" id="id63644_onlineimage" width="101"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG10C14_009.eps" id="id63644_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <list id="id63651" display="block" list-type="enumerated"><item id="uid21">Vergroot al die sye van die prisma met ŉ konstante faktor van <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, waar <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Bereken die volume en die oppervlakarea van die vergrote prisma as ŉ funksie van die faktor <m:math overflow="scroll"><m:mi>x</m:mi></m:math> en die oorspronklike volume.
+</item>
+          <item id="uid22">Soortgelyk aan die geval hierbo, dink nou aan ŉ geval waar <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Bereken vervolgens die verkleiningsfaktor in die volume en die oppervlakarea.
+</item>
+        </list>
+        
+        </problem>
+        <solution id="solfhsst_id166"> <list id="listfhsst_id166" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label>Identifiseer</label>
+        <para id="id63750">Die volume van die prisma word beskryf deur:
+<m:math overflow="scroll"><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi></m:mrow></m:math></para>
+        <para id="id63774">Die oppervlakarea van die prisma word beskryf deur:
+<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mo>(</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>L</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>)</m:mo></m:mrow></m:math></para>
+        </item> <item> <label>Eweredige (proporsionele) verandering</label>
+        <para id="id63826">As al die sye van die prisma eweredig (dus, in dieselfde verhouding) verander sal die nuwe sye as volg beskryf kan word:</para>
+        <equation id="id63830">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>L</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>h</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id63916">Die nuwe volume word beskryf deur:</para>
+        <equation id="id63920"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>V</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>V</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64062">Die nuwe oppervlakarea van die prisma word beskryf deur:</para>
+        <equation id="id64066">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>A</m:mi>
+                    <m:mo>'</m:mo>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>L</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mo>'</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>L</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>L</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>L</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>h</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                      <m:mo>×</m:mo>
+                      <m:mi>h</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>×</m:mo>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label>Interpreteer bostaande resultate</label>
+        <list id="id64313" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid23">Ons vind hierbo dat die nuwe volume beskryf word deur:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>V</m:mi><m:mo>'</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>×</m:mo><m:mi>V</m:mi></m:mrow></m:math>. Waar <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, sal die volume van die prisma vermeerder met die faktor van <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math>.
+Die oppervlakarea van die veranderde prisma word beskryf deur:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>A</m:mi><m:mo>'</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>×</m:mo><m:mi>A</m:mi></m:mrow></m:math>.
+Weereens, omdat <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>, sal die oppervlakarea vergroot met ŉ faktor van <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math>. Oppervlakareas wat tweedimensioneel is, vermeerder met die kwadraat van die faktor maar driedimensionele volumes vermeerder met die derde mag van die faktor.
+</item>
+          <item id="uid24">Die antwoord hier is gebaseer op dieselfde idee as wat hierbo beskryf word. Waar <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math> sal die volume verminder met ŉ faktor van <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:math> en die oppervlakarea sal met verminder met ŉ faktor van <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math></item>
+        </list>
+        
+        </item> </list> </solution>
+</exercise>
+        <para id="id64533">Wanneer die lengte van een van die sye
+        vermenigvuldig word met ŉ konstante, is dit soos om die
+        oorspronklike volume met die derdemag van dieselfde konstante te vermenigvuldig.
+        Sien die voorbeeld in <link target-id="id63644234"/>.</para>
+      </section>
+    </section>
+
+  <section id="cid323"><title>Right Piramides, Regte Kegels (Keëls / Konusse), Sfere</title><para id="id62623">ŉ Piramide is ŉ soliede geometriese figuur met ŉ poligoonbasis wat verbind is aan die toppunt waar die syvlakke ontmoet. Twee voorbeelde van piramides word getoon in die linkerkantste en middelste figure in <link target-id="uid6"/>. Die regterkantste figuur het ŉ toppunt wat verbind is aan die sirkelvormige basis en hierdie tipe soliede geometriese figuur word ŉ kegel genoem. Kegels is soortgelyk aan piramides behalwe dat hulle basisse sirkels is in plaas van poligone.  
+
+
+</para>
+      <figure id="uid676"><media id="uid676_media" alt="">
+          <image mime-type="image/png" src="../../media/MG11C16_001.png" id="uid676_onlineimage" width="324"><!-- NOTE: attribute width changes image size online (pixels). original width is 224. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_001.eps" id="uid676_printimage"/>
+        </media>
+        
+      <caption>Voorbeelde van ŉ vierkantige piramide, ŉ driehoekige piramide en ŉ kegel</caption></figure>
+      <para id="id62647"><emphasis effect="bold">Oppervlakarea van ŉ Piramide</emphasis>
+      </para>
+      <para id="eip-485"><figure id="solid-geometry-volume" class="khanacademy"><title>Khan Akademie video oor die volume van soliede geometriese figure</title><media id="yt-media1" display="block" alt="video on solid geometry volumes">
+<flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/ZqzAOZ9pP9Q&amp;rel=0" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para><para id="id62653">Die oppervlakarea van ŉ piramide word bereken deur die areas van die onderskeie vlakke bymekaar te tel. 
+</para>
+<exercise id="secfhsst_id97"><title>Oppervlakarea </title><problem id="probfhsst_id98">
+      <para id="id62672">As ŉ kegel ŉ hoogte het van <m:math overflow="scroll"><m:mi>h</m:mi></m:math> en ŉ basis met radius <m:math overflow="scroll"><m:mi>r</m:mi></m:math>, toon dat die oppervlakarea gegee word deur <m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>π</m:mi><m:mi>r</m:mi><m:msqrt><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math>. </para>
+      </problem>
+      <solution id="solfhsst_id101"> <list id="listfhsst_id101" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Maak ŉ skets van die figuur </label>
+      <para id="id62752">
+        <figure id="id62755">
+          <media id="id62755_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_002.png" id="id62755_onlineimage" width="334"><!-- NOTE: attribute width changes image size online (pixels). original width is 334. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_002.eps" id="id62755_printimage"/>
+          </media>
+        </figure>
+      </para>
+      </item> <item> <label> Identifiseer die vlakke wat die kegel uitmaak </label>
+      <para id="id62766">Die kegel het twee vlakke: die basis en die wand. Die basis is ŉ sirkel met radius <m:math overflow="scroll"><m:mi>r</m:mi></m:math> en die wand kan ontvou word tot ŉ sektor van ŉ sirkel.</para>
+      <para id="id62778">
+        <figure id="id62779"><media id="id62779_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_003.png" id="id62779_onlineimage" width="317"><!-- NOTE: attribute width changes image size online (pixels). original width is 217. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_003.eps" id="id62779_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id62785">Die geboë vlak kan opgesny word in ŉ klomp smal driehoekies waarvan die hoogte, wat byna gelyk is aan 
+<m:math overflow="scroll"><m:mi>a</m:mi></m:math>, die 
+<emphasis effect="italics">skuinshoogte</emphasis> genoem word. Die som van die areas van hierdie driehoekies is 
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo></m:mrow></m:math>basis<m:math overflow="scroll"><m:mo>×</m:mo></m:math>hoogte (van ŉ klein driehoekie) = <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo>×</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>a</m:mi></m:mrow></m:math></para>
+      </item> <item> <label> Bereken <m:math overflow="scroll"><m:mi>a</m:mi></m:math> </label>
+      <para id="id62881"><m:math overflow="scroll"><m:mi>a</m:mi></m:math> kan bereken word met die Stelling van Pythagoras. Dus: </para>
+      <equation id="id62892">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mo>=</m:mo>
+            <m:msqrt>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>h</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bereken die area van die sirkelvormige basis </label>
+      <equation id="id62928">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mi>A</m:mi>
+              <m:mi>b</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mi>π</m:mi>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Bereken die area van die geboë wand </label>
+      <equation id="id62960"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>A</m:mi>
+                  <m:mi>w</m:mi>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>r</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>h</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Berken die oppervlakarea A </label>
+      <equation id="id63035">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mi>b</m:mi>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mi>w</m:mi>
+                  </m:msub>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>r</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>h</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+      <para id="id63137"><emphasis effect="bold">Volume van ŉ Piramide:</emphasis> Die volume van ŉ piramide word gevind deur:</para>
+      <equation id="id63144">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>A</m:mi>
+            <m:mo>•</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63170">waar <m:math overflow="scroll"><m:mi>A</m:mi></m:math> die area van die basis is en <m:math overflow="scroll"><m:mi>h</m:mi></m:math> die hoogte is.</para>
+      <para id="id63191">ŉ Kegel is soos ŉ piramide, daarom word die formule vir die volume van ŉ kegel gegee deur:</para>
+      <equation id="id63195"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>π</m:mi>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>h</m:mi>
+            <m:mo/>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id62104">ŉ Vierkantige piramide se volume:</para>
+      <equation id="id62107">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63440">waar <m:math overflow="scroll"><m:mi>a</m:mi></m:math> die sylengte van die vierkantige basis is.</para>
+<exercise id="secfhsst_id330"><title>Volume van ŉ Piramide </title><problem id="probfhsst_id331">
+      <para id="id63465">Wat is die volume van ŉ vierkantige piramide, 3cm hoog met ŉ sylengte van 2cm?
+<figure id="id63587">
+          <media id="id63587_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_004.png" id="id63587_onlineimage" width="226"><!-- NOTE: attribute width changes image size online (pixels). original width is 226. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_004.eps" id="id63587_printimage"/>
+          </media>
+        </figure>
+ </para>
+      </problem>
+      <solution id="solfhsst_id335"> <list id="listfhsst_id335" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal die korrekte formule </label>
+      <para id="id63487">Die volume van ŉ piramide is</para>
+      <equation id="id63490"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>A</m:mi>
+            <m:mo>•</m:mo>
+            <m:mi>h</m:mi>
+            <m:mo/>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63518">waar <m:math overflow="scroll"><m:mi>A</m:mi></m:math> die area van die basis en <m:math overflow="scroll"><m:mi>h</m:mi></m:math> die hoogte van die piramide is. Vir ŉ vierkantige basis beteken dit</para>
+      <equation id="id63540">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>a</m:mi>
+            <m:mo>•</m:mo>
+            <m:mi>a</m:mi>
+            <m:mo>•</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63570">waar <m:math overflow="scroll"><m:mi>a</m:mi></m:math> die sylengte van die vierkantige basas is.</para>
+      </item> <item> <label> Vervang die gegewe waardes </label>
+      <equation id="id63597">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mo>•</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>•</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>•</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mo>•</m:mo>
+                  <m:mn>12</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:msup>
+                    <m:mi>m</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+      <para id="id63694">Ons aanvaar die volgende formules vir die volume en oppervlakarea (buite-oppervlakte) van ŉ sfeer (bal). 
+</para>
+      <equation id="id63698"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>Oppervlakarea</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>Volume</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+<exercise id="eip-219"><problem id="probid7634">
+<para id="id663">ŉ Driehoekige piramide word bo-op ŉ driehoekige prisma geplaas. Die prisma het ŉ gelyksydige driehoek met ŉ sylengte van 20 cm as basis en ŉ hoogte van 42 cm. Die piramide is 12 cm hoog. <list id="id63425" list-type="enumerated" number-style="lower-alpha">
+<item>Vind die totale volume van die voorwerp.</item>
+<item>Vind die area van elke vlak van die piramide.</item>
+<item>Vind die totale oppervlakarea van die voorwerp.</item></list>
+<figure id="id63921"><media id="id63921_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_006.png" id="id63921_onlineimage" width="50"><!-- NOTE: attribute width changes image size online (pixels). original width is 50. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_006.eps" id="id63921_printimage"/></media></figure></para>
+</problem>
+<solution id="solid7634">
+<list id="id6375" list-type="enumerated" number-style="arabic" class="stepwise"><item><label>Vind die volume van die driehoekige prisma</label>Ons gebruik die formule vir die volume van ŉ reghoekige prisma:
+<equation id="id6923"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd><m:mi>V</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mn>20</m:mn><m:msup><m:mn>42</m:mn><m:mn>2</m:mn></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>17640</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></item>
+<item><label>Vind die volume van ŉ driehoekige piramide</label>Ons gebruik die formule vir die volume van ŉ driehoekige piramide:
+<equation id="id67423"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd><m:mi>V</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mi>b</m:mi><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac><m:mn>20</m:mn><m:msup><m:mn>42</m:mn><m:mn>2</m:mn></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>5880</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></item>
+<item><label>Vind die volume</label>Ons sien dat ons doodeenvoudig die volumes van elk van die twee soliede liggame kan bymekaartel. Dan kry ons: <m:math><m:mn>17640</m:mn><m:mo>+</m:mo><m:mn>5880</m:mn><m:mo>=</m:mo><m:mn>23520</m:mn></m:math>. Dit is die antwoord van a.</item>
+<item><label>Vind die area van die vlakke van die piramide</label>Ons sien daar is vier driehoeke wat die piramide uitmaak. Dus die area van elke vlak is:
+<equation id="id6783"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd><m:mi>Area</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>b</m:mi><m:mi>h</m:mi></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mn>20</m:mn><m:mn>42</m:mn></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>420</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+Dit is die antwoord van vraag b.
+</item>
+<item><label>Vind die oppervlakarea van die piramide</label>Die totale area is <m:math><m:mn>4</m:mn><m:mo>×</m:mo><m:mn>420</m:mn><m:mo>=</m:mo><m:mn>1680</m:mn></m:math></item>
+<item><label>Vind die area van die prisma</label>Die oppervlakarea van die prisma is:
+<equation id="id69663"><m:math>
+<m:mtable>
+<m:mtr>
+<m:mtd><m:mi>Oppervlakarea</m:mi></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mi>b</m:mi><m:mo>×</m:mo><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mi>H</m:mi><m:mo>×</m:mo><m:mi>S</m:mi><m:mo>+</m:mo><m:mi>H</m:mi><m:mo>×</m:mo><m:mi>b</m:mi></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mi>20</m:mi><m:mo>×</m:mo><m:mi>20</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mi>12</m:mi><m:mo>×</m:mo><m:mi>20</m:mi><m:mo>+</m:mo><m:mi>12</m:mi><m:mo>×</m:mo><m:mi>20</m:mi></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>1120</m:mn></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</item>
+<item><label>Vind die totale oppervlakarea</label>Om die totale oppervlakarea te bereken, moet ons die area van een vlak (die basis) van die piramide aftrek van die oppervlakarea van die prisma. Dit gee die totale oppervlakarea as:
+<m:math><m:mn>1120</m:mn><m:mo>-</m:mo><m:mn>420</m:mn><m:mo>+</m:mo><m:mn>1680</m:mn><m:mo>-</m:mo><m:mn>420</m:mn><m:mo>=</m:mo><m:mn>1960</m:mn></m:math> Dit is die antwoord van vraag c.</item>
+</list>
+</solution>
+</exercise><section id="secfhsst_id508"><title>Oppervlakarea en  Volume </title>
+      <list id="id63805" display="block" list-type="enumerated"><item id="uid7654">Bereken die volumes en oppervlakareas van die volgende soliede liggame: (*Wenk vir  (e): vind die loodregte hoogte met behulp van die Stelling van Pythagoras.)
+<figure id="id63823"><media id="id63823_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_005.png" id="id63823_onlineimage" width="776"><!-- NOTE: attribute width changes image size online (pixels). original width is 776. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_005.eps" id="id63823_printimage"/></media></figure><link class="fullmarks" url="http://www.fhsst.org/l2D" window="new">Kliek hier vir die oplossing</link></item>
+        <item id="uid8654">Water bedek ongeveer 71% van die aardoppervlakte. As die benaderde radius van die aarde 6378 km is, wat is die totale landoppervlakte (d.w.s. land wat nie bedek is met water nie)?<newline/><link class="fullmarks" url="http://www.fhsst.org/l2W" window="new">Kliek hier vir die oplossing<m:math overflow="scroll"><m:mi/></m:math></link>
+</item>
+
+      </list>
+      
+</section>
+    </section>  
+
+  </content>
+</document>

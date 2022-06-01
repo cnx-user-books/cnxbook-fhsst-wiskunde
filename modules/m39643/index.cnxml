@@ -1,0 +1,923 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Inleiding en enkelvoudige rente</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39643</md:content-id>
+  <md:title>Inleiding en enkelvoudige rente</md:title>
+  <md:abstract/>
+  <md:uuid>37e075bc-6ff7-4d20-9897-f9ece3a7e14e</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Inleiding</title>
+      <para id="id66349">As jy ooit in 'n televisie vasvra-program vasval met 'n wiskunde vraag, sal jy heel waarskynlik wens jy het onthou hoeveel ewe priemgetalle daar tussen 1 en 100 is ter wille van die R1 000 000. Wie wil dan nou nie 'n miljoenêr wees nie?</para>
+      <para id="id66356">Welkom die by die Graad 10 hoofstuk oor Finansiële Wiskunde. Ons gaan wiskundige vaardighede gebruik wat jy heel waarskynlik nou gaan nodig kry en ook op jou pad na die aankoop van jou eerste privaat vliegtuig!
+</para>
+      <para id="id66361">As jy die tegnieke in hierdie hoofstuk bemeester, sal jy verstaan wat <emphasis effect="italics">saamgestelde rente </emphasis> is, en hoe dit jou fortuin kan uitroei as jy kredietkaartskuld het, of hoe jy miljoene kan maak as jy jou swaar verdiende geld suksesvol belê. Jy sal ook verstaan wat die effek is van veranderende wisselkoerse, en die gevolg daarvan op die geld wat jy het om te spandeer tydens jou oorsese vakansie.</para><para id="eip-810">Voordat ons wisselkoerse bespreek, is dit nodig om te besef dat die meeste lande 'n desimale geldstelsel gebruik. Dit beteken dat lande 'n geldstelsel gebruik wat met magte van tien werk, bv. in Suid-Afrika het ons 100 (10 tot die mag 2) sent in 'n rand. In Amerika is daar 100 sent in 'n dollar. 'n Ander manier om dit te sê, is dat die land 'n basis geldeenheid het en 'n sub-eenheid wat 'n mag van 10 van die basis geldeenheid is. Dit beteken dat as ons die effek van wisselkoerse ignoreer, kan ons eintlik rande met dollars vervang of rande met ponde.</para>
+    </section>
+  
+    <section id="cid4">
+      <title>Stel belang in Rente</title>
+      <para id="id69176">As jy R1 000 het, kan jy dit in jou beursie hou, of jy kan dit deponeer in 'n bankrekening. As dit in jou beursie bly, kan jy dit enige tyd uitgee wanneer jy wil. As die bank daarna kyk vir jou, kan hulle dit spandeer met die doel om wins daaruit te maak. Die bank "betaal" jou gewoonlik om geld te deponeer in 'n rekening om jou aan te moedig om met hulle sake te doen. Hierdie betaling is soos 'n beloning, wat vir jou die rede is om die geld liewer in die bank te los vir 'n rukkie as om die geld in jou beursie te hou.
+</para>
+      <para id="id69184">Ons noem hierdie beloning "rente".
+
+
+
+</para>
+      <para id="id69188">As jy geld in 'n bankrekening deponeer, is jy eintlik besig om jou geld aan die bank te leen - en jy kan verwag om rente te ontvang van die bank.
+
+Net so, as jy geld leen van 'n bank (of van 'n afdelingswinkel, of 'n motorhandelaar, byvoorbeeld) dan kan jy verwag om rente te betaal op die lening. Dit is die prys vir die leen van geld.
+
+</para>
+      <para id="id69194">Die idee is eenvoudig, en tog is dit die kern van die wêreld van finansies. Boekhouers, rekenmeesters en bankiers, byvoorbeeld, bestee hulle hele professionele loopbaan deur te werk met die gevolge van rente op finansiële aangeleenthede.
+
+</para>
+      <para id="id69199">In hierdie hoofstuk sal jy kennis maak met die begrip van finansiële wiskunde - en ook die gereedskap kry om selfs gevorderde begrippe en probleme te hanteer.
+
+
+</para>
+<note id="notfhsst_id901" type="tip">Rente</note>
+      <para id="id69209">Die begrippe in hierdie hoofstuk is eenvoudig - ons gaan na dieselfde idee kyk, maar vanuit baie verskillende hoeke. Die beste manier om uit hierdie hoofstuk te leer, is om al die voorbeelde self te doen soos wat jy deur die hoofstuk werk. Moenie net ons woorde glo nie!
+
+
+</para>
+    </section>
+    <section id="cid5">
+      <title>Enkelvoudige Rente</title>
+<definition id="fhsst_id906"><term id="termfhsst_id906"> Enkelvoudige Rente </term> <meaning id="meaningfhsst_id906">
+      <para id="id69230">Enkelvoudige rente is wanneer jy rente verdien op die aanvanklike bedrag wat jy belê het, maar nie rente op rente nie.
+ </para>
+      </meaning></definition>
+      <para id="id69242">As 'n maklike voorbeeld van enkelvoudige rente, dink hoeveel jy sal kry deur R1 000 te belê vir 1 jaar by 'n bank wat vir jou enkelvoudige rente teen 5% per jaar gee. Aan die einde van die jaar sal jy rente ontvang van:
+
+
+</para>
+      <equation id="id69248"><m:math overflow="scroll" mode="display">
+		<m:mtable displaystyle="true">
+			<m:mtr>
+				<m:mtd columnalign="right">
+					<m:mi> Rente </m:mi>
+				</m:mtd>
+				<m:mtd>
+					<m:mo>=</m:mo>
+				</m:mtd>
+				<m:mtd columnalign="left">
+					<m:mrow>
+						<m:mi>R</m:mi>
+						<m:mn>1</m:mn>
+						<m:mspace width="3.33333pt"/>
+						<m:mn>000</m:mn>
+						<m:mo>×</m:mo>
+						<m:mn>5</m:mn>
+						<m:mo>%</m:mo>
+					</m:mrow>
+				</m:mtd>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd/>
+				<m:mtd>
+					<m:mo>=</m:mo>
+				</m:mtd>
+				<m:mtd columnalign="left">
+					<m:mrow>
+						<m:mi>R</m:mi>
+						<m:mn>1</m:mn>
+						<m:mspace width="3.33333pt"/>
+						<m:mn>000</m:mn>
+						<m:mo>×</m:mo>
+						<m:mfrac>
+							<m:mn>5</m:mn>
+							<m:mn>100</m:mn>
+						</m:mfrac>
+					</m:mrow>
+				</m:mtd>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd/>
+				<m:mtd>
+					<m:mo>=</m:mo>
+				</m:mtd>
+				<m:mtd columnalign="left">
+					<m:mrow>
+						<m:mi>R</m:mi>
+						<m:mn>1</m:mn>
+						<m:mspace width="3.33333pt"/>
+						<m:mn>000</m:mn>
+						<m:mo>×</m:mo>
+						<m:mn>0</m:mn>
+						<m:mo>,</m:mo>
+						<m:mn>05</m:mn>
+					</m:mrow>
+				</m:mtd>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd/>
+				<m:mtd>
+					<m:mo>=</m:mo>
+				</m:mtd>
+				<m:mtd columnalign="left">
+					<m:mrow>
+						<m:mi>R</m:mi>
+						<m:mn>50</m:mn>
+					</m:mrow>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</equation>
+      <para id="id69370">Dus, met 'n “aanvangsbedrag" van R1 000 aan die begin van die jaar, sal jou “eindbedrag" aan die einde van die jaar dan wees:
+
+
+</para>
+      <equation id="id69376"><m:math overflow="scroll" mode="display">
+		<m:mtable displaystyle="true">
+			<m:mtr>
+				<m:mtd columnalign="right">
+					<m:mrow>
+						<m:mi> Eindbedrag </m:mi>
+					</m:mrow>
+				</m:mtd>
+				<m:mtd>
+					<m:mo>=</m:mo>
+				</m:mtd>
+				<m:mtd columnalign="left">
+					<m:mrow>
+						<m:mrow>
+							<m:mi> Aanvangsbedrag </m:mi>
+						</m:mrow>
+						<m:mo>+</m:mo>
+						<m:mi> Rente </m:mi>
+					</m:mrow>
+				</m:mtd>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd/>
+				<m:mtd>
+					<m:mo>=</m:mo>
+				</m:mtd>
+				<m:mtd columnalign="left">
+					<m:mrow>
+						<m:mi mathvariant="normal">R</m:mi>
+						<m:mn>1</m:mn>
+						<m:mspace width="3.33333pt"/>
+						<m:mn>000</m:mn>
+						<m:mo>+</m:mo>
+						<m:mi mathvariant="normal">R</m:mi>
+						<m:mn>50</m:mn>
+					</m:mrow>
+				</m:mtd>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd/>
+				<m:mtd>
+					<m:mo>=</m:mo>
+				</m:mtd>
+				<m:mtd columnalign="left">
+					<m:mrow>
+						<m:mi mathvariant="normal">R</m:mi>
+						<m:mn>1</m:mn>
+						<m:mspace width="3.33333pt"/>
+						<m:mn>050</m:mn>
+					</m:mrow>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</equation>
+      <para id="id69469">Ons noem soms die aanvangsbedrag in finansiële wiskunde die <emphasis effect="italics">Hoofsom ("Principal amount")</emphasis>, wat afgekort word as  <m:math overflow="scroll"><m:mi>P</m:mi></m:math>  (R1000 in die voorbeeld). Die rentekoers vir die tydsinterval word gewoonlik as 'n persentasie aangedui deur  <m:math overflow="scroll"><m:mi>i</m:mi></m:math> (5% in die voorbeeld), en die bedrag aan rente verdien (in terme van rand) word aangedui deur  <m:math overflow="scroll"><m:mi>I</m:mi></m:math> (R50 in die voorbeeld).
+
+
+</para>
+      <para id="id69507">So, ons sien dat:</para>
+      <equation id="uid28">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>I</m:mi>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>×</m:mo>
+            <m:mi>i</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id69536">en</para>
+      <equation id="id69539"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Eindbedrag </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi> Aanvangsbedrag </m:mi>
+                  </m:mrow>
+                  <m:mo>+</m:mo>
+                  <m:mi> Rente </m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>I</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id69642">Dit is hoe jy enkelvoudige rente bereken. Dit is nie 'n ingewikkelde formule nie, wat ook maar goed is, want jy gaan nog baie hiervan sien!</para>
+      <section id="uid29">
+        <title>Nie slegs een termyn nie</title>
+        <para id="id69658">Jy wonder miskien by jouself:</para>
+        <list id="id69662" display="block" list-type="enumerated"><item id="uid30">hoeveel rente sal jy verdien as jy die geld in die rekening los vir 3 maande, of
+</item>
+          <item id="uid31">as jy dit daar los vir 3 jaar?
+</item>
+
+
+</list>
+        <para id="id69691">Dit is eintlik heel eenvoudig - dit is waarom hulle dit  <emphasis effect="bold">enkelvoudige rente</emphasis> noem.
+</para>
+        <list id="id69703" display="block" list-type="enumerated"><item id="uid32">Drie maande is 1/4 van 'n jaar, so jy sal slegs 1/4 van 'n volle jaar se rente verdien, en dit is: <m:math overflow="scroll"><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>4</m:mn><m:mo>×</m:mo><m:mo>(</m:mo><m:mi>P</m:mi><m:mo>×</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow></m:math>. Die eindbedrag sal dus wees:
+<equation id="id69748"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi> Eindbedrag </m:mi></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mi>P</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>4</m:mn><m:mo>×</m:mo><m:mo>(</m:mo><m:mi>P</m:mi><m:mo>×</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+          <item id="uid33">Vir 3 jaar sal jy 3 jaar se rente kry en dit is: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>×</m:mo><m:mo>(</m:mo><m:mi>P</m:mi><m:mo>×</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow></m:math>. Die eindbedrag aan die einde van die 3 jaar tydperk sal wees:
+<equation id="id69871"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi> Eindbedrag </m:mi></m:mrow></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mi>P</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>×</m:mo><m:mo>(</m:mo><m:mi>P</m:mi><m:mo>×</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mi>P</m:mi><m:mo>×</m:mo><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation></item>
+        </list>
+        <para id="id69952">As jy mooi kyk na die ooreenkomste tussen die twee antwoorde hierbo, kan jy die resultaat veralgemeeen. As jy jou geld (<m:math overflow="scroll"><m:mi>P</m:mi></m:math>) belê in 'n rekening wat 'n rentekoers betaal van  (<m:math overflow="scroll"><m:mi>i</m:mi></m:math>) vir 'n tydsinterval  (<m:math overflow="scroll"><m:mi>n</m:mi></m:math> ), dan sal die eindbedrag gelyk wees aan <m:math overflow="scroll"><m:mi>A</m:mi></m:math> :
+
+
+
+</para>
+        <equation id="uid34">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>i</m:mi>
+              <m:mo>·</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id70029">Soos ons gesien het, dit werk wanneer <m:math overflow="scroll"><m:mi>n</m:mi></m:math> 'n gedeelte van 'n jaar is en ook wanneer <m:math overflow="scroll"><m:mi>n</m:mi></m:math> oor verskeie jare loop.</para>
+<note id="notfhsst_id1166" type="tip">Renteberekening</note>
+        <para id="id70056">Jaarlikse rentekoerse beteken die koers word bereken oor 'n periode van 'n jaar, p.a. (per annum) = per jaar.
+</para>
+<exercise id="secfhsst_id1168"><title>Enkelvoudige Rente </title><problem id="probfhsst_id1169">
+        <para id="id70072">As ek R1 000 vir 3 jaar deponeer in 'n spesiale bankrekening wat 7% per jaar enkelvoudige rente gee, hoeveel geld sal ek aan die einde van hierdie tydperk hê? 
+
+
+
+</para>
+        </problem>
+        <solution id="solfhsst_id1172"> <list id="listfhsst_id1172" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <list id="id70098" display="block" list-type="bulleted"><item id="uid35">Aanvangsbedrag, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>1</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+          <item id="uid36">Rentekoers per tydsinterval, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>%</m:mo></m:mrow></m:math></item>
+          <item id="uid37">Aantal tydsintervalle, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="3.33333pt"/><m:mi> jaar </m:mi></m:mrow></m:math></item>
+        </list>
+        <para id="id70196">Ons moet die eindbedrag (A) bereken.</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id70204">Ons weet vanuit  <link target-id="uid34"/> dat:</para>
+        <equation id="id70212"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi mathvariant="normal">i</m:mi>
+              <m:mo>·</m:mo>
+              <m:mi mathvariant="normal">n</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id70268">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>%</m:mo>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>210</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id70374">Die eindbedrag nadat R1 000 vir 3 jaar belê is teen 'n rentekoers van 7% per jaar, is R1 210. </para>
+        </item> 
+
+
+
+
+</list> </solution>
+</exercise>
+<exercise id="secfhsst_id1272"><title>Bereken <m:math overflow="scroll"><m:mi>n</m:mi></m:math> </title><problem id="probfhsst_id1273">
+        <para id="id70413">As ek R30 000 deponeer in 'n spesiale bankrekening wat 7,5% enkelvoudige rente betaal, vir hoeveel jaar moet ek hierdie bedrag belê om die bedrag van R45 000 te genereer? </para>
+        </problem>
+        <solution id="solfhsst_id1276"> <list id="listfhsst_id1276" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat is gevra: </label>
+        <list id="id70439" display="block" list-type="bulleted"><item id="uid38">Aanvangsbedrag, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>30</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+          <item id="uid39">Rentekoers, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>%</m:mo></m:mrow></m:math></item>
+          <item id="uid40">Eindbedrag, <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>45</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math></item>
+        </list>
+        <para id="id70545">Ons moet die aantal jare bereken.</para>
+        </item> <item> <label> Bepaal hoe om die probleem aan te pak </label>
+        <para id="id70552">Van <link target-id="uid34"/> weet ons dat:</para>
+        <equation id="id70560"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi>A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi mathvariant="normal">i</m:mi>
+              <m:mo>·</m:mo>
+              <m:mi mathvariant="normal">n</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id70614"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>45</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>30</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>%</m:mo>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>075</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>45000</m:mn>
+                    <m:mn>30000</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>075</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>n</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>075</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>n</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>6666667</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>n</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mspace width="1mm"/> 
+                    <m:mi> jaar </m:mi>
+                    <m:mspace width="1mm"/>
+                    <m:mn>8</m:mn>
+                    <m:mspace width="1mm"/>
+                    <m:mi> maande </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        
+        <para id="id70878">Vir R30 000 om te groei tot R45 000 teen 'n enkelvoudige rentekoers van 7,5%, sal 'n periode van 6 jaar en 8 maande neem. As ons gevra word vir die naaste heelgetal periode, sal ons die geld moet belê vir 7 jaar.</para>
+        </item> </list> </solution>
+</exercise>
+      </section>
+      <section id="uid41">
+        <title>Ander Toepassings van die Formule vir Enkelvoudige Rente</title>
+<exercise id="secfhsst_id1464"><title>Huurkoop </title><problem id="probfhsst_id1465">
+        <para id="id70919">Troy wil graag 'n ekstra hardeskyf vir sy skootrekenaar koop teen R2 500 soos dit op die internet adverteer word. Daar is die opsie om 'n deposito van 10% van die koopprys te betaal en dan in 'n huurkoop-ooreenkoms 24 gelyke maandelikse paaiemente te betaal waar rente bereken sal word teen 7,5% per jaar enkelvoudige rente. Bereken wat Troy se maandelikse paaiement sal wees. 
+
+</para>
+        </problem>
+        <solution id="solfhsst_id1468"> <list id="listfhsst_id1468" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <para id="id70948">'n Nuwe aanvangsbedrag is nodig, want die 10% deposito is kontant betaal.
+</para>
+        <list id="id70952" display="block" list-type="bulleted"><item id="uid42">10% van R 2 500 = R250
+</item>
+          <item id="uid43">Nuwe openingsbalans, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mn>500</m:mn><m:mo>-</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>250</m:mn><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mn>250</m:mn></m:mrow></m:math></item>
+          <item id="uid44">Rentekoers, <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>%</m:mo></m:mrow></m:math></item>
+          <item id="uid45">Periode, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mi> jaar </m:mi></m:mrow></m:math></item>
+        </list>
+        <para id="id71089">Ons moet die eindbedrag (A) bepaal en dan die maandelikse paaiemente bereken.
+</para>
+        </item> <item> <label> Bepaal hoe om die probleem aan te pak </label>
+        <para id="id71099">Van <link target-id="uid34"/> weet ons dat:</para>
+        <equation id="id71107"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi mathvariant="normal">i</m:mi>
+              <m:mo>·</m:mo>
+              <m:mi mathvariant="normal">n</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id71164"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>250</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+<m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>%</m:mo>
+ <m:mo>)</m:mo>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>587</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>50</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> Maandelikse paaiement </m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2587</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>50</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mn>24</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>107</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>81</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id71325">Troy se maandelikse paaiment = R 107,81
+ </para>
+        </item> </list> </solution>
+</exercise>
+        <para id="id71341">Baie artikels verloor waarde soos wat hulle ouer word. Byvoorbeeld, jy betaal minder vir 'n tweedehandse motor as vir 'n nuwe motor van dieselfde model. Hoe ouer 'n motor is, hoe minder sal jy daarvoor betaal. Die vermindering in waarde oor tyd kan suiwer wees as gevolg van slytasie gedurende gebruik, maar dit kan ook wees dat 'n item oorbodig raak as gevolg van die ontwikkeling van nuwe tegnologie. Byvoorbeeld, nuwe rekenaars wat vrygestel word, dwing die waarde van die ouer rekenaars af. Die term wat ons gebruik om die afname in waarde van artikels te beskryf, is  <emphasis effect="italics">waardevermindering</emphasis>.
+
+
+</para>
+        <para id="id71354">Waardevermindering kan soos rente op 'n jaarlikse basis bereken word en dit word dikwels gedoen volgens 'n koers of persentasie verandering per jaar. Dit is soos "negatiewe" rente. Die eenvoudigste manier om waardevermindering te bepaal, is om 'n konstante koers per jaar te aanvaar. Ons noem dit reglynige waardevermindering. Daar is meer ingewikkelde metodes om waardevermindering te bereken, maar ons sal nie nou daaraan aandag skenk nie.
+
+
+</para>
+<exercise id="secfhsst_id1613"><title>Waardevermindering</title><problem id="probfhsst_id1614">
+        <para id="id71376">Sewe jaar gelede het Tjad se tromstel R12 500 gekos. Dit is nou R2 300 werd. Teen watter koers het reglynige waardevermindering plaasgevind? 
+</para>
+        </problem>
+        <solution id="solfhsst_id1617"> <list id="listfhsst_id1617" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra: </label>
+        <list id="id71402" display="block" list-type="bulleted">
+          <item id="uid46">Aanvangsbedrag, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>12</m:mn><m:mspace width="3.33333pt"/><m:mn>500</m:mn></m:mrow></m:math></item>
+          <item id="uid47">Periode (aantal tydsintervalle), <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace width="3.33333pt"/><m:mi> jaar </m:mi></m:mrow></m:math></item>
+          <item id="uid48">Eindbedrag, <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mn>300</m:mn></m:mrow></m:math></item>
+        </list>
+        <para id="id71507">Ons moet die rentekoers bereken (<m:math overflow="scroll"><m:mi>i</m:mi></m:math>).</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id71526">Van <link target-id="uid34"/> weet ons dat:</para>
+        <equation id="id71534"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi mathvariant="normal">i</m:mi>
+              <m:mo>·</m:mo>
+              <m:mi mathvariant="normal">n</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id71586">Dus, vir <emphasis effect="bold">waardevemindering</emphasis> sal die formule verander na:</para>
+        <equation id="id71598"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi mathvariant="normal">A</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi mathvariant="normal">P</m:mi>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>-</m:mo>
+              <m:mi mathvariant="normal">i</m:mi>
+              <m:mo>·</m:mo>
+              <m:mi mathvariant="normal">n</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id71654">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi mathvariant="normal">A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>300</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mn>12</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>500</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>i</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>11657</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id71779">Dus, die koers van waardevermindering is <m:math overflow="scroll"><m:mrow><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>66</m:mn><m:mo>%</m:mo></m:mrow></m:math>
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1753"><title>Enkelvoudige Rente</title><list id="id71818" display="block" list-type="enumerated"><item id="uid49"> 'n Bedrag van R3 500 word belê in 'n spaarrekening wat enkelvoudige rente betaal teen 'n koers van 7,5% p.a. Bereken die eindbedrag na 2 jaar.<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcT">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid50">Bereken die enkelvoudige rente in die volgende probleme:
+<list id="id71847" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid51">
+'n Lening van R300 teen 'n koers van 8% vir 1 jaar.
+</item><item id="uid52">'n Belegging van R225 teen 'n koers van 12,5% per jaar vir 6 jaar.
+</item></list><link window="new" class="fullmarks" resource="http://www.fhsst.org/lcb">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid53">Ek het 'n deposito van R5 000 in die bank gemaak. Sestien jaar later was die eindbedrag van hierdie belegging R18 000. Teen watter koers is die geld belê indien enkelvoudige rente bereken is?<newline/>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcj">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid54">Bongani koop 'n eetkamertafel van R8 500 op huurkoop. Hy moet enkelvoudige rente van 17,5% per jaar betaal oor 3 jaar.
+<list id="id71906" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid55">Hoeveel sal Bongani in totaal betaal?
+</item><item id="uid56">Hoeveel rente betaal hy?
+</item><item id="uid57">Wat is sy maandelikse paaiement?
+</item></list>
+<link window="new" class="fullmarks" resource="http://www.fhsst.org/lcD">Kliek hier vir die oplossing</link>
+</item>
+
+
+</list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

@@ -1,0 +1,1703 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Strategie vir die vergelykings op te los en op los van lineêre vergelykings</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39732</md:content-id>
+  <md:title>Strategie vir die vergelykings op te los en op los van lineêre vergelykings</md:title>
+  <md:abstract/>
+  <md:uuid>a0df5956-ff32-4fd1-a538-7d6a410da2c3</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2"><title>Strategie vir die Oplos van Vergelykings</title><para id="id143934">Hierdie hoofstuk handel oor die oplos van verskillende soorte vergelykings met twee veranderlikes. Die algemene strategie is om die onbekende veranderlike alleen aan die linkerkant van die gelykaanteken te kry, met al die konstantes aan die regterkant van die gelykaanteken. Byvoorbeeld, in die vergelyking <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/>, wil ons die vergelyking skryf as <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
+      <para id="id144309">Soos ons gesien het in hersiening van vorige werk, in die afdeling wat handel oor herrangskikking van vergelykings, is 'n vergelyking soos 'n weegskaal wat altyd gebalanseerd moet bly. Wanneer ons vergelykings oplos, moet ons in gedagte hou dat wat aan die een kant gedoen word, ook aan die ander kant gedoen moet word.</para>
+      <section id="uid1">
+        <title>Metode: Herrangskikking van Vergelykings</title>
+        <para id="id144329">Jy kan 'n getal optel, 'n getal aftrek, met 'n getal vermenigvuldig of met 'n getal deel, solank jy dieselfde bewerking aan beide kante doen.
+
+
+
+
+</para>
+        <para id="id144333">Byvoorbeeld, in die vergelyking <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:math><space/>, wil ons <m:math overflow="scroll"><m:mi>x</m:mi></m:math> alleen aan die linkerkant van die vergelyking kry. Dit beteken ons moet 5 aftrek en 1 optel aan die linkerkant. Omdat ons die skaal gebalanseerd moet hou, moet ons ook 5 aftrek en 1 optel aan die regterkant.
+</para>
+        <equation id="id144370">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>11</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id144503">In 'n ander voorbeeld, <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math>, moet ons deel met 2 en vermenigvuldig met 3 aan die linkerkant om <m:math overflow="scroll"><m:mi>x</m:mi></m:math> alleen te kry. Om die vergelyking gebalanseerd te hou moet ons ook aan die regterkant deel met 2 en vermenigvuldig met 3.</para>
+        <equation id="id144535">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>8</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mo>÷</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>8</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>12</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id144692">Hierdie is die basiese reëls wat gevolg moet word wanneer 'n vergelyking vereenvoudig word. In die meeste gevalle moet die reëls herhaaldelik toegepas word voor ons die gewenste veranderlike as onderwerp het.
+
+
+</para>
+        
+<note id="notfhsst_id254" type="tip">Die volgende moet ook in gedagte gehou word:
+        <list id="id144706" display="block" list-type="enumerated"><item id="uid2">Deling deur 0 is ontoelaatbaar.
+</item>
+          <item id="uid3">As <m:math overflow="scroll"><m:mrow><m:mfrac><m:mi>x</m:mi><m:mi>y</m:mi></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, dan <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>, want deling deur 0 gee 'n ongedefinieerde uitdrukking.
+</item>
+        </list>
+</note>
+<para id="id144697">Ons is nou gereed om 'n paar vergelykings op te los!</para>
+<section id="secfhsst_id263"><title>Ondersoek: Strategie vir die Oplos van Vergelykings</title>
+        <para id="id144787">Identifiseer wat is verkeerd in die volgende bewerking:</para>
+        <equation id="id144793">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>4</m:mn>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>3</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid3">
+      <title>Oplos van Lineêre Vergelykings</title>
+      <para id="id145155">Die eenvoudigste vergelyking om op te los is 'n lineêre vergelyking. ‘n Vergelyking word lineêr genoem indien die hoogste mag van die veranderlike (letter, byvoorbeeld <m:math overflow="scroll"><m:mi>x</m:mi></m:math>) 1 (een) is. Die volgende is voorbeelde van lineêre vergelykings:
+
+
+
+</para>
+      <equation id="id145168">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>2</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id145267">In hierdie afdeling sal ons leer om te bepaal wat die waarde van 'n veranderlike moet wees om 'n vergelyking waar te maak. Byvoorbeeld, watter waarde van <m:math overflow="scroll"><m:mi>x</m:mi></m:math> maak beide kante van die baie eenvoudige vergelyking, <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> waar.</para>
+      <para id="id145297">Aangesien die definisie van 'n lineêre vergelyking is dat die hoogste mag van die veranderlike een (1) moet wees, is daar hoogstens <emphasis effect="italics">een oplossing</emphasis> of <emphasis effect="italics"> wortel </emphasis> vir die vergelyking.</para>
+      <para id="id145312">Hierdie afdeling berus op al die metodes wat ons reeds bespreek het: uitvermenigvuldiging van uitdrukkings met hakies, groepering van terme en faktorisering. Maak seker dat jy goed vertroud is met hierdie metodes voordat jy die werk in die res van hierdie hoofstuk aanpak. 
+</para>
+      <equation id="id145317"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true" columnalign="center">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>1</m:mn>
+              </m:mtd><m:mtd/>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                 </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi mathvariant="normal"> groepeer soortgelyke terme saam</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi mathvariant="normal"> so ver as moontlik vereenvoudig</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id145430">Nou sien ons dat <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Dit beteken dat as ons weerskante deel met 2, dan kry ons:</para>
+      <equation id="id145453">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mo>-</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id145475">Vervang <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>, in die oorspronklike vergelyking. Dan kry ons:</para>
+      <equation id="id145500"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>L</m:mi>
+                    <m:mi>K</m:mi>
+                   
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+<m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+<m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mo>)</m:mo>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+                </m:mtd>
+              </m:mtr>
+<m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                    <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>e</m:mi>
+                    <m:mi>n</m:mi>
+                    
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mi>K</m:mi>
+                   
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+
+      </equation>
+      <para id="id145603">Dit is die basiese beginsels vir die oplossing van lineêre vergelykings.</para>
+<note id="notfhsst_id622" type="tip"><title>Oplos van Vergelykings</title>Wanneer jy die oplossing van 'n vergelyking gevind het, vervang die oplossing in die oorspronklike vergelyking om jou antwoord te bevestig.
+
+
+</note>
+      
+      <section id="uid4"><title>Metode: Oplos van Lineêre Vergelykings </title><para id="id145627">Die algemene stappe in die oplos van lineêre vergelykings is:</para>
+        <!--empty paragraphs get left behind.-->
+        <list id="id145635" display="block" list-type="enumerated"><item id="uid5"><label>Brei hakies uit</label> Verwyder alle hakies in die vergelyking.
+</item>
+          <item id="uid6"><label>Herrangskik</label> "Dra" al die terme wat die veranderlike bevat "oor" na die linkerkant van die vergelyking, en alle konstante terme (die getalle) na die regterkant van die gelykaanteken.
+Hou in gedagte dat die teken van die terme sal verander van (<m:math><m:mo>+</m:mo></m:math>) na (<m:math><m:mo>-</m:mo></m:math>) of omgekeerd, soos hulle 'oor' die gelykaanteken 'beweeg'.
+</item>
+          <item id="uid7"><label>Groepeer soortgelyke terme</label>Groepeer alle soortgelyke terme saam en vereenvoudig so ver as moontlik.
+</item>
+          <item id="uid8"><label>Faktoriseer</label> Faktoriseer, indien nodig.
+</item>
+          <item id="uid9"><label>Gee oplossing</label> Vind die oplossing en skryf die antwoord(e) neer.
+</item>
+          <item id="uid10"><label>Kontroleer</label>Stel die oplossing in die <emphasis effect="bold">oorspronklike</emphasis> vergelyking in om die antwoord te bevestig.
+</item>
+        </list>
+<para id="eip-126"><figure id="equations-1" class="khanacademy"><title>Khan Akademie video oor vergelykings - 1</title><media id="yt-media1" display="block" alt="video on equations 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/f15zA0PhSek&amp;rel=0" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><exercise id="secfhsst_id646"><title>Oplos van Lineêre Vergelykings </title><problem id="probfhsst_id647">
+        <para id="id145728">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id650"> <list id="listfhsst_id650" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <para id="id145775">Ons word gegee <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> en word gevra om vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math> op te los.</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id145807">Aangesien daar geen hakies is nie, kan ons begin met die herrangskikking en dan die groepering van soorgelyke terme.</para>
+        </item> <item> <label> Los die probleem op</label>
+        <equation id="id145815"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>herrangskik</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> groepeer soortgelyke terme</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Kontroleer die antwoord </label>
+        <para id="id146022">Stel die oplossing in die oorspronklike vergelyking in:</para>
+        <equation id="id146026"><m:math overflow="scroll" mode="display">
+<m:mtable>
+<m:mtr><m:mtd columnalign="right"><m:mrow>
+              <m:mn>4</m:mn>
+              <m:mo>-</m:mo>
+              <m:mn>0</m:mn></m:mrow></m:mtd><m:mtd columnalign="centre">
+              <m:mo>=</m:mo></m:mtd><m:mtd columnalign="left">
+              <m:mn>4</m:mn></m:mtd>
+            </m:mtr><m:mtr>
+<m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd>
+<m:mtd columnalign="centre"><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable>
+          </m:math>
+        </equation>
+        
+        <para id="id146060">Aangesien beide kante gelyk is, is die antwoord korrek.</para>
+        </item> <item> <label> Skryf die finale antwoord </label>
+        <para id="id146070">Die oplossing van <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id822"><title>Oplos van Lineêre Vergelykings</title><problem id="probfhsst_id823">
+        <para id="id146127">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id826"> <list id="listfhsst_id826" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <para id="id146196">Ons word gegee <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> en word gevra om op te los vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id146249">Ons begin met die uitbreiding van hakies, dan herrangskikking, daarna groepering van soortgelyke terme en uiteindelik vereenvoudiging.</para>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id146257"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mtext> brei die hakies uit</m:mtext>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>36</m:mn>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+<m:mo>(</m:mo>
+                      <m:mi> herrangskik</m:mi>
+<m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>36</m:mn>
+                    <m:mo>)</m:mo>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> groepeer soortgelyke terme saam</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>40</m:mn>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> vereenvoudig gegroepeerde terme</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>10</m:mn>
+                      <m:mn>10</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>40</m:mn>
+                      <m:mn>10</m:mn>
+                    </m:mfrac>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> deel weerskante deur </m:mi><m:mspace width="2pt"/>
+                      <m:mn>10</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>4</m:mn>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Kontroleer die antwoord </label>
+        <para id="id146645">Stel die oplossing in die oorspronklike vergelyking in:</para>
+        <equation id="id146649">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>24</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id146831">Aangesien beide kante gelyk is aan <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>20</m:mn></m:mrow></m:math>, is die antwoord korrek.</para>
+        </item> <item> <label> Gee die finale antwoord </label>
+        <para id="id146854">Die oplossing van <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1189"><title>Oplos van Lineêre Vergelykings </title><problem id="probfhsst_id1190">
+        <para id="id146935">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> </para>
+        </problem>
+        <solution id="solfhsst_id1193"> <list id="listfhsst_id1193" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <para id="id146999">Ons word gegee <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> en word gevra om op te los vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id147046">Aangesien daar 'n noemer van (<m:math><m:mi>3</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>1</m:mi></m:math>) is, kan ons begin deur weerskante van die vergelyking te vermenigvuldig met
+(<m:math><m:mi>3</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>1</m:mi></m:math>). Omdat deling met 0 ontoelaatbaar is, is daar 'n beperking op die waarde van x (<m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>).</para>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id147077"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> brei hakies uit</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow><m:mo>(</m:mo>
+                      <m:mi> herrangskik</m:mi><m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> vereenvoudig gegroepeerde terme</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>÷</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>7</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴  </m:mo>
+                    <m:mspace width="2.em"/>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow><m:mo>(</m:mo>
+                      <m:mi> zero gedeel deur enige ander getal is </m:mi><m:mspace width="3pt"/>
+                      <m:mn>0</m:mn><m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Kontroleer die antwoord </label>
+        <para id="id147437">Stel die oplossing in die oorspronklike vergelyking in:</para>
+        <equation id="id147441">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mn>2</m:mn>
+                    <m:mn>1</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id147513">Aangesien weerskante gelyk is aan 2, is die antwoord korrek.</para>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id147525">Die oplossing van <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1472"><title>Oplos van Lineêre Vergelykings</title><problem id="probfhsst_id1473">
+        <para id="id147599">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> 
+
+ </para>
+        </problem>
+        <solution id="solfhsst_id1476"> <list id="listfhsst_id1476" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Bepaal wat is gegee en wat word gevra </label>
+        <para id="id147662">Ons word gegee <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> en word gevra om op te los vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+        </item> <item> <label> Besluit hoe om die probleem aan te pak </label>
+        <para id="id147710">Ons begin deur elk van die terme in die vergelyking te vermenigvuldig met 3, daarna soortelyke terme saam te groepeer en vervolgens te vereenvoudig.</para>
+        </item> <item> <label> Los die probleem op </label>
+        <equation id="id147718"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>4</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>18</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>21</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> elke term word vermenigvuldig met</m:mi><m:mspace width="3pt"/>
+                      <m:mn>3</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>21</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>18</m:mn>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> herrangskik</m:mi><m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>17</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>24</m:mn>
+                    </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> vereenvoudig gegroepeerde terme</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>17</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>17</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>24</m:mn>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>17</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                   </m:mrow></m:mtd><m:mtd columnalign="left"><m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi> deel weerskante deur </m:mi><m:mspace width="2pt"/>
+                      <m:mo>-</m:mo>
+                      <m:mn>17</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>24</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd><m:mtd/>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Kontroleer die antwoord </label>
+        <para id="id148040">Stel die oplossing in die oorspronklike vergelyking in:</para>
+        <equation id="id148044">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>4</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>24</m:mn>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>24</m:mn>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>8</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>17</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>7</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>24</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>32</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>168</m:mn>
+                      </m:mrow>
+                      <m:mn>17</m:mn>
+                    </m:mfrac>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>32</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>102</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>168</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mn>34</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>134</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>134</m:mn>
+                    </m:mrow>
+                    <m:mn>17</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id148292">Beide kante is gelyk aan <m:math overflow="scroll"><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>134</m:mn></m:mrow><m:mn>17</m:mn></m:mfrac></m:math>, dus die oplossing is reg.</para>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id148321">Die oplossing van <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> is,   <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>24</m:mn></m:mrow><m:mn>17</m:mn></m:mfrac></m:mrow></m:math>.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1862"><title>Oplos van Lineêre Vergelykings</title>
+        <list id="id148396" display="block" list-type="enumerated"><item id="uid11">Los op vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcR">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid12">Los op vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcR">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid13">Los op vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcR">Kliek hier vir die oplossing </link>
+</item>
+          <item id="uid14">Los op vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>144</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcR">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid15">Los op vir <m:math overflow="scroll"><m:mi>y</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>62</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcR">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid16">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>55</m:mn><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcn">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid17">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>45</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcn">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid18">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>23</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcn">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid19">Los op vi <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>34</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>24</m:mn><m:mo>-</m:mo><m:mn>64</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcn">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid20">Los op vir <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcn">Kliek hier vir die oplossing</link>
+
+</item>
+          <item id="uid21">Los op vir <m:math overflow="scroll"><m:mi>p</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>18</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcQ">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid22">Los op vir <m:math overflow="scroll"><m:mi>p</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mi>p</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>16</m:mn><m:mn>24</m:mn></m:mfrac></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcQ">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid23">Los op vir <m:math overflow="scroll"><m:mi>p</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>1</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>p</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcQ">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid24">Los op vir <m:math overflow="scroll"><m:mi>p</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>16</m:mn><m:mo>-</m:mo><m:mi>p</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>13</m:mn><m:mi>p</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcQ">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid25">Los op vir <m:math overflow="scroll"><m:mi>p</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mi>p</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>p</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcQ">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid26">Los op vir <m:math overflow="scroll"><m:mi>f</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>f</m:mi><m:mo>-</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcU">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid27">Los op vir <m:math overflow="scroll"><m:mi>f</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>f</m:mi><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>f</m:mi><m:mo>-</m:mo><m:mn>10</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcU">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid28">Los op vir <m:math overflow="scroll"><m:mi>f</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mi>f</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>f</m:mi><m:mo>+</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>f</m:mi><m:mo>+</m:mo><m:mn>80</m:mn></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcU">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid29">Los op vir <m:math overflow="scroll"><m:mi>f</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>8</m:mn><m:mo>(</m:mo><m:mi>f</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>(</m:mo><m:mi>f</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcU">Kliek hier vir die oplossing</link>
+</item>
+          <item id="uid30">Los op vir <m:math overflow="scroll"><m:mi>f</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>(</m:mo><m:mi>f</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>f</m:mi></m:mrow></m:math><space/><link window="new" class="fullmarks" url="http://www.fhsst.org/lcU">Kliek hier vir die oplossing </link>
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

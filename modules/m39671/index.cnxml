@@ -1,0 +1,637 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Reguit lyn en parabool</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m39671</md:content-id>
+  <md:title>Reguit lyn en parabool</md:title>
+  <md:abstract/>
+  <md:uuid>7c1cd068-78bd-409c-bdf1-a9adfaae7285</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid2">
+      <title>Inleiding</title>
+      <para id="id189263">Die gradiënt van 'n reguitlyngrafiek word bereken met:</para>
+      <equation id="uid1">
+        <m:math overflow="scroll" mode="display">
+          <m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>-</m:mo>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>-</m:mo>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfrac>
+        </m:math>
+      </equation>
+      <para id="id189656">vir 2 punte <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> op die grafiek.</para>
+      <para id="id189717">Ons kan nou die <emphasis effect="italics">gemiddelde gradiënt</emphasis> tussen 2 punte <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math> bepaal, selfs al word hulle gedefinieer deur 'n funksie wat nie 'n reguitlyn is nie, met:
+
+</para>
+      <equation id="uid2"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id189835">Dit is dieselfde as <link target-id="uid1"/>.</para>
+    </section>
+    <section id="cid3"><title>Reguitlynfunksies</title><section id="secfhsst_id141"><title>Ondersoek: Gemiddelde Gradiënt - Reguitlynfunksie </title>
+      <para id="id189861">Voltooi die tabel deur die gemiddelde gradiënt oor die aangeduide
+intervalle te bereken vir die funksie <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>. Let daarop dat (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math>;<m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:math>) die koördinate is van die eerste punt en dat  (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>;<m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:math>) die koördinate is van die tweede punt. So, vir AB is (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math>;<m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:math>) die koördinate van punt A en (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>;<m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:math>) is die koördinate van punt B.
+
+</para>
+      <para id="id189893">
+        <table id="id189899" summary="">
+          <tgroup cols="6">
+            <tbody>
+              <row>
+                <entry/>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msub>
+                        <m:mo>-</m:mo>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msub>
+                        <m:mo>-</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>A-B</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>A-C</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B-C</entry>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <figure id="id190171"><media id="id190171_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C12_001.png" id="id190171_onlineimage" width="130"><!-- NOTE: attribute width changes image size online (pixels). original width is 130. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C12_001.eps" id="id190171_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id190178">Wat let jy op van die gradiënte oor elke interval?
+ 
+ </para>
+</section>
+      <para id="id190187">Die gemiddelde gradiënt van 'n reguitlynfunksie is dieselfde oor enige twee intervalle in die funksie.</para>
+    </section>
+    <section id="cid4">
+      <title>Paraboliese Funksie</title>
+<section id="secfhsst_id252"><title>Ondersoek : Gemiddelde Gradiënt - Paraboliese Funksie </title>
+      <para id="id190208">Vul die tabel in deur die gemiddelde gradiënt oor die aangeduide intervalle te bereken vir die funksie  <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>:</para>
+      <table id="id190240" summary="">
+        <tgroup cols="6">
+          <tbody>
+            <row>
+              <entry/>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>A-B</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>B-C</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>C-D</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>D-E</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>E-F</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>F-G</entry>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id190636">Wat let jy op van die gemiddelde gradiënt oor elke interval? Wat kan jy sê oor die gemiddelde gradiënte tussen A en D in vergelyking met die gemiddelde gradiënte tussen D en G? 
+
+</para>
+      <para id="id190641">
+        <figure id="id190642">
+          <media id="id190642_media" alt="">
+            <image mime-type="image/png" src="../../media/MG10C12_002.png" id="id190642_onlineimage" width="265"><!-- NOTE: attribute width changes image size online (pixels). original width is 265. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG10C12_002.eps" id="id190642_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+</section>
+      <para id="id190657">Die gemiddelde gradiënt van 'n paraboliese funksie hang af van die interval en is die gradiënt van 'n reguitlyn wat deur die betrokke punte op daardie interval loop.
+
+</para>
+      <para id="id190661">Byvoorbeeld, in <link target-id="uid3"/> is die verskeie punte verbind deur reguitlyne. Die gemiddelde gradiënte tussen die betrokke punte is dan die gradiënte van die reguitlyne wat deur daardie punte loop.
+
+</para>
+      <figure id="uid3"><media id="uid3_media" alt="">
+          <image mime-type="image/png" src="../../media/MG10C12_003.png" id="uid3_onlineimage" width="401"><!-- NOTE: attribute width changes image size online (pixels). original width is 401. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG10C12_003.eps" id="uid3_printimage"/>
+        </media>
+        
+      <caption>Die gemiddelde gradiënt tussen twee punte op 'n kurwe is die gradiënt van die reguitlyn wat deur die punte loop.</caption></figure>
+      <section id="uid4">
+        <title>Metode: Gemiddelde Gradiënt</title>
+        <para id="id190691">Gegee, die vergelyking van 'n kromme en twee punte
+ (<m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math>; <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>):</para>
+        <list id="id190722" display="block" list-type="enumerated"><item id="uid5">Skryf die vergelyking van die kromme in die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>...</m:mo></m:mrow></m:math>.
+</item>
+          <item id="uid6">Bereken <m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:math> deur <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> in die vergelyking vir die kromme in te stel.
+</item>
+          <item id="uid7">Bereken <m:math overflow="scroll"><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub></m:math> deur <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math> in die vergelyking vir die kromme in te stel.
+</item>
+          <item id="uid8">Bereken die gemiddelde gradiënt deur gebruik te maak van:
+<equation id="id189188"><m:math overflow="scroll" mode="display"><m:mfrac><m:mrow><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mfrac></m:math></equation></item>
+
+
+
+ 
+ 
+        </list>
+<exercise id="secfhsst_id408"><title>Gemiddelde Gradiënt </title><problem id="probfhsst_id409">
+        <para id="id191077">Vind die gemiddelde gradiënt van die kromme <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math> tussen die punte <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>. </para>
+        </problem>
+        <solution id="solfhsst_id412"> <list id="listfhsst_id412" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> Merk (benoem) die punte </label>
+        <para id="id191151">Merk die punte as volg:</para>
+        <equation id="id191154">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id191178">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id191200">om dit makliker te maak om die gradiënt te bereken.</para>
+        </item> <item> <label> Bereken die <m:math overflow="scroll"><m:mi>y</m:mi></m:math> koördinate </label>
+        <para id="id191219">Ons gebruik die vergelyking van die kromme om die <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-waarde van die kromme by <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> en <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math> te vind.</para>
+        <equation id="id191259">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msubsup>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msubsup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>41</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <equation id="id191371">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msubsup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msubsup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>41</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Bereken die gemiddelde gradiënt </label>
+        <equation id="id191486">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>-</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>41</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>41</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>0</m:mn>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mn>0</m:mn>
+                    <m:mn>6</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Skryf die finale antwoord neer </label>
+        <para id="id191621">Die gemiddelde gradiënt tussen <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> en <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> op die kromme <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math> is 0.
+ </para>
+        </item> </list> </solution>
+</exercise>
+      </section>
+    </section>
+
+  </content>
+</document>
