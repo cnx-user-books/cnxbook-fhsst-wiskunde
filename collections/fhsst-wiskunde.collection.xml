@@ -1,3 +1,118 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col11328</md:content-id>  <md:title>Siyavula textbooks: Wiskunde (Graad 10) [CAPS]</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>af</md:language>              <md:uuid>8965288c-6cca-4026-a5b0-cd0c219fff71</md:uuid>
-<md:slug>fhsst-wiskunde</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>Funksies en grafieke</md:title>                                <col:content>                    <col:module document="m39661"/>                            <col:module document="m39654"/>                            <col:module document="m39657"/>                            <col:module document="m39667"/>                            <col:module document="m39665"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Getalpatrone</md:title>                                <col:content>                    <col:module document="m39676"/>                            <col:module document="m39674"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Finansiële wiskunde</md:title>                                <col:content>                    <col:module document="m39643"/>                            <col:module document="m39649"/>                            <col:module document="m39647"/>                          </col:content>      </col:subcollection>              <col:module document="m38246"/>                            <col:module document="m37289"/>                            <col:module document="m37421"/>                            <col:module document="m37420"/>                                          <col:subcollection>        <md:title>Produkte en faktore</md:title>                                <col:content>                    <col:module document="m39689"/>                            <col:module document="m39691"/>                            <col:module document="m39699"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Vergelykings en ongelykhede</md:title>                                <col:content>                    <col:module document="m39732"/>                            <col:module document="m39731"/>                            <col:module document="m39743"/>                            <col:module document="m39745"/>                            <col:module document="m39756"/>                            <col:module document="m39748"/>                            <col:module document="m39751"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Gemiddelde gradient</md:title>                                <col:content>                    <col:module document="m39671"/>                            <col:module document="m39669"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Waarskynlikheid</md:title>                                <col:content>                    <col:module document="m39759"/>                            <col:module document="m39758"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Basiese beginsels van meetkunde</md:title>                                <col:content>                    <col:module document="m39628"/>                            <col:module document="m39625"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Meetkunde</md:title>                                <col:content>                    <col:module document="m39679"/>                            <col:module document="m39695"/>                            <col:module document="m39681"/>                            <col:module document="m39683"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Trigonometrie</md:title>                                <col:content>                    <col:module document="m39712"/>                            <col:module document="m39728"/>                            <col:module document="m39725"/>                            <col:module document="m39729"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Analitiese meetkunde</md:title>                                <col:content>                    <col:module document="m39618"/>                            <col:module document="m39614"/>                            <col:module document="m39616"/>                            <col:module document="m39621"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Statistiek</md:title>                                <col:content>                    <col:module document="m39706"/>                            <col:module document="m39709"/>                            <col:module document="m39703"/>                          </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Free High School Science Texts Project">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11328</md:content-id>
+    <md:title>Siyavula textbooks: Wiskunde (Graad 10) [CAPS]</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>af</md:language>
+    <md:uuid>8965288c-6cca-4026-a5b0-cd0c219fff71</md:uuid>
+    <md:slug>fhsst-wiskunde</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Funksies en grafieke</md:title>
+      <col:content>
+        <col:module document="m39661"/>
+        <col:module document="m39654"/>
+        <col:module document="m39657"/>
+        <col:module document="m39667"/>
+        <col:module document="m39665"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Getalpatrone</md:title>
+      <col:content>
+        <col:module document="m39676"/>
+        <col:module document="m39674"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Finansi&#xEB;le wiskunde</md:title>
+      <col:content>
+        <col:module document="m39643"/>
+        <col:module document="m39649"/>
+        <col:module document="m39647"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m38246"/>
+    <col:module document="m37289"/>
+    <col:module document="m37421"/>
+    <col:module document="m37420"/>
+    <col:subcollection>
+      <md:title>Produkte en faktore</md:title>
+      <col:content>
+        <col:module document="m39689"/>
+        <col:module document="m39691"/>
+        <col:module document="m39699"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Vergelykings en ongelykhede</md:title>
+      <col:content>
+        <col:module document="m39732"/>
+        <col:module document="m39731"/>
+        <col:module document="m39743"/>
+        <col:module document="m39745"/>
+        <col:module document="m39756"/>
+        <col:module document="m39748"/>
+        <col:module document="m39751"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Gemiddelde gradient</md:title>
+      <col:content>
+        <col:module document="m39671"/>
+        <col:module document="m39669"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Waarskynlikheid</md:title>
+      <col:content>
+        <col:module document="m39759"/>
+        <col:module document="m39758"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Basiese beginsels van meetkunde</md:title>
+      <col:content>
+        <col:module document="m39628"/>
+        <col:module document="m39625"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Meetkunde</md:title>
+      <col:content>
+        <col:module document="m39679"/>
+        <col:module document="m39695"/>
+        <col:module document="m39681"/>
+        <col:module document="m39683"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Trigonometrie</md:title>
+      <col:content>
+        <col:module document="m39712"/>
+        <col:module document="m39728"/>
+        <col:module document="m39725"/>
+        <col:module document="m39729"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Analitiese meetkunde</md:title>
+      <col:content>
+        <col:module document="m39618"/>
+        <col:module document="m39614"/>
+        <col:module document="m39616"/>
+        <col:module document="m39621"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Statistiek</md:title>
+      <col:content>
+        <col:module document="m39706"/>
+        <col:module document="m39709"/>
+        <col:module document="m39703"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
