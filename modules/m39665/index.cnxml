@@ -928,7 +928,7 @@ Vir die waardeversameling,</para>
         </section>
         <section id="uid191"><title>Asimptote</title><para id="id252384">Daar is een asimptoot vir funksies van die vorm <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>. Die asimptoot kan bepaal word deur die analise van die waardeversameling.</para>
           <para id="id252423">Ons het gesien dat die terrein bepaal word deur die waarde van q. As <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, dan is die terrein <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mi>q</m:mi><m:mo>;</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>. </para>
-<para id="id7623">Dit wys dat die funksiewaarde neig na die waarde van q as <m:math display="display">
+<para id="id7623">Dit wys dat die funksiewaarde neig na die waarde van q as <m:math>
   <m:apply>
     <m:tendsto/>
     <m:ci>x</m:ci>
